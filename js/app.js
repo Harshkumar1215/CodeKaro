@@ -42,6 +42,11 @@ window.App = {
     document.querySelectorAll('.lang-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.lang === UI.lang);
     });
+    // Update mobile bottom nav labels dynamically
+    document.querySelectorAll('.bottom-nav-label').forEach(el => {
+      if (UI.lang === 'hi' && el.dataset.i18nHi) el.textContent = el.dataset.i18nHi;
+      else if (UI.lang === 'en' && el.dataset.i18nEn) el.textContent = el.dataset.i18nEn;
+    });
   },
 
   // ====== NAVIGATION ======
@@ -332,7 +337,7 @@ window.App = {
     for (let sub of BSEB_SYLLABUS.subjects) {
       for (let book of sub.books) {
         for (let ch of book.chapters) {
-          for (let tp of ch.topics) {
+          for (let tp of (ch.topics || [])) {
             if (tp.id === topicId) return UI.t(tp.title);
           }
         }
@@ -360,6 +365,9 @@ window.App = {
 
   _updateNav: function (activeView) {
     document.querySelectorAll('.nav-link').forEach(n => {
+      n.classList.toggle('active', n.dataset.view === activeView);
+    });
+    document.querySelectorAll('.bottom-nav-item').forEach(n => {
       n.classList.toggle('active', n.dataset.view === activeView);
     });
   },
