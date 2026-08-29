@@ -87,10 +87,14 @@
   <script src="js/data/syllabus.js"></script>
   <script src="js/data/questionBank.js"></script>
   <script src="js/data/questionBankExtra.js"></script>
+  <script src="js/data/questionBankMathCh01.js"></script>
   <script>
     // Merge all question bank files into one central array at runtime
     if (window.BSEB_QUESTION_BANK_EXTRA && Array.isArray(window.BSEB_QUESTION_BANK_EXTRA)) {
       window.BSEB_QUESTION_BANK = window.BSEB_QUESTION_BANK.concat(window.BSEB_QUESTION_BANK_EXTRA);
+    }
+    if (window.BSEB_MATH_CH01_TOPIC01_QUESTIONS && Array.isArray(window.BSEB_MATH_CH01_TOPIC01_QUESTIONS)) {
+      window.BSEB_QUESTION_BANK = window.BSEB_QUESTION_BANK.concat(window.BSEB_MATH_CH01_TOPIC01_QUESTIONS);
     }
   </script>
   <script src="js/engine/questionBankEngine.js"></script>
