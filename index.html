@@ -85,17 +85,30 @@
 
   <!-- ====== SCRIPTS (order matters: data → engines → UI → app) ====== -->
   <script src="js/data/syllabus.js"></script>
-  <script src="js/data/questionBank.js"></script>
-  <script src="js/data/questionBankExtra.js"></script>
-  <script src="js/data/questionBankMathCh01.js"></script>
+  <script src="js/data/questionBankMath.js"></script>
+  <script src="js/data/questionBankScience.js"></script>
+  <script src="js/data/questionBankSocialScience.js"></script>
+  <script src="js/data/questionBankHindi.js"></script>
+  <script src="js/data/questionBankSanskrit.js"></script>
+  <script src="js/data/questionBankEnglish.js"></script>
   <script>
-    // Merge all question bank files into one central array at runtime
-    if (window.BSEB_QUESTION_BANK_EXTRA && Array.isArray(window.BSEB_QUESTION_BANK_EXTRA)) {
-      window.BSEB_QUESTION_BANK = window.BSEB_QUESTION_BANK.concat(window.BSEB_QUESTION_BANK_EXTRA);
-    }
-    if (window.BSEB_MATH_CH01_TOPIC01_QUESTIONS && Array.isArray(window.BSEB_MATH_CH01_TOPIC01_QUESTIONS)) {
-      window.BSEB_QUESTION_BANK = window.BSEB_QUESTION_BANK.concat(window.BSEB_MATH_CH01_TOPIC01_QUESTIONS);
-    }
+    // Initialize central question bank array and merge all subject-wise question banks
+    window.BSEB_QUESTION_BANK = [];
+
+    const subjectBanks = [
+      window.BSEB_MATH_QUESTIONS,
+      window.BSEB_SCIENCE_QUESTIONS,
+      window.BSEB_SOCIAL_SCIENCE_QUESTIONS,
+      window.BSEB_HINDI_QUESTIONS,
+      window.BSEB_SANSKRIT_QUESTIONS,
+      window.BSEB_ENGLISH_QUESTIONS
+    ];
+
+    subjectBanks.forEach(function(bank) {
+      if (bank && Array.isArray(bank)) {
+        window.BSEB_QUESTION_BANK = window.BSEB_QUESTION_BANK.concat(bank);
+      }
+    });
   </script>
   <script src="js/engine/questionBankEngine.js"></script>
   <script src="js/engine/dynamicQuestionGenerator.js"></script>
