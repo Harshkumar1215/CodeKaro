@@ -1,7 +1,7 @@
 /**
  * Class 10 Bihar Board (BSEB) - Mathematics Question Bank
  * CHAPTER 1: REAL NUMBERS (वास्तविक संख्याएं) - COMPLETE 1000+ QUESTION BANK
- * Total Verified Bilingual MCQs: 1004
+ * Total Verified Bilingual MCQs: 1102
  */
 
 window.BSEB_MATH_CH01_QUESTIONS = [
@@ -25152,7 +25152,7 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "difficulty": "Easy",
     "question_type": "Property",
     "question": {
-      "hi": "दो क्रमागत प्राकृत संख्याओं (Consecutive Natural Numbers) n और (n+1) का HCF सदैव क्या होता है?",
+      "hi": "दो क्रमागत प्राकृत संख्याओं n और (n+1) का HCF सदैव क्या होता है?",
       "en": "What is the HCF of two consecutive natural numbers n and (n+1) always?"
     },
     "options": {
@@ -25178,7 +25178,7 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": "दो लगातार प्राकृत संख्याओं में 1 के अलावा कोई उभयनिष्ठ गुणनखंड नहीं होता, अतः HCF = 1 होता है।",
       "en": "Two consecutive natural numbers are always co-prime, hence their HCF is 1."
     },
-    "q_hi": "दो क्रमागत प्राकृत संख्याओं (Consecutive Natural Numbers) n और (n+1) का HCF सदैव क्या होता है?",
+    "q_hi": "दो क्रमागत प्राकृत संख्याओं n और (n+1) का HCF सदैव क्या होता है?",
     "q_en": "What is the HCF of two consecutive natural numbers n and (n+1) always?",
     "opts_hi": {
       "A": "n",
@@ -25211,7 +25211,7 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "difficulty": "Easy",
     "question_type": "Property",
     "question": {
-      "hi": "दो क्रमागत सम संख्याओं (Consecutive Even Numbers) 2n और (2n+2) का HCF सदैव क्या होता है?",
+      "hi": "दो क्रमागत सम संख्याओं 2n और (2n+2) का HCF सदैव क्या होता है?",
       "en": "What is the HCF of two consecutive even numbers 2n and (2n+2) always?"
     },
     "options": {
@@ -25237,7 +25237,7 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": "दो लगातार सम संख्याओं का उभयनिष्ठ महत्तम गुणनखंड सदैव 2 होता है।",
       "en": "The Highest Common Factor of any two consecutive even numbers is always 2."
     },
-    "q_hi": "दो क्रमागत सम संख्याओं (Consecutive Even Numbers) 2n और (2n+2) का HCF सदैव क्या होता है?",
+    "q_hi": "दो क्रमागत सम संख्याओं 2n और (2n+2) का HCF सदैव क्या होता है?",
     "q_en": "What is the HCF of two consecutive even numbers 2n and (2n+2) always?",
     "opts_hi": {
       "A": "2",
@@ -47393,51 +47393,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Definition",
+    "question_type": "Concept",
     "question": {
-      "hi": "एक परिमेय संख्या p/q का दशमलव प्रसार सांत होने के लिए हर q के अभाज्य गुणनखंड किस रूप के होने चाहिए?",
-      "en": "For a rational number p/q to have a terminating decimal expansion, the prime factorization of q must be of the form:"
+      "hi": "भिन्न 17/8 का दशमलव प्रसार कैसा होगा?",
+      "en": "What type of decimal expansion does 17/8 have?"
     },
     "options": {
       "hi": {
-        "A": "2ᵐ × 3ⁿ (जहाँ m, n पूर्णांक हैं)",
-        "B": "केवल 7ⁿ के रूप में",
-        "C": "3ᵐ × 5ⁿ (जहाँ m, n पूर्णांक हैं)",
-        "D": "2ᵐ × 5ⁿ (जहाँ m, n ऋणेतर पूर्णांक हैं)"
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "इनमें से कोई नहीं (None of these)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "सांत (Terminating)"
       },
       "en": {
-        "A": "2ᵐ × 3ⁿ (where m, n are integers)",
-        "B": "Only of form 7ⁿ",
-        "C": "3ᵐ × 5ⁿ (where m, n are integers)",
-        "D": "2ᵐ × 5ⁿ (where m, n are non-negative integers)"
+        "A": "Non-terminating repeating",
+        "B": "None of these",
+        "C": "Non-terminating non-repeating",
+        "D": "Terminating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
-      "hi": "2ᵐ × 5ⁿ (जहाँ m, n ऋणेतर पूर्णांक हैं)",
-      "en": "2ᵐ × 5ⁿ (where m, n are non-negative integers)"
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "यदि हर q का गुणनखंडन 2ᵐ × 5ⁿ रूप का होता है, तो दशमलव प्रसार सांत होता है।",
-      "en": "If denominator q has prime factors only of form 2ᵐ × 5ⁿ, decimal expansion is terminating."
+      "hi": "हर 8 = 2³ है (2ᵐ × 5ⁿ रूप), इसलिए 17/8 का दशमलव प्रसार सांत होगा (2.125)।",
+      "en": "Denominator 8 = 2³ (form 2ᵐ × 5ⁿ), so decimal expansion is terminating (2.125)."
     },
-    "q_hi": "एक परिमेय संख्या p/q का दशमलव प्रसार सांत होने के लिए हर q के अभाज्य गुणनखंड किस रूप के होने चाहिए?",
-    "q_en": "For a rational number p/q to have a terminating decimal expansion, the prime factorization of q must be of the form:",
+    "q_hi": "भिन्न 17/8 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "What type of decimal expansion does 17/8 have?",
     "opts_hi": {
-      "A": "2ᵐ × 3ⁿ (जहाँ m, n पूर्णांक हैं)",
-      "B": "केवल 7ⁿ के रूप में",
-      "C": "3ᵐ × 5ⁿ (जहाँ m, n पूर्णांक हैं)",
-      "D": "2ᵐ × 5ⁿ (जहाँ m, n ऋणेतर पूर्णांक हैं)"
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "इनमें से कोई नहीं (None of these)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "सांत (Terminating)"
     },
     "opts_en": {
-      "A": "2ᵐ × 3ⁿ (where m, n are integers)",
-      "B": "Only of form 7ⁿ",
-      "C": "3ᵐ × 5ⁿ (where m, n are integers)",
-      "D": "2ᵐ × 5ⁿ (where m, n are non-negative integers)"
+      "A": "Non-terminating repeating",
+      "B": "None of these",
+      "C": "Non-terminating non-repeating",
+      "D": "Terminating"
     },
     "ans": "D",
-    "exp_hi": "यदि हर q का गुणनखंडन 2ᵐ × 5ⁿ रूप का होता है, तो दशमलव प्रसार सांत होता है।",
-    "exp_en": "If denominator q has prime factors only of form 2ᵐ × 5ⁿ, decimal expansion is terminating.",
+    "exp_hi": "हर 8 = 2³ है (2ᵐ × 5ⁿ रूप), इसलिए 17/8 का दशमलव प्रसार सांत होगा (2.125)।",
+    "exp_en": "Denominator 8 = 2³ (form 2ᵐ × 5ⁿ), so decimal expansion is terminating (2.125).",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47452,51 +47452,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/8 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 17/8 will be:"
+      "hi": "भिन्न 1/3 का दशमलव प्रसार क्या होगा?",
+      "en": "What will be the decimal expansion of 1/3?"
     },
     "options": {
       "hi": {
-        "A": "पूर्णांक (Integer)",
-        "B": "अपरिभाषित (Undefined)",
-        "C": "सांत (Terminating)",
-        "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+        "A": "0.33 (सांत)",
+        "B": "0.3333 (सांत)",
+        "C": "0.333... (असांत आवर्ती)",
+        "D": "0.3 (सांत)"
       },
       "en": {
-        "A": "Integer",
-        "B": "Undefined",
-        "C": "सांत (Terminating)",
-        "D": "Non-terminating non-repeating"
+        "A": "0.33 (Terminating)",
+        "B": "0.3333 (Terminating)",
+        "C": "0.333... (Non-terminating repeating)",
+        "D": "0.3 (Terminating)"
       }
     },
     "correct_option": "C",
     "correct_answer": {
-      "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "hi": "0.333... (असांत आवर्ती)",
+      "en": "0.333... (Non-terminating repeating)"
     },
     "explanation": {
-      "hi": "हर 8 = 2³ (2ᵐ × 5ⁿ रूप), अतः सांत है।",
-      "en": "हर 8 = 2³ (2ᵐ × 5ⁿ रूप), अतः सांत है।"
+      "hi": "1/3 = 0.333... यह एक असांत आवर्ती दशमलव है क्योंकि हर 3, 2ᵐ × 5ⁿ के रूप में नहीं है।",
+      "en": "1/3 = 0.333... which is a non-terminating repeating decimal because denominator 3 is not of form 2ᵐ × 5ⁿ."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/8 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 17/8 will be:",
+    "q_hi": "भिन्न 1/3 का दशमलव प्रसार क्या होगा?",
+    "q_en": "What will be the decimal expansion of 1/3?",
     "opts_hi": {
-      "A": "पूर्णांक (Integer)",
-      "B": "अपरिभाषित (Undefined)",
-      "C": "सांत (Terminating)",
-      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      "A": "0.33 (सांत)",
+      "B": "0.3333 (सांत)",
+      "C": "0.333... (असांत आवर्ती)",
+      "D": "0.3 (सांत)"
     },
     "opts_en": {
-      "A": "Integer",
-      "B": "Undefined",
-      "C": "सांत (Terminating)",
-      "D": "Non-terminating non-repeating"
+      "A": "0.33 (Terminating)",
+      "B": "0.3333 (Terminating)",
+      "C": "0.333... (Non-terminating repeating)",
+      "D": "0.3 (Terminating)"
     },
     "ans": "C",
-    "exp_hi": "हर 8 = 2³ (2ᵐ × 5ⁿ रूप), अतः सांत है।",
-    "exp_en": "हर 8 = 2³ (2ᵐ × 5ⁿ रूप), अतः सांत है।",
+    "exp_hi": "1/3 = 0.333... यह एक असांत आवर्ती दशमलव है क्योंकि हर 3, 2ᵐ × 5ⁿ के रूप में नहीं है।",
+    "exp_en": "1/3 = 0.333... which is a non-terminating repeating decimal because denominator 3 is not of form 2ᵐ × 5ⁿ.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47510,52 +47510,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 64/455 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 64/455 will be:"
+      "hi": "निम्नलिखित में से किस भिन्न का दशमलव प्रसार सांत होगा?",
+      "en": "Which of the following fractions will have a terminating decimal expansion?"
     },
     "options": {
       "hi": {
-        "A": "असांत आवर्ती (Non-terminating repeating)",
-        "B": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "C": "पूर्णांक (Integer)",
-        "D": "अपरिभाषित (Undefined)"
+        "A": "7/25",
+        "B": "5/6",
+        "C": "2/3",
+        "D": "4/7"
       },
       "en": {
-        "A": "असांत आवर्ती (Non-terminating repeating)",
-        "B": "Terminating",
-        "C": "Integer",
-        "D": "Undefined"
+        "A": "7/25",
+        "B": "5/6",
+        "C": "2/3",
+        "D": "4/7"
       }
     },
     "correct_option": "A",
     "correct_answer": {
-      "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "hi": "7/25",
+      "en": "7/25"
     },
     "explanation": {
-      "hi": "455 = 5 × 7 × 13 में 7 और 13 उपस्थित हैं, अतः असांत आवर्ती है।",
-      "en": "455 = 5 × 7 × 13 में 7 और 13 उपस्थित हैं, अतः असांत आवर्ती है।"
+      "hi": "7/25 का हर 25 = 5² (2ᵐ × 5ⁿ रूप), इसलिए सांत दशमलव होगा। अन्य हर 6, 3, 7 में 2 और 5 के अलावा अन्य गुणनखंड हैं।",
+      "en": "7/25 has denominator 25 = 5² (form 2ᵐ × 5ⁿ), so it will have terminating decimal. Others have factors other than 2 and 5."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 64/455 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 64/455 will be:",
+    "q_hi": "निम्नलिखित में से किस भिन्न का दशमलव प्रसार सांत होगा?",
+    "q_en": "Which of the following fractions will have a terminating decimal expansion?",
     "opts_hi": {
-      "A": "असांत आवर्ती (Non-terminating repeating)",
-      "B": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "C": "पूर्णांक (Integer)",
-      "D": "अपरिभाषित (Undefined)"
+      "A": "7/25",
+      "B": "5/6",
+      "C": "2/3",
+      "D": "4/7"
     },
     "opts_en": {
-      "A": "असांत आवर्ती (Non-terminating repeating)",
-      "B": "Terminating",
-      "C": "Integer",
-      "D": "Undefined"
+      "A": "7/25",
+      "B": "5/6",
+      "C": "2/3",
+      "D": "4/7"
     },
     "ans": "A",
-    "exp_hi": "455 = 5 × 7 × 13 में 7 और 13 उपस्थित हैं, अतः असांत आवर्ती है।",
-    "exp_en": "455 = 5 × 7 × 13 में 7 और 13 उपस्थित हैं, अतः असांत आवर्ती है।",
+    "exp_hi": "7/25 का हर 25 = 5² (2ᵐ × 5ⁿ रूप), इसलिए सांत दशमलव होगा। अन्य हर 6, 3, 7 में 2 और 5 के अलावा अन्य गुणनखंड हैं।",
+    "exp_en": "7/25 has denominator 25 = 5² (form 2ᵐ × 5ⁿ), so it will have terminating decimal. Others have factors other than 2 and 5.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47569,52 +47569,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Hard",
+    "question_type": "Numerical",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 15/1600 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 15/1600 will be:"
+      "hi": "0.142857142857... किस भिन्न का दशमलव प्रसार है?",
+      "en": "Which fraction's decimal expansion is 0.142857142857...?"
     },
     "options": {
       "hi": {
-        "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "B": "अपरिभाषित (Undefined)",
-        "C": "पूर्णांक (Integer)",
-        "D": "सांत (Terminating)"
+        "A": "1/8",
+        "B": "1/10",
+        "C": "1/9",
+        "D": "1/7"
       },
       "en": {
-        "A": "Non-terminating non-repeating",
-        "B": "Undefined",
-        "C": "Integer",
-        "D": "सांत (Terminating)"
+        "A": "1/8",
+        "B": "1/10",
+        "C": "1/9",
+        "D": "1/7"
       }
     },
     "correct_option": "D",
     "correct_answer": {
-      "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "hi": "1/7",
+      "en": "1/7"
     },
     "explanation": {
-      "hi": "1600 = 2⁶ × 5² (2ᵐ × 5ⁿ रूप), अतः सांत है।",
-      "en": "1600 = 2⁶ × 5² (2ᵐ × 5ⁿ रूप), अतः सांत है।"
+      "hi": "1/7 = 0.142857142857... यह एक असांत आवर्ती दशमलव है।",
+      "en": "1/7 = 0.142857142857... which is a non-terminating repeating decimal."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 15/1600 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 15/1600 will be:",
+    "q_hi": "0.142857142857... किस भिन्न का दशमलव प्रसार है?",
+    "q_en": "Which fraction's decimal expansion is 0.142857142857...?",
     "opts_hi": {
-      "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "B": "अपरिभाषित (Undefined)",
-      "C": "पूर्णांक (Integer)",
-      "D": "सांत (Terminating)"
+      "A": "1/8",
+      "B": "1/10",
+      "C": "1/9",
+      "D": "1/7"
     },
     "opts_en": {
-      "A": "Non-terminating non-repeating",
-      "B": "Undefined",
-      "C": "Integer",
-      "D": "सांत (Terminating)"
+      "A": "1/8",
+      "B": "1/10",
+      "C": "1/9",
+      "D": "1/7"
     },
     "ans": "D",
-    "exp_hi": "1600 = 2⁶ × 5² (2ᵐ × 5ⁿ रूप), अतः सांत है।",
-    "exp_en": "1600 = 2⁶ × 5² (2ᵐ × 5ⁿ रूप), अतः सांत है।",
+    "exp_hi": "1/7 = 0.142857142857... यह एक असांत आवर्ती दशमलव है।",
+    "exp_en": "1/7 = 0.142857142857... which is a non-terminating repeating decimal.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47628,52 +47628,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Definition",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/343 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 29/343 will be:"
+      "hi": "किसी परिमेय संख्या का दशमलव प्रसार सांत होता है यदि उसके हर के अभाज्य गुणनखंड में क्या हो?",
+      "en": "A rational number has a terminating decimal expansion if the prime factorization of its denominator contains what?"
     },
     "options": {
       "hi": {
-        "A": "पूर्णांक (Integer)",
-        "B": "अपरिभाषित (Undefined)",
-        "C": "असांत आवर्ती (Non-terminating repeating)",
-        "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+        "A": "सभी अभाज्य संख्याएं",
+        "B": "कोई अभाज्य संख्या नहीं",
+        "C": "केवल 2 और 5 (या केवल 2, केवल 5)",
+        "D": "केवल 3 और 7"
       },
       "en": {
-        "A": "Integer",
-        "B": "Undefined",
-        "C": "असांत आवर्ती (Non-terminating repeating)",
-        "D": "Terminating"
+        "A": "All prime numbers",
+        "B": "No prime numbers",
+        "C": "Only 2 and 5 (or only 2, only 5)",
+        "D": "Only 3 and 7"
       }
     },
     "correct_option": "C",
     "correct_answer": {
-      "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "hi": "केवल 2 और 5 (या केवल 2, केवल 5)",
+      "en": "Only 2 and 5 (or only 2, only 5)"
     },
     "explanation": {
-      "hi": "343 = 7³, अतः असांत आवर्ती है।",
-      "en": "343 = 7³, अतः असांत आवर्ती है।"
+      "hi": "किसी परिमेय संख्या का दशमलव प्रसार सांत होता है यदि उसके हर के अभाज्य गुणनखंड में केवल 2 और 5 (2ᵐ × 5ⁿ) हों।",
+      "en": "A rational number has a terminating decimal expansion if the prime factorization of its denominator contains only 2 and 5 (2ᵐ × 5ⁿ)."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/343 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 29/343 will be:",
+    "q_hi": "किसी परिमेय संख्या का दशमलव प्रसार सांत होता है यदि उसके हर के अभाज्य गुणनखंड में क्या हो?",
+    "q_en": "A rational number has a terminating decimal expansion if the prime factorization of its denominator contains what?",
     "opts_hi": {
-      "A": "पूर्णांक (Integer)",
-      "B": "अपरिभाषित (Undefined)",
-      "C": "असांत आवर्ती (Non-terminating repeating)",
-      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      "A": "सभी अभाज्य संख्याएं",
+      "B": "कोई अभाज्य संख्या नहीं",
+      "C": "केवल 2 और 5 (या केवल 2, केवल 5)",
+      "D": "केवल 3 और 7"
     },
     "opts_en": {
-      "A": "Integer",
-      "B": "Undefined",
-      "C": "असांत आवर्ती (Non-terminating repeating)",
-      "D": "Terminating"
+      "A": "All prime numbers",
+      "B": "No prime numbers",
+      "C": "Only 2 and 5 (or only 2, only 5)",
+      "D": "Only 3 and 7"
     },
     "ans": "C",
-    "exp_hi": "343 = 7³, अतः असांत आवर्ती है।",
-    "exp_en": "343 = 7³, अतः असांत आवर्ती है।",
+    "exp_hi": "किसी परिमेय संख्या का दशमलव प्रसार सांत होता है यदि उसके हर के अभाज्य गुणनखंड में केवल 2 और 5 (2ᵐ × 5ⁿ) हों।",
+    "exp_en": "A rational number has a terminating decimal expansion if the prime factorization of its denominator contains only 2 and 5 (2ᵐ × 5ⁿ).",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47687,52 +47687,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/(2³ × 5²) का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 23/(2³ × 5²) will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/3125 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 13/3125 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "सांत (Terminating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
         "A": "Non-terminating non-repeating",
-        "B": "Undefined",
-        "C": "सांत (Terminating)",
+        "B": "Non-terminating repeating",
+        "C": "Terminating",
         "D": "Integer"
       }
     },
     "correct_option": "C",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "हर 2³ × 5² रूप में है, अतः सांत है।",
-      "en": "हर 2³ × 5² रूप में है, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 3125 = 5⁵। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 3125 = 5⁵. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/(2³ × 5²) का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 23/(2³ × 5²) will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/3125 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 13/3125 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "सांत (Terminating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
       "A": "Non-terminating non-repeating",
-      "B": "Undefined",
-      "C": "सांत (Terminating)",
+      "B": "Non-terminating repeating",
+      "C": "Terminating",
       "D": "Integer"
     },
     "ans": "C",
-    "exp_hi": "हर 2³ × 5² रूप में है, अतः सांत है।",
-    "exp_en": "हर 2³ × 5² रूप में है, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 3125 = 5⁵। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 3125 = 5⁵. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47746,52 +47746,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 129/(2² × 5⁷ × 7⁵) का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 129/(2² × 5⁷ × 7⁵) will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 64/455 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 64/455 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
         "B": "असांत आवर्ती (Non-terminating repeating)",
-        "C": "अपरिभाषित (Undefined)",
+        "C": "सांत (Terminating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
-        "A": "Terminating",
-        "B": "असांत आवर्ती (Non-terminating repeating)",
-        "C": "Undefined",
+        "A": "Non-terminating non-repeating",
+        "B": "Non-terminating repeating",
+        "C": "Terminating",
         "D": "Integer"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "हर में 7⁵ भी है, अतः असांत आवर्ती है।",
-      "en": "हर में 7⁵ भी है, अतः असांत आवर्ती है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 455 = 5 × 7 × 13 (हर में 7 और 13 उपस्थित हैं)। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 455 = 5 × 7 × 13 (हर में 7 और 13 उपस्थित हैं). Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 129/(2² × 5⁷ × 7⁵) का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 129/(2² × 5⁷ × 7⁵) will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 64/455 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 64/455 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
       "B": "असांत आवर्ती (Non-terminating repeating)",
-      "C": "अपरिभाषित (Undefined)",
+      "C": "सांत (Terminating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
-      "A": "Terminating",
-      "B": "असांत आवर्ती (Non-terminating repeating)",
-      "C": "Undefined",
+      "A": "Non-terminating non-repeating",
+      "B": "Non-terminating repeating",
+      "C": "Terminating",
       "D": "Integer"
     },
     "ans": "B",
-    "exp_hi": "हर में 7⁵ भी है, अतः असांत आवर्ती है।",
-    "exp_en": "हर में 7⁵ भी है, अतः असांत आवर्ती है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 455 = 5 × 7 × 13 (हर में 7 और 13 उपस्थित हैं)। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 455 = 5 × 7 × 13 (हर में 7 और 13 उपस्थित हैं). Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47805,52 +47805,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 6/15 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 6/15 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 15/1600 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 15/1600 will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
         "B": "सांत (Terminating)",
-        "C": "अपरिभाषित (Undefined)",
+        "C": "असांत आवर्ती (Non-terminating repeating)",
         "D": "असांत अनावर्ती (Non-terminating non-repeating)"
       },
       "en": {
         "A": "Integer",
-        "B": "सांत (Terminating)",
-        "C": "Undefined",
+        "B": "Terminating",
+        "C": "Non-terminating repeating",
         "D": "Non-terminating non-repeating"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "6/15 = 2/5, हर 5 = 5¹ है, अतः सांत है।",
-      "en": "6/15 = 2/5, हर 5 = 5¹ है, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 1600 = 2⁶ × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 1600 = 2⁶ × 5². Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 6/15 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 6/15 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 15/1600 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 15/1600 will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
       "B": "सांत (Terminating)",
-      "C": "अपरिभाषित (Undefined)",
+      "C": "असांत आवर्ती (Non-terminating repeating)",
       "D": "असांत अनावर्ती (Non-terminating non-repeating)"
     },
     "opts_en": {
       "A": "Integer",
-      "B": "सांत (Terminating)",
-      "C": "Undefined",
+      "B": "Terminating",
+      "C": "Non-terminating repeating",
       "D": "Non-terminating non-repeating"
     },
     "ans": "B",
-    "exp_hi": "6/15 = 2/5, हर 5 = 5¹ है, अतः सांत है।",
-    "exp_en": "6/15 = 2/5, हर 5 = 5¹ है, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 1600 = 2⁶ × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 1600 = 2⁶ × 5². Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47864,52 +47864,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 77/210 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 77/210 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/343 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 29/343 will be:"
     },
     "options": {
       "hi": {
-        "A": "अपरिभाषित (Undefined)",
+        "A": "सांत (Terminating)",
         "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "पूर्णांक (Integer)",
         "D": "असांत अनावर्ती (Non-terminating non-repeating)"
       },
       "en": {
-        "A": "Undefined",
-        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
         "C": "Integer",
-        "D": "Terminating"
+        "D": "Non-terminating non-repeating"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है, अतः असांत आवर्ती है।",
-      "en": "77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है, अतः असांत आवर्ती है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 343 = 7³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 343 = 7³. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 77/210 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 77/210 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/343 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 29/343 will be:",
     "opts_hi": {
-      "A": "अपरिभाषित (Undefined)",
+      "A": "सांत (Terminating)",
       "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "पूर्णांक (Integer)",
       "D": "असांत अनावर्ती (Non-terminating non-repeating)"
     },
     "opts_en": {
-      "A": "Undefined",
-      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "A": "Terminating",
+      "B": "Non-terminating repeating",
       "C": "Integer",
-      "D": "Terminating"
+      "D": "Non-terminating non-repeating"
     },
     "ans": "B",
-    "exp_hi": "77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है, अतः असांत आवर्ती है।",
-    "exp_en": "77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है, अतः असांत आवर्ती है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 343 = 7³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 343 = 7³. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47923,52 +47923,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/3125 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 13/3125 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/(2³ × 5²) का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 23/(2³ × 5²) will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
         "C": "सांत (Terminating)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
         "A": "Integer",
         "B": "Non-terminating non-repeating",
-        "C": "सांत (Terminating)",
-        "D": "Undefined"
+        "C": "Terminating",
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "C",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "3125 = 5⁵, अतः सांत है।",
-      "en": "3125 = 5⁵, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: हर 2³ × 5² रूप में है। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: हर 2³ × 5² रूप में है. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/3125 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 13/3125 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/(2³ × 5²) का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 23/(2³ × 5²) will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
       "C": "सांत (Terminating)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
       "A": "Integer",
       "B": "Non-terminating non-repeating",
-      "C": "सांत (Terminating)",
-      "D": "Undefined"
+      "C": "Terminating",
+      "D": "Non-terminating repeating"
     },
     "ans": "C",
-    "exp_hi": "3125 = 5⁵, अतः सांत है।",
-    "exp_en": "3125 = 5⁵, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: हर 2³ × 5² रूप में है। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: हर 2³ × 5² रूप में है. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -47983,51 +47983,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/24 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 11/24 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 129/(2² × 5⁷ × 7⁵) का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 129/(2² × 5⁷ × 7⁵) will be:"
     },
     "options": {
       "hi": {
-        "A": "अपरिभाषित (Undefined)",
+        "A": "सांत (Terminating)",
         "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "पूर्णांक (Integer)",
         "D": "असांत अनावर्ती (Non-terminating non-repeating)"
       },
       "en": {
-        "A": "Undefined",
-        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
         "C": "Integer",
-        "D": "Terminating"
+        "D": "Non-terminating non-repeating"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "24 = 2³ × 3, हर में 3 है, अतः असांत आवर्ती है।",
-      "en": "24 = 2³ × 3, हर में 3 है, अतः असांत आवर्ती है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: हर में 7⁵ भी उपस्थित है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: हर में 7⁵ भी उपस्थित है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/24 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 11/24 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 129/(2² × 5⁷ × 7⁵) का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 129/(2² × 5⁷ × 7⁵) will be:",
     "opts_hi": {
-      "A": "अपरिभाषित (Undefined)",
+      "A": "सांत (Terminating)",
       "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "पूर्णांक (Integer)",
       "D": "असांत अनावर्ती (Non-terminating non-repeating)"
     },
     "opts_en": {
-      "A": "Undefined",
-      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "A": "Terminating",
+      "B": "Non-terminating repeating",
       "C": "Integer",
-      "D": "Terminating"
+      "D": "Non-terminating non-repeating"
     },
     "ans": "B",
-    "exp_hi": "24 = 2³ × 3, हर में 3 है, अतः असांत आवर्ती है।",
-    "exp_en": "24 = 2³ × 3, हर में 3 है, अतः असांत आवर्ती है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: हर में 7⁵ भी उपस्थित है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: हर में 7⁵ भी उपस्थित है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48042,51 +48042,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/80 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 7/80 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 6/15 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 6/15 will be:"
     },
     "options": {
       "hi": {
         "A": "सांत (Terminating)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
         "C": "पूर्णांक (Integer)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
-        "A": "सांत (Terminating)",
+        "A": "Terminating",
         "B": "Non-terminating non-repeating",
         "C": "Integer",
-        "D": "Undefined"
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "A",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "80 = 2⁴ × 5, अतः सांत है।",
-      "en": "80 = 2⁴ × 5, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 6/15 = 2/5, हर 5 = 5¹ है। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 6/15 = 2/5, हर 5 = 5¹ है. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/80 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 7/80 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 6/15 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 6/15 will be:",
     "opts_hi": {
       "A": "सांत (Terminating)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
       "C": "पूर्णांक (Integer)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
-      "A": "सांत (Terminating)",
+      "A": "Terminating",
       "B": "Non-terminating non-repeating",
       "C": "Integer",
-      "D": "Undefined"
+      "D": "Non-terminating repeating"
     },
     "ans": "A",
-    "exp_hi": "80 = 2⁴ × 5, अतः सांत है।",
-    "exp_en": "80 = 2⁴ × 5, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 6/15 = 2/5, हर 5 = 5¹ है। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 6/15 = 2/5, हर 5 = 5¹ है. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48101,51 +48101,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/125 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 13/125 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 77/210 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 77/210 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "B": "सांत (Terminating)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "पूर्णांक (Integer)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "सांत (Terminating)"
       },
       "en": {
         "A": "Non-terminating non-repeating",
-        "B": "सांत (Terminating)",
+        "B": "Non-terminating repeating",
         "C": "Integer",
-        "D": "Undefined"
+        "D": "Terminating"
       }
     },
     "correct_option": "B",
     "correct_answer": {
-      "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "125 = 5³, अतः सांत है।",
-      "en": "125 = 5³, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/125 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 13/125 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 77/210 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 77/210 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "B": "सांत (Terminating)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "पूर्णांक (Integer)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "सांत (Terminating)"
     },
     "opts_en": {
       "A": "Non-terminating non-repeating",
-      "B": "सांत (Terminating)",
+      "B": "Non-terminating repeating",
       "C": "Integer",
-      "D": "Undefined"
+      "D": "Terminating"
     },
     "ans": "B",
-    "exp_hi": "125 = 5³, अतः सांत है।",
-    "exp_en": "125 = 5³, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48160,51 +48160,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/625 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 31/625 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/24 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 11/24 will be:"
     },
     "options": {
       "hi": {
-        "A": "अपरिभाषित (Undefined)",
+        "A": "सांत (Terminating)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
         "C": "पूर्णांक (Integer)",
-        "D": "सांत (Terminating)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
-        "A": "Undefined",
+        "A": "Terminating",
         "B": "Non-terminating non-repeating",
         "C": "Integer",
-        "D": "सांत (Terminating)"
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
-      "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "625 = 5⁴, अतः सांत है।",
-      "en": "625 = 5⁴, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 24 = 2³ × 3, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 24 = 2³ × 3, हर में 3 है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/625 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 31/625 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/24 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 11/24 will be:",
     "opts_hi": {
-      "A": "अपरिभाषित (Undefined)",
+      "A": "सांत (Terminating)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
       "C": "पूर्णांक (Integer)",
-      "D": "सांत (Terminating)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
-      "A": "Undefined",
+      "A": "Terminating",
       "B": "Non-terminating non-repeating",
       "C": "Integer",
-      "D": "सांत (Terminating)"
+      "D": "Non-terminating repeating"
     },
     "ans": "D",
-    "exp_hi": "625 = 5⁴, अतः सांत है।",
-    "exp_en": "625 = 5⁴, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 24 = 2³ × 3, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 24 = 2³ × 3, हर में 3 है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48219,51 +48219,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/200 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 19/200 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/80 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 7/80 will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "C": "अपरिभाषित (Undefined)",
+        "C": "असांत आवर्ती (Non-terminating repeating)",
         "D": "सांत (Terminating)"
       },
       "en": {
         "A": "Integer",
         "B": "Non-terminating non-repeating",
-        "C": "Undefined",
-        "D": "सांत (Terminating)"
+        "C": "Non-terminating repeating",
+        "D": "Terminating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "200 = 2³ × 5², अतः सांत है।",
-      "en": "200 = 2³ × 5², अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 80 = 2⁴ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 80 = 2⁴ × 5. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/200 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 19/200 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/80 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 7/80 will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "C": "अपरिभाषित (Undefined)",
+      "C": "असांत आवर्ती (Non-terminating repeating)",
       "D": "सांत (Terminating)"
     },
     "opts_en": {
       "A": "Integer",
       "B": "Non-terminating non-repeating",
-      "C": "Undefined",
-      "D": "सांत (Terminating)"
+      "C": "Non-terminating repeating",
+      "D": "Terminating"
     },
     "ans": "D",
-    "exp_hi": "200 = 2³ × 5², अतः सांत है।",
-    "exp_en": "200 = 2³ × 5², अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 80 = 2⁴ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 80 = 2⁴ × 5. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48277,52 +48277,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/1000 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 41/1000 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/125 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 13/125 will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "सांत (Terminating)",
         "D": "असांत अनावर्ती (Non-terminating non-repeating)"
       },
       "en": {
         "A": "Integer",
-        "B": "Undefined",
-        "C": "सांत (Terminating)",
+        "B": "Non-terminating repeating",
+        "C": "Terminating",
         "D": "Non-terminating non-repeating"
       }
     },
     "correct_option": "C",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "1000 = 2³ × 5³, अतः सांत है।",
-      "en": "1000 = 2³ × 5³, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 125 = 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 125 = 5³. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/1000 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 41/1000 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/125 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 13/125 will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "सांत (Terminating)",
       "D": "असांत अनावर्ती (Non-terminating non-repeating)"
     },
     "opts_en": {
       "A": "Integer",
-      "B": "Undefined",
-      "C": "सांत (Terminating)",
+      "B": "Non-terminating repeating",
+      "C": "Terminating",
       "D": "Non-terminating non-repeating"
     },
     "ans": "C",
-    "exp_hi": "1000 = 2³ × 5³, अतः सांत है।",
-    "exp_en": "1000 = 2³ × 5³, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 125 = 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 125 = 5³. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48336,52 +48336,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/25 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 7/25 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/625 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 31/625 will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
         "B": "सांत (Terminating)",
         "C": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
         "A": "Integer",
-        "B": "सांत (Terminating)",
+        "B": "Terminating",
         "C": "Non-terminating non-repeating",
-        "D": "Undefined"
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "25 = 5², अतः सांत है।",
-      "en": "25 = 5², अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 625 = 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 625 = 5⁴. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/25 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 7/25 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/625 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 31/625 will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
       "B": "सांत (Terminating)",
       "C": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
       "A": "Integer",
-      "B": "सांत (Terminating)",
+      "B": "Terminating",
       "C": "Non-terminating non-repeating",
-      "D": "Undefined"
+      "D": "Non-terminating repeating"
     },
     "ans": "B",
-    "exp_hi": "25 = 5², अतः सांत है।",
-    "exp_en": "25 = 5², अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 625 = 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 625 = 5⁴. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48395,22 +48395,22 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 9/40 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 9/40 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/200 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 19/200 will be:"
     },
     "options": {
       "hi": {
         "A": "सांत (Terminating)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "असांत अनावर्ती (Non-terminating non-repeating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
-        "A": "सांत (Terminating)",
-        "B": "Undefined",
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
         "C": "Non-terminating non-repeating",
         "D": "Integer"
       }
@@ -48418,29 +48418,29 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "correct_option": "A",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "40 = 2³ × 5, अतः सांत है।",
-      "en": "40 = 2³ × 5, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 200 = 2³ × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 200 = 2³ × 5². Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 9/40 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 9/40 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/200 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 19/200 will be:",
     "opts_hi": {
       "A": "सांत (Terminating)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "असांत अनावर्ती (Non-terminating non-repeating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
-      "A": "सांत (Terminating)",
-      "B": "Undefined",
+      "A": "Terminating",
+      "B": "Non-terminating repeating",
       "C": "Non-terminating non-repeating",
       "D": "Integer"
     },
     "ans": "A",
-    "exp_hi": "40 = 2³ × 5, अतः सांत है।",
-    "exp_en": "40 = 2³ × 5, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 200 = 2³ × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 200 = 2³ × 5². Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48454,52 +48454,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/50 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 11/50 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/1000 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 41/1000 will be:"
     },
     "options": {
       "hi": {
         "A": "सांत (Terminating)",
         "B": "पूर्णांक (Integer)",
-        "C": "अपरिभाषित (Undefined)",
+        "C": "असांत आवर्ती (Non-terminating repeating)",
         "D": "असांत अनावर्ती (Non-terminating non-repeating)"
       },
       "en": {
-        "A": "सांत (Terminating)",
+        "A": "Terminating",
         "B": "Integer",
-        "C": "Undefined",
+        "C": "Non-terminating repeating",
         "D": "Non-terminating non-repeating"
       }
     },
     "correct_option": "A",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "50 = 2 × 5², अतः सांत है।",
-      "en": "50 = 2 × 5², अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 1000 = 2³ × 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 1000 = 2³ × 5³. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/50 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 11/50 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/1000 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 41/1000 will be:",
     "opts_hi": {
       "A": "सांत (Terminating)",
       "B": "पूर्णांक (Integer)",
-      "C": "अपरिभाषित (Undefined)",
+      "C": "असांत आवर्ती (Non-terminating repeating)",
       "D": "असांत अनावर्ती (Non-terminating non-repeating)"
     },
     "opts_en": {
-      "A": "सांत (Terminating)",
+      "A": "Terminating",
       "B": "Integer",
-      "C": "Undefined",
+      "C": "Non-terminating repeating",
       "D": "Non-terminating non-repeating"
     },
     "ans": "A",
-    "exp_hi": "50 = 2 × 5², अतः सांत है।",
-    "exp_en": "50 = 2 × 5², अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 1000 = 2³ × 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 1000 = 2³ × 5³. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48514,51 +48514,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 21/250 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 21/250 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 9/40 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 9/40 will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
         "C": "सांत (Terminating)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
         "A": "Integer",
         "B": "Non-terminating non-repeating",
-        "C": "सांत (Terminating)",
-        "D": "Undefined"
+        "C": "Terminating",
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "C",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "250 = 2 × 5³, अतः सांत है।",
-      "en": "250 = 2 × 5³, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 40 = 2³ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 40 = 2³ × 5. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 21/250 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 21/250 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 9/40 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 9/40 will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
       "C": "सांत (Terminating)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
       "A": "Integer",
       "B": "Non-terminating non-repeating",
-      "C": "सांत (Terminating)",
-      "D": "Undefined"
+      "C": "Terminating",
+      "D": "Non-terminating repeating"
     },
     "ans": "C",
-    "exp_hi": "250 = 2 × 5³, अतः सांत है।",
-    "exp_en": "250 = 2 × 5³, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 40 = 2³ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 40 = 2³ × 5. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48573,51 +48573,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 33/500 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 33/500 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/50 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 11/50 will be:"
     },
     "options": {
       "hi": {
-        "A": "अपरिभाषित (Undefined)",
+        "A": "असांत आवर्ती (Non-terminating repeating)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
         "C": "पूर्णांक (Integer)",
         "D": "सांत (Terminating)"
       },
       "en": {
-        "A": "Undefined",
+        "A": "Non-terminating repeating",
         "B": "Non-terminating non-repeating",
         "C": "Integer",
-        "D": "सांत (Terminating)"
+        "D": "Terminating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "500 = 2² × 5³, अतः सांत है।",
-      "en": "500 = 2² × 5³, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 50 = 2 × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 50 = 2 × 5². Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 33/500 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 33/500 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/50 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 11/50 will be:",
     "opts_hi": {
-      "A": "अपरिभाषित (Undefined)",
+      "A": "असांत आवर्ती (Non-terminating repeating)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
       "C": "पूर्णांक (Integer)",
       "D": "सांत (Terminating)"
     },
     "opts_en": {
-      "A": "Undefined",
+      "A": "Non-terminating repeating",
       "B": "Non-terminating non-repeating",
       "C": "Integer",
-      "D": "सांत (Terminating)"
+      "D": "Terminating"
     },
     "ans": "D",
-    "exp_hi": "500 = 2² × 5³, अतः सांत है।",
-    "exp_en": "500 = 2² × 5³, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 50 = 2 × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 50 = 2 × 5². Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48631,22 +48631,22 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 27/160 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 27/160 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 21/250 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 21/250 will be:"
     },
     "options": {
       "hi": {
-        "A": "अपरिभाषित (Undefined)",
+        "A": "असांत आवर्ती (Non-terminating repeating)",
         "B": "सांत (Terminating)",
         "C": "पूर्णांक (Integer)",
         "D": "असांत अनावर्ती (Non-terminating non-repeating)"
       },
       "en": {
-        "A": "Undefined",
-        "B": "सांत (Terminating)",
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
         "C": "Integer",
         "D": "Non-terminating non-repeating"
       }
@@ -48654,29 +48654,29 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "correct_option": "B",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "160 = 2⁵ × 5, अतः सांत है।",
-      "en": "160 = 2⁵ × 5, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 250 = 2 × 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 250 = 2 × 5³. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 27/160 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 27/160 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 21/250 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 21/250 will be:",
     "opts_hi": {
-      "A": "अपरिभाषित (Undefined)",
+      "A": "असांत आवर्ती (Non-terminating repeating)",
       "B": "सांत (Terminating)",
       "C": "पूर्णांक (Integer)",
       "D": "असांत अनावर्ती (Non-terminating non-repeating)"
     },
     "opts_en": {
-      "A": "Undefined",
-      "B": "सांत (Terminating)",
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
       "C": "Integer",
       "D": "Non-terminating non-repeating"
     },
     "ans": "B",
-    "exp_hi": "160 = 2⁵ × 5, अतः सांत है।",
-    "exp_en": "160 = 2⁵ × 5, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 250 = 2 × 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 250 = 2 × 5³. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48690,52 +48690,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 35/320 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 35/320 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 33/500 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 33/500 will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "असांत अनावर्ती (Non-terminating non-repeating)",
         "D": "सांत (Terminating)"
       },
       "en": {
         "A": "Integer",
-        "B": "Undefined",
+        "B": "Non-terminating repeating",
         "C": "Non-terminating non-repeating",
-        "D": "सांत (Terminating)"
+        "D": "Terminating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "320 = 2⁶ × 5, अतः सांत है।",
-      "en": "320 = 2⁶ × 5, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 500 = 2² × 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 500 = 2² × 5³. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 35/320 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 35/320 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 33/500 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 33/500 will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "असांत अनावर्ती (Non-terminating non-repeating)",
       "D": "सांत (Terminating)"
     },
     "opts_en": {
       "A": "Integer",
-      "B": "Undefined",
+      "B": "Non-terminating repeating",
       "C": "Non-terminating non-repeating",
-      "D": "सांत (Terminating)"
+      "D": "Terminating"
     },
     "ans": "D",
-    "exp_hi": "320 = 2⁶ × 5, अतः सांत है।",
-    "exp_en": "320 = 2⁶ × 5, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 500 = 2² × 5³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 500 = 2² × 5³. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48749,52 +48749,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 43/640 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 43/640 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 27/160 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 27/160 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
         "B": "सांत (Terminating)",
         "C": "पूर्णांक (Integer)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
         "A": "Non-terminating non-repeating",
-        "B": "सांत (Terminating)",
+        "B": "Terminating",
         "C": "Integer",
-        "D": "Undefined"
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "640 = 2⁷ × 5, अतः सांत है।",
-      "en": "640 = 2⁷ × 5, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 160 = 2⁵ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 160 = 2⁵ × 5. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 43/640 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 43/640 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 27/160 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 27/160 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
       "B": "सांत (Terminating)",
       "C": "पूर्णांक (Integer)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
       "A": "Non-terminating non-repeating",
-      "B": "सांत (Terminating)",
+      "B": "Terminating",
       "C": "Integer",
-      "D": "Undefined"
+      "D": "Non-terminating repeating"
     },
     "ans": "B",
-    "exp_hi": "640 = 2⁷ × 5, अतः सांत है।",
-    "exp_en": "640 = 2⁷ × 5, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 160 = 2⁵ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 160 = 2⁵ × 5. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48809,51 +48809,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 49/800 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 49/800 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 35/320 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 35/320 will be:"
     },
     "options": {
       "hi": {
         "A": "सांत (Terminating)",
         "B": "पूर्णांक (Integer)",
         "C": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
-        "A": "सांत (Terminating)",
+        "A": "Terminating",
         "B": "Integer",
         "C": "Non-terminating non-repeating",
-        "D": "Undefined"
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "A",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "800 = 2⁵ × 5², अतः सांत है।",
-      "en": "800 = 2⁵ × 5², अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 35/320 = 7/64 = 7/2⁶। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 35/320 = 7/64 = 7/2⁶. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 49/800 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 49/800 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 35/320 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 35/320 will be:",
     "opts_hi": {
       "A": "सांत (Terminating)",
       "B": "पूर्णांक (Integer)",
       "C": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
-      "A": "सांत (Terminating)",
+      "A": "Terminating",
       "B": "Integer",
       "C": "Non-terminating non-repeating",
-      "D": "Undefined"
+      "D": "Non-terminating repeating"
     },
     "ans": "A",
-    "exp_hi": "800 = 2⁵ × 5², अतः सांत है।",
-    "exp_en": "800 = 2⁵ × 5², अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 35/320 = 7/64 = 7/2⁶। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 35/320 = 7/64 = 7/2⁶. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48867,52 +48867,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 57/1250 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 57/1250 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 43/640 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 43/640 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
         "B": "पूर्णांक (Integer)",
-        "C": "अपरिभाषित (Undefined)",
+        "C": "असांत आवर्ती (Non-terminating repeating)",
         "D": "सांत (Terminating)"
       },
       "en": {
         "A": "Non-terminating non-repeating",
         "B": "Integer",
-        "C": "Undefined",
-        "D": "सांत (Terminating)"
+        "C": "Non-terminating repeating",
+        "D": "Terminating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "1250 = 2 × 5⁴, अतः सांत है।",
-      "en": "1250 = 2 × 5⁴, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 640 = 2⁷ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 640 = 2⁷ × 5. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 57/1250 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 57/1250 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 43/640 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 43/640 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
       "B": "पूर्णांक (Integer)",
-      "C": "अपरिभाषित (Undefined)",
+      "C": "असांत आवर्ती (Non-terminating repeating)",
       "D": "सांत (Terminating)"
     },
     "opts_en": {
       "A": "Non-terminating non-repeating",
       "B": "Integer",
-      "C": "Undefined",
-      "D": "सांत (Terminating)"
+      "C": "Non-terminating repeating",
+      "D": "Terminating"
     },
     "ans": "D",
-    "exp_hi": "1250 = 2 × 5⁴, अतः सांत है।",
-    "exp_en": "1250 = 2 × 5⁴, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 640 = 2⁷ × 5। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 640 = 2⁷ × 5. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48926,22 +48926,22 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 63/2500 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 63/2500 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 49/800 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 49/800 will be:"
     },
     "options": {
       "hi": {
         "A": "सांत (Terminating)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "असांत अनावर्ती (Non-terminating non-repeating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
-        "A": "सांत (Terminating)",
-        "B": "Undefined",
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
         "C": "Non-terminating non-repeating",
         "D": "Integer"
       }
@@ -48949,29 +48949,29 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "correct_option": "A",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "2500 = 2² × 5⁴, अतः सांत है।",
-      "en": "2500 = 2² × 5⁴, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 800 = 2⁵ × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 800 = 2⁵ × 5². Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 63/2500 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 63/2500 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 49/800 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 49/800 will be:",
     "opts_hi": {
       "A": "सांत (Terminating)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "असांत अनावर्ती (Non-terminating non-repeating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
-      "A": "सांत (Terminating)",
-      "B": "Undefined",
+      "A": "Terminating",
+      "B": "Non-terminating repeating",
       "C": "Non-terminating non-repeating",
       "D": "Integer"
     },
     "ans": "A",
-    "exp_hi": "2500 = 2² × 5⁴, अतः सांत है।",
-    "exp_en": "2500 = 2² × 5⁴, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 800 = 2⁵ × 5²। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 800 = 2⁵ × 5². Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -48985,52 +48985,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 71/5000 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 71/5000 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 57/1250 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 57/1250 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "सांत (Terminating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
         "A": "Non-terminating non-repeating",
-        "B": "Undefined",
-        "C": "सांत (Terminating)",
+        "B": "Non-terminating repeating",
+        "C": "Terminating",
         "D": "Integer"
       }
     },
     "correct_option": "C",
     "correct_answer": {
       "hi": "सांत (Terminating)",
-      "en": "सांत (Terminating)"
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "5000 = 2³ × 5⁴, अतः सांत है।",
-      "en": "5000 = 2³ × 5⁴, अतः सांत है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 1250 = 2 × 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 1250 = 2 × 5⁴. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 71/5000 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 71/5000 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 57/1250 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 57/1250 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "सांत (Terminating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
       "A": "Non-terminating non-repeating",
-      "B": "Undefined",
-      "C": "सांत (Terminating)",
+      "B": "Non-terminating repeating",
+      "C": "Terminating",
       "D": "Integer"
     },
     "ans": "C",
-    "exp_hi": "5000 = 2³ × 5⁴, अतः सांत है।",
-    "exp_en": "5000 = 2³ × 5⁴, अतः सांत है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 1250 = 2 × 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 1250 = 2 × 5⁴. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49044,52 +49044,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/30 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 17/30 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 63/2500 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 63/2500 will be:"
     },
     "options": {
       "hi": {
         "A": "पूर्णांक (Integer)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "C": "अपरिभाषित (Undefined)",
-        "D": "असांत आवर्ती (Non-terminating repeating)"
+        "C": "असांत आवर्ती (Non-terminating repeating)",
+        "D": "सांत (Terminating)"
       },
       "en": {
         "A": "Integer",
-        "B": "Terminating",
-        "C": "Undefined",
-        "D": "असांत आवर्ती (Non-terminating repeating)"
+        "B": "Non-terminating non-repeating",
+        "C": "Non-terminating repeating",
+        "D": "Terminating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
-      "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "30 = 2 × 3 × 5, हर में 3 है।",
-      "en": "30 = 2 × 3 × 5, हर में 3 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 2500 = 2² × 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 2500 = 2² × 5⁴. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/30 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 17/30 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 63/2500 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 63/2500 will be:",
     "opts_hi": {
       "A": "पूर्णांक (Integer)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "C": "अपरिभाषित (Undefined)",
-      "D": "असांत आवर्ती (Non-terminating repeating)"
+      "C": "असांत आवर्ती (Non-terminating repeating)",
+      "D": "सांत (Terminating)"
     },
     "opts_en": {
       "A": "Integer",
-      "B": "Terminating",
-      "C": "Undefined",
-      "D": "असांत आवर्ती (Non-terminating repeating)"
+      "B": "Non-terminating non-repeating",
+      "C": "Non-terminating repeating",
+      "D": "Terminating"
     },
     "ans": "D",
-    "exp_hi": "30 = 2 × 3 × 5, हर में 3 है।",
-    "exp_en": "30 = 2 × 3 × 5, हर में 3 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 2500 = 2² × 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 2500 = 2² × 5⁴. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49103,52 +49103,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/45 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 19/45 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 71/5000 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 71/5000 will be:"
     },
     "options": {
       "hi": {
-        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "A": "सांत (Terminating)",
         "B": "असांत अनावर्ती (Non-terminating non-repeating)",
         "C": "पूर्णांक (Integer)",
-        "D": "अपरिभाषित (Undefined)"
+        "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
-        "A": "असांत आवर्ती (Non-terminating repeating)",
-        "B": "Terminating",
+        "A": "Terminating",
+        "B": "Non-terminating non-repeating",
         "C": "Integer",
-        "D": "Undefined"
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "A",
     "correct_answer": {
-      "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
     },
     "explanation": {
-      "hi": "45 = 3² × 5, हर में 3 है।",
-      "en": "45 = 3² × 5, हर में 3 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 5000 = 2³ × 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 5000 = 2³ × 5⁴. Thus decimal expansion is Terminating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/45 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 19/45 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 71/5000 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 71/5000 will be:",
     "opts_hi": {
-      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "A": "सांत (Terminating)",
       "B": "असांत अनावर्ती (Non-terminating non-repeating)",
       "C": "पूर्णांक (Integer)",
-      "D": "अपरिभाषित (Undefined)"
+      "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
-      "A": "असांत आवर्ती (Non-terminating repeating)",
-      "B": "Terminating",
+      "A": "Terminating",
+      "B": "Non-terminating non-repeating",
       "C": "Integer",
-      "D": "Undefined"
+      "D": "Non-terminating repeating"
     },
     "ans": "A",
-    "exp_hi": "45 = 3² × 5, हर में 3 है।",
-    "exp_en": "45 = 3² × 5, हर में 3 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 5000 = 2³ × 5⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 5000 = 2³ × 5⁴. Thus decimal expansion is Terminating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49163,51 +49163,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/70 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 23/70 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/30 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 17/30 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
         "B": "पूर्णांक (Integer)",
-        "C": "अपरिभाषित (Undefined)",
+        "C": "सांत (Terminating)",
         "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
-        "A": "Terminating",
+        "A": "Non-terminating non-repeating",
         "B": "Integer",
-        "C": "Undefined",
-        "D": "असांत आवर्ती (Non-terminating repeating)"
+        "C": "Terminating",
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "70 = 2 × 5 × 7, हर में 7 है।",
-      "en": "70 = 2 × 5 × 7, हर में 7 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 30 = 2 × 3 × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 30 = 2 × 3 × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/70 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 23/70 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/30 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 17/30 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
       "B": "पूर्णांक (Integer)",
-      "C": "अपरिभाषित (Undefined)",
+      "C": "सांत (Terminating)",
       "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
-      "A": "Terminating",
+      "A": "Non-terminating non-repeating",
       "B": "Integer",
-      "C": "Undefined",
-      "D": "असांत आवर्ती (Non-terminating repeating)"
+      "C": "Terminating",
+      "D": "Non-terminating repeating"
     },
     "ans": "D",
-    "exp_hi": "70 = 2 × 5 × 7, हर में 7 है।",
-    "exp_en": "70 = 2 × 5 × 7, हर में 7 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 30 = 2 × 3 × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 30 = 2 × 3 × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49222,51 +49222,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/90 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 29/90 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/45 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 19/45 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
         "B": "असांत आवर्ती (Non-terminating repeating)",
-        "C": "अपरिभाषित (Undefined)",
+        "C": "सांत (Terminating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
-        "A": "Terminating",
-        "B": "असांत आवर्ती (Non-terminating repeating)",
-        "C": "Undefined",
+        "A": "Non-terminating non-repeating",
+        "B": "Non-terminating repeating",
+        "C": "Terminating",
         "D": "Integer"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "90 = 2 × 3² × 5, हर में 3 है।",
-      "en": "90 = 2 × 3² × 5, हर में 3 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 45 = 3² × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 45 = 3² × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/90 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 29/90 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/45 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 19/45 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
       "B": "असांत आवर्ती (Non-terminating repeating)",
-      "C": "अपरिभाषित (Undefined)",
+      "C": "सांत (Terminating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
-      "A": "Terminating",
-      "B": "असांत आवर्ती (Non-terminating repeating)",
-      "C": "Undefined",
+      "A": "Non-terminating non-repeating",
+      "B": "Non-terminating repeating",
+      "C": "Terminating",
       "D": "Integer"
     },
     "ans": "B",
-    "exp_hi": "90 = 2 × 3² × 5, हर में 3 है।",
-    "exp_en": "90 = 2 × 3² × 5, हर में 3 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 45 = 3² × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 45 = 3² × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49281,51 +49281,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/110 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 31/110 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/70 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 23/70 will be:"
     },
     "options": {
       "hi": {
-        "A": "अपरिभाषित (Undefined)",
+        "A": "सांत (Terminating)",
         "B": "असांत आवर्ती (Non-terminating repeating)",
         "C": "असांत अनावर्ती (Non-terminating non-repeating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
-        "A": "Undefined",
-        "B": "असांत आवर्ती (Non-terminating repeating)",
-        "C": "Terminating",
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
+        "C": "Non-terminating non-repeating",
         "D": "Integer"
       }
     },
     "correct_option": "B",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "110 = 2 × 5 × 11, हर में 11 है।",
-      "en": "110 = 2 × 5 × 11, हर में 11 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 70 = 2 × 5 × 7, हर में 7 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 70 = 2 × 5 × 7, हर में 7 है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/110 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 31/110 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/70 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 23/70 will be:",
     "opts_hi": {
-      "A": "अपरिभाषित (Undefined)",
+      "A": "सांत (Terminating)",
       "B": "असांत आवर्ती (Non-terminating repeating)",
       "C": "असांत अनावर्ती (Non-terminating non-repeating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
-      "A": "Undefined",
-      "B": "असांत आवर्ती (Non-terminating repeating)",
-      "C": "Terminating",
+      "A": "Terminating",
+      "B": "Non-terminating repeating",
+      "C": "Non-terminating non-repeating",
       "D": "Integer"
     },
     "ans": "B",
-    "exp_hi": "110 = 2 × 5 × 11, हर में 11 है।",
-    "exp_en": "110 = 2 × 5 × 11, हर में 11 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 70 = 2 × 5 × 7, हर में 7 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 70 = 2 × 5 × 7, हर में 7 है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49340,51 +49340,51 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
     "difficulty": "Easy",
-    "question_type": "Property",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 37/120 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 37/120 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/90 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 29/90 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत आवर्ती (Non-terminating repeating)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "सांत (Terminating)",
         "C": "असांत अनावर्ती (Non-terminating non-repeating)",
         "D": "पूर्णांक (Integer)"
       },
       "en": {
-        "A": "असांत आवर्ती (Non-terminating repeating)",
-        "B": "Undefined",
-        "C": "Terminating",
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Non-terminating non-repeating",
         "D": "Integer"
       }
     },
     "correct_option": "A",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "120 = 2³ × 3 × 5, हर में 3 है।",
-      "en": "120 = 2³ × 3 × 5, हर में 3 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 90 = 2 × 3² × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 90 = 2 × 3² × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 37/120 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 37/120 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/90 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 29/90 will be:",
     "opts_hi": {
       "A": "असांत आवर्ती (Non-terminating repeating)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "सांत (Terminating)",
       "C": "असांत अनावर्ती (Non-terminating non-repeating)",
       "D": "पूर्णांक (Integer)"
     },
     "opts_en": {
-      "A": "असांत आवर्ती (Non-terminating repeating)",
-      "B": "Undefined",
-      "C": "Terminating",
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Non-terminating non-repeating",
       "D": "Integer"
     },
     "ans": "A",
-    "exp_hi": "120 = 2³ × 3 × 5, हर में 3 है।",
-    "exp_en": "120 = 2³ × 3 × 5, हर में 3 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 90 = 2 × 3² × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 90 = 2 × 3² × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49398,52 +49398,52 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
-      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/140 का दशमलव प्रसार कैसा होगा?",
-      "en": "Without actual division, state whether the decimal expansion of 41/140 will be:"
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/110 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 31/110 will be:"
     },
     "options": {
       "hi": {
         "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-        "B": "अपरिभाषित (Undefined)",
+        "B": "सांत (Terminating)",
         "C": "पूर्णांक (Integer)",
         "D": "असांत आवर्ती (Non-terminating repeating)"
       },
       "en": {
-        "A": "Terminating",
-        "B": "Undefined",
+        "A": "Non-terminating non-repeating",
+        "B": "Terminating",
         "C": "Integer",
-        "D": "असांत आवर्ती (Non-terminating repeating)"
+        "D": "Non-terminating repeating"
       }
     },
     "correct_option": "D",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "140 = 2² × 5 × 7, हर में 7 है।",
-      "en": "140 = 2² × 5 × 7, हर में 7 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 110 = 2 × 5 × 11, हर में 11 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 110 = 2 × 5 × 11, हर में 11 है. Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/140 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 41/140 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/110 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 31/110 will be:",
     "opts_hi": {
       "A": "असांत अनावर्ती (Non-terminating non-repeating)",
-      "B": "अपरिभाषित (Undefined)",
+      "B": "सांत (Terminating)",
       "C": "पूर्णांक (Integer)",
       "D": "असांत आवर्ती (Non-terminating repeating)"
     },
     "opts_en": {
-      "A": "Terminating",
-      "B": "Undefined",
+      "A": "Non-terminating non-repeating",
+      "B": "Terminating",
       "C": "Integer",
-      "D": "असांत आवर्ती (Non-terminating repeating)"
+      "D": "Non-terminating repeating"
     },
     "ans": "D",
-    "exp_hi": "140 = 2² × 5 × 7, हर में 7 है।",
-    "exp_en": "140 = 2² × 5 × 7, हर में 7 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 110 = 2 × 5 × 11, हर में 11 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 110 = 2 × 5 × 11, हर में 11 है. Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
@@ -49457,8 +49457,126 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "book_id": "math_book_01",
     "chapter_id": "math_ch_01",
     "topic_id": "math_ch_01_topic_09",
-    "difficulty": "Easy",
-    "question_type": "Property",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 37/120 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 37/120 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "सांत (Terminating)",
+        "C": "पूर्णांक (Integer)",
+        "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Integer",
+        "D": "Non-terminating non-repeating"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 120 = 2³ × 3 × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 120 = 2³ × 3 × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 37/120 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 37/120 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "सांत (Terminating)",
+      "C": "पूर्णांक (Integer)",
+      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Integer",
+      "D": "Non-terminating non-repeating"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 120 = 2³ × 3 × 5, हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 120 = 2³ × 3 × 5, हर में 3 है. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0840",
+    "question_id": "q_math_c1_t09_0840",
+    "question_group_id": "math_ch01_group_0840",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/140 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 41/140 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "पूर्णांक (Integer)",
+        "B": "सांत (Terminating)",
+        "C": "असांत आवर्ती (Non-terminating repeating)",
+        "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      },
+      "en": {
+        "A": "Integer",
+        "B": "Terminating",
+        "C": "Non-terminating repeating",
+        "D": "Non-terminating non-repeating"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 140 = 2² × 5 × 7, हर में 7 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 140 = 2² × 5 × 7, हर में 7 है. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 41/140 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 41/140 will be:",
+    "opts_hi": {
+      "A": "पूर्णांक (Integer)",
+      "B": "सांत (Terminating)",
+      "C": "असांत आवर्ती (Non-terminating repeating)",
+      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+    },
+    "opts_en": {
+      "A": "Integer",
+      "B": "Terminating",
+      "C": "Non-terminating repeating",
+      "D": "Non-terminating non-repeating"
+    },
+    "ans": "C",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 140 = 2² × 5 × 7, हर में 7 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 140 = 2² × 5 × 7, हर में 7 है. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0841",
+    "question_id": "q_math_c1_t09_0841",
+    "question_group_id": "math_ch01_group_0841",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
     "question": {
       "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 47/150 का दशमलव प्रसार कैसा होगा?",
       "en": "Without actual division, state whether the decimal expansion of 47/150 will be:"
@@ -49466,50 +49584,5714 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "असांत आवर्ती (Non-terminating repeating)",
-        "B": "अपरिभाषित (Undefined)",
-        "C": "पूर्णांक (Integer)",
+        "B": "सांत (Terminating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Non-terminating non-repeating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 150 = 2 × 3 × 5², हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 150 = 2 × 3 × 5², हर में 3 है. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 47/150 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 47/150 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "सांत (Terminating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Non-terminating non-repeating",
+      "D": "Integer"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 150 = 2 × 3 × 5², हर में 3 है। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 150 = 2 × 3 × 5², हर में 3 है. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0842",
+    "question_id": "q_math_c1_t09_0842",
+    "question_group_id": "math_ch01_group_0842",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 3/8 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 3/8 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "पूर्णांक (Integer)",
+        "C": "सांत (Terminating)",
         "D": "असांत अनावर्ती (Non-terminating non-repeating)"
       },
       "en": {
+        "A": "Non-terminating repeating",
+        "B": "Integer",
+        "C": "Terminating",
+        "D": "Non-terminating non-repeating"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 8 = 2³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 8 = 2³. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 3/8 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 3/8 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "पूर्णांक (Integer)",
+      "C": "सांत (Terminating)",
+      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Integer",
+      "C": "Terminating",
+      "D": "Non-terminating non-repeating"
+    },
+    "ans": "C",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 8 = 2³। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 8 = 2³. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0843",
+    "question_id": "q_math_c1_t09_0843",
+    "question_group_id": "math_ch01_group_0843",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/16 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 7/16 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "सांत (Terminating)",
+        "B": "पूर्णांक (Integer)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "असांत आवर्ती (Non-terminating repeating)"
+      },
+      "en": {
+        "A": "Terminating",
+        "B": "Integer",
+        "C": "Non-terminating non-repeating",
+        "D": "Non-terminating repeating"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 16 = 2⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 16 = 2⁴. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/16 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 7/16 will be:",
+    "opts_hi": {
+      "A": "सांत (Terminating)",
+      "B": "पूर्णांक (Integer)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "असांत आवर्ती (Non-terminating repeating)"
+    },
+    "opts_en": {
+      "A": "Terminating",
+      "B": "Integer",
+      "C": "Non-terminating non-repeating",
+      "D": "Non-terminating repeating"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 16 = 2⁴। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 16 = 2⁴. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0844",
+    "question_id": "q_math_c1_t09_0844",
+    "question_group_id": "math_ch01_group_0844",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 9/32 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 9/32 will be:"
+    },
+    "options": {
+      "hi": {
         "A": "असांत आवर्ती (Non-terminating repeating)",
-        "B": "Undefined",
+        "B": "सांत (Terminating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Non-terminating non-repeating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 32 = 2⁵। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 32 = 2⁵. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 9/32 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 9/32 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "सांत (Terminating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Non-terminating non-repeating",
+      "D": "Integer"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 32 = 2⁵। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 32 = 2⁵. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0845",
+    "question_id": "q_math_c1_t09_0845",
+    "question_group_id": "math_ch01_group_0845",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/64 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 11/64 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "सांत (Terminating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Non-terminating non-repeating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 64 = 2⁶। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 64 = 2⁶. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/64 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 11/64 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "सांत (Terminating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Non-terminating non-repeating",
+      "D": "Integer"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 64 = 2⁶। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 64 = 2⁶. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0846",
+    "question_id": "q_math_c1_t09_0846",
+    "question_group_id": "math_ch01_group_0846",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/128 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 13/128 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "B": "सांत (Terminating)",
+        "C": "पूर्णांक (Integer)",
+        "D": "असांत आवर्ती (Non-terminating repeating)"
+      },
+      "en": {
+        "A": "Non-terminating non-repeating",
+        "B": "Terminating",
         "C": "Integer",
+        "D": "Non-terminating repeating"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 128 = 2⁷। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 128 = 2⁷. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/128 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 13/128 will be:",
+    "opts_hi": {
+      "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "B": "सांत (Terminating)",
+      "C": "पूर्णांक (Integer)",
+      "D": "असांत आवर्ती (Non-terminating repeating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating non-repeating",
+      "B": "Terminating",
+      "C": "Integer",
+      "D": "Non-terminating repeating"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 128 = 2⁷। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 128 = 2⁷. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0847",
+    "question_id": "q_math_c1_t09_0847",
+    "question_group_id": "math_ch01_group_0847",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 1/256 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 1/256 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "B": "पूर्णांक (Integer)",
+        "C": "सांत (Terminating)",
+        "D": "असांत आवर्ती (Non-terminating repeating)"
+      },
+      "en": {
+        "A": "Non-terminating non-repeating",
+        "B": "Integer",
+        "C": "Terminating",
+        "D": "Non-terminating repeating"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 256 = 2⁸। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 256 = 2⁸. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 1/256 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 1/256 will be:",
+    "opts_hi": {
+      "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "B": "पूर्णांक (Integer)",
+      "C": "सांत (Terminating)",
+      "D": "असांत आवर्ती (Non-terminating repeating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating non-repeating",
+      "B": "Integer",
+      "C": "Terminating",
+      "D": "Non-terminating repeating"
+    },
+    "ans": "C",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 256 = 2⁸। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 256 = 2⁸. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0848",
+    "question_id": "q_math_c1_t09_0848",
+    "question_group_id": "math_ch01_group_0848",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 3/512 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 3/512 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "C": "सांत (Terminating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Non-terminating non-repeating",
+        "C": "Terminating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 512 = 2⁹। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 512 = 2⁹. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 3/512 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 3/512 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "C": "सांत (Terminating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Non-terminating non-repeating",
+      "C": "Terminating",
+      "D": "Integer"
+    },
+    "ans": "C",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 512 = 2⁹। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 512 = 2⁹. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0849",
+    "question_id": "q_math_c1_t09_0849",
+    "question_group_id": "math_ch01_group_0849",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/1024 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 7/1024 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "सांत (Terminating)",
+        "B": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "C": "असांत आवर्ती (Non-terminating repeating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Terminating",
+        "B": "Non-terminating non-repeating",
+        "C": "Non-terminating repeating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "सांत (Terminating)",
+      "en": "Terminating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 1024 = 2¹⁰। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+      "en": "Denominator in simplified form: 1024 = 2¹⁰. Thus decimal expansion is Terminating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/1024 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 7/1024 will be:",
+    "opts_hi": {
+      "A": "सांत (Terminating)",
+      "B": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "C": "असांत आवर्ती (Non-terminating repeating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Terminating",
+      "B": "Non-terminating non-repeating",
+      "C": "Non-terminating repeating",
+      "D": "Integer"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 1024 = 2¹⁰। अतः दशमलव प्रसार सांत (Terminating) होगा।",
+    "exp_en": "Denominator in simplified form: 1024 = 2¹⁰. Thus decimal expansion is Terminating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0850",
+    "question_id": "q_math_c1_t09_0850",
+    "question_group_id": "math_ch01_group_0850",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 1/12 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 1/12 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "सांत (Terminating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Non-terminating non-repeating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 12 = 2² × 3। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 12 = 2² × 3. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 1/12 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 1/12 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "सांत (Terminating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Non-terminating non-repeating",
+      "D": "Integer"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 12 = 2² × 3। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 12 = 2² × 3. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0851",
+    "question_id": "q_math_c1_t09_0851",
+    "question_group_id": "math_ch01_group_0851",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 5/18 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 5/18 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "C": "पूर्णांक (Integer)",
+        "D": "सांत (Terminating)"
+      },
+      "en": {
+        "A": "Non-terminating non-repeating",
+        "B": "Non-terminating repeating",
+        "C": "Integer",
+        "D": "Terminating"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 18 = 2 × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 18 = 2 × 3². Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 5/18 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 5/18 will be:",
+    "opts_hi": {
+      "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "C": "पूर्णांक (Integer)",
+      "D": "सांत (Terminating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating non-repeating",
+      "B": "Non-terminating repeating",
+      "C": "Integer",
+      "D": "Terminating"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 18 = 2 × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 18 = 2 × 3². Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0852",
+    "question_id": "q_math_c1_t09_0852",
+    "question_group_id": "math_ch01_group_0852",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/36 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 7/36 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "सांत (Terminating)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
+        "C": "Non-terminating non-repeating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 36 = 2² × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 36 = 2² × 3². Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 7/36 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 7/36 will be:",
+    "opts_hi": {
+      "A": "सांत (Terminating)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Terminating",
+      "B": "Non-terminating repeating",
+      "C": "Non-terminating non-repeating",
+      "D": "Integer"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 36 = 2² × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 36 = 2² × 3². Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0853",
+    "question_id": "q_math_c1_t09_0853",
+    "question_group_id": "math_ch01_group_0853",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/48 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 11/48 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "पूर्णांक (Integer)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "सांत (Terminating)"
+      },
+      "en": {
+        "A": "Integer",
+        "B": "Non-terminating repeating",
+        "C": "Non-terminating non-repeating",
+        "D": "Terminating"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 48 = 2⁴ × 3। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 48 = 2⁴ × 3. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 11/48 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 11/48 will be:",
+    "opts_hi": {
+      "A": "पूर्णांक (Integer)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "सांत (Terminating)"
+    },
+    "opts_en": {
+      "A": "Integer",
+      "B": "Non-terminating repeating",
+      "C": "Non-terminating non-repeating",
+      "D": "Terminating"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 48 = 2⁴ × 3। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 48 = 2⁴ × 3. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0854",
+    "question_id": "q_math_c1_t09_0854",
+    "question_group_id": "math_ch01_group_0854",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/72 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 13/72 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "पूर्णांक (Integer)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "सांत (Terminating)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Integer",
+        "C": "Non-terminating non-repeating",
         "D": "Terminating"
       }
     },
     "correct_option": "A",
     "correct_answer": {
       "hi": "असांत आवर्ती (Non-terminating repeating)",
-      "en": "असांत आवर्ती (Non-terminating repeating)"
+      "en": "Non-terminating repeating"
     },
     "explanation": {
-      "hi": "150 = 2 × 3 × 5², हर में 3 है।",
-      "en": "150 = 2 × 3 × 5², हर में 3 है।"
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 72 = 2³ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 72 = 2³ × 3². Thus decimal expansion is Non-terminating repeating."
     },
-    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 47/150 का दशमलव प्रसार कैसा होगा?",
-    "q_en": "Without actual division, state whether the decimal expansion of 47/150 will be:",
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 13/72 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 13/72 will be:",
     "opts_hi": {
       "A": "असांत आवर्ती (Non-terminating repeating)",
-      "B": "अपरिभाषित (Undefined)",
-      "C": "पूर्णांक (Integer)",
-      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      "B": "पूर्णांक (Integer)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "सांत (Terminating)"
     },
     "opts_en": {
-      "A": "असांत आवर्ती (Non-terminating repeating)",
-      "B": "Undefined",
-      "C": "Integer",
+      "A": "Non-terminating repeating",
+      "B": "Integer",
+      "C": "Non-terminating non-repeating",
       "D": "Terminating"
     },
     "ans": "A",
-    "exp_hi": "150 = 2 × 3 × 5², हर में 3 है।",
-    "exp_en": "150 = 2 × 3 × 5², हर में 3 है।",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 72 = 2³ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 72 = 2³ × 3². Thus decimal expansion is Non-terminating repeating.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0840",
-    "question_id": "q_math_c1_t10_0840",
-    "question_group_id": "math_ch01_group_0840",
+    "id": "q_math_c1_t09_0855",
+    "question_id": "q_math_c1_t09_0855",
+    "question_group_id": "math_ch01_group_0855",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/96 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 17/96 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "C": "पूर्णांक (Integer)",
+        "D": "सांत (Terminating)"
+      },
+      "en": {
+        "A": "Non-terminating non-repeating",
+        "B": "Non-terminating repeating",
+        "C": "Integer",
+        "D": "Terminating"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 96 = 2⁵ × 3। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 96 = 2⁵ × 3. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 17/96 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 17/96 will be:",
+    "opts_hi": {
+      "A": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "C": "पूर्णांक (Integer)",
+      "D": "सांत (Terminating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating non-repeating",
+      "B": "Non-terminating repeating",
+      "C": "Integer",
+      "D": "Terminating"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 96 = 2⁵ × 3। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 96 = 2⁵ × 3. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0856",
+    "question_id": "q_math_c1_t09_0856",
+    "question_group_id": "math_ch01_group_0856",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/144 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 19/144 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "सांत (Terminating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "पूर्णांक (Integer)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Non-terminating non-repeating",
+        "D": "Integer"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 144 = 2⁴ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 144 = 2⁴ × 3². Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 19/144 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 19/144 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "सांत (Terminating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "पूर्णांक (Integer)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Non-terminating non-repeating",
+      "D": "Integer"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 144 = 2⁴ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 144 = 2⁴ × 3². Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0857",
+    "question_id": "q_math_c1_t09_0857",
+    "question_group_id": "math_ch01_group_0857",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/216 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 23/216 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "पूर्णांक (Integer)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "सांत (Terminating)"
+      },
+      "en": {
+        "A": "Integer",
+        "B": "Non-terminating repeating",
+        "C": "Non-terminating non-repeating",
+        "D": "Terminating"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 216 = 2³ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 216 = 2³ × 3³. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 23/216 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 23/216 will be:",
+    "opts_hi": {
+      "A": "पूर्णांक (Integer)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "सांत (Terminating)"
+    },
+    "opts_en": {
+      "A": "Integer",
+      "B": "Non-terminating repeating",
+      "C": "Non-terminating non-repeating",
+      "D": "Terminating"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 216 = 2³ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 216 = 2³ × 3³. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0858",
+    "question_id": "q_math_c1_t09_0858",
+    "question_group_id": "math_ch01_group_0858",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 25/288 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 25/288 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "सांत (Terminating)",
+        "B": "असांत आवर्ती (Non-terminating repeating)",
+        "C": "पूर्णांक (Integer)",
+        "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      },
+      "en": {
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
+        "C": "Integer",
+        "D": "Non-terminating non-repeating"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 288 = 2⁵ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 288 = 2⁵ × 3². Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 25/288 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 25/288 will be:",
+    "opts_hi": {
+      "A": "सांत (Terminating)",
+      "B": "असांत आवर्ती (Non-terminating repeating)",
+      "C": "पूर्णांक (Integer)",
+      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+    },
+    "opts_en": {
+      "A": "Terminating",
+      "B": "Non-terminating repeating",
+      "C": "Integer",
+      "D": "Non-terminating non-repeating"
+    },
+    "ans": "B",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 288 = 2⁵ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 288 = 2⁵ × 3². Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0859",
+    "question_id": "q_math_c1_t09_0859",
+    "question_group_id": "math_ch01_group_0859",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/432 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 29/432 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "सांत (Terminating)",
+        "B": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "C": "पूर्णांक (Integer)",
+        "D": "असांत आवर्ती (Non-terminating repeating)"
+      },
+      "en": {
+        "A": "Terminating",
+        "B": "Non-terminating non-repeating",
+        "C": "Integer",
+        "D": "Non-terminating repeating"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 432 = 2⁴ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 432 = 2⁴ × 3³. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 29/432 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 29/432 will be:",
+    "opts_hi": {
+      "A": "सांत (Terminating)",
+      "B": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "C": "पूर्णांक (Integer)",
+      "D": "असांत आवर्ती (Non-terminating repeating)"
+    },
+    "opts_en": {
+      "A": "Terminating",
+      "B": "Non-terminating non-repeating",
+      "C": "Integer",
+      "D": "Non-terminating repeating"
+    },
+    "ans": "D",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 432 = 2⁴ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 432 = 2⁴ × 3³. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0860",
+    "question_id": "q_math_c1_t09_0860",
+    "question_group_id": "math_ch01_group_0860",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/576 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 31/576 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "पूर्णांक (Integer)",
+        "C": "सांत (Terminating)",
+        "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Integer",
+        "C": "Terminating",
+        "D": "Non-terminating non-repeating"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 576 = 2⁶ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 576 = 2⁶ × 3². Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 31/576 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 31/576 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "पूर्णांक (Integer)",
+      "C": "सांत (Terminating)",
+      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Integer",
+      "C": "Terminating",
+      "D": "Non-terminating non-repeating"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 576 = 2⁶ × 3²। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 576 = 2⁶ × 3². Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0861",
+    "question_id": "q_math_c1_t09_0861",
+    "question_group_id": "math_ch01_group_0861",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 35/864 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 35/864 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "सांत (Terminating)",
+        "B": "पूर्णांक (Integer)",
+        "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+        "D": "असांत आवर्ती (Non-terminating repeating)"
+      },
+      "en": {
+        "A": "Terminating",
+        "B": "Integer",
+        "C": "Non-terminating non-repeating",
+        "D": "Non-terminating repeating"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 864 = 2⁵ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 864 = 2⁵ × 3³. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 35/864 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 35/864 will be:",
+    "opts_hi": {
+      "A": "सांत (Terminating)",
+      "B": "पूर्णांक (Integer)",
+      "C": "असांत अनावर्ती (Non-terminating non-repeating)",
+      "D": "असांत आवर्ती (Non-terminating repeating)"
+    },
+    "opts_en": {
+      "A": "Terminating",
+      "B": "Integer",
+      "C": "Non-terminating non-repeating",
+      "D": "Non-terminating repeating"
+    },
+    "ans": "D",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 864 = 2⁵ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 864 = 2⁵ × 3³. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0862",
+    "question_id": "q_math_c1_t09_0862",
+    "question_group_id": "math_ch01_group_0862",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Concept",
+    "question": {
+      "hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 37/1728 का दशमलव प्रसार कैसा होगा?",
+      "en": "Without actual division, state whether the decimal expansion of 37/1728 will be:"
+    },
+    "options": {
+      "hi": {
+        "A": "असांत आवर्ती (Non-terminating repeating)",
+        "B": "सांत (Terminating)",
+        "C": "पूर्णांक (Integer)",
+        "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+      },
+      "en": {
+        "A": "Non-terminating repeating",
+        "B": "Terminating",
+        "C": "Integer",
+        "D": "Non-terminating non-repeating"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "असांत आवर्ती (Non-terminating repeating)",
+      "en": "Non-terminating repeating"
+    },
+    "explanation": {
+      "hi": "सरलतम रूप में हर का गुणनखंडन: 1728 = 2⁶ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+      "en": "Denominator in simplified form: 1728 = 2⁶ × 3³. Thus decimal expansion is Non-terminating repeating."
+    },
+    "q_hi": "बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या 37/1728 का दशमलव प्रसार कैसा होगा?",
+    "q_en": "Without actual division, state whether the decimal expansion of 37/1728 will be:",
+    "opts_hi": {
+      "A": "असांत आवर्ती (Non-terminating repeating)",
+      "B": "सांत (Terminating)",
+      "C": "पूर्णांक (Integer)",
+      "D": "असांत अनावर्ती (Non-terminating non-repeating)"
+    },
+    "opts_en": {
+      "A": "Non-terminating repeating",
+      "B": "Terminating",
+      "C": "Integer",
+      "D": "Non-terminating non-repeating"
+    },
+    "ans": "A",
+    "exp_hi": "सरलतम रूप में हर का गुणनखंडन: 1728 = 2⁶ × 3³। अतः दशमलव प्रसार असांत आवर्ती (Non-terminating repeating) होगा।",
+    "exp_en": "Denominator in simplified form: 1728 = 2⁶ × 3³. Thus decimal expansion is Non-terminating repeating.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0863",
+    "question_id": "q_math_c1_t09_0863",
+    "question_group_id": "math_ch01_group_0863",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 17/8 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 17/8 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "2 स्थानों बाद",
+        "B": "3 स्थानों बाद (3 places)",
+        "C": "5 स्थानों बाद",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "2 places",
+        "B": "3 places",
+        "C": "5 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 8 = 2³ में 2 की अधिकतम घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 8 = 2³ में 2 की अधिकतम घात 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 17/8 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 17/8 terminate?",
+    "opts_hi": {
+      "A": "2 स्थानों बाद",
+      "B": "3 स्थानों बाद (3 places)",
+      "C": "5 स्थानों बाद",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "2 places",
+      "B": "3 places",
+      "C": "5 places",
+      "D": "4 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 8 = 2³ में 2 की अधिकतम घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 8 = 2³ में 2 की अधिकतम घात 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0864",
+    "question_id": "q_math_c1_t09_0864",
+    "question_group_id": "math_ch01_group_0864",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 13/125 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 13/125 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "2 स्थानों बाद",
+        "B": "3 स्थानों बाद (3 places)",
+        "C": "4 स्थानों बाद",
+        "D": "5 स्थानों बाद"
+      },
+      "en": {
+        "A": "2 places",
+        "B": "3 places",
+        "C": "4 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 125 = 5³ में 5 की अधिकतम घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 125 = 5³ में 5 की अधिकतम घात 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 13/125 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 13/125 terminate?",
+    "opts_hi": {
+      "A": "2 स्थानों बाद",
+      "B": "3 स्थानों बाद (3 places)",
+      "C": "4 स्थानों बाद",
+      "D": "5 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "2 places",
+      "B": "3 places",
+      "C": "4 places",
+      "D": "5 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 125 = 5³ में 5 की अधिकतम घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 125 = 5³ में 5 की अधिकतम घात 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0865",
+    "question_id": "q_math_c1_t09_0865",
+    "question_group_id": "math_ch01_group_0865",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 7/80 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 7/80 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद (4 places)",
+        "B": "5 स्थानों बाद",
+        "C": "3 स्थानों बाद",
+        "D": "6 स्थानों बाद"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "5 places",
+        "C": "3 places",
+        "D": "6 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 80 = 2⁴ × 5 में 2 की अधिकतम घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 80 = 2⁴ × 5 में 2 की अधिकतम घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 7/80 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 7/80 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद (4 places)",
+      "B": "5 स्थानों बाद",
+      "C": "3 स्थानों बाद",
+      "D": "6 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "5 places",
+      "C": "3 places",
+      "D": "6 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 80 = 2⁴ × 5 में 2 की अधिकतम घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 80 = 2⁴ × 5 में 2 की अधिकतम घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0866",
+    "question_id": "q_math_c1_t09_0866",
+    "question_group_id": "math_ch01_group_0866",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 15/1600 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 15/1600 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "6 स्थानों बाद (6 places)",
+        "B": "7 स्थानों बाद",
+        "C": "5 स्थानों बाद",
+        "D": "8 स्थानों बाद"
+      },
+      "en": {
+        "A": "6 places",
+        "B": "7 places",
+        "C": "5 places",
+        "D": "8 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "6 स्थानों बाद (6 places)",
+      "en": "6 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 15/1600 = 3/320 = 3/(2⁶ × 5) में 2 की अधिकतम घात 6 है। अतः दशमलव प्रसार 6 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 15/1600 = 3/320 = 3/(2⁶ × 5) में 2 की अधिकतम घात 6 है. So decimal expansion terminates after 6 places."
+    },
+    "q_hi": "परिमेय संख्या 15/1600 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 15/1600 terminate?",
+    "opts_hi": {
+      "A": "6 स्थानों बाद (6 places)",
+      "B": "7 स्थानों बाद",
+      "C": "5 स्थानों बाद",
+      "D": "8 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "6 places",
+      "B": "7 places",
+      "C": "5 places",
+      "D": "8 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 15/1600 = 3/320 = 3/(2⁶ × 5) में 2 की अधिकतम घात 6 है। अतः दशमलव प्रसार 6 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 15/1600 = 3/320 = 3/(2⁶ × 5) में 2 की अधिकतम घात 6 है. So decimal expansion terminates after 6 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0867",
+    "question_id": "q_math_c1_t09_0867",
+    "question_group_id": "math_ch01_group_0867",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 23/(2³ × 5²) का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 23/(2³ × 5²) terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "2 स्थानों बाद",
+        "B": "5 स्थानों बाद",
+        "C": "4 स्थानों बाद",
+        "D": "3 स्थानों बाद (3 places)"
+      },
+      "en": {
+        "A": "2 places",
+        "B": "5 places",
+        "C": "4 places",
+        "D": "3 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में अधिकतम घात max(3, 2) = 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, अधिकतम घात max(3, 2) = 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 23/(2³ × 5²) का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 23/(2³ × 5²) terminate?",
+    "opts_hi": {
+      "A": "2 स्थानों बाद",
+      "B": "5 स्थानों बाद",
+      "C": "4 स्थानों बाद",
+      "D": "3 स्थानों बाद (3 places)"
+    },
+    "opts_en": {
+      "A": "2 places",
+      "B": "5 places",
+      "C": "4 places",
+      "D": "3 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में अधिकतम घात max(3, 2) = 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, अधिकतम घात max(3, 2) = 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0868",
+    "question_id": "q_math_c1_t09_0868",
+    "question_group_id": "math_ch01_group_0868",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 13/3125 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 13/3125 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद",
+        "B": "6 स्थानों बाद",
+        "C": "7 स्थानों बाद",
+        "D": "5 स्थानों बाद (5 places)"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "6 places",
+        "C": "7 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "5 स्थानों बाद (5 places)",
+      "en": "5 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 3125 = 5⁵ में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 3125 = 5⁵ में घात 5 है. So decimal expansion terminates after 5 places."
+    },
+    "q_hi": "परिमेय संख्या 13/3125 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 13/3125 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद",
+      "B": "6 स्थानों बाद",
+      "C": "7 स्थानों बाद",
+      "D": "5 स्थानों बाद (5 places)"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "6 places",
+      "C": "7 places",
+      "D": "5 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 3125 = 5⁵ में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 3125 = 5⁵ में घात 5 है. So decimal expansion terminates after 5 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0869",
+    "question_id": "q_math_c1_t09_0869",
+    "question_group_id": "math_ch01_group_0869",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 31/625 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 31/625 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "6 स्थानों बाद",
+        "B": "4 स्थानों बाद (4 places)",
+        "C": "3 स्थानों बाद",
+        "D": "5 स्थानों बाद"
+      },
+      "en": {
+        "A": "6 places",
+        "B": "4 places",
+        "C": "3 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 625 = 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 625 = 5⁴ में घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 31/625 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 31/625 terminate?",
+    "opts_hi": {
+      "A": "6 स्थानों बाद",
+      "B": "4 स्थानों बाद (4 places)",
+      "C": "3 स्थानों बाद",
+      "D": "5 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "6 places",
+      "B": "4 places",
+      "C": "3 places",
+      "D": "5 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 625 = 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 625 = 5⁴ में घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0870",
+    "question_id": "q_math_c1_t09_0870",
+    "question_group_id": "math_ch01_group_0870",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 7/25 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 7/25 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "2 स्थानों बाद (2 places)",
+        "B": "1 स्थानों बाद",
+        "C": "3 स्थानों बाद",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "2 places",
+        "B": "1 places",
+        "C": "3 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "2 स्थानों बाद (2 places)",
+      "en": "2 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 25 = 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 25 = 5² में घात 2 है. So decimal expansion terminates after 2 places."
+    },
+    "q_hi": "परिमेय संख्या 7/25 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 7/25 terminate?",
+    "opts_hi": {
+      "A": "2 स्थानों बाद (2 places)",
+      "B": "1 स्थानों बाद",
+      "C": "3 स्थानों बाद",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "2 places",
+      "B": "1 places",
+      "C": "3 places",
+      "D": "4 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 25 = 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 25 = 5² में घात 2 है. So decimal expansion terminates after 2 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0871",
+    "question_id": "q_math_c1_t09_0871",
+    "question_group_id": "math_ch01_group_0871",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 9/40 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 9/40 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद",
+        "B": "2 स्थानों बाद",
+        "C": "5 स्थानों बाद",
+        "D": "3 स्थानों बाद (3 places)"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "2 places",
+        "C": "5 places",
+        "D": "3 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 40 = 2³ × 5 में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 40 = 2³ × 5 में घात 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 9/40 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 9/40 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद",
+      "B": "2 स्थानों बाद",
+      "C": "5 स्थानों बाद",
+      "D": "3 स्थानों बाद (3 places)"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "2 places",
+      "C": "5 places",
+      "D": "3 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 40 = 2³ × 5 में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 40 = 2³ × 5 में घात 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0872",
+    "question_id": "q_math_c1_t09_0872",
+    "question_group_id": "math_ch01_group_0872",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 11/50 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 11/50 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "3 स्थानों बाद",
+        "B": "4 स्थानों बाद",
+        "C": "2 स्थानों बाद (2 places)",
+        "D": "1 स्थानों बाद"
+      },
+      "en": {
+        "A": "3 places",
+        "B": "4 places",
+        "C": "2 places",
+        "D": "1 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "2 स्थानों बाद (2 places)",
+      "en": "2 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 50 = 2 × 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 50 = 2 × 5² में घात 2 है. So decimal expansion terminates after 2 places."
+    },
+    "q_hi": "परिमेय संख्या 11/50 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 11/50 terminate?",
+    "opts_hi": {
+      "A": "3 स्थानों बाद",
+      "B": "4 स्थानों बाद",
+      "C": "2 स्थानों बाद (2 places)",
+      "D": "1 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "3 places",
+      "B": "4 places",
+      "C": "2 places",
+      "D": "1 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 50 = 2 × 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 50 = 2 × 5² में घात 2 है. So decimal expansion terminates after 2 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0873",
+    "question_id": "q_math_c1_t09_0873",
+    "question_group_id": "math_ch01_group_0873",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 21/250 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 21/250 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "3 स्थानों बाद (3 places)",
+        "B": "2 स्थानों बाद",
+        "C": "4 स्थानों बाद",
+        "D": "5 स्थानों बाद"
+      },
+      "en": {
+        "A": "3 places",
+        "B": "2 places",
+        "C": "4 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 250 = 2 × 5³ में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 250 = 2 × 5³ में घात 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 21/250 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 21/250 terminate?",
+    "opts_hi": {
+      "A": "3 स्थानों बाद (3 places)",
+      "B": "2 स्थानों बाद",
+      "C": "4 स्थानों बाद",
+      "D": "5 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "3 places",
+      "B": "2 places",
+      "C": "4 places",
+      "D": "5 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 250 = 2 × 5³ में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 250 = 2 × 5³ में घात 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0874",
+    "question_id": "q_math_c1_t09_0874",
+    "question_group_id": "math_ch01_group_0874",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 33/500 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 33/500 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद",
+        "B": "3 स्थानों बाद (3 places)",
+        "C": "2 स्थानों बाद",
+        "D": "5 स्थानों बाद"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "3 places",
+        "C": "2 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 500 = 2² × 5³ में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 500 = 2² × 5³ में घात 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 33/500 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 33/500 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद",
+      "B": "3 स्थानों बाद (3 places)",
+      "C": "2 स्थानों बाद",
+      "D": "5 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "3 places",
+      "C": "2 places",
+      "D": "5 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 500 = 2² × 5³ में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 500 = 2² × 5³ में घात 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0875",
+    "question_id": "q_math_c1_t09_0875",
+    "question_group_id": "math_ch01_group_0875",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 27/160 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 27/160 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "7 स्थानों बाद",
+        "B": "6 स्थानों बाद",
+        "C": "5 स्थानों बाद (5 places)",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "7 places",
+        "B": "6 places",
+        "C": "5 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "5 स्थानों बाद (5 places)",
+      "en": "5 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 160 = 2⁵ × 5 में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 160 = 2⁵ × 5 में घात 5 है. So decimal expansion terminates after 5 places."
+    },
+    "q_hi": "परिमेय संख्या 27/160 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 27/160 terminate?",
+    "opts_hi": {
+      "A": "7 स्थानों बाद",
+      "B": "6 स्थानों बाद",
+      "C": "5 स्थानों बाद (5 places)",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "7 places",
+      "B": "6 places",
+      "C": "5 places",
+      "D": "4 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 160 = 2⁵ × 5 में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 160 = 2⁵ × 5 में घात 5 है. So decimal expansion terminates after 5 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0876",
+    "question_id": "q_math_c1_t09_0876",
+    "question_group_id": "math_ch01_group_0876",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 43/640 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 43/640 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "9 स्थानों बाद",
+        "B": "6 स्थानों बाद",
+        "C": "8 स्थानों बाद",
+        "D": "7 स्थानों बाद (7 places)"
+      },
+      "en": {
+        "A": "9 places",
+        "B": "6 places",
+        "C": "8 places",
+        "D": "7 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "7 स्थानों बाद (7 places)",
+      "en": "7 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 640 = 2⁷ × 5 में घात 7 है। अतः दशमलव प्रसार 7 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 640 = 2⁷ × 5 में घात 7 है. So decimal expansion terminates after 7 places."
+    },
+    "q_hi": "परिमेय संख्या 43/640 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 43/640 terminate?",
+    "opts_hi": {
+      "A": "9 स्थानों बाद",
+      "B": "6 स्थानों बाद",
+      "C": "8 स्थानों बाद",
+      "D": "7 स्थानों बाद (7 places)"
+    },
+    "opts_en": {
+      "A": "9 places",
+      "B": "6 places",
+      "C": "8 places",
+      "D": "7 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 640 = 2⁷ × 5 में घात 7 है। अतः दशमलव प्रसार 7 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 640 = 2⁷ × 5 में घात 7 है. So decimal expansion terminates after 7 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0877",
+    "question_id": "q_math_c1_t09_0877",
+    "question_group_id": "math_ch01_group_0877",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 49/800 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 49/800 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "6 स्थानों बाद",
+        "B": "4 स्थानों बाद",
+        "C": "7 स्थानों बाद",
+        "D": "5 स्थानों बाद (5 places)"
+      },
+      "en": {
+        "A": "6 places",
+        "B": "4 places",
+        "C": "7 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "5 स्थानों बाद (5 places)",
+      "en": "5 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 800 = 2⁵ × 5² में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 800 = 2⁵ × 5² में घात 5 है. So decimal expansion terminates after 5 places."
+    },
+    "q_hi": "परिमेय संख्या 49/800 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 49/800 terminate?",
+    "opts_hi": {
+      "A": "6 स्थानों बाद",
+      "B": "4 स्थानों बाद",
+      "C": "7 स्थानों बाद",
+      "D": "5 स्थानों बाद (5 places)"
+    },
+    "opts_en": {
+      "A": "6 places",
+      "B": "4 places",
+      "C": "7 places",
+      "D": "5 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 800 = 2⁵ × 5² में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 800 = 2⁵ × 5² में घात 5 है. So decimal expansion terminates after 5 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0878",
+    "question_id": "q_math_c1_t09_0878",
+    "question_group_id": "math_ch01_group_0878",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 57/1250 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 57/1250 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद (4 places)",
+        "B": "6 स्थानों बाद",
+        "C": "5 स्थानों बाद",
+        "D": "3 स्थानों बाद"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "6 places",
+        "C": "5 places",
+        "D": "3 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 1250 = 2 × 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 1250 = 2 × 5⁴ में घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 57/1250 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 57/1250 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद (4 places)",
+      "B": "6 स्थानों बाद",
+      "C": "5 स्थानों बाद",
+      "D": "3 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "6 places",
+      "C": "5 places",
+      "D": "3 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 1250 = 2 × 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 1250 = 2 × 5⁴ में घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0879",
+    "question_id": "q_math_c1_t09_0879",
+    "question_group_id": "math_ch01_group_0879",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 63/2500 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 63/2500 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "3 स्थानों बाद",
+        "B": "5 स्थानों बाद",
+        "C": "4 स्थानों बाद (4 places)",
+        "D": "6 स्थानों बाद"
+      },
+      "en": {
+        "A": "3 places",
+        "B": "5 places",
+        "C": "4 places",
+        "D": "6 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 2500 = 2² × 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 2500 = 2² × 5⁴ में घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 63/2500 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 63/2500 terminate?",
+    "opts_hi": {
+      "A": "3 स्थानों बाद",
+      "B": "5 स्थानों बाद",
+      "C": "4 स्थानों बाद (4 places)",
+      "D": "6 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "3 places",
+      "B": "5 places",
+      "C": "4 places",
+      "D": "6 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 2500 = 2² × 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 2500 = 2² × 5⁴ में घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0880",
+    "question_id": "q_math_c1_t09_0880",
+    "question_group_id": "math_ch01_group_0880",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 71/5000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 71/5000 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "6 स्थानों बाद",
+        "B": "4 स्थानों बाद (4 places)",
+        "C": "5 स्थानों बाद",
+        "D": "3 स्थानों बाद"
+      },
+      "en": {
+        "A": "6 places",
+        "B": "4 places",
+        "C": "5 places",
+        "D": "3 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 5000 = 2³ × 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 5000 = 2³ × 5⁴ में घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 71/5000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 71/5000 terminate?",
+    "opts_hi": {
+      "A": "6 स्थानों बाद",
+      "B": "4 स्थानों बाद (4 places)",
+      "C": "5 स्थानों बाद",
+      "D": "3 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "6 places",
+      "B": "4 places",
+      "C": "5 places",
+      "D": "3 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 5000 = 2³ × 5⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 5000 = 2³ × 5⁴ में घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0881",
+    "question_id": "q_math_c1_t09_0881",
+    "question_group_id": "math_ch01_group_0881",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 3/16 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 3/16 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद (4 places)",
+        "B": "5 स्थानों बाद",
+        "C": "3 स्थानों बाद",
+        "D": "6 स्थानों बाद"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "5 places",
+        "C": "3 places",
+        "D": "6 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 16 = 2⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 16 = 2⁴ में घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 3/16 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 3/16 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद (4 places)",
+      "B": "5 स्थानों बाद",
+      "C": "3 स्थानों बाद",
+      "D": "6 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "5 places",
+      "C": "3 places",
+      "D": "6 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 16 = 2⁴ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 16 = 2⁴ में घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0882",
+    "question_id": "q_math_c1_t09_0882",
+    "question_group_id": "math_ch01_group_0882",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 5/32 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 5/32 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "7 स्थानों बाद",
+        "B": "6 स्थानों बाद",
+        "C": "5 स्थानों बाद (5 places)",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "7 places",
+        "B": "6 places",
+        "C": "5 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "5 स्थानों बाद (5 places)",
+      "en": "5 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 32 = 2⁵ में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 32 = 2⁵ में घात 5 है. So decimal expansion terminates after 5 places."
+    },
+    "q_hi": "परिमेय संख्या 5/32 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 5/32 terminate?",
+    "opts_hi": {
+      "A": "7 स्थानों बाद",
+      "B": "6 स्थानों बाद",
+      "C": "5 स्थानों बाद (5 places)",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "7 places",
+      "B": "6 places",
+      "C": "5 places",
+      "D": "4 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 32 = 2⁵ में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 32 = 2⁵ में घात 5 है. So decimal expansion terminates after 5 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0883",
+    "question_id": "q_math_c1_t09_0883",
+    "question_group_id": "math_ch01_group_0883",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 7/64 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 7/64 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "7 स्थानों बाद",
+        "B": "8 स्थानों बाद",
+        "C": "5 स्थानों बाद",
+        "D": "6 स्थानों बाद (6 places)"
+      },
+      "en": {
+        "A": "7 places",
+        "B": "8 places",
+        "C": "5 places",
+        "D": "6 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "6 स्थानों बाद (6 places)",
+      "en": "6 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 64 = 2⁶ में घात 6 है। अतः दशमलव प्रसार 6 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 64 = 2⁶ में घात 6 है. So decimal expansion terminates after 6 places."
+    },
+    "q_hi": "परिमेय संख्या 7/64 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 7/64 terminate?",
+    "opts_hi": {
+      "A": "7 स्थानों बाद",
+      "B": "8 स्थानों बाद",
+      "C": "5 स्थानों बाद",
+      "D": "6 स्थानों बाद (6 places)"
+    },
+    "opts_en": {
+      "A": "7 places",
+      "B": "8 places",
+      "C": "5 places",
+      "D": "6 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 64 = 2⁶ में घात 6 है। अतः दशमलव प्रसार 6 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 64 = 2⁶ में घात 6 है. So decimal expansion terminates after 6 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0884",
+    "question_id": "q_math_c1_t09_0884",
+    "question_group_id": "math_ch01_group_0884",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 9/128 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 9/128 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "6 स्थानों बाद",
+        "B": "9 स्थानों बाद",
+        "C": "8 स्थानों बाद",
+        "D": "7 स्थानों बाद (7 places)"
+      },
+      "en": {
+        "A": "6 places",
+        "B": "9 places",
+        "C": "8 places",
+        "D": "7 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "7 स्थानों बाद (7 places)",
+      "en": "7 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 128 = 2⁷ में घात 7 है। अतः दशमलव प्रसार 7 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 128 = 2⁷ में घात 7 है. So decimal expansion terminates after 7 places."
+    },
+    "q_hi": "परिमेय संख्या 9/128 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 9/128 terminate?",
+    "opts_hi": {
+      "A": "6 स्थानों बाद",
+      "B": "9 स्थानों बाद",
+      "C": "8 स्थानों बाद",
+      "D": "7 स्थानों बाद (7 places)"
+    },
+    "opts_en": {
+      "A": "6 places",
+      "B": "9 places",
+      "C": "8 places",
+      "D": "7 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 128 = 2⁷ में घात 7 है। अतः दशमलव प्रसार 7 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 128 = 2⁷ में घात 7 है. So decimal expansion terminates after 7 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0885",
+    "question_id": "q_math_c1_t09_0885",
+    "question_group_id": "math_ch01_group_0885",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 11/256 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 11/256 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "10 स्थानों बाद",
+        "B": "8 स्थानों बाद (8 places)",
+        "C": "7 स्थानों बाद",
+        "D": "9 स्थानों बाद"
+      },
+      "en": {
+        "A": "10 places",
+        "B": "8 places",
+        "C": "7 places",
+        "D": "9 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "8 स्थानों बाद (8 places)",
+      "en": "8 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 256 = 2⁸ में घात 8 है। अतः दशमलव प्रसार 8 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 256 = 2⁸ में घात 8 है. So decimal expansion terminates after 8 places."
+    },
+    "q_hi": "परिमेय संख्या 11/256 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 11/256 terminate?",
+    "opts_hi": {
+      "A": "10 स्थानों बाद",
+      "B": "8 स्थानों बाद (8 places)",
+      "C": "7 स्थानों बाद",
+      "D": "9 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "10 places",
+      "B": "8 places",
+      "C": "7 places",
+      "D": "9 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 256 = 2⁸ में घात 8 है। अतः दशमलव प्रसार 8 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 256 = 2⁸ में घात 8 है. So decimal expansion terminates after 8 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0886",
+    "question_id": "q_math_c1_t09_0886",
+    "question_group_id": "math_ch01_group_0886",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 1/4 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 1/4 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद",
+        "B": "2 स्थानों बाद (2 places)",
+        "C": "1 स्थानों बाद",
+        "D": "3 स्थानों बाद"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "2 places",
+        "C": "1 places",
+        "D": "3 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "2 स्थानों बाद (2 places)",
+      "en": "2 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 4 = 2² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 4 = 2² में घात 2 है. So decimal expansion terminates after 2 places."
+    },
+    "q_hi": "परिमेय संख्या 1/4 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 1/4 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद",
+      "B": "2 स्थानों बाद (2 places)",
+      "C": "1 स्थानों बाद",
+      "D": "3 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "2 places",
+      "C": "1 places",
+      "D": "3 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 4 = 2² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 4 = 2² में घात 2 है. So decimal expansion terminates after 2 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0887",
+    "question_id": "q_math_c1_t09_0887",
+    "question_group_id": "math_ch01_group_0887",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 3/20 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 3/20 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "2 स्थानों बाद (2 places)",
+        "B": "3 स्थानों बाद",
+        "C": "4 स्थानों बाद",
+        "D": "1 स्थानों बाद"
+      },
+      "en": {
+        "A": "2 places",
+        "B": "3 places",
+        "C": "4 places",
+        "D": "1 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "2 स्थानों बाद (2 places)",
+      "en": "2 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 20 = 2² × 5 में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 20 = 2² × 5 में घात 2 है. So decimal expansion terminates after 2 places."
+    },
+    "q_hi": "परिमेय संख्या 3/20 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 3/20 terminate?",
+    "opts_hi": {
+      "A": "2 स्थानों बाद (2 places)",
+      "B": "3 स्थानों बाद",
+      "C": "4 स्थानों बाद",
+      "D": "1 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "2 places",
+      "B": "3 places",
+      "C": "4 places",
+      "D": "1 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 20 = 2² × 5 में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 20 = 2² × 5 में घात 2 है. So decimal expansion terminates after 2 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0888",
+    "question_id": "q_math_c1_t09_0888",
+    "question_group_id": "math_ch01_group_0888",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 9/100 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 9/100 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "1 स्थानों बाद",
+        "B": "3 स्थानों बाद",
+        "C": "2 स्थानों बाद (2 places)",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "1 places",
+        "B": "3 places",
+        "C": "2 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "2 स्थानों बाद (2 places)",
+      "en": "2 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 100 = 2² × 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 100 = 2² × 5² में घात 2 है. So decimal expansion terminates after 2 places."
+    },
+    "q_hi": "परिमेय संख्या 9/100 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 9/100 terminate?",
+    "opts_hi": {
+      "A": "1 स्थानों बाद",
+      "B": "3 स्थानों बाद",
+      "C": "2 स्थानों बाद (2 places)",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "1 places",
+      "B": "3 places",
+      "C": "2 places",
+      "D": "4 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 100 = 2² × 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 100 = 2² × 5² में घात 2 है. So decimal expansion terminates after 2 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0889",
+    "question_id": "q_math_c1_t09_0889",
+    "question_group_id": "math_ch01_group_0889",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 17/200 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 17/200 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "2 स्थानों बाद",
+        "B": "5 स्थानों बाद",
+        "C": "3 स्थानों बाद (3 places)",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "2 places",
+        "B": "5 places",
+        "C": "3 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 200 = 2³ × 5² में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 200 = 2³ × 5² में घात 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 17/200 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 17/200 terminate?",
+    "opts_hi": {
+      "A": "2 स्थानों बाद",
+      "B": "5 स्थानों बाद",
+      "C": "3 स्थानों बाद (3 places)",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "2 places",
+      "B": "5 places",
+      "C": "3 places",
+      "D": "4 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 200 = 2³ × 5² में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 200 = 2³ × 5² में घात 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0890",
+    "question_id": "q_math_c1_t09_0890",
+    "question_group_id": "math_ch01_group_0890",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 37/400 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 37/400 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "5 स्थानों बाद",
+        "B": "3 स्थानों बाद",
+        "C": "4 स्थानों बाद (4 places)",
+        "D": "6 स्थानों बाद"
+      },
+      "en": {
+        "A": "5 places",
+        "B": "3 places",
+        "C": "4 places",
+        "D": "6 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 400 = 2⁴ × 5² में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 400 = 2⁴ × 5² में घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 37/400 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 37/400 terminate?",
+    "opts_hi": {
+      "A": "5 स्थानों बाद",
+      "B": "3 स्थानों बाद",
+      "C": "4 स्थानों बाद (4 places)",
+      "D": "6 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "5 places",
+      "B": "3 places",
+      "C": "4 places",
+      "D": "6 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 400 = 2⁴ × 5² में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 400 = 2⁴ × 5² में घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0891",
+    "question_id": "q_math_c1_t09_0891",
+    "question_group_id": "math_ch01_group_0891",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 19/800 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 19/800 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "5 स्थानों बाद (5 places)",
+        "B": "6 स्थानों बाद",
+        "C": "4 स्थानों बाद",
+        "D": "7 स्थानों बाद"
+      },
+      "en": {
+        "A": "5 places",
+        "B": "6 places",
+        "C": "4 places",
+        "D": "7 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "5 स्थानों बाद (5 places)",
+      "en": "5 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 800 = 2⁵ × 5² में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 800 = 2⁵ × 5² में घात 5 है. So decimal expansion terminates after 5 places."
+    },
+    "q_hi": "परिमेय संख्या 19/800 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 19/800 terminate?",
+    "opts_hi": {
+      "A": "5 स्थानों बाद (5 places)",
+      "B": "6 स्थानों बाद",
+      "C": "4 स्थानों बाद",
+      "D": "7 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "5 places",
+      "B": "6 places",
+      "C": "4 places",
+      "D": "7 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 800 = 2⁵ × 5² में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 800 = 2⁵ × 5² में घात 5 है. So decimal expansion terminates after 5 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0892",
+    "question_id": "q_math_c1_t09_0892",
+    "question_group_id": "math_ch01_group_0892",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 23/1000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 23/1000 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "4 स्थानों बाद",
+        "B": "2 स्थानों बाद",
+        "C": "3 स्थानों बाद (3 places)",
+        "D": "5 स्थानों बाद"
+      },
+      "en": {
+        "A": "4 places",
+        "B": "2 places",
+        "C": "3 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "3 स्थानों बाद (3 places)",
+      "en": "3 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 1000 = 2³ × 5³ में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 1000 = 2³ × 5³ में घात 3 है. So decimal expansion terminates after 3 places."
+    },
+    "q_hi": "परिमेय संख्या 23/1000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 23/1000 terminate?",
+    "opts_hi": {
+      "A": "4 स्थानों बाद",
+      "B": "2 स्थानों बाद",
+      "C": "3 स्थानों बाद (3 places)",
+      "D": "5 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "4 places",
+      "B": "2 places",
+      "C": "3 places",
+      "D": "5 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 1000 = 2³ × 5³ में घात 3 है। अतः दशमलव प्रसार 3 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 1000 = 2³ × 5³ में घात 3 है. So decimal expansion terminates after 3 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0893",
+    "question_id": "q_math_c1_t09_0893",
+    "question_group_id": "math_ch01_group_0893",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 29/2000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 29/2000 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "3 स्थानों बाद",
+        "B": "4 स्थानों बाद (4 places)",
+        "C": "6 स्थानों बाद",
+        "D": "5 स्थानों बाद"
+      },
+      "en": {
+        "A": "3 places",
+        "B": "4 places",
+        "C": "6 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "4 स्थानों बाद (4 places)",
+      "en": "4 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 2000 = 2⁴ × 5³ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 2000 = 2⁴ × 5³ में घात 4 है. So decimal expansion terminates after 4 places."
+    },
+    "q_hi": "परिमेय संख्या 29/2000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 29/2000 terminate?",
+    "opts_hi": {
+      "A": "3 स्थानों बाद",
+      "B": "4 स्थानों बाद (4 places)",
+      "C": "6 स्थानों बाद",
+      "D": "5 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "3 places",
+      "B": "4 places",
+      "C": "6 places",
+      "D": "5 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 2000 = 2⁴ × 5³ में घात 4 है। अतः दशमलव प्रसार 4 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 2000 = 2⁴ × 5³ में घात 4 है. So decimal expansion terminates after 4 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0894",
+    "question_id": "q_math_c1_t09_0894",
+    "question_group_id": "math_ch01_group_0894",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 31/4000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 31/4000 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "6 स्थानों बाद",
+        "B": "7 स्थानों बाद",
+        "C": "4 स्थानों बाद",
+        "D": "5 स्थानों बाद (5 places)"
+      },
+      "en": {
+        "A": "6 places",
+        "B": "7 places",
+        "C": "4 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "5 स्थानों बाद (5 places)",
+      "en": "5 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 4000 = 2⁵ × 5³ में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 4000 = 2⁵ × 5³ में घात 5 है. So decimal expansion terminates after 5 places."
+    },
+    "q_hi": "परिमेय संख्या 31/4000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 31/4000 terminate?",
+    "opts_hi": {
+      "A": "6 स्थानों बाद",
+      "B": "7 स्थानों बाद",
+      "C": "4 स्थानों बाद",
+      "D": "5 स्थानों बाद (5 places)"
+    },
+    "opts_en": {
+      "A": "6 places",
+      "B": "7 places",
+      "C": "4 places",
+      "D": "5 places"
+    },
+    "ans": "D",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 4000 = 2⁵ × 5³ में घात 5 है। अतः दशमलव प्रसार 5 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 4000 = 2⁵ × 5³ में घात 5 है. So decimal expansion terminates after 5 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0895",
+    "question_id": "q_math_c1_t09_0895",
+    "question_group_id": "math_ch01_group_0895",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 33/8000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 33/8000 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "8 स्थानों बाद",
+        "B": "6 स्थानों बाद (6 places)",
+        "C": "7 स्थानों बाद",
+        "D": "5 स्थानों बाद"
+      },
+      "en": {
+        "A": "8 places",
+        "B": "6 places",
+        "C": "7 places",
+        "D": "5 places"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "6 स्थानों बाद (6 places)",
+      "en": "6 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 8000 = 2⁶ × 5³ में घात 6 है। अतः दशमलव प्रसार 6 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 8000 = 2⁶ × 5³ में घात 6 है. So decimal expansion terminates after 6 places."
+    },
+    "q_hi": "परिमेय संख्या 33/8000 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 33/8000 terminate?",
+    "opts_hi": {
+      "A": "8 स्थानों बाद",
+      "B": "6 स्थानों बाद (6 places)",
+      "C": "7 स्थानों बाद",
+      "D": "5 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "8 places",
+      "B": "6 places",
+      "C": "7 places",
+      "D": "5 places"
+    },
+    "ans": "B",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 8000 = 2⁶ × 5³ में घात 6 है। अतः दशमलव प्रसार 6 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 8000 = 2⁶ × 5³ में घात 6 है. So decimal expansion terminates after 6 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0896",
+    "question_id": "q_math_c1_t09_0896",
+    "question_group_id": "math_ch01_group_0896",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 7/50 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 7/50 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "1 स्थानों बाद",
+        "B": "3 स्थानों बाद",
+        "C": "2 स्थानों बाद (2 places)",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "1 places",
+        "B": "3 places",
+        "C": "2 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "2 स्थानों बाद (2 places)",
+      "en": "2 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 50 = 2 × 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 50 = 2 × 5² में घात 2 है. So decimal expansion terminates after 2 places."
+    },
+    "q_hi": "परिमेय संख्या 7/50 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 7/50 terminate?",
+    "opts_hi": {
+      "A": "1 स्थानों बाद",
+      "B": "3 स्थानों बाद",
+      "C": "2 स्थानों बाद (2 places)",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "1 places",
+      "B": "3 places",
+      "C": "2 places",
+      "D": "4 places"
+    },
+    "ans": "C",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 50 = 2 × 5² में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 50 = 2 × 5² में घात 2 है. So decimal expansion terminates after 2 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0897",
+    "question_id": "q_math_c1_t09_0897",
+    "question_group_id": "math_ch01_group_0897",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "परिमेय संख्या 13/20 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+      "en": "After how many decimal places will the decimal expansion of 13/20 terminate?"
+    },
+    "options": {
+      "hi": {
+        "A": "2 स्थानों बाद (2 places)",
+        "B": "3 स्थानों बाद",
+        "C": "1 स्थानों बाद",
+        "D": "4 स्थानों बाद"
+      },
+      "en": {
+        "A": "2 places",
+        "B": "3 places",
+        "C": "1 places",
+        "D": "4 places"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "2 स्थानों बाद (2 places)",
+      "en": "2 places"
+    },
+    "explanation": {
+      "hi": "हर के अभाज्य गुणनखंडन में 20 = 2² × 5 में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+      "en": "In denominator prime factorization, 20 = 2² × 5 में घात 2 है. So decimal expansion terminates after 2 places."
+    },
+    "q_hi": "परिमेय संख्या 13/20 का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+    "q_en": "After how many decimal places will the decimal expansion of 13/20 terminate?",
+    "opts_hi": {
+      "A": "2 स्थानों बाद (2 places)",
+      "B": "3 स्थानों बाद",
+      "C": "1 स्थानों बाद",
+      "D": "4 स्थानों बाद"
+    },
+    "opts_en": {
+      "A": "2 places",
+      "B": "3 places",
+      "C": "1 places",
+      "D": "4 places"
+    },
+    "ans": "A",
+    "exp_hi": "हर के अभाज्य गुणनखंडन में 20 = 2² × 5 में घात 2 है। अतः दशमलव प्रसार 2 स्थानों बाद सांत होगा।",
+    "exp_en": "In denominator prime factorization, 20 = 2² × 5 में घात 2 है. So decimal expansion terminates after 2 places.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0898",
+    "question_id": "q_math_c1_t09_0898",
+    "question_group_id": "math_ch01_group_0898",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 3/8 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 3/8?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.375",
+        "B": "0.35",
+        "C": "0.385",
+        "D": "0.325"
+      },
+      "en": {
+        "A": "0.375",
+        "B": "0.35",
+        "C": "0.385",
+        "D": "0.325"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.375",
+      "en": "0.375"
+    },
+    "explanation": {
+      "hi": "3/8 को दशमलव में बदलने पर 0.375 प्राप्त होता है।",
+      "en": "Converting 3/8 to decimal yields 0.375."
+    },
+    "q_hi": "भिन्न 3/8 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 3/8?",
+    "opts_hi": {
+      "A": "0.375",
+      "B": "0.35",
+      "C": "0.385",
+      "D": "0.325"
+    },
+    "opts_en": {
+      "A": "0.375",
+      "B": "0.35",
+      "C": "0.385",
+      "D": "0.325"
+    },
+    "ans": "A",
+    "exp_hi": "3/8 को दशमलव में बदलने पर 0.375 प्राप्त होता है।",
+    "exp_en": "Converting 3/8 to decimal yields 0.375.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0899",
+    "question_id": "q_math_c1_t09_0899",
+    "question_group_id": "math_ch01_group_0899",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 7/8 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 7/8?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.885",
+        "B": "0.825",
+        "C": "0.85",
+        "D": "0.875"
+      },
+      "en": {
+        "A": "0.885",
+        "B": "0.825",
+        "C": "0.85",
+        "D": "0.875"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.875",
+      "en": "0.875"
+    },
+    "explanation": {
+      "hi": "7/8 को दशमलव में बदलने पर 0.875 प्राप्त होता है।",
+      "en": "Converting 7/8 to decimal yields 0.875."
+    },
+    "q_hi": "भिन्न 7/8 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 7/8?",
+    "opts_hi": {
+      "A": "0.885",
+      "B": "0.825",
+      "C": "0.85",
+      "D": "0.875"
+    },
+    "opts_en": {
+      "A": "0.885",
+      "B": "0.825",
+      "C": "0.85",
+      "D": "0.875"
+    },
+    "ans": "D",
+    "exp_hi": "7/8 को दशमलव में बदलने पर 0.875 प्राप्त होता है।",
+    "exp_en": "Converting 7/8 to decimal yields 0.875.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0900",
+    "question_id": "q_math_c1_t09_0900",
+    "question_group_id": "math_ch01_group_0900",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 1/8 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 1/8?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.15",
+        "B": "0.125",
+        "C": "0.115",
+        "D": "0.135"
+      },
+      "en": {
+        "A": "0.15",
+        "B": "0.125",
+        "C": "0.115",
+        "D": "0.135"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.125",
+      "en": "0.125"
+    },
+    "explanation": {
+      "hi": "1/8 को दशमलव में बदलने पर 0.125 प्राप्त होता है।",
+      "en": "Converting 1/8 to decimal yields 0.125."
+    },
+    "q_hi": "भिन्न 1/8 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 1/8?",
+    "opts_hi": {
+      "A": "0.15",
+      "B": "0.125",
+      "C": "0.115",
+      "D": "0.135"
+    },
+    "opts_en": {
+      "A": "0.15",
+      "B": "0.125",
+      "C": "0.115",
+      "D": "0.135"
+    },
+    "ans": "B",
+    "exp_hi": "1/8 को दशमलव में बदलने पर 0.125 प्राप्त होता है।",
+    "exp_en": "Converting 1/8 to decimal yields 0.125.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0901",
+    "question_id": "q_math_c1_t09_0901",
+    "question_group_id": "math_ch01_group_0901",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 5/8 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 5/8?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.65",
+        "B": "0.625",
+        "C": "0.635",
+        "D": "0.615"
+      },
+      "en": {
+        "A": "0.65",
+        "B": "0.625",
+        "C": "0.635",
+        "D": "0.615"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.625",
+      "en": "0.625"
+    },
+    "explanation": {
+      "hi": "5/8 को दशमलव में बदलने पर 0.625 प्राप्त होता है।",
+      "en": "Converting 5/8 to decimal yields 0.625."
+    },
+    "q_hi": "भिन्न 5/8 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 5/8?",
+    "opts_hi": {
+      "A": "0.65",
+      "B": "0.625",
+      "C": "0.635",
+      "D": "0.615"
+    },
+    "opts_en": {
+      "A": "0.65",
+      "B": "0.625",
+      "C": "0.635",
+      "D": "0.615"
+    },
+    "ans": "B",
+    "exp_hi": "5/8 को दशमलव में बदलने पर 0.625 प्राप्त होता है।",
+    "exp_en": "Converting 5/8 to decimal yields 0.625.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0902",
+    "question_id": "q_math_c1_t09_0902",
+    "question_group_id": "math_ch01_group_0902",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 7/16 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 7/16?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.45",
+        "B": "0.4375",
+        "C": "0.4125",
+        "D": "0.425"
+      },
+      "en": {
+        "A": "0.45",
+        "B": "0.4375",
+        "C": "0.4125",
+        "D": "0.425"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.4375",
+      "en": "0.4375"
+    },
+    "explanation": {
+      "hi": "7/16 को दशमलव में बदलने पर 0.4375 प्राप्त होता है।",
+      "en": "Converting 7/16 to decimal yields 0.4375."
+    },
+    "q_hi": "भिन्न 7/16 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 7/16?",
+    "opts_hi": {
+      "A": "0.45",
+      "B": "0.4375",
+      "C": "0.4125",
+      "D": "0.425"
+    },
+    "opts_en": {
+      "A": "0.45",
+      "B": "0.4375",
+      "C": "0.4125",
+      "D": "0.425"
+    },
+    "ans": "B",
+    "exp_hi": "7/16 को दशमलव में बदलने पर 0.4375 प्राप्त होता है।",
+    "exp_en": "Converting 7/16 to decimal yields 0.4375.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0903",
+    "question_id": "q_math_c1_t09_0903",
+    "question_group_id": "math_ch01_group_0903",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 9/16 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 9/16?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.575",
+        "B": "0.5625",
+        "C": "0.5375",
+        "D": "0.55"
+      },
+      "en": {
+        "A": "0.575",
+        "B": "0.5625",
+        "C": "0.5375",
+        "D": "0.55"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.5625",
+      "en": "0.5625"
+    },
+    "explanation": {
+      "hi": "9/16 को दशमलव में बदलने पर 0.5625 प्राप्त होता है।",
+      "en": "Converting 9/16 to decimal yields 0.5625."
+    },
+    "q_hi": "भिन्न 9/16 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 9/16?",
+    "opts_hi": {
+      "A": "0.575",
+      "B": "0.5625",
+      "C": "0.5375",
+      "D": "0.55"
+    },
+    "opts_en": {
+      "A": "0.575",
+      "B": "0.5625",
+      "C": "0.5375",
+      "D": "0.55"
+    },
+    "ans": "B",
+    "exp_hi": "9/16 को दशमलव में बदलने पर 0.5625 प्राप्त होता है।",
+    "exp_en": "Converting 9/16 to decimal yields 0.5625.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0904",
+    "question_id": "q_math_c1_t09_0904",
+    "question_group_id": "math_ch01_group_0904",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 11/16 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 11/16?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.65",
+        "B": "0.6875",
+        "C": "0.695",
+        "D": "0.675"
+      },
+      "en": {
+        "A": "0.65",
+        "B": "0.6875",
+        "C": "0.695",
+        "D": "0.675"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.6875",
+      "en": "0.6875"
+    },
+    "explanation": {
+      "hi": "11/16 को दशमलव में बदलने पर 0.6875 प्राप्त होता है।",
+      "en": "Converting 11/16 to decimal yields 0.6875."
+    },
+    "q_hi": "भिन्न 11/16 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 11/16?",
+    "opts_hi": {
+      "A": "0.65",
+      "B": "0.6875",
+      "C": "0.695",
+      "D": "0.675"
+    },
+    "opts_en": {
+      "A": "0.65",
+      "B": "0.6875",
+      "C": "0.695",
+      "D": "0.675"
+    },
+    "ans": "B",
+    "exp_hi": "11/16 को दशमलव में बदलने पर 0.6875 प्राप्त होता है।",
+    "exp_en": "Converting 11/16 to decimal yields 0.6875.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0905",
+    "question_id": "q_math_c1_t09_0905",
+    "question_group_id": "math_ch01_group_0905",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 13/16 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 13/16?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.85",
+        "B": "0.8125",
+        "C": "0.825",
+        "D": "0.805"
+      },
+      "en": {
+        "A": "0.85",
+        "B": "0.8125",
+        "C": "0.825",
+        "D": "0.805"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.8125",
+      "en": "0.8125"
+    },
+    "explanation": {
+      "hi": "13/16 को दशमलव में बदलने पर 0.8125 प्राप्त होता है।",
+      "en": "Converting 13/16 to decimal yields 0.8125."
+    },
+    "q_hi": "भिन्न 13/16 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 13/16?",
+    "opts_hi": {
+      "A": "0.85",
+      "B": "0.8125",
+      "C": "0.825",
+      "D": "0.805"
+    },
+    "opts_en": {
+      "A": "0.85",
+      "B": "0.8125",
+      "C": "0.825",
+      "D": "0.805"
+    },
+    "ans": "B",
+    "exp_hi": "13/16 को दशमलव में बदलने पर 0.8125 प्राप्त होता है।",
+    "exp_en": "Converting 13/16 to decimal yields 0.8125.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0906",
+    "question_id": "q_math_c1_t09_0906",
+    "question_group_id": "math_ch01_group_0906",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 1/16 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 1/16?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.075",
+        "B": "0.0625",
+        "C": "0.05",
+        "D": "0.065"
+      },
+      "en": {
+        "A": "0.075",
+        "B": "0.0625",
+        "C": "0.05",
+        "D": "0.065"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.0625",
+      "en": "0.0625"
+    },
+    "explanation": {
+      "hi": "1/16 को दशमलव में बदलने पर 0.0625 प्राप्त होता है।",
+      "en": "Converting 1/16 to decimal yields 0.0625."
+    },
+    "q_hi": "भिन्न 1/16 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 1/16?",
+    "opts_hi": {
+      "A": "0.075",
+      "B": "0.0625",
+      "C": "0.05",
+      "D": "0.065"
+    },
+    "opts_en": {
+      "A": "0.075",
+      "B": "0.0625",
+      "C": "0.05",
+      "D": "0.065"
+    },
+    "ans": "B",
+    "exp_hi": "1/16 को दशमलव में बदलने पर 0.0625 प्राप्त होता है।",
+    "exp_en": "Converting 1/16 to decimal yields 0.0625.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0907",
+    "question_id": "q_math_c1_t09_0907",
+    "question_group_id": "math_ch01_group_0907",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 3/16 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 3/16?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.175",
+        "B": "0.1875",
+        "C": "0.195",
+        "D": "0.165"
+      },
+      "en": {
+        "A": "0.175",
+        "B": "0.1875",
+        "C": "0.195",
+        "D": "0.165"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.1875",
+      "en": "0.1875"
+    },
+    "explanation": {
+      "hi": "3/16 को दशमलव में बदलने पर 0.1875 प्राप्त होता है।",
+      "en": "Converting 3/16 to decimal yields 0.1875."
+    },
+    "q_hi": "भिन्न 3/16 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 3/16?",
+    "opts_hi": {
+      "A": "0.175",
+      "B": "0.1875",
+      "C": "0.195",
+      "D": "0.165"
+    },
+    "opts_en": {
+      "A": "0.175",
+      "B": "0.1875",
+      "C": "0.195",
+      "D": "0.165"
+    },
+    "ans": "B",
+    "exp_hi": "3/16 को दशमलव में बदलने पर 0.1875 प्राप्त होता है।",
+    "exp_en": "Converting 3/16 to decimal yields 0.1875.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0908",
+    "question_id": "q_math_c1_t09_0908",
+    "question_group_id": "math_ch01_group_0908",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 1/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 1/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.04",
+        "B": "0.004",
+        "C": "0.025",
+        "D": "0.4"
+      },
+      "en": {
+        "A": "0.04",
+        "B": "0.004",
+        "C": "0.025",
+        "D": "0.4"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.04",
+      "en": "0.04"
+    },
+    "explanation": {
+      "hi": "1/25 को दशमलव में बदलने पर 0.04 प्राप्त होता है।",
+      "en": "Converting 1/25 to decimal yields 0.04."
+    },
+    "q_hi": "भिन्न 1/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 1/25?",
+    "opts_hi": {
+      "A": "0.04",
+      "B": "0.004",
+      "C": "0.025",
+      "D": "0.4"
+    },
+    "opts_en": {
+      "A": "0.04",
+      "B": "0.004",
+      "C": "0.025",
+      "D": "0.4"
+    },
+    "ans": "A",
+    "exp_hi": "1/25 को दशमलव में बदलने पर 0.04 प्राप्त होता है।",
+    "exp_en": "Converting 1/25 to decimal yields 0.04.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0909",
+    "question_id": "q_math_c1_t09_0909",
+    "question_group_id": "math_ch01_group_0909",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 2/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 2/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.008",
+        "B": "0.05",
+        "C": "0.08",
+        "D": "0.8"
+      },
+      "en": {
+        "A": "0.008",
+        "B": "0.05",
+        "C": "0.08",
+        "D": "0.8"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.08",
+      "en": "0.08"
+    },
+    "explanation": {
+      "hi": "2/25 को दशमलव में बदलने पर 0.08 प्राप्त होता है।",
+      "en": "Converting 2/25 to decimal yields 0.08."
+    },
+    "q_hi": "भिन्न 2/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 2/25?",
+    "opts_hi": {
+      "A": "0.008",
+      "B": "0.05",
+      "C": "0.08",
+      "D": "0.8"
+    },
+    "opts_en": {
+      "A": "0.008",
+      "B": "0.05",
+      "C": "0.08",
+      "D": "0.8"
+    },
+    "ans": "C",
+    "exp_hi": "2/25 को दशमलव में बदलने पर 0.08 प्राप्त होता है।",
+    "exp_en": "Converting 2/25 to decimal yields 0.08.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0910",
+    "question_id": "q_math_c1_t09_0910",
+    "question_group_id": "math_ch01_group_0910",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 3/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 3/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.012",
+        "B": "0.12",
+        "C": "1.2",
+        "D": "0.15"
+      },
+      "en": {
+        "A": "0.012",
+        "B": "0.12",
+        "C": "1.2",
+        "D": "0.15"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.12",
+      "en": "0.12"
+    },
+    "explanation": {
+      "hi": "3/25 को दशमलव में बदलने पर 0.12 प्राप्त होता है।",
+      "en": "Converting 3/25 to decimal yields 0.12."
+    },
+    "q_hi": "भिन्न 3/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 3/25?",
+    "opts_hi": {
+      "A": "0.012",
+      "B": "0.12",
+      "C": "1.2",
+      "D": "0.15"
+    },
+    "opts_en": {
+      "A": "0.012",
+      "B": "0.12",
+      "C": "1.2",
+      "D": "0.15"
+    },
+    "ans": "B",
+    "exp_hi": "3/25 को दशमलव में बदलने पर 0.12 प्राप्त होता है।",
+    "exp_en": "Converting 3/25 to decimal yields 0.12.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0911",
+    "question_id": "q_math_c1_t09_0911",
+    "question_group_id": "math_ch01_group_0911",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 4/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 4/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.2",
+        "B": "0.016",
+        "C": "0.16",
+        "D": "1.6"
+      },
+      "en": {
+        "A": "0.2",
+        "B": "0.016",
+        "C": "0.16",
+        "D": "1.6"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.16",
+      "en": "0.16"
+    },
+    "explanation": {
+      "hi": "4/25 को दशमलव में बदलने पर 0.16 प्राप्त होता है।",
+      "en": "Converting 4/25 to decimal yields 0.16."
+    },
+    "q_hi": "भिन्न 4/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 4/25?",
+    "opts_hi": {
+      "A": "0.2",
+      "B": "0.016",
+      "C": "0.16",
+      "D": "1.6"
+    },
+    "opts_en": {
+      "A": "0.2",
+      "B": "0.016",
+      "C": "0.16",
+      "D": "1.6"
+    },
+    "ans": "C",
+    "exp_hi": "4/25 को दशमलव में बदलने पर 0.16 प्राप्त होता है।",
+    "exp_en": "Converting 4/25 to decimal yields 0.16.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0912",
+    "question_id": "q_math_c1_t09_0912",
+    "question_group_id": "math_ch01_group_0912",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 6/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 6/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "2.4",
+        "B": "0.25",
+        "C": "0.24",
+        "D": "0.024"
+      },
+      "en": {
+        "A": "2.4",
+        "B": "0.25",
+        "C": "0.24",
+        "D": "0.024"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.24",
+      "en": "0.24"
+    },
+    "explanation": {
+      "hi": "6/25 को दशमलव में बदलने पर 0.24 प्राप्त होता है।",
+      "en": "Converting 6/25 to decimal yields 0.24."
+    },
+    "q_hi": "भिन्न 6/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 6/25?",
+    "opts_hi": {
+      "A": "2.4",
+      "B": "0.25",
+      "C": "0.24",
+      "D": "0.024"
+    },
+    "opts_en": {
+      "A": "2.4",
+      "B": "0.25",
+      "C": "0.24",
+      "D": "0.024"
+    },
+    "ans": "C",
+    "exp_hi": "6/25 को दशमलव में बदलने पर 0.24 प्राप्त होता है।",
+    "exp_en": "Converting 6/25 to decimal yields 0.24.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0913",
+    "question_id": "q_math_c1_t09_0913",
+    "question_group_id": "math_ch01_group_0913",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 8/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 8/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.32",
+        "B": "3.2",
+        "C": "0.032",
+        "D": "0.35"
+      },
+      "en": {
+        "A": "0.32",
+        "B": "3.2",
+        "C": "0.032",
+        "D": "0.35"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.32",
+      "en": "0.32"
+    },
+    "explanation": {
+      "hi": "8/25 को दशमलव में बदलने पर 0.32 प्राप्त होता है।",
+      "en": "Converting 8/25 to decimal yields 0.32."
+    },
+    "q_hi": "भिन्न 8/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 8/25?",
+    "opts_hi": {
+      "A": "0.32",
+      "B": "3.2",
+      "C": "0.032",
+      "D": "0.35"
+    },
+    "opts_en": {
+      "A": "0.32",
+      "B": "3.2",
+      "C": "0.032",
+      "D": "0.35"
+    },
+    "ans": "A",
+    "exp_hi": "8/25 को दशमलव में बदलने पर 0.32 प्राप्त होता है।",
+    "exp_en": "Converting 8/25 to decimal yields 0.32.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0914",
+    "question_id": "q_math_c1_t09_0914",
+    "question_group_id": "math_ch01_group_0914",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 9/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 9/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.36",
+        "B": "0.036",
+        "C": "3.6",
+        "D": "0.4"
+      },
+      "en": {
+        "A": "0.36",
+        "B": "0.036",
+        "C": "3.6",
+        "D": "0.4"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.36",
+      "en": "0.36"
+    },
+    "explanation": {
+      "hi": "9/25 को दशमलव में बदलने पर 0.36 प्राप्त होता है।",
+      "en": "Converting 9/25 to decimal yields 0.36."
+    },
+    "q_hi": "भिन्न 9/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 9/25?",
+    "opts_hi": {
+      "A": "0.36",
+      "B": "0.036",
+      "C": "3.6",
+      "D": "0.4"
+    },
+    "opts_en": {
+      "A": "0.36",
+      "B": "0.036",
+      "C": "3.6",
+      "D": "0.4"
+    },
+    "ans": "A",
+    "exp_hi": "9/25 को दशमलव में बदलने पर 0.36 प्राप्त होता है।",
+    "exp_en": "Converting 9/25 to decimal yields 0.36.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0915",
+    "question_id": "q_math_c1_t09_0915",
+    "question_group_id": "math_ch01_group_0915",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 11/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 11/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.044",
+        "B": "4.4",
+        "C": "0.44",
+        "D": "0.45"
+      },
+      "en": {
+        "A": "0.044",
+        "B": "4.4",
+        "C": "0.44",
+        "D": "0.45"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.44",
+      "en": "0.44"
+    },
+    "explanation": {
+      "hi": "11/25 को दशमलव में बदलने पर 0.44 प्राप्त होता है।",
+      "en": "Converting 11/25 to decimal yields 0.44."
+    },
+    "q_hi": "भिन्न 11/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 11/25?",
+    "opts_hi": {
+      "A": "0.044",
+      "B": "4.4",
+      "C": "0.44",
+      "D": "0.45"
+    },
+    "opts_en": {
+      "A": "0.044",
+      "B": "4.4",
+      "C": "0.44",
+      "D": "0.45"
+    },
+    "ans": "C",
+    "exp_hi": "11/25 को दशमलव में बदलने पर 0.44 प्राप्त होता है।",
+    "exp_en": "Converting 11/25 to decimal yields 0.44.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0916",
+    "question_id": "q_math_c1_t09_0916",
+    "question_group_id": "math_ch01_group_0916",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 12/25 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 12/25?"
+    },
+    "options": {
+      "hi": {
+        "A": "4.8",
+        "B": "0.048",
+        "C": "0.5",
+        "D": "0.48"
+      },
+      "en": {
+        "A": "4.8",
+        "B": "0.048",
+        "C": "0.5",
+        "D": "0.48"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.48",
+      "en": "0.48"
+    },
+    "explanation": {
+      "hi": "12/25 को दशमलव में बदलने पर 0.48 प्राप्त होता है।",
+      "en": "Converting 12/25 to decimal yields 0.48."
+    },
+    "q_hi": "भिन्न 12/25 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 12/25?",
+    "opts_hi": {
+      "A": "4.8",
+      "B": "0.048",
+      "C": "0.5",
+      "D": "0.48"
+    },
+    "opts_en": {
+      "A": "4.8",
+      "B": "0.048",
+      "C": "0.5",
+      "D": "0.48"
+    },
+    "ans": "D",
+    "exp_hi": "12/25 को दशमलव में बदलने पर 0.48 प्राप्त होता है।",
+    "exp_en": "Converting 12/25 to decimal yields 0.48.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0917",
+    "question_id": "q_math_c1_t09_0917",
+    "question_group_id": "math_ch01_group_0917",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 2/125 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 2/125?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.0016",
+        "B": "0.02",
+        "C": "0.16",
+        "D": "0.016"
+      },
+      "en": {
+        "A": "0.0016",
+        "B": "0.02",
+        "C": "0.16",
+        "D": "0.016"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.016",
+      "en": "0.016"
+    },
+    "explanation": {
+      "hi": "2/125 को दशमलव में बदलने पर 0.016 प्राप्त होता है।",
+      "en": "Converting 2/125 to decimal yields 0.016."
+    },
+    "q_hi": "भिन्न 2/125 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 2/125?",
+    "opts_hi": {
+      "A": "0.0016",
+      "B": "0.02",
+      "C": "0.16",
+      "D": "0.016"
+    },
+    "opts_en": {
+      "A": "0.0016",
+      "B": "0.02",
+      "C": "0.16",
+      "D": "0.016"
+    },
+    "ans": "D",
+    "exp_hi": "2/125 को दशमलव में बदलने पर 0.016 प्राप्त होता है।",
+    "exp_en": "Converting 2/125 to decimal yields 0.016.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0918",
+    "question_id": "q_math_c1_t09_0918",
+    "question_group_id": "math_ch01_group_0918",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 3/125 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 3/125?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.03",
+        "B": "0.24",
+        "C": "0.024",
+        "D": "0.0024"
+      },
+      "en": {
+        "A": "0.03",
+        "B": "0.24",
+        "C": "0.024",
+        "D": "0.0024"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.024",
+      "en": "0.024"
+    },
+    "explanation": {
+      "hi": "3/125 को दशमलव में बदलने पर 0.024 प्राप्त होता है।",
+      "en": "Converting 3/125 to decimal yields 0.024."
+    },
+    "q_hi": "भिन्न 3/125 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 3/125?",
+    "opts_hi": {
+      "A": "0.03",
+      "B": "0.24",
+      "C": "0.024",
+      "D": "0.0024"
+    },
+    "opts_en": {
+      "A": "0.03",
+      "B": "0.24",
+      "C": "0.024",
+      "D": "0.0024"
+    },
+    "ans": "C",
+    "exp_hi": "3/125 को दशमलव में बदलने पर 0.024 प्राप्त होता है।",
+    "exp_en": "Converting 3/125 to decimal yields 0.024.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0919",
+    "question_id": "q_math_c1_t09_0919",
+    "question_group_id": "math_ch01_group_0919",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 4/125 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 4/125?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.32",
+        "B": "0.032",
+        "C": "0.0032",
+        "D": "0.04"
+      },
+      "en": {
+        "A": "0.32",
+        "B": "0.032",
+        "C": "0.0032",
+        "D": "0.04"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.032",
+      "en": "0.032"
+    },
+    "explanation": {
+      "hi": "4/125 को दशमलव में बदलने पर 0.032 प्राप्त होता है।",
+      "en": "Converting 4/125 to decimal yields 0.032."
+    },
+    "q_hi": "भिन्न 4/125 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 4/125?",
+    "opts_hi": {
+      "A": "0.32",
+      "B": "0.032",
+      "C": "0.0032",
+      "D": "0.04"
+    },
+    "opts_en": {
+      "A": "0.32",
+      "B": "0.032",
+      "C": "0.0032",
+      "D": "0.04"
+    },
+    "ans": "B",
+    "exp_hi": "4/125 को दशमलव में बदलने पर 0.032 प्राप्त होता है।",
+    "exp_en": "Converting 4/125 to decimal yields 0.032.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0920",
+    "question_id": "q_math_c1_t09_0920",
+    "question_group_id": "math_ch01_group_0920",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 6/125 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 6/125?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.05",
+        "B": "0.0048",
+        "C": "0.48",
+        "D": "0.048"
+      },
+      "en": {
+        "A": "0.05",
+        "B": "0.0048",
+        "C": "0.48",
+        "D": "0.048"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.048",
+      "en": "0.048"
+    },
+    "explanation": {
+      "hi": "6/125 को दशमलव में बदलने पर 0.048 प्राप्त होता है।",
+      "en": "Converting 6/125 to decimal yields 0.048."
+    },
+    "q_hi": "भिन्न 6/125 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 6/125?",
+    "opts_hi": {
+      "A": "0.05",
+      "B": "0.0048",
+      "C": "0.48",
+      "D": "0.048"
+    },
+    "opts_en": {
+      "A": "0.05",
+      "B": "0.0048",
+      "C": "0.48",
+      "D": "0.048"
+    },
+    "ans": "D",
+    "exp_hi": "6/125 को दशमलव में बदलने पर 0.048 प्राप्त होता है।",
+    "exp_en": "Converting 6/125 to decimal yields 0.048.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0921",
+    "question_id": "q_math_c1_t09_0921",
+    "question_group_id": "math_ch01_group_0921",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 7/125 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 7/125?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.06",
+        "B": "0.56",
+        "C": "0.0056",
+        "D": "0.056"
+      },
+      "en": {
+        "A": "0.06",
+        "B": "0.56",
+        "C": "0.0056",
+        "D": "0.056"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.056",
+      "en": "0.056"
+    },
+    "explanation": {
+      "hi": "7/125 को दशमलव में बदलने पर 0.056 प्राप्त होता है।",
+      "en": "Converting 7/125 to decimal yields 0.056."
+    },
+    "q_hi": "भिन्न 7/125 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 7/125?",
+    "opts_hi": {
+      "A": "0.06",
+      "B": "0.56",
+      "C": "0.0056",
+      "D": "0.056"
+    },
+    "opts_en": {
+      "A": "0.06",
+      "B": "0.56",
+      "C": "0.0056",
+      "D": "0.056"
+    },
+    "ans": "D",
+    "exp_hi": "7/125 को दशमलव में बदलने पर 0.056 प्राप्त होता है।",
+    "exp_en": "Converting 7/125 to decimal yields 0.056.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0922",
+    "question_id": "q_math_c1_t09_0922",
+    "question_group_id": "math_ch01_group_0922",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 1/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 1/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.035",
+        "B": "0.03125",
+        "C": "0.03",
+        "D": "0.0325"
+      },
+      "en": {
+        "A": "0.035",
+        "B": "0.03125",
+        "C": "0.03",
+        "D": "0.0325"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.03125",
+      "en": "0.03125"
+    },
+    "explanation": {
+      "hi": "1/32 को दशमलव में बदलने पर 0.03125 प्राप्त होता है।",
+      "en": "Converting 1/32 to decimal yields 0.03125."
+    },
+    "q_hi": "भिन्न 1/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 1/32?",
+    "opts_hi": {
+      "A": "0.035",
+      "B": "0.03125",
+      "C": "0.03",
+      "D": "0.0325"
+    },
+    "opts_en": {
+      "A": "0.035",
+      "B": "0.03125",
+      "C": "0.03",
+      "D": "0.0325"
+    },
+    "ans": "B",
+    "exp_hi": "1/32 को दशमलव में बदलने पर 0.03125 प्राप्त होता है।",
+    "exp_en": "Converting 1/32 to decimal yields 0.03125.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0923",
+    "question_id": "q_math_c1_t09_0923",
+    "question_group_id": "math_ch01_group_0923",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 3/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 3/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.09125",
+        "B": "0.09375",
+        "C": "0.098",
+        "D": "0.095"
+      },
+      "en": {
+        "A": "0.09125",
+        "B": "0.09375",
+        "C": "0.098",
+        "D": "0.095"
+      }
+    },
+    "correct_option": "B",
+    "correct_answer": {
+      "hi": "0.09375",
+      "en": "0.09375"
+    },
+    "explanation": {
+      "hi": "3/32 को दशमलव में बदलने पर 0.09375 प्राप्त होता है।",
+      "en": "Converting 3/32 to decimal yields 0.09375."
+    },
+    "q_hi": "भिन्न 3/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 3/32?",
+    "opts_hi": {
+      "A": "0.09125",
+      "B": "0.09375",
+      "C": "0.098",
+      "D": "0.095"
+    },
+    "opts_en": {
+      "A": "0.09125",
+      "B": "0.09375",
+      "C": "0.098",
+      "D": "0.095"
+    },
+    "ans": "B",
+    "exp_hi": "3/32 को दशमलव में बदलने पर 0.09375 प्राप्त होता है।",
+    "exp_en": "Converting 3/32 to decimal yields 0.09375.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0924",
+    "question_id": "q_math_c1_t09_0924",
+    "question_group_id": "math_ch01_group_0924",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 5/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 5/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.15625",
+        "B": "0.15875",
+        "C": "0.155",
+        "D": "0.1525"
+      },
+      "en": {
+        "A": "0.15625",
+        "B": "0.15875",
+        "C": "0.155",
+        "D": "0.1525"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.15625",
+      "en": "0.15625"
+    },
+    "explanation": {
+      "hi": "5/32 को दशमलव में बदलने पर 0.15625 प्राप्त होता है।",
+      "en": "Converting 5/32 to decimal yields 0.15625."
+    },
+    "q_hi": "भिन्न 5/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 5/32?",
+    "opts_hi": {
+      "A": "0.15625",
+      "B": "0.15875",
+      "C": "0.155",
+      "D": "0.1525"
+    },
+    "opts_en": {
+      "A": "0.15625",
+      "B": "0.15875",
+      "C": "0.155",
+      "D": "0.1525"
+    },
+    "ans": "A",
+    "exp_hi": "5/32 को दशमलव में बदलने पर 0.15625 प्राप्त होता है।",
+    "exp_en": "Converting 5/32 to decimal yields 0.15625.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0925",
+    "question_id": "q_math_c1_t09_0925",
+    "question_group_id": "math_ch01_group_0925",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 7/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 7/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.22125",
+        "B": "0.2175",
+        "C": "0.215",
+        "D": "0.21875"
+      },
+      "en": {
+        "A": "0.22125",
+        "B": "0.2175",
+        "C": "0.215",
+        "D": "0.21875"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.21875",
+      "en": "0.21875"
+    },
+    "explanation": {
+      "hi": "7/32 को दशमलव में बदलने पर 0.21875 प्राप्त होता है।",
+      "en": "Converting 7/32 to decimal yields 0.21875."
+    },
+    "q_hi": "भिन्न 7/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 7/32?",
+    "opts_hi": {
+      "A": "0.22125",
+      "B": "0.2175",
+      "C": "0.215",
+      "D": "0.21875"
+    },
+    "opts_en": {
+      "A": "0.22125",
+      "B": "0.2175",
+      "C": "0.215",
+      "D": "0.21875"
+    },
+    "ans": "D",
+    "exp_hi": "7/32 को दशमलव में बदलने पर 0.21875 प्राप्त होता है।",
+    "exp_en": "Converting 7/32 to decimal yields 0.21875.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0926",
+    "question_id": "q_math_c1_t09_0926",
+    "question_group_id": "math_ch01_group_0926",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 9/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 9/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.28375",
+        "B": "0.2785",
+        "C": "0.28125",
+        "D": "0.285"
+      },
+      "en": {
+        "A": "0.28375",
+        "B": "0.2785",
+        "C": "0.28125",
+        "D": "0.285"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.28125",
+      "en": "0.28125"
+    },
+    "explanation": {
+      "hi": "9/32 को दशमलव में बदलने पर 0.28125 प्राप्त होता है।",
+      "en": "Converting 9/32 to decimal yields 0.28125."
+    },
+    "q_hi": "भिन्न 9/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 9/32?",
+    "opts_hi": {
+      "A": "0.28375",
+      "B": "0.2785",
+      "C": "0.28125",
+      "D": "0.285"
+    },
+    "opts_en": {
+      "A": "0.28375",
+      "B": "0.2785",
+      "C": "0.28125",
+      "D": "0.285"
+    },
+    "ans": "C",
+    "exp_hi": "9/32 को दशमलव में बदलने पर 0.28125 प्राप्त होता है।",
+    "exp_en": "Converting 9/32 to decimal yields 0.28125.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0927",
+    "question_id": "q_math_c1_t09_0927",
+    "question_group_id": "math_ch01_group_0927",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 11/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 11/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.345",
+        "B": "0.34125",
+        "C": "0.34375",
+        "D": "0.3485"
+      },
+      "en": {
+        "A": "0.345",
+        "B": "0.34125",
+        "C": "0.34375",
+        "D": "0.3485"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.34375",
+      "en": "0.34375"
+    },
+    "explanation": {
+      "hi": "11/32 को दशमलव में बदलने पर 0.34375 प्राप्त होता है।",
+      "en": "Converting 11/32 to decimal yields 0.34375."
+    },
+    "q_hi": "भिन्न 11/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 11/32?",
+    "opts_hi": {
+      "A": "0.345",
+      "B": "0.34125",
+      "C": "0.34375",
+      "D": "0.3485"
+    },
+    "opts_en": {
+      "A": "0.345",
+      "B": "0.34125",
+      "C": "0.34375",
+      "D": "0.3485"
+    },
+    "ans": "C",
+    "exp_hi": "11/32 को दशमलव में बदलने पर 0.34375 प्राप्त होता है।",
+    "exp_en": "Converting 11/32 to decimal yields 0.34375.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0928",
+    "question_id": "q_math_c1_t09_0928",
+    "question_group_id": "math_ch01_group_0928",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 13/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 13/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.4015",
+        "B": "0.40875",
+        "C": "0.40625",
+        "D": "0.405"
+      },
+      "en": {
+        "A": "0.4015",
+        "B": "0.40875",
+        "C": "0.40625",
+        "D": "0.405"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.40625",
+      "en": "0.40625"
+    },
+    "explanation": {
+      "hi": "13/32 को दशमलव में बदलने पर 0.40625 प्राप्त होता है।",
+      "en": "Converting 13/32 to decimal yields 0.40625."
+    },
+    "q_hi": "भिन्न 13/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 13/32?",
+    "opts_hi": {
+      "A": "0.4015",
+      "B": "0.40875",
+      "C": "0.40625",
+      "D": "0.405"
+    },
+    "opts_en": {
+      "A": "0.4015",
+      "B": "0.40875",
+      "C": "0.40625",
+      "D": "0.405"
+    },
+    "ans": "C",
+    "exp_hi": "13/32 को दशमलव में बदलने पर 0.40625 प्राप्त होता है।",
+    "exp_en": "Converting 13/32 to decimal yields 0.40625.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0929",
+    "question_id": "q_math_c1_t09_0929",
+    "question_group_id": "math_ch01_group_0929",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 15/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 15/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.46875",
+        "B": "0.465",
+        "C": "0.4625",
+        "D": "0.47125"
+      },
+      "en": {
+        "A": "0.46875",
+        "B": "0.465",
+        "C": "0.4625",
+        "D": "0.47125"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.46875",
+      "en": "0.46875"
+    },
+    "explanation": {
+      "hi": "15/32 को दशमलव में बदलने पर 0.46875 प्राप्त होता है।",
+      "en": "Converting 15/32 to decimal yields 0.46875."
+    },
+    "q_hi": "भिन्न 15/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 15/32?",
+    "opts_hi": {
+      "A": "0.46875",
+      "B": "0.465",
+      "C": "0.4625",
+      "D": "0.47125"
+    },
+    "opts_en": {
+      "A": "0.46875",
+      "B": "0.465",
+      "C": "0.4625",
+      "D": "0.47125"
+    },
+    "ans": "A",
+    "exp_hi": "15/32 को दशमलव में बदलने पर 0.46875 प्राप्त होता है।",
+    "exp_en": "Converting 15/32 to decimal yields 0.46875.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0930",
+    "question_id": "q_math_c1_t09_0930",
+    "question_group_id": "math_ch01_group_0930",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 17/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 17/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.53125",
+        "B": "0.53375",
+        "C": "0.5285",
+        "D": "0.535"
+      },
+      "en": {
+        "A": "0.53125",
+        "B": "0.53375",
+        "C": "0.5285",
+        "D": "0.535"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.53125",
+      "en": "0.53125"
+    },
+    "explanation": {
+      "hi": "17/32 को दशमलव में बदलने पर 0.53125 प्राप्त होता है।",
+      "en": "Converting 17/32 to decimal yields 0.53125."
+    },
+    "q_hi": "भिन्न 17/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 17/32?",
+    "opts_hi": {
+      "A": "0.53125",
+      "B": "0.53375",
+      "C": "0.5285",
+      "D": "0.535"
+    },
+    "opts_en": {
+      "A": "0.53125",
+      "B": "0.53375",
+      "C": "0.5285",
+      "D": "0.535"
+    },
+    "ans": "A",
+    "exp_hi": "17/32 को दशमलव में बदलने पर 0.53125 प्राप्त होता है।",
+    "exp_en": "Converting 17/32 to decimal yields 0.53125.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0931",
+    "question_id": "q_math_c1_t09_0931",
+    "question_group_id": "math_ch01_group_0931",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 19/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 19/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.59375",
+        "B": "0.595",
+        "C": "0.5985",
+        "D": "0.59125"
+      },
+      "en": {
+        "A": "0.59375",
+        "B": "0.595",
+        "C": "0.5985",
+        "D": "0.59125"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.59375",
+      "en": "0.59375"
+    },
+    "explanation": {
+      "hi": "19/32 को दशमलव में बदलने पर 0.59375 प्राप्त होता है।",
+      "en": "Converting 19/32 to decimal yields 0.59375."
+    },
+    "q_hi": "भिन्न 19/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 19/32?",
+    "opts_hi": {
+      "A": "0.59375",
+      "B": "0.595",
+      "C": "0.5985",
+      "D": "0.59125"
+    },
+    "opts_en": {
+      "A": "0.59375",
+      "B": "0.595",
+      "C": "0.5985",
+      "D": "0.59125"
+    },
+    "ans": "A",
+    "exp_hi": "19/32 को दशमलव में बदलने पर 0.59375 प्राप्त होता है।",
+    "exp_en": "Converting 19/32 to decimal yields 0.59375.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0932",
+    "question_id": "q_math_c1_t09_0932",
+    "question_group_id": "math_ch01_group_0932",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 21/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 21/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.65875",
+        "B": "0.655",
+        "C": "0.6525",
+        "D": "0.65625"
+      },
+      "en": {
+        "A": "0.65875",
+        "B": "0.655",
+        "C": "0.6525",
+        "D": "0.65625"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.65625",
+      "en": "0.65625"
+    },
+    "explanation": {
+      "hi": "21/32 को दशमलव में बदलने पर 0.65625 प्राप्त होता है।",
+      "en": "Converting 21/32 to decimal yields 0.65625."
+    },
+    "q_hi": "भिन्न 21/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 21/32?",
+    "opts_hi": {
+      "A": "0.65875",
+      "B": "0.655",
+      "C": "0.6525",
+      "D": "0.65625"
+    },
+    "opts_en": {
+      "A": "0.65875",
+      "B": "0.655",
+      "C": "0.6525",
+      "D": "0.65625"
+    },
+    "ans": "D",
+    "exp_hi": "21/32 को दशमलव में बदलने पर 0.65625 प्राप्त होता है।",
+    "exp_en": "Converting 21/32 to decimal yields 0.65625.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0933",
+    "question_id": "q_math_c1_t09_0933",
+    "question_group_id": "math_ch01_group_0933",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 23/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 23/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.72125",
+        "B": "0.7175",
+        "C": "0.715",
+        "D": "0.71875"
+      },
+      "en": {
+        "A": "0.72125",
+        "B": "0.7175",
+        "C": "0.715",
+        "D": "0.71875"
+      }
+    },
+    "correct_option": "D",
+    "correct_answer": {
+      "hi": "0.71875",
+      "en": "0.71875"
+    },
+    "explanation": {
+      "hi": "23/32 को दशमलव में बदलने पर 0.71875 प्राप्त होता है।",
+      "en": "Converting 23/32 to decimal yields 0.71875."
+    },
+    "q_hi": "भिन्न 23/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 23/32?",
+    "opts_hi": {
+      "A": "0.72125",
+      "B": "0.7175",
+      "C": "0.715",
+      "D": "0.71875"
+    },
+    "opts_en": {
+      "A": "0.72125",
+      "B": "0.7175",
+      "C": "0.715",
+      "D": "0.71875"
+    },
+    "ans": "D",
+    "exp_hi": "23/32 को दशमलव में बदलने पर 0.71875 प्राप्त होता है।",
+    "exp_en": "Converting 23/32 to decimal yields 0.71875.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0934",
+    "question_id": "q_math_c1_t09_0934",
+    "question_group_id": "math_ch01_group_0934",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 25/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 25/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.7785",
+        "B": "0.78375",
+        "C": "0.78125",
+        "D": "0.785"
+      },
+      "en": {
+        "A": "0.7785",
+        "B": "0.78375",
+        "C": "0.78125",
+        "D": "0.785"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.78125",
+      "en": "0.78125"
+    },
+    "explanation": {
+      "hi": "25/32 को दशमलव में बदलने पर 0.78125 प्राप्त होता है।",
+      "en": "Converting 25/32 to decimal yields 0.78125."
+    },
+    "q_hi": "भिन्न 25/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 25/32?",
+    "opts_hi": {
+      "A": "0.7785",
+      "B": "0.78375",
+      "C": "0.78125",
+      "D": "0.785"
+    },
+    "opts_en": {
+      "A": "0.7785",
+      "B": "0.78375",
+      "C": "0.78125",
+      "D": "0.785"
+    },
+    "ans": "C",
+    "exp_hi": "25/32 को दशमलव में बदलने पर 0.78125 प्राप्त होता है।",
+    "exp_en": "Converting 25/32 to decimal yields 0.78125.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0935",
+    "question_id": "q_math_c1_t09_0935",
+    "question_group_id": "math_ch01_group_0935",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 27/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 27/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.8485",
+        "B": "0.845",
+        "C": "0.84375",
+        "D": "0.84125"
+      },
+      "en": {
+        "A": "0.8485",
+        "B": "0.845",
+        "C": "0.84375",
+        "D": "0.84125"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.84375",
+      "en": "0.84375"
+    },
+    "explanation": {
+      "hi": "27/32 को दशमलव में बदलने पर 0.84375 प्राप्त होता है।",
+      "en": "Converting 27/32 to decimal yields 0.84375."
+    },
+    "q_hi": "भिन्न 27/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 27/32?",
+    "opts_hi": {
+      "A": "0.8485",
+      "B": "0.845",
+      "C": "0.84375",
+      "D": "0.84125"
+    },
+    "opts_en": {
+      "A": "0.8485",
+      "B": "0.845",
+      "C": "0.84375",
+      "D": "0.84125"
+    },
+    "ans": "C",
+    "exp_hi": "27/32 को दशमलव में बदलने पर 0.84375 प्राप्त होता है।",
+    "exp_en": "Converting 27/32 to decimal yields 0.84375.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0936",
+    "question_id": "q_math_c1_t09_0936",
+    "question_group_id": "math_ch01_group_0936",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 29/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 29/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.90875",
+        "B": "0.905",
+        "C": "0.90625",
+        "D": "0.9015"
+      },
+      "en": {
+        "A": "0.90875",
+        "B": "0.905",
+        "C": "0.90625",
+        "D": "0.9015"
+      }
+    },
+    "correct_option": "C",
+    "correct_answer": {
+      "hi": "0.90625",
+      "en": "0.90625"
+    },
+    "explanation": {
+      "hi": "29/32 को दशमलव में बदलने पर 0.90625 प्राप्त होता है।",
+      "en": "Converting 29/32 to decimal yields 0.90625."
+    },
+    "q_hi": "भिन्न 29/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 29/32?",
+    "opts_hi": {
+      "A": "0.90875",
+      "B": "0.905",
+      "C": "0.90625",
+      "D": "0.9015"
+    },
+    "opts_en": {
+      "A": "0.90875",
+      "B": "0.905",
+      "C": "0.90625",
+      "D": "0.9015"
+    },
+    "ans": "C",
+    "exp_hi": "29/32 को दशमलव में बदलने पर 0.90625 प्राप्त होता है।",
+    "exp_en": "Converting 29/32 to decimal yields 0.90625.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t09_0937",
+    "question_id": "q_math_c1_t09_0937",
+    "question_group_id": "math_ch01_group_0937",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "math",
+    "book_id": "math_book_01",
+    "chapter_id": "math_ch_01",
+    "topic_id": "math_ch_01_topic_09",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "question": {
+      "hi": "भिन्न 31/32 का वास्तविक दशमलव मान क्या होगा?",
+      "en": "What is the exact decimal value of fraction 31/32?"
+    },
+    "options": {
+      "hi": {
+        "A": "0.96875",
+        "B": "0.97125",
+        "C": "0.965",
+        "D": "0.9625"
+      },
+      "en": {
+        "A": "0.96875",
+        "B": "0.97125",
+        "C": "0.965",
+        "D": "0.9625"
+      }
+    },
+    "correct_option": "A",
+    "correct_answer": {
+      "hi": "0.96875",
+      "en": "0.96875"
+    },
+    "explanation": {
+      "hi": "31/32 को दशमलव में बदलने पर 0.96875 प्राप्त होता है।",
+      "en": "Converting 31/32 to decimal yields 0.96875."
+    },
+    "q_hi": "भिन्न 31/32 का वास्तविक दशमलव मान क्या होगा?",
+    "q_en": "What is the exact decimal value of fraction 31/32?",
+    "opts_hi": {
+      "A": "0.96875",
+      "B": "0.97125",
+      "C": "0.965",
+      "D": "0.9625"
+    },
+    "opts_en": {
+      "A": "0.96875",
+      "B": "0.97125",
+      "C": "0.965",
+      "D": "0.9625"
+    },
+    "ans": "A",
+    "exp_hi": "31/32 को दशमलव में बदलने पर 0.96875 प्राप्त होता है।",
+    "exp_en": "Converting 31/32 to decimal yields 0.96875.",
+    "verified": true,
+    "duplicate_checked": true
+  },
+  {
+    "id": "q_math_c1_t10_0938",
+    "question_id": "q_math_c1_t10_0938",
+    "question_group_id": "math_ch01_group_0938",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49524,19 +55306,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "HCF(a, b) / LCM(a, b) = a × b",
+        "A": "HCF(a, b) + LCM(a, b) = a × b",
         "B": "HCF(a, b) × LCM(a, b) = a + b",
-        "C": "HCF(a, b) × LCM(a, b) = a × b",
-        "D": "HCF(a, b) + LCM(a, b) = a × b"
+        "C": "HCF(a, b) / LCM(a, b) = a × b",
+        "D": "HCF(a, b) × LCM(a, b) = a × b"
       },
       "en": {
-        "A": "HCF(a, b) / LCM(a, b) = a × b",
+        "A": "HCF(a, b) + LCM(a, b) = a × b",
         "B": "HCF(a, b) × LCM(a, b) = a + b",
-        "C": "HCF(a, b) × LCM(a, b) = a × b",
-        "D": "HCF(a, b) + LCM(a, b) = a × b"
+        "C": "HCF(a, b) / LCM(a, b) = a × b",
+        "D": "HCF(a, b) × LCM(a, b) = a × b"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "HCF(a, b) × LCM(a, b) = a × b",
       "en": "HCF(a, b) × LCM(a, b) = a × b"
@@ -49548,27 +55330,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "किन्हीं दो धनात्मक पूर्णांकों a और b के लिए HCF और LCM के बीच सही संबंध क्या है?",
     "q_en": "What is the correct relation between HCF and LCM for any two positive integers a and b?",
     "opts_hi": {
-      "A": "HCF(a, b) / LCM(a, b) = a × b",
+      "A": "HCF(a, b) + LCM(a, b) = a × b",
       "B": "HCF(a, b) × LCM(a, b) = a + b",
-      "C": "HCF(a, b) × LCM(a, b) = a × b",
-      "D": "HCF(a, b) + LCM(a, b) = a × b"
+      "C": "HCF(a, b) / LCM(a, b) = a × b",
+      "D": "HCF(a, b) × LCM(a, b) = a × b"
     },
     "opts_en": {
-      "A": "HCF(a, b) / LCM(a, b) = a × b",
+      "A": "HCF(a, b) + LCM(a, b) = a × b",
       "B": "HCF(a, b) × LCM(a, b) = a + b",
-      "C": "HCF(a, b) × LCM(a, b) = a × b",
-      "D": "HCF(a, b) + LCM(a, b) = a × b"
+      "C": "HCF(a, b) / LCM(a, b) = a × b",
+      "D": "HCF(a, b) × LCM(a, b) = a × b"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "दो संख्याओं का गुणनफल सदैव उनके HCF और LCM के गुणनफल के बराबर होता है: a × b = HCF(a, b) × LCM(a, b)।",
     "exp_en": "The product of two positive integers is always equal to the product of their HCF and LCM: a × b = HCF(a, b) × LCM(a, b).",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0841",
-    "question_id": "q_math_c1_t10_0841",
-    "question_group_id": "math_ch01_group_0841",
+    "id": "q_math_c1_t10_0939",
+    "question_id": "q_math_c1_t10_0939",
+    "question_group_id": "math_ch01_group_0939",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49584,15 +55366,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "510",
-        "B": "34",
-        "C": "560",
-        "D": "480"
+        "B": "560",
+        "C": "480",
+        "D": "34"
       },
       "en": {
         "A": "510",
-        "B": "34",
-        "C": "560",
-        "D": "480"
+        "B": "560",
+        "C": "480",
+        "D": "34"
       }
     },
     "correct_option": "A",
@@ -49608,15 +55390,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 8670 and their HCF is 17, what is their LCM?",
     "opts_hi": {
       "A": "510",
-      "B": "34",
-      "C": "560",
-      "D": "480"
+      "B": "560",
+      "C": "480",
+      "D": "34"
     },
     "opts_en": {
       "A": "510",
-      "B": "34",
-      "C": "560",
-      "D": "480"
+      "B": "560",
+      "C": "480",
+      "D": "34"
     },
     "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 8670 / 17 = 510।",
@@ -49625,9 +55407,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0842",
-    "question_id": "q_math_c1_t10_0842",
-    "question_group_id": "math_ch01_group_0842",
+    "id": "q_math_c1_t10_0940",
+    "question_id": "q_math_c1_t10_0940",
+    "question_group_id": "math_ch01_group_0940",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49642,19 +55424,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "17340",
-        "B": "8370",
-        "C": "8670",
-        "D": "8870"
+        "A": "8670",
+        "B": "17340",
+        "C": "8870",
+        "D": "8370"
       },
       "en": {
-        "A": "17340",
-        "B": "8370",
-        "C": "8670",
-        "D": "8870"
+        "A": "8670",
+        "B": "17340",
+        "C": "8870",
+        "D": "8370"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "8670",
       "en": "8670"
@@ -49666,27 +55448,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 510 और HCF 17 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 510 and their HCF is 17. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "17340",
-      "B": "8370",
-      "C": "8670",
-      "D": "8870"
+      "A": "8670",
+      "B": "17340",
+      "C": "8870",
+      "D": "8370"
     },
     "opts_en": {
-      "A": "17340",
-      "B": "8370",
-      "C": "8670",
-      "D": "8870"
+      "A": "8670",
+      "B": "17340",
+      "C": "8870",
+      "D": "8370"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 17 × 510 = 8670।",
     "exp_en": "Product = HCF × LCM = 17 × 510 = 8670.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0843",
-    "question_id": "q_math_c1_t10_0843",
-    "question_group_id": "math_ch01_group_0843",
+    "id": "q_math_c1_t10_0941",
+    "question_id": "q_math_c1_t10_0941",
+    "question_group_id": "math_ch01_group_0941",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49701,19 +55483,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "180",
-        "B": "150",
-        "C": "230",
-        "D": "24"
+        "A": "230",
+        "B": "180",
+        "C": "24",
+        "D": "150"
       },
       "en": {
-        "A": "180",
-        "B": "150",
-        "C": "230",
-        "D": "24"
+        "A": "230",
+        "B": "180",
+        "C": "24",
+        "D": "150"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "180",
       "en": "180"
@@ -49725,27 +55507,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2160 है और उनका HCF (म.स.) 12 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2160 and their HCF is 12, what is their LCM?",
     "opts_hi": {
-      "A": "180",
-      "B": "150",
-      "C": "230",
-      "D": "24"
+      "A": "230",
+      "B": "180",
+      "C": "24",
+      "D": "150"
     },
     "opts_en": {
-      "A": "180",
-      "B": "150",
-      "C": "230",
-      "D": "24"
+      "A": "230",
+      "B": "180",
+      "C": "24",
+      "D": "150"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2160 / 12 = 180।",
     "exp_en": "LCM = Product / HCF = 2160 / 12 = 180.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0844",
-    "question_id": "q_math_c1_t10_0844",
-    "question_group_id": "math_ch01_group_0844",
+    "id": "q_math_c1_t10_0942",
+    "question_id": "q_math_c1_t10_0942",
+    "question_group_id": "math_ch01_group_0942",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49761,18 +55543,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "4320",
-        "B": "2160",
-        "C": "2360",
-        "D": "1860"
+        "B": "2360",
+        "C": "1860",
+        "D": "2160"
       },
       "en": {
         "A": "4320",
-        "B": "2160",
-        "C": "2360",
-        "D": "1860"
+        "B": "2360",
+        "C": "1860",
+        "D": "2160"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "2160",
       "en": "2160"
@@ -49785,26 +55567,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 180 and their HCF is 12. What is the product of the two numbers?",
     "opts_hi": {
       "A": "4320",
-      "B": "2160",
-      "C": "2360",
-      "D": "1860"
+      "B": "2360",
+      "C": "1860",
+      "D": "2160"
     },
     "opts_en": {
       "A": "4320",
-      "B": "2160",
-      "C": "2360",
-      "D": "1860"
+      "B": "2360",
+      "C": "1860",
+      "D": "2160"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 12 × 180 = 2160।",
     "exp_en": "Product = HCF × LCM = 12 × 180 = 2160.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0845",
-    "question_id": "q_math_c1_t10_0845",
-    "question_group_id": "math_ch01_group_0845",
+    "id": "q_math_c1_t10_0943",
+    "question_id": "q_math_c1_t10_0943",
+    "question_group_id": "math_ch01_group_0943",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49820,18 +55602,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "20",
-        "B": "300",
-        "C": "350",
+        "B": "350",
+        "C": "300",
         "D": "270"
       },
       "en": {
         "A": "20",
-        "B": "300",
-        "C": "350",
+        "B": "350",
+        "C": "300",
         "D": "270"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "300",
       "en": "300"
@@ -49844,26 +55626,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 3000 and their HCF is 10, what is their LCM?",
     "opts_hi": {
       "A": "20",
-      "B": "300",
-      "C": "350",
+      "B": "350",
+      "C": "300",
       "D": "270"
     },
     "opts_en": {
       "A": "20",
-      "B": "300",
-      "C": "350",
+      "B": "350",
+      "C": "300",
       "D": "270"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3000 / 10 = 300।",
     "exp_en": "LCM = Product / HCF = 3000 / 10 = 300.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0846",
-    "question_id": "q_math_c1_t10_0846",
-    "question_group_id": "math_ch01_group_0846",
+    "id": "q_math_c1_t10_0944",
+    "question_id": "q_math_c1_t10_0944",
+    "question_group_id": "math_ch01_group_0944",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49878,16 +55660,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3200",
+        "A": "2700",
         "B": "3000",
-        "C": "2700",
-        "D": "6000"
+        "C": "6000",
+        "D": "3200"
       },
       "en": {
-        "A": "3200",
+        "A": "2700",
         "B": "3000",
-        "C": "2700",
-        "D": "6000"
+        "C": "6000",
+        "D": "3200"
       }
     },
     "correct_option": "B",
@@ -49902,16 +55684,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 300 और HCF 10 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 300 and their HCF is 10. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3200",
+      "A": "2700",
       "B": "3000",
-      "C": "2700",
-      "D": "6000"
+      "C": "6000",
+      "D": "3200"
     },
     "opts_en": {
-      "A": "3200",
+      "A": "2700",
       "B": "3000",
-      "C": "2700",
-      "D": "6000"
+      "C": "6000",
+      "D": "3200"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 10 × 300 = 3000।",
@@ -49920,9 +55702,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0847",
-    "question_id": "q_math_c1_t10_0847",
-    "question_group_id": "math_ch01_group_0847",
+    "id": "q_math_c1_t10_0945",
+    "question_id": "q_math_c1_t10_0945",
+    "question_group_id": "math_ch01_group_0945",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49937,19 +55719,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "170",
+        "A": "120",
         "B": "90",
-        "C": "120",
+        "C": "170",
         "D": "30"
       },
       "en": {
-        "A": "170",
+        "A": "120",
         "B": "90",
-        "C": "120",
+        "C": "170",
         "D": "30"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -49961,27 +55743,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 1800 है और उनका HCF (म.स.) 15 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 1800 and their HCF is 15, what is their LCM?",
     "opts_hi": {
-      "A": "170",
+      "A": "120",
       "B": "90",
-      "C": "120",
+      "C": "170",
       "D": "30"
     },
     "opts_en": {
-      "A": "170",
+      "A": "120",
       "B": "90",
-      "C": "120",
+      "C": "170",
       "D": "30"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1800 / 15 = 120।",
     "exp_en": "LCM = Product / HCF = 1800 / 15 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0848",
-    "question_id": "q_math_c1_t10_0848",
-    "question_group_id": "math_ch01_group_0848",
+    "id": "q_math_c1_t10_0946",
+    "question_id": "q_math_c1_t10_0946",
+    "question_group_id": "math_ch01_group_0946",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -49997,18 +55779,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "3600",
-        "B": "2000",
-        "C": "1800",
+        "B": "1800",
+        "C": "2000",
         "D": "1500"
       },
       "en": {
         "A": "3600",
-        "B": "2000",
-        "C": "1800",
+        "B": "1800",
+        "C": "2000",
         "D": "1500"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "1800",
       "en": "1800"
@@ -50021,26 +55803,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 120 and their HCF is 15. What is the product of the two numbers?",
     "opts_hi": {
       "A": "3600",
-      "B": "2000",
-      "C": "1800",
+      "B": "1800",
+      "C": "2000",
       "D": "1500"
     },
     "opts_en": {
       "A": "3600",
-      "B": "2000",
-      "C": "1800",
+      "B": "1800",
+      "C": "2000",
       "D": "1500"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 15 × 120 = 1800।",
     "exp_en": "Product = HCF × LCM = 15 × 120 = 1800.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0849",
-    "question_id": "q_math_c1_t10_0849",
-    "question_group_id": "math_ch01_group_0849",
+    "id": "q_math_c1_t10_0947",
+    "question_id": "q_math_c1_t10_0947",
+    "question_group_id": "math_ch01_group_0947",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50055,19 +55837,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "60",
-        "B": "110",
-        "C": "48",
-        "D": "30"
+        "A": "30",
+        "B": "60",
+        "C": "110",
+        "D": "48"
       },
       "en": {
-        "A": "60",
-        "B": "110",
-        "C": "48",
-        "D": "30"
+        "A": "30",
+        "B": "60",
+        "C": "110",
+        "D": "48"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "60",
       "en": "60"
@@ -50079,27 +55861,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 1440 है और उनका HCF (म.स.) 24 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 1440 and their HCF is 24, what is their LCM?",
     "opts_hi": {
-      "A": "60",
-      "B": "110",
-      "C": "48",
-      "D": "30"
+      "A": "30",
+      "B": "60",
+      "C": "110",
+      "D": "48"
     },
     "opts_en": {
-      "A": "60",
-      "B": "110",
-      "C": "48",
-      "D": "30"
+      "A": "30",
+      "B": "60",
+      "C": "110",
+      "D": "48"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1440 / 24 = 60।",
     "exp_en": "LCM = Product / HCF = 1440 / 24 = 60.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0850",
-    "question_id": "q_math_c1_t10_0850",
-    "question_group_id": "math_ch01_group_0850",
+    "id": "q_math_c1_t10_0948",
+    "question_id": "q_math_c1_t10_0948",
+    "question_group_id": "math_ch01_group_0948",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50114,19 +55896,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "1440",
-        "B": "2880",
-        "C": "1640",
-        "D": "1140"
+        "A": "1140",
+        "B": "1640",
+        "C": "2880",
+        "D": "1440"
       },
       "en": {
-        "A": "1440",
-        "B": "2880",
-        "C": "1640",
-        "D": "1140"
+        "A": "1140",
+        "B": "1640",
+        "C": "2880",
+        "D": "1440"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "1440",
       "en": "1440"
@@ -50138,27 +55920,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 60 और HCF 24 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 60 and their HCF is 24. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "1440",
-      "B": "2880",
-      "C": "1640",
-      "D": "1140"
+      "A": "1140",
+      "B": "1640",
+      "C": "2880",
+      "D": "1440"
     },
     "opts_en": {
-      "A": "1440",
-      "B": "2880",
-      "C": "1640",
-      "D": "1140"
+      "A": "1140",
+      "B": "1640",
+      "C": "2880",
+      "D": "1440"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 24 × 60 = 1440।",
     "exp_en": "Product = HCF × LCM = 24 × 60 = 1440.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0851",
-    "question_id": "q_math_c1_t10_0851",
-    "question_group_id": "math_ch01_group_0851",
+    "id": "q_math_c1_t10_0949",
+    "question_id": "q_math_c1_t10_0949",
+    "question_group_id": "math_ch01_group_0949",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50174,18 +55956,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "230",
-        "B": "180",
-        "C": "150",
-        "D": "40"
+        "B": "150",
+        "C": "40",
+        "D": "180"
       },
       "en": {
         "A": "230",
-        "B": "180",
-        "C": "150",
-        "D": "40"
+        "B": "150",
+        "C": "40",
+        "D": "180"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "180",
       "en": "180"
@@ -50198,26 +55980,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 3600 and their HCF is 20, what is their LCM?",
     "opts_hi": {
       "A": "230",
-      "B": "180",
-      "C": "150",
-      "D": "40"
+      "B": "150",
+      "C": "40",
+      "D": "180"
     },
     "opts_en": {
       "A": "230",
-      "B": "180",
-      "C": "150",
-      "D": "40"
+      "B": "150",
+      "C": "40",
+      "D": "180"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3600 / 20 = 180।",
     "exp_en": "LCM = Product / HCF = 3600 / 20 = 180.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0852",
-    "question_id": "q_math_c1_t10_0852",
-    "question_group_id": "math_ch01_group_0852",
+    "id": "q_math_c1_t10_0950",
+    "question_id": "q_math_c1_t10_0950",
+    "question_group_id": "math_ch01_group_0950",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50232,16 +56014,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "7200",
+        "A": "3300",
         "B": "3600",
         "C": "3800",
-        "D": "3300"
+        "D": "7200"
       },
       "en": {
-        "A": "7200",
+        "A": "3300",
         "B": "3600",
         "C": "3800",
-        "D": "3300"
+        "D": "7200"
       }
     },
     "correct_option": "B",
@@ -50256,16 +56038,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 180 और HCF 20 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 180 and their HCF is 20. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "7200",
+      "A": "3300",
       "B": "3600",
       "C": "3800",
-      "D": "3300"
+      "D": "7200"
     },
     "opts_en": {
-      "A": "7200",
+      "A": "3300",
       "B": "3600",
       "C": "3800",
-      "D": "3300"
+      "D": "7200"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 20 × 180 = 3600।",
@@ -50274,9 +56056,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0853",
-    "question_id": "q_math_c1_t10_0853",
-    "question_group_id": "math_ch01_group_0853",
+    "id": "q_math_c1_t10_0951",
+    "question_id": "q_math_c1_t10_0951",
+    "question_group_id": "math_ch01_group_0951",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50291,19 +56073,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "150",
-        "B": "180",
-        "C": "230",
+        "A": "230",
+        "B": "150",
+        "C": "180",
         "D": "50"
       },
       "en": {
-        "A": "150",
-        "B": "180",
-        "C": "230",
+        "A": "230",
+        "B": "150",
+        "C": "180",
         "D": "50"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "180",
       "en": "180"
@@ -50315,27 +56097,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4500 है और उनका HCF (म.स.) 25 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4500 and their HCF is 25, what is their LCM?",
     "opts_hi": {
-      "A": "150",
-      "B": "180",
-      "C": "230",
+      "A": "230",
+      "B": "150",
+      "C": "180",
       "D": "50"
     },
     "opts_en": {
-      "A": "150",
-      "B": "180",
-      "C": "230",
+      "A": "230",
+      "B": "150",
+      "C": "180",
       "D": "50"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4500 / 25 = 180।",
     "exp_en": "LCM = Product / HCF = 4500 / 25 = 180.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0854",
-    "question_id": "q_math_c1_t10_0854",
-    "question_group_id": "math_ch01_group_0854",
+    "id": "q_math_c1_t10_0952",
+    "question_id": "q_math_c1_t10_0952",
+    "question_group_id": "math_ch01_group_0952",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50350,19 +56132,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "4500",
-        "B": "4200",
-        "C": "4700",
-        "D": "9000"
+        "A": "9000",
+        "B": "4700",
+        "C": "4500",
+        "D": "4200"
       },
       "en": {
-        "A": "4500",
-        "B": "4200",
-        "C": "4700",
-        "D": "9000"
+        "A": "9000",
+        "B": "4700",
+        "C": "4500",
+        "D": "4200"
       }
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "4500",
       "en": "4500"
@@ -50374,27 +56156,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 180 और HCF 25 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 180 and their HCF is 25. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "4500",
-      "B": "4200",
-      "C": "4700",
-      "D": "9000"
+      "A": "9000",
+      "B": "4700",
+      "C": "4500",
+      "D": "4200"
     },
     "opts_en": {
-      "A": "4500",
-      "B": "4200",
-      "C": "4700",
-      "D": "9000"
+      "A": "9000",
+      "B": "4700",
+      "C": "4500",
+      "D": "4200"
     },
-    "ans": "A",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 25 × 180 = 4500।",
     "exp_en": "Product = HCF × LCM = 25 × 180 = 4500.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0855",
-    "question_id": "q_math_c1_t10_0855",
-    "question_group_id": "math_ch01_group_0855",
+    "id": "q_math_c1_t10_0953",
+    "question_id": "q_math_c1_t10_0953",
+    "question_group_id": "math_ch01_group_0953",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50409,19 +56191,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "230",
-        "B": "180",
+        "A": "60",
+        "B": "230",
         "C": "150",
-        "D": "60"
+        "D": "180"
       },
       "en": {
-        "A": "230",
-        "B": "180",
+        "A": "60",
+        "B": "230",
         "C": "150",
-        "D": "60"
+        "D": "180"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "180",
       "en": "180"
@@ -50433,27 +56215,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 5400 है और उनका HCF (म.स.) 30 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 5400 and their HCF is 30, what is their LCM?",
     "opts_hi": {
-      "A": "230",
-      "B": "180",
+      "A": "60",
+      "B": "230",
       "C": "150",
-      "D": "60"
+      "D": "180"
     },
     "opts_en": {
-      "A": "230",
-      "B": "180",
+      "A": "60",
+      "B": "230",
       "C": "150",
-      "D": "60"
+      "D": "180"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 5400 / 30 = 180।",
     "exp_en": "LCM = Product / HCF = 5400 / 30 = 180.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0856",
-    "question_id": "q_math_c1_t10_0856",
-    "question_group_id": "math_ch01_group_0856",
+    "id": "q_math_c1_t10_0954",
+    "question_id": "q_math_c1_t10_0954",
+    "question_group_id": "math_ch01_group_0954",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50468,19 +56250,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "5400",
-        "B": "10800",
-        "C": "5600",
+        "A": "10800",
+        "B": "5600",
+        "C": "5400",
         "D": "5100"
       },
       "en": {
-        "A": "5400",
-        "B": "10800",
-        "C": "5600",
+        "A": "10800",
+        "B": "5600",
+        "C": "5400",
         "D": "5100"
       }
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "5400",
       "en": "5400"
@@ -50492,27 +56274,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 180 और HCF 30 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 180 and their HCF is 30. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "5400",
-      "B": "10800",
-      "C": "5600",
+      "A": "10800",
+      "B": "5600",
+      "C": "5400",
       "D": "5100"
     },
     "opts_en": {
-      "A": "5400",
-      "B": "10800",
-      "C": "5600",
+      "A": "10800",
+      "B": "5600",
+      "C": "5400",
       "D": "5100"
     },
-    "ans": "A",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 30 × 180 = 5400।",
     "exp_en": "Product = HCF × LCM = 30 × 180 = 5400.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0857",
-    "question_id": "q_math_c1_t10_0857",
-    "question_group_id": "math_ch01_group_0857",
+    "id": "q_math_c1_t10_0955",
+    "question_id": "q_math_c1_t10_0955",
+    "question_group_id": "math_ch01_group_0955",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50528,18 +56310,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "120",
-        "B": "150",
-        "C": "200",
-        "D": "80"
+        "B": "80",
+        "C": "150",
+        "D": "200"
       },
       "en": {
         "A": "120",
-        "B": "150",
-        "C": "200",
-        "D": "80"
+        "B": "80",
+        "C": "150",
+        "D": "200"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "150",
       "en": "150"
@@ -50552,26 +56334,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 6000 and their HCF is 40, what is their LCM?",
     "opts_hi": {
       "A": "120",
-      "B": "150",
-      "C": "200",
-      "D": "80"
+      "B": "80",
+      "C": "150",
+      "D": "200"
     },
     "opts_en": {
       "A": "120",
-      "B": "150",
-      "C": "200",
-      "D": "80"
+      "B": "80",
+      "C": "150",
+      "D": "200"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 6000 / 40 = 150।",
     "exp_en": "LCM = Product / HCF = 6000 / 40 = 150.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0858",
-    "question_id": "q_math_c1_t10_0858",
-    "question_group_id": "math_ch01_group_0858",
+    "id": "q_math_c1_t10_0956",
+    "question_id": "q_math_c1_t10_0956",
+    "question_group_id": "math_ch01_group_0956",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50586,16 +56368,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "12000",
+        "A": "6200",
         "B": "6000",
-        "C": "5700",
-        "D": "6200"
+        "C": "12000",
+        "D": "5700"
       },
       "en": {
-        "A": "12000",
+        "A": "6200",
         "B": "6000",
-        "C": "5700",
-        "D": "6200"
+        "C": "12000",
+        "D": "5700"
       }
     },
     "correct_option": "B",
@@ -50610,16 +56392,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 150 और HCF 40 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 150 and their HCF is 40. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "12000",
+      "A": "6200",
       "B": "6000",
-      "C": "5700",
-      "D": "6200"
+      "C": "12000",
+      "D": "5700"
     },
     "opts_en": {
-      "A": "12000",
+      "A": "6200",
       "B": "6000",
-      "C": "5700",
-      "D": "6200"
+      "C": "12000",
+      "D": "5700"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 40 × 150 = 6000।",
@@ -50628,9 +56410,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0859",
-    "question_id": "q_math_c1_t10_0859",
-    "question_group_id": "math_ch01_group_0859",
+    "id": "q_math_c1_t10_0957",
+    "question_id": "q_math_c1_t10_0957",
+    "question_group_id": "math_ch01_group_0957",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50645,19 +56427,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "14400",
-        "B": "7400",
+        "A": "7400",
+        "B": "7200",
         "C": "6900",
-        "D": "7200"
+        "D": "14400"
       },
       "en": {
-        "A": "14400",
-        "B": "7400",
+        "A": "7400",
+        "B": "7200",
         "C": "6900",
-        "D": "7200"
+        "D": "14400"
       }
     },
-    "correct_option": "D",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "7200",
       "en": "7200"
@@ -50669,27 +56451,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 60 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 60. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "14400",
-      "B": "7400",
+      "A": "7400",
+      "B": "7200",
       "C": "6900",
-      "D": "7200"
+      "D": "14400"
     },
     "opts_en": {
-      "A": "14400",
-      "B": "7400",
+      "A": "7400",
+      "B": "7200",
       "C": "6900",
-      "D": "7200"
+      "D": "14400"
     },
-    "ans": "D",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 60 × 120 = 7200।",
     "exp_en": "Product = HCF × LCM = 60 × 120 = 7200.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0860",
-    "question_id": "q_math_c1_t10_0860",
-    "question_group_id": "math_ch01_group_0860",
+    "id": "q_math_c1_t10_0958",
+    "question_id": "q_math_c1_t10_0958",
+    "question_group_id": "math_ch01_group_0958",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50704,19 +56486,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "120",
+        "A": "170",
         "B": "90",
         "C": "140",
-        "D": "170"
+        "D": "120"
       },
       "en": {
-        "A": "120",
+        "A": "170",
         "B": "90",
         "C": "140",
-        "D": "170"
+        "D": "120"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -50728,27 +56510,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 8400 है और उनका HCF (म.स.) 70 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 8400 and their HCF is 70, what is their LCM?",
     "opts_hi": {
-      "A": "120",
+      "A": "170",
       "B": "90",
       "C": "140",
-      "D": "170"
+      "D": "120"
     },
     "opts_en": {
-      "A": "120",
+      "A": "170",
       "B": "90",
       "C": "140",
-      "D": "170"
+      "D": "120"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 8400 / 70 = 120।",
     "exp_en": "LCM = Product / HCF = 8400 / 70 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0861",
-    "question_id": "q_math_c1_t10_0861",
-    "question_group_id": "math_ch01_group_0861",
+    "id": "q_math_c1_t10_0959",
+    "question_id": "q_math_c1_t10_0959",
+    "question_group_id": "math_ch01_group_0959",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50763,19 +56545,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "16800",
+        "A": "8600",
         "B": "8100",
-        "C": "8600",
-        "D": "8400"
+        "C": "8400",
+        "D": "16800"
       },
       "en": {
-        "A": "16800",
+        "A": "8600",
         "B": "8100",
-        "C": "8600",
-        "D": "8400"
+        "C": "8400",
+        "D": "16800"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "8400",
       "en": "8400"
@@ -50787,27 +56569,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 70 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 70. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "16800",
+      "A": "8600",
       "B": "8100",
-      "C": "8600",
-      "D": "8400"
+      "C": "8400",
+      "D": "16800"
     },
     "opts_en": {
-      "A": "16800",
+      "A": "8600",
       "B": "8100",
-      "C": "8600",
-      "D": "8400"
+      "C": "8400",
+      "D": "16800"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 70 × 120 = 8400।",
     "exp_en": "Product = HCF × LCM = 70 × 120 = 8400.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0862",
-    "question_id": "q_math_c1_t10_0862",
-    "question_group_id": "math_ch01_group_0862",
+    "id": "q_math_c1_t10_0960",
+    "question_id": "q_math_c1_t10_0960",
+    "question_group_id": "math_ch01_group_0960",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50864,9 +56646,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0863",
-    "question_id": "q_math_c1_t10_0863",
-    "question_group_id": "math_ch01_group_0863",
+    "id": "q_math_c1_t10_0961",
+    "question_id": "q_math_c1_t10_0961",
+    "question_group_id": "math_ch01_group_0961",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50882,18 +56664,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "9300",
-        "B": "9600",
+        "B": "9800",
         "C": "19200",
-        "D": "9800"
+        "D": "9600"
       },
       "en": {
         "A": "9300",
-        "B": "9600",
+        "B": "9800",
         "C": "19200",
-        "D": "9800"
+        "D": "9600"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "9600",
       "en": "9600"
@@ -50906,26 +56688,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 120 and their HCF is 80. What is the product of the two numbers?",
     "opts_hi": {
       "A": "9300",
-      "B": "9600",
+      "B": "9800",
       "C": "19200",
-      "D": "9800"
+      "D": "9600"
     },
     "opts_en": {
       "A": "9300",
-      "B": "9600",
+      "B": "9800",
       "C": "19200",
-      "D": "9800"
+      "D": "9600"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 80 × 120 = 9600।",
     "exp_en": "Product = HCF × LCM = 80 × 120 = 9600.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0864",
-    "question_id": "q_math_c1_t10_0864",
-    "question_group_id": "math_ch01_group_0864",
+    "id": "q_math_c1_t10_0962",
+    "question_id": "q_math_c1_t10_0962",
+    "question_group_id": "math_ch01_group_0962",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50941,18 +56723,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "90",
-        "B": "120",
+        "B": "180",
         "C": "170",
-        "D": "180"
+        "D": "120"
       },
       "en": {
         "A": "90",
-        "B": "120",
+        "B": "180",
         "C": "170",
-        "D": "180"
+        "D": "120"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -50965,26 +56747,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 10800 and their HCF is 90, what is their LCM?",
     "opts_hi": {
       "A": "90",
-      "B": "120",
+      "B": "180",
       "C": "170",
-      "D": "180"
+      "D": "120"
     },
     "opts_en": {
       "A": "90",
-      "B": "120",
+      "B": "180",
       "C": "170",
-      "D": "180"
+      "D": "120"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 10800 / 90 = 120।",
     "exp_en": "LCM = Product / HCF = 10800 / 90 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0865",
-    "question_id": "q_math_c1_t10_0865",
-    "question_group_id": "math_ch01_group_0865",
+    "id": "q_math_c1_t10_0963",
+    "question_id": "q_math_c1_t10_0963",
+    "question_group_id": "math_ch01_group_0963",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -50999,19 +56781,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "10800",
-        "B": "11000",
-        "C": "10500",
+        "A": "11000",
+        "B": "10500",
+        "C": "10800",
         "D": "21600"
       },
       "en": {
-        "A": "10800",
-        "B": "11000",
-        "C": "10500",
+        "A": "11000",
+        "B": "10500",
+        "C": "10800",
         "D": "21600"
       }
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "10800",
       "en": "10800"
@@ -51023,27 +56805,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 90 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 90. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "10800",
-      "B": "11000",
-      "C": "10500",
+      "A": "11000",
+      "B": "10500",
+      "C": "10800",
       "D": "21600"
     },
     "opts_en": {
-      "A": "10800",
-      "B": "11000",
-      "C": "10500",
+      "A": "11000",
+      "B": "10500",
+      "C": "10800",
       "D": "21600"
     },
-    "ans": "A",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 90 × 120 = 10800।",
     "exp_en": "Product = HCF × LCM = 90 × 120 = 10800.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0866",
-    "question_id": "q_math_c1_t10_0866",
-    "question_group_id": "math_ch01_group_0866",
+    "id": "q_math_c1_t10_0964",
+    "question_id": "q_math_c1_t10_0964",
+    "question_group_id": "math_ch01_group_0964",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51058,19 +56840,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "120",
-        "B": "170",
-        "C": "90",
+        "A": "170",
+        "B": "90",
+        "C": "120",
         "D": "200"
       },
       "en": {
-        "A": "120",
-        "B": "170",
-        "C": "90",
+        "A": "170",
+        "B": "90",
+        "C": "120",
         "D": "200"
       }
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -51082,27 +56864,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 12000 है और उनका HCF (म.स.) 100 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 12000 and their HCF is 100, what is their LCM?",
     "opts_hi": {
-      "A": "120",
-      "B": "170",
-      "C": "90",
+      "A": "170",
+      "B": "90",
+      "C": "120",
       "D": "200"
     },
     "opts_en": {
-      "A": "120",
-      "B": "170",
-      "C": "90",
+      "A": "170",
+      "B": "90",
+      "C": "120",
       "D": "200"
     },
-    "ans": "A",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 12000 / 100 = 120।",
     "exp_en": "LCM = Product / HCF = 12000 / 100 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0867",
-    "question_id": "q_math_c1_t10_0867",
-    "question_group_id": "math_ch01_group_0867",
+    "id": "q_math_c1_t10_0965",
+    "question_id": "q_math_c1_t10_0965",
+    "question_group_id": "math_ch01_group_0965",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51117,14 +56899,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "11700",
-        "B": "24000",
+        "A": "24000",
+        "B": "11700",
         "C": "12200",
         "D": "12000"
       },
       "en": {
-        "A": "11700",
-        "B": "24000",
+        "A": "24000",
+        "B": "11700",
         "C": "12200",
         "D": "12000"
       }
@@ -51141,14 +56923,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 100 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 100. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "11700",
-      "B": "24000",
+      "A": "24000",
+      "B": "11700",
       "C": "12200",
       "D": "12000"
     },
     "opts_en": {
-      "A": "11700",
-      "B": "24000",
+      "A": "24000",
+      "B": "11700",
       "C": "12200",
       "D": "12000"
     },
@@ -51159,9 +56941,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0868",
-    "question_id": "q_math_c1_t10_0868",
-    "question_group_id": "math_ch01_group_0868",
+    "id": "q_math_c1_t10_0966",
+    "question_id": "q_math_c1_t10_0966",
+    "question_group_id": "math_ch01_group_0966",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51176,19 +56958,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "70",
+        "A": "300",
         "B": "150",
-        "C": "300",
-        "D": "100"
+        "C": "100",
+        "D": "70"
       },
       "en": {
-        "A": "70",
+        "A": "300",
         "B": "150",
-        "C": "300",
-        "D": "100"
+        "C": "100",
+        "D": "70"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "100",
       "en": "100"
@@ -51200,27 +56982,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 15000 है और उनका HCF (म.स.) 150 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 15000 and their HCF is 150, what is their LCM?",
     "opts_hi": {
-      "A": "70",
+      "A": "300",
       "B": "150",
-      "C": "300",
-      "D": "100"
+      "C": "100",
+      "D": "70"
     },
     "opts_en": {
-      "A": "70",
+      "A": "300",
       "B": "150",
-      "C": "300",
-      "D": "100"
+      "C": "100",
+      "D": "70"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 15000 / 150 = 100।",
     "exp_en": "LCM = Product / HCF = 15000 / 150 = 100.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0869",
-    "question_id": "q_math_c1_t10_0869",
-    "question_group_id": "math_ch01_group_0869",
+    "id": "q_math_c1_t10_0967",
+    "question_id": "q_math_c1_t10_0967",
+    "question_group_id": "math_ch01_group_0967",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51277,9 +57059,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0870",
-    "question_id": "q_math_c1_t10_0870",
-    "question_group_id": "math_ch01_group_0870",
+    "id": "q_math_c1_t10_0968",
+    "question_id": "q_math_c1_t10_0968",
+    "question_group_id": "math_ch01_group_0968",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51294,19 +57076,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "150",
-        "B": "120",
-        "C": "200",
-        "D": "32"
+        "A": "200",
+        "B": "32",
+        "C": "120",
+        "D": "150"
       },
       "en": {
-        "A": "150",
-        "B": "120",
-        "C": "200",
-        "D": "32"
+        "A": "200",
+        "B": "32",
+        "C": "120",
+        "D": "150"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "150",
       "en": "150"
@@ -51318,27 +57100,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2400 है और उनका HCF (म.स.) 16 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2400 and their HCF is 16, what is their LCM?",
     "opts_hi": {
-      "A": "150",
-      "B": "120",
-      "C": "200",
-      "D": "32"
+      "A": "200",
+      "B": "32",
+      "C": "120",
+      "D": "150"
     },
     "opts_en": {
-      "A": "150",
-      "B": "120",
-      "C": "200",
-      "D": "32"
+      "A": "200",
+      "B": "32",
+      "C": "120",
+      "D": "150"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2400 / 16 = 150।",
     "exp_en": "LCM = Product / HCF = 2400 / 16 = 150.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0871",
-    "question_id": "q_math_c1_t10_0871",
-    "question_group_id": "math_ch01_group_0871",
+    "id": "q_math_c1_t10_0969",
+    "question_id": "q_math_c1_t10_0969",
+    "question_group_id": "math_ch01_group_0969",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51353,19 +57135,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "2600",
+        "A": "2400",
         "B": "2100",
         "C": "4800",
-        "D": "2400"
+        "D": "2600"
       },
       "en": {
-        "A": "2600",
+        "A": "2400",
         "B": "2100",
         "C": "4800",
-        "D": "2400"
+        "D": "2600"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "2400",
       "en": "2400"
@@ -51377,27 +57159,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 150 और HCF 16 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 150 and their HCF is 16. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "2600",
+      "A": "2400",
       "B": "2100",
       "C": "4800",
-      "D": "2400"
+      "D": "2600"
     },
     "opts_en": {
-      "A": "2600",
+      "A": "2400",
       "B": "2100",
       "C": "4800",
-      "D": "2400"
+      "D": "2600"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 16 × 150 = 2400।",
     "exp_en": "Product = HCF × LCM = 16 × 150 = 2400.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0872",
-    "question_id": "q_math_c1_t10_0872",
-    "question_group_id": "math_ch01_group_0872",
+    "id": "q_math_c1_t10_0970",
+    "question_id": "q_math_c1_t10_0970",
+    "question_group_id": "math_ch01_group_0970",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51412,19 +57194,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "210",
-        "B": "36",
-        "C": "160",
-        "D": "130"
+        "A": "36",
+        "B": "160",
+        "C": "130",
+        "D": "210"
       },
       "en": {
-        "A": "210",
-        "B": "36",
-        "C": "160",
-        "D": "130"
+        "A": "36",
+        "B": "160",
+        "C": "130",
+        "D": "210"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "160",
       "en": "160"
@@ -51436,27 +57218,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2880 है और उनका HCF (म.स.) 18 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2880 and their HCF is 18, what is their LCM?",
     "opts_hi": {
-      "A": "210",
-      "B": "36",
-      "C": "160",
-      "D": "130"
+      "A": "36",
+      "B": "160",
+      "C": "130",
+      "D": "210"
     },
     "opts_en": {
-      "A": "210",
-      "B": "36",
-      "C": "160",
-      "D": "130"
+      "A": "36",
+      "B": "160",
+      "C": "130",
+      "D": "210"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2880 / 18 = 160।",
     "exp_en": "LCM = Product / HCF = 2880 / 18 = 160.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0873",
-    "question_id": "q_math_c1_t10_0873",
-    "question_group_id": "math_ch01_group_0873",
+    "id": "q_math_c1_t10_0971",
+    "question_id": "q_math_c1_t10_0971",
+    "question_group_id": "math_ch01_group_0971",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51472,14 +57254,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "2880",
-        "B": "2580",
-        "C": "3080",
+        "B": "3080",
+        "C": "2580",
         "D": "5760"
       },
       "en": {
         "A": "2880",
-        "B": "2580",
-        "C": "3080",
+        "B": "3080",
+        "C": "2580",
         "D": "5760"
       }
     },
@@ -51496,14 +57278,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 160 and their HCF is 18. What is the product of the two numbers?",
     "opts_hi": {
       "A": "2880",
-      "B": "2580",
-      "C": "3080",
+      "B": "3080",
+      "C": "2580",
       "D": "5760"
     },
     "opts_en": {
       "A": "2880",
-      "B": "2580",
-      "C": "3080",
+      "B": "3080",
+      "C": "2580",
       "D": "5760"
     },
     "ans": "A",
@@ -51513,9 +57295,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0874",
-    "question_id": "q_math_c1_t10_0874",
-    "question_group_id": "math_ch01_group_0874",
+    "id": "q_math_c1_t10_0972",
+    "question_id": "q_math_c1_t10_0972",
+    "question_group_id": "math_ch01_group_0972",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51530,19 +57312,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "210",
-        "B": "160",
-        "C": "130",
-        "D": "40"
+        "A": "40",
+        "B": "130",
+        "C": "160",
+        "D": "210"
       },
       "en": {
-        "A": "210",
-        "B": "160",
-        "C": "130",
-        "D": "40"
+        "A": "40",
+        "B": "130",
+        "C": "160",
+        "D": "210"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "160",
       "en": "160"
@@ -51554,27 +57336,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 3200 है और उनका HCF (म.स.) 20 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 3200 and their HCF is 20, what is their LCM?",
     "opts_hi": {
-      "A": "210",
-      "B": "160",
-      "C": "130",
-      "D": "40"
+      "A": "40",
+      "B": "130",
+      "C": "160",
+      "D": "210"
     },
     "opts_en": {
-      "A": "210",
-      "B": "160",
-      "C": "130",
-      "D": "40"
+      "A": "40",
+      "B": "130",
+      "C": "160",
+      "D": "210"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3200 / 20 = 160।",
     "exp_en": "LCM = Product / HCF = 3200 / 20 = 160.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0875",
-    "question_id": "q_math_c1_t10_0875",
-    "question_group_id": "math_ch01_group_0875",
+    "id": "q_math_c1_t10_0973",
+    "question_id": "q_math_c1_t10_0973",
+    "question_group_id": "math_ch01_group_0973",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51589,16 +57371,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "6400",
-        "B": "3400",
+        "A": "2900",
+        "B": "6400",
         "C": "3200",
-        "D": "2900"
+        "D": "3400"
       },
       "en": {
-        "A": "6400",
-        "B": "3400",
+        "A": "2900",
+        "B": "6400",
         "C": "3200",
-        "D": "2900"
+        "D": "3400"
       }
     },
     "correct_option": "C",
@@ -51613,16 +57395,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 160 और HCF 20 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 160 and their HCF is 20. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "6400",
-      "B": "3400",
+      "A": "2900",
+      "B": "6400",
       "C": "3200",
-      "D": "2900"
+      "D": "3400"
     },
     "opts_en": {
-      "A": "6400",
-      "B": "3400",
+      "A": "2900",
+      "B": "6400",
       "C": "3200",
-      "D": "2900"
+      "D": "3400"
     },
     "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 20 × 160 = 3200।",
@@ -51631,9 +57413,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0876",
-    "question_id": "q_math_c1_t10_0876",
-    "question_group_id": "math_ch01_group_0876",
+    "id": "q_math_c1_t10_0974",
+    "question_id": "q_math_c1_t10_0974",
+    "question_group_id": "math_ch01_group_0974",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51648,19 +57430,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "50",
-        "B": "110",
+        "A": "140",
+        "B": "50",
         "C": "190",
-        "D": "140"
+        "D": "110"
       },
       "en": {
-        "A": "50",
-        "B": "110",
+        "A": "140",
+        "B": "50",
         "C": "190",
-        "D": "140"
+        "D": "110"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -51672,27 +57454,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 3500 है और उनका HCF (म.स.) 25 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 3500 and their HCF is 25, what is their LCM?",
     "opts_hi": {
-      "A": "50",
-      "B": "110",
+      "A": "140",
+      "B": "50",
       "C": "190",
-      "D": "140"
+      "D": "110"
     },
     "opts_en": {
-      "A": "50",
-      "B": "110",
+      "A": "140",
+      "B": "50",
       "C": "190",
-      "D": "140"
+      "D": "110"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3500 / 25 = 140।",
     "exp_en": "LCM = Product / HCF = 3500 / 25 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0877",
-    "question_id": "q_math_c1_t10_0877",
-    "question_group_id": "math_ch01_group_0877",
+    "id": "q_math_c1_t10_0975",
+    "question_id": "q_math_c1_t10_0975",
+    "question_group_id": "math_ch01_group_0975",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51707,19 +57489,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3700",
-        "B": "3200",
-        "C": "7000",
-        "D": "3500"
+        "A": "3200",
+        "B": "7000",
+        "C": "3500",
+        "D": "3700"
       },
       "en": {
-        "A": "3700",
-        "B": "3200",
-        "C": "7000",
-        "D": "3500"
+        "A": "3200",
+        "B": "7000",
+        "C": "3500",
+        "D": "3700"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "3500",
       "en": "3500"
@@ -51731,27 +57513,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 25 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 25. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3700",
-      "B": "3200",
-      "C": "7000",
-      "D": "3500"
+      "A": "3200",
+      "B": "7000",
+      "C": "3500",
+      "D": "3700"
     },
     "opts_en": {
-      "A": "3700",
-      "B": "3200",
-      "C": "7000",
-      "D": "3500"
+      "A": "3200",
+      "B": "7000",
+      "C": "3500",
+      "D": "3700"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 25 × 140 = 3500।",
     "exp_en": "Product = HCF × LCM = 25 × 140 = 3500.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0878",
-    "question_id": "q_math_c1_t10_0878",
-    "question_group_id": "math_ch01_group_0878",
+    "id": "q_math_c1_t10_0976",
+    "question_id": "q_math_c1_t10_0976",
+    "question_group_id": "math_ch01_group_0976",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51766,19 +57548,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "120",
-        "B": "70",
-        "C": "170",
-        "D": "90"
+        "A": "90",
+        "B": "170",
+        "C": "70",
+        "D": "120"
       },
       "en": {
-        "A": "120",
-        "B": "70",
-        "C": "170",
-        "D": "90"
+        "A": "90",
+        "B": "170",
+        "C": "70",
+        "D": "120"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -51790,27 +57572,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4200 है और उनका HCF (म.स.) 35 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4200 and their HCF is 35, what is their LCM?",
     "opts_hi": {
-      "A": "120",
-      "B": "70",
-      "C": "170",
-      "D": "90"
+      "A": "90",
+      "B": "170",
+      "C": "70",
+      "D": "120"
     },
     "opts_en": {
-      "A": "120",
-      "B": "70",
-      "C": "170",
-      "D": "90"
+      "A": "90",
+      "B": "170",
+      "C": "70",
+      "D": "120"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4200 / 35 = 120।",
     "exp_en": "LCM = Product / HCF = 4200 / 35 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0879",
-    "question_id": "q_math_c1_t10_0879",
-    "question_group_id": "math_ch01_group_0879",
+    "id": "q_math_c1_t10_0977",
+    "question_id": "q_math_c1_t10_0977",
+    "question_group_id": "math_ch01_group_0977",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51825,19 +57607,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3900",
+        "A": "8400",
         "B": "4400",
-        "C": "4200",
-        "D": "8400"
+        "C": "3900",
+        "D": "4200"
       },
       "en": {
-        "A": "3900",
+        "A": "8400",
         "B": "4400",
-        "C": "4200",
-        "D": "8400"
+        "C": "3900",
+        "D": "4200"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "4200",
       "en": "4200"
@@ -51849,27 +57631,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 35 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 35. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3900",
+      "A": "8400",
       "B": "4400",
-      "C": "4200",
-      "D": "8400"
+      "C": "3900",
+      "D": "4200"
     },
     "opts_en": {
-      "A": "3900",
+      "A": "8400",
       "B": "4400",
-      "C": "4200",
-      "D": "8400"
+      "C": "3900",
+      "D": "4200"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 35 × 120 = 4200।",
     "exp_en": "Product = HCF × LCM = 35 × 120 = 4200.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0880",
-    "question_id": "q_math_c1_t10_0880",
-    "question_group_id": "math_ch01_group_0880",
+    "id": "q_math_c1_t10_0978",
+    "question_id": "q_math_c1_t10_0978",
+    "question_group_id": "math_ch01_group_0978",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51886,14 +57668,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "80",
         "B": "120",
-        "C": "170",
-        "D": "90"
+        "C": "90",
+        "D": "170"
       },
       "en": {
         "A": "80",
         "B": "120",
-        "C": "170",
-        "D": "90"
+        "C": "90",
+        "D": "170"
       }
     },
     "correct_option": "B",
@@ -51910,14 +57692,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "80",
       "B": "120",
-      "C": "170",
-      "D": "90"
+      "C": "90",
+      "D": "170"
     },
     "opts_en": {
       "A": "80",
       "B": "120",
-      "C": "170",
-      "D": "90"
+      "C": "90",
+      "D": "170"
     },
     "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4800 / 40 = 120।",
@@ -51926,9 +57708,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0881",
-    "question_id": "q_math_c1_t10_0881",
-    "question_group_id": "math_ch01_group_0881",
+    "id": "q_math_c1_t10_0979",
+    "question_id": "q_math_c1_t10_0979",
+    "question_group_id": "math_ch01_group_0979",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -51943,19 +57725,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "4800",
-        "B": "5000",
-        "C": "4500",
+        "A": "4500",
+        "B": "4800",
+        "C": "5000",
         "D": "9600"
       },
       "en": {
-        "A": "4800",
-        "B": "5000",
-        "C": "4500",
+        "A": "4500",
+        "B": "4800",
+        "C": "5000",
         "D": "9600"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "4800",
       "en": "4800"
@@ -51967,27 +57749,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 40 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 40. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "4800",
-      "B": "5000",
-      "C": "4500",
+      "A": "4500",
+      "B": "4800",
+      "C": "5000",
       "D": "9600"
     },
     "opts_en": {
-      "A": "4800",
-      "B": "5000",
-      "C": "4500",
+      "A": "4500",
+      "B": "4800",
+      "C": "5000",
       "D": "9600"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 40 × 120 = 4800।",
     "exp_en": "Product = HCF × LCM = 40 × 120 = 4800.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0882",
-    "question_id": "q_math_c1_t10_0882",
-    "question_group_id": "math_ch01_group_0882",
+    "id": "q_math_c1_t10_0980",
+    "question_id": "q_math_c1_t10_0980",
+    "question_group_id": "math_ch01_group_0980",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52002,19 +57784,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "10000",
-        "B": "5200",
-        "C": "5000",
-        "D": "4700"
+        "A": "5000",
+        "B": "4700",
+        "C": "10000",
+        "D": "5200"
       },
       "en": {
-        "A": "10000",
-        "B": "5200",
-        "C": "5000",
-        "D": "4700"
+        "A": "5000",
+        "B": "4700",
+        "C": "10000",
+        "D": "5200"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "5000",
       "en": "5000"
@@ -52026,27 +57808,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 100 और HCF 50 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 100 and their HCF is 50. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "10000",
-      "B": "5200",
-      "C": "5000",
-      "D": "4700"
+      "A": "5000",
+      "B": "4700",
+      "C": "10000",
+      "D": "5200"
     },
     "opts_en": {
-      "A": "10000",
-      "B": "5200",
-      "C": "5000",
-      "D": "4700"
+      "A": "5000",
+      "B": "4700",
+      "C": "10000",
+      "D": "5200"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 50 × 100 = 5000।",
     "exp_en": "Product = HCF × LCM = 50 × 100 = 5000.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0883",
-    "question_id": "q_math_c1_t10_0883",
-    "question_group_id": "math_ch01_group_0883",
+    "id": "q_math_c1_t10_0981",
+    "question_id": "q_math_c1_t10_0981",
+    "question_group_id": "math_ch01_group_0981",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52061,15 +57843,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "130",
-        "B": "160",
-        "C": "50",
+        "A": "50",
+        "B": "130",
+        "C": "160",
         "D": "80"
       },
       "en": {
-        "A": "130",
-        "B": "160",
-        "C": "50",
+        "A": "50",
+        "B": "130",
+        "C": "160",
         "D": "80"
       }
     },
@@ -52085,15 +57867,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 6400 है और उनका HCF (म.स.) 80 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 6400 and their HCF is 80, what is their LCM?",
     "opts_hi": {
-      "A": "130",
-      "B": "160",
-      "C": "50",
+      "A": "50",
+      "B": "130",
+      "C": "160",
       "D": "80"
     },
     "opts_en": {
-      "A": "130",
-      "B": "160",
-      "C": "50",
+      "A": "50",
+      "B": "130",
+      "C": "160",
       "D": "80"
     },
     "ans": "D",
@@ -52103,9 +57885,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0884",
-    "question_id": "q_math_c1_t10_0884",
-    "question_group_id": "math_ch01_group_0884",
+    "id": "q_math_c1_t10_0982",
+    "question_id": "q_math_c1_t10_0982",
+    "question_group_id": "math_ch01_group_0982",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52120,15 +57902,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "6100",
+        "A": "6600",
         "B": "12800",
-        "C": "6600",
+        "C": "6100",
         "D": "6400"
       },
       "en": {
-        "A": "6100",
+        "A": "6600",
         "B": "12800",
-        "C": "6600",
+        "C": "6100",
         "D": "6400"
       }
     },
@@ -52144,15 +57926,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 80 और HCF 80 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 80 and their HCF is 80. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "6100",
+      "A": "6600",
       "B": "12800",
-      "C": "6600",
+      "C": "6100",
       "D": "6400"
     },
     "opts_en": {
-      "A": "6100",
+      "A": "6600",
       "B": "12800",
-      "C": "6600",
+      "C": "6100",
       "D": "6400"
     },
     "ans": "D",
@@ -52162,9 +57944,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0885",
-    "question_id": "q_math_c1_t10_0885",
-    "question_group_id": "math_ch01_group_0885",
+    "id": "q_math_c1_t10_0983",
+    "question_id": "q_math_c1_t10_0983",
+    "question_group_id": "math_ch01_group_0983",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52181,14 +57963,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "15000",
         "B": "7500",
-        "C": "7200",
-        "D": "7700"
+        "C": "7700",
+        "D": "7200"
       },
       "en": {
         "A": "15000",
         "B": "7500",
-        "C": "7200",
-        "D": "7700"
+        "C": "7700",
+        "D": "7200"
       }
     },
     "correct_option": "B",
@@ -52205,14 +57987,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "15000",
       "B": "7500",
-      "C": "7200",
-      "D": "7700"
+      "C": "7700",
+      "D": "7200"
     },
     "opts_en": {
       "A": "15000",
       "B": "7500",
-      "C": "7200",
-      "D": "7700"
+      "C": "7700",
+      "D": "7200"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 75 × 100 = 7500।",
@@ -52221,9 +58003,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0886",
-    "question_id": "q_math_c1_t10_0886",
-    "question_group_id": "math_ch01_group_0886",
+    "id": "q_math_c1_t10_0984",
+    "question_id": "q_math_c1_t10_0984",
+    "question_group_id": "math_ch01_group_0984",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52238,19 +58020,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "160",
-        "B": "100",
+        "A": "100",
+        "B": "150",
         "C": "70",
-        "D": "150"
+        "D": "160"
       },
       "en": {
-        "A": "160",
-        "B": "100",
+        "A": "100",
+        "B": "150",
         "C": "70",
-        "D": "150"
+        "D": "160"
       }
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "100",
       "en": "100"
@@ -52262,27 +58044,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 8000 है और उनका HCF (म.स.) 80 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 8000 and their HCF is 80, what is their LCM?",
     "opts_hi": {
-      "A": "160",
-      "B": "100",
+      "A": "100",
+      "B": "150",
       "C": "70",
-      "D": "150"
+      "D": "160"
     },
     "opts_en": {
-      "A": "160",
-      "B": "100",
+      "A": "100",
+      "B": "150",
       "C": "70",
-      "D": "150"
+      "D": "160"
     },
-    "ans": "B",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 8000 / 80 = 100।",
     "exp_en": "LCM = Product / HCF = 8000 / 80 = 100.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0887",
-    "question_id": "q_math_c1_t10_0887",
-    "question_group_id": "math_ch01_group_0887",
+    "id": "q_math_c1_t10_0985",
+    "question_id": "q_math_c1_t10_0985",
+    "question_group_id": "math_ch01_group_0985",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52297,19 +58079,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "8000",
-        "B": "8200",
+        "A": "8200",
+        "B": "8000",
         "C": "16000",
         "D": "7700"
       },
       "en": {
-        "A": "8000",
-        "B": "8200",
+        "A": "8200",
+        "B": "8000",
         "C": "16000",
         "D": "7700"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "8000",
       "en": "8000"
@@ -52321,27 +58103,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 100 और HCF 80 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 100 and their HCF is 80. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "8000",
-      "B": "8200",
+      "A": "8200",
+      "B": "8000",
       "C": "16000",
       "D": "7700"
     },
     "opts_en": {
-      "A": "8000",
-      "B": "8200",
+      "A": "8200",
+      "B": "8000",
       "C": "16000",
       "D": "7700"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 80 × 100 = 8000।",
     "exp_en": "Product = HCF × LCM = 80 × 100 = 8000.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0888",
-    "question_id": "q_math_c1_t10_0888",
-    "question_group_id": "math_ch01_group_0888",
+    "id": "q_math_c1_t10_0986",
+    "question_id": "q_math_c1_t10_0986",
+    "question_group_id": "math_ch01_group_0986",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52356,14 +58138,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "70",
-        "B": "150",
+        "A": "150",
+        "B": "70",
         "C": "100",
         "D": "180"
       },
       "en": {
-        "A": "70",
-        "B": "150",
+        "A": "150",
+        "B": "70",
         "C": "100",
         "D": "180"
       }
@@ -52380,14 +58162,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 9000 है और उनका HCF (म.स.) 90 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 9000 and their HCF is 90, what is their LCM?",
     "opts_hi": {
-      "A": "70",
-      "B": "150",
+      "A": "150",
+      "B": "70",
       "C": "100",
       "D": "180"
     },
     "opts_en": {
-      "A": "70",
-      "B": "150",
+      "A": "150",
+      "B": "70",
       "C": "100",
       "D": "180"
     },
@@ -52398,9 +58180,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0889",
-    "question_id": "q_math_c1_t10_0889",
-    "question_group_id": "math_ch01_group_0889",
+    "id": "q_math_c1_t10_0987",
+    "question_id": "q_math_c1_t10_0987",
+    "question_group_id": "math_ch01_group_0987",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52416,18 +58198,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "8700",
-        "B": "18000",
-        "C": "9000",
-        "D": "9200"
+        "B": "9200",
+        "C": "18000",
+        "D": "9000"
       },
       "en": {
         "A": "8700",
-        "B": "18000",
-        "C": "9000",
-        "D": "9200"
+        "B": "9200",
+        "C": "18000",
+        "D": "9000"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "9000",
       "en": "9000"
@@ -52440,26 +58222,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 100 and their HCF is 90. What is the product of the two numbers?",
     "opts_hi": {
       "A": "8700",
-      "B": "18000",
-      "C": "9000",
-      "D": "9200"
+      "B": "9200",
+      "C": "18000",
+      "D": "9000"
     },
     "opts_en": {
       "A": "8700",
-      "B": "18000",
-      "C": "9000",
-      "D": "9200"
+      "B": "9200",
+      "C": "18000",
+      "D": "9000"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 90 × 100 = 9000।",
     "exp_en": "Product = HCF × LCM = 90 × 100 = 9000.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0890",
-    "question_id": "q_math_c1_t10_0890",
-    "question_group_id": "math_ch01_group_0890",
+    "id": "q_math_c1_t10_0988",
+    "question_id": "q_math_c1_t10_0988",
+    "question_group_id": "math_ch01_group_0988",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52474,16 +58256,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "150",
+        "A": "200",
         "B": "70",
         "C": "100",
-        "D": "200"
+        "D": "150"
       },
       "en": {
-        "A": "150",
+        "A": "200",
         "B": "70",
         "C": "100",
-        "D": "200"
+        "D": "150"
       }
     },
     "correct_option": "C",
@@ -52498,16 +58280,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 10000 है और उनका HCF (म.स.) 100 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 10000 and their HCF is 100, what is their LCM?",
     "opts_hi": {
-      "A": "150",
+      "A": "200",
       "B": "70",
       "C": "100",
-      "D": "200"
+      "D": "150"
     },
     "opts_en": {
-      "A": "150",
+      "A": "200",
       "B": "70",
       "C": "100",
-      "D": "200"
+      "D": "150"
     },
     "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 10000 / 100 = 100।",
@@ -52516,9 +58298,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0891",
-    "question_id": "q_math_c1_t10_0891",
-    "question_group_id": "math_ch01_group_0891",
+    "id": "q_math_c1_t10_0989",
+    "question_id": "q_math_c1_t10_0989",
+    "question_group_id": "math_ch01_group_0989",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52575,9 +58357,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0892",
-    "question_id": "q_math_c1_t10_0892",
-    "question_group_id": "math_ch01_group_0892",
+    "id": "q_math_c1_t10_0990",
+    "question_id": "q_math_c1_t10_0990",
+    "question_group_id": "math_ch01_group_0990",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52592,19 +58374,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "140",
+        "A": "90",
         "B": "60",
-        "C": "90",
+        "C": "140",
         "D": "36"
       },
       "en": {
-        "A": "140",
+        "A": "90",
         "B": "60",
-        "C": "90",
+        "C": "140",
         "D": "36"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "90",
       "en": "90"
@@ -52616,27 +58398,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 1620 है और उनका HCF (म.स.) 18 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 1620 and their HCF is 18, what is their LCM?",
     "opts_hi": {
-      "A": "140",
+      "A": "90",
       "B": "60",
-      "C": "90",
+      "C": "140",
       "D": "36"
     },
     "opts_en": {
-      "A": "140",
+      "A": "90",
       "B": "60",
-      "C": "90",
+      "C": "140",
       "D": "36"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1620 / 18 = 90।",
     "exp_en": "LCM = Product / HCF = 1620 / 18 = 90.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0893",
-    "question_id": "q_math_c1_t10_0893",
-    "question_group_id": "math_ch01_group_0893",
+    "id": "q_math_c1_t10_0991",
+    "question_id": "q_math_c1_t10_0991",
+    "question_group_id": "math_ch01_group_0991",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52651,19 +58433,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "1320",
-        "B": "1620",
-        "C": "3240",
-        "D": "1820"
+        "A": "1820",
+        "B": "3240",
+        "C": "1320",
+        "D": "1620"
       },
       "en": {
-        "A": "1320",
-        "B": "1620",
-        "C": "3240",
-        "D": "1820"
+        "A": "1820",
+        "B": "3240",
+        "C": "1320",
+        "D": "1620"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "1620",
       "en": "1620"
@@ -52675,27 +58457,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 90 और HCF 18 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 90 and their HCF is 18. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "1320",
-      "B": "1620",
-      "C": "3240",
-      "D": "1820"
+      "A": "1820",
+      "B": "3240",
+      "C": "1320",
+      "D": "1620"
     },
     "opts_en": {
-      "A": "1320",
-      "B": "1620",
-      "C": "3240",
-      "D": "1820"
+      "A": "1820",
+      "B": "3240",
+      "C": "1320",
+      "D": "1620"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 18 × 90 = 1620।",
     "exp_en": "Product = HCF × LCM = 18 × 90 = 1620.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0894",
-    "question_id": "q_math_c1_t10_0894",
-    "question_group_id": "math_ch01_group_0894",
+    "id": "q_math_c1_t10_0992",
+    "question_id": "q_math_c1_t10_0992",
+    "question_group_id": "math_ch01_group_0992",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52710,19 +58492,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "170",
-        "B": "32",
-        "C": "90",
-        "D": "120"
+        "A": "32",
+        "B": "170",
+        "C": "120",
+        "D": "90"
       },
       "en": {
-        "A": "170",
-        "B": "32",
-        "C": "90",
-        "D": "120"
+        "A": "32",
+        "B": "170",
+        "C": "120",
+        "D": "90"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -52734,27 +58516,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 1920 है और उनका HCF (म.स.) 16 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 1920 and their HCF is 16, what is their LCM?",
     "opts_hi": {
-      "A": "170",
-      "B": "32",
-      "C": "90",
-      "D": "120"
+      "A": "32",
+      "B": "170",
+      "C": "120",
+      "D": "90"
     },
     "opts_en": {
-      "A": "170",
-      "B": "32",
-      "C": "90",
-      "D": "120"
+      "A": "32",
+      "B": "170",
+      "C": "120",
+      "D": "90"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1920 / 16 = 120।",
     "exp_en": "LCM = Product / HCF = 1920 / 16 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0895",
-    "question_id": "q_math_c1_t10_0895",
-    "question_group_id": "math_ch01_group_0895",
+    "id": "q_math_c1_t10_0993",
+    "question_id": "q_math_c1_t10_0993",
+    "question_group_id": "math_ch01_group_0993",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52769,19 +58551,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3840",
-        "B": "1920",
-        "C": "2120",
-        "D": "1620"
+        "A": "2120",
+        "B": "3840",
+        "C": "1620",
+        "D": "1920"
       },
       "en": {
-        "A": "3840",
-        "B": "1920",
-        "C": "2120",
-        "D": "1620"
+        "A": "2120",
+        "B": "3840",
+        "C": "1620",
+        "D": "1920"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "1920",
       "en": "1920"
@@ -52793,27 +58575,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 16 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 16. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3840",
-      "B": "1920",
-      "C": "2120",
-      "D": "1620"
+      "A": "2120",
+      "B": "3840",
+      "C": "1620",
+      "D": "1920"
     },
     "opts_en": {
-      "A": "3840",
-      "B": "1920",
-      "C": "2120",
-      "D": "1620"
+      "A": "2120",
+      "B": "3840",
+      "C": "1620",
+      "D": "1920"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 16 × 120 = 1920।",
     "exp_en": "Product = HCF × LCM = 16 × 120 = 1920.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0896",
-    "question_id": "q_math_c1_t10_0896",
-    "question_group_id": "math_ch01_group_0896",
+    "id": "q_math_c1_t10_0994",
+    "question_id": "q_math_c1_t10_0994",
+    "question_group_id": "math_ch01_group_0994",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52828,19 +58610,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "120",
-        "B": "200",
-        "C": "150",
-        "D": "30"
+        "A": "150",
+        "B": "30",
+        "C": "120",
+        "D": "200"
       },
       "en": {
-        "A": "120",
-        "B": "200",
-        "C": "150",
-        "D": "30"
+        "A": "150",
+        "B": "30",
+        "C": "120",
+        "D": "200"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "150",
       "en": "150"
@@ -52852,27 +58634,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2250 है और उनका HCF (म.स.) 15 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2250 and their HCF is 15, what is their LCM?",
     "opts_hi": {
-      "A": "120",
-      "B": "200",
-      "C": "150",
-      "D": "30"
+      "A": "150",
+      "B": "30",
+      "C": "120",
+      "D": "200"
     },
     "opts_en": {
-      "A": "120",
-      "B": "200",
-      "C": "150",
-      "D": "30"
+      "A": "150",
+      "B": "30",
+      "C": "120",
+      "D": "200"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2250 / 15 = 150।",
     "exp_en": "LCM = Product / HCF = 2250 / 15 = 150.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0897",
-    "question_id": "q_math_c1_t10_0897",
-    "question_group_id": "math_ch01_group_0897",
+    "id": "q_math_c1_t10_0995",
+    "question_id": "q_math_c1_t10_0995",
+    "question_group_id": "math_ch01_group_0995",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52887,19 +58669,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "2250",
-        "B": "2450",
+        "A": "2450",
+        "B": "2250",
         "C": "1950",
         "D": "4500"
       },
       "en": {
-        "A": "2250",
-        "B": "2450",
+        "A": "2450",
+        "B": "2250",
         "C": "1950",
         "D": "4500"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "2250",
       "en": "2250"
@@ -52911,27 +58693,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 150 और HCF 15 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 150 and their HCF is 15. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "2250",
-      "B": "2450",
+      "A": "2450",
+      "B": "2250",
       "C": "1950",
       "D": "4500"
     },
     "opts_en": {
-      "A": "2250",
-      "B": "2450",
+      "A": "2450",
+      "B": "2250",
       "C": "1950",
       "D": "4500"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 15 × 150 = 2250।",
     "exp_en": "Product = HCF × LCM = 15 × 150 = 2250.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0898",
-    "question_id": "q_math_c1_t10_0898",
-    "question_group_id": "math_ch01_group_0898",
+    "id": "q_math_c1_t10_0996",
+    "question_id": "q_math_c1_t10_0996",
+    "question_group_id": "math_ch01_group_0996",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -52948,14 +58730,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "2700",
         "B": "2900",
-        "C": "2400",
-        "D": "5400"
+        "C": "5400",
+        "D": "2400"
       },
       "en": {
         "A": "2700",
         "B": "2900",
-        "C": "2400",
-        "D": "5400"
+        "C": "5400",
+        "D": "2400"
       }
     },
     "correct_option": "A",
@@ -52972,14 +58754,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "2700",
       "B": "2900",
-      "C": "2400",
-      "D": "5400"
+      "C": "5400",
+      "D": "2400"
     },
     "opts_en": {
       "A": "2700",
       "B": "2900",
-      "C": "2400",
-      "D": "5400"
+      "C": "5400",
+      "D": "2400"
     },
     "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 30 × 90 = 2700।",
@@ -52988,9 +58770,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0899",
-    "question_id": "q_math_c1_t10_0899",
-    "question_group_id": "math_ch01_group_0899",
+    "id": "q_math_c1_t10_0997",
+    "question_id": "q_math_c1_t10_0997",
+    "question_group_id": "math_ch01_group_0997",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53007,17 +58789,17 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "70",
         "B": "60",
-        "C": "140",
-        "D": "90"
+        "C": "90",
+        "D": "140"
       },
       "en": {
         "A": "70",
         "B": "60",
-        "C": "140",
-        "D": "90"
+        "C": "90",
+        "D": "140"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "90",
       "en": "90"
@@ -53031,25 +58813,25 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "70",
       "B": "60",
-      "C": "140",
-      "D": "90"
+      "C": "90",
+      "D": "140"
     },
     "opts_en": {
       "A": "70",
       "B": "60",
-      "C": "140",
-      "D": "90"
+      "C": "90",
+      "D": "140"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3150 / 35 = 90।",
     "exp_en": "LCM = Product / HCF = 3150 / 35 = 90.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0900",
-    "question_id": "q_math_c1_t10_0900",
-    "question_group_id": "math_ch01_group_0900",
+    "id": "q_math_c1_t10_0998",
+    "question_id": "q_math_c1_t10_0998",
+    "question_group_id": "math_ch01_group_0998",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53064,19 +58846,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3350",
-        "B": "3150",
-        "C": "2850",
-        "D": "6300"
+        "A": "2850",
+        "B": "6300",
+        "C": "3350",
+        "D": "3150"
       },
       "en": {
-        "A": "3350",
-        "B": "3150",
-        "C": "2850",
-        "D": "6300"
+        "A": "2850",
+        "B": "6300",
+        "C": "3350",
+        "D": "3150"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "3150",
       "en": "3150"
@@ -53088,27 +58870,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 90 और HCF 35 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 90 and their HCF is 35. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3350",
-      "B": "3150",
-      "C": "2850",
-      "D": "6300"
+      "A": "2850",
+      "B": "6300",
+      "C": "3350",
+      "D": "3150"
     },
     "opts_en": {
-      "A": "3350",
-      "B": "3150",
-      "C": "2850",
-      "D": "6300"
+      "A": "2850",
+      "B": "6300",
+      "C": "3350",
+      "D": "3150"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 35 × 90 = 3150।",
     "exp_en": "Product = HCF × LCM = 35 × 90 = 3150.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0901",
-    "question_id": "q_math_c1_t10_0901",
-    "question_group_id": "math_ch01_group_0901",
+    "id": "q_math_c1_t10_0999",
+    "question_id": "q_math_c1_t10_0999",
+    "question_group_id": "math_ch01_group_0999",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53125,14 +58907,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "140",
         "B": "90",
-        "C": "84",
-        "D": "60"
+        "C": "60",
+        "D": "84"
       },
       "en": {
         "A": "140",
         "B": "90",
-        "C": "84",
-        "D": "60"
+        "C": "60",
+        "D": "84"
       }
     },
     "correct_option": "B",
@@ -53149,14 +58931,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "140",
       "B": "90",
-      "C": "84",
-      "D": "60"
+      "C": "60",
+      "D": "84"
     },
     "opts_en": {
       "A": "140",
       "B": "90",
-      "C": "84",
-      "D": "60"
+      "C": "60",
+      "D": "84"
     },
     "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3780 / 42 = 90।",
@@ -53165,9 +58947,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0902",
-    "question_id": "q_math_c1_t10_0902",
-    "question_group_id": "math_ch01_group_0902",
+    "id": "q_math_c1_t10_1000",
+    "question_id": "q_math_c1_t10_1000",
+    "question_group_id": "math_ch01_group_1000",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53182,16 +58964,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3480",
+        "A": "3980",
         "B": "3780",
         "C": "7560",
-        "D": "3980"
+        "D": "3480"
       },
       "en": {
-        "A": "3480",
+        "A": "3980",
         "B": "3780",
         "C": "7560",
-        "D": "3980"
+        "D": "3480"
       }
     },
     "correct_option": "B",
@@ -53206,16 +58988,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 90 और HCF 42 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 90 and their HCF is 42. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3480",
+      "A": "3980",
       "B": "3780",
       "C": "7560",
-      "D": "3980"
+      "D": "3480"
     },
     "opts_en": {
-      "A": "3480",
+      "A": "3980",
       "B": "3780",
       "C": "7560",
-      "D": "3980"
+      "D": "3480"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 42 × 90 = 3780।",
@@ -53224,9 +59006,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0903",
-    "question_id": "q_math_c1_t10_0903",
-    "question_group_id": "math_ch01_group_0903",
+    "id": "q_math_c1_t10_1001",
+    "question_id": "q_math_c1_t10_1001",
+    "question_group_id": "math_ch01_group_1001",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53241,19 +59023,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "60",
-        "B": "90",
+        "A": "140",
+        "B": "60",
         "C": "98",
-        "D": "140"
+        "D": "90"
       },
       "en": {
-        "A": "60",
-        "B": "90",
+        "A": "140",
+        "B": "60",
         "C": "98",
-        "D": "140"
+        "D": "90"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "90",
       "en": "90"
@@ -53265,27 +59047,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4410 है और उनका HCF (म.स.) 49 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4410 and their HCF is 49, what is their LCM?",
     "opts_hi": {
-      "A": "60",
-      "B": "90",
+      "A": "140",
+      "B": "60",
       "C": "98",
-      "D": "140"
+      "D": "90"
     },
     "opts_en": {
-      "A": "60",
-      "B": "90",
+      "A": "140",
+      "B": "60",
       "C": "98",
-      "D": "140"
+      "D": "90"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4410 / 49 = 90।",
     "exp_en": "LCM = Product / HCF = 4410 / 49 = 90.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0904",
-    "question_id": "q_math_c1_t10_0904",
-    "question_group_id": "math_ch01_group_0904",
+    "id": "q_math_c1_t10_1002",
+    "question_id": "q_math_c1_t10_1002",
+    "question_group_id": "math_ch01_group_1002",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53301,18 +59083,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "4110",
-        "B": "4410",
+        "B": "4610",
         "C": "8820",
-        "D": "4610"
+        "D": "4410"
       },
       "en": {
         "A": "4110",
-        "B": "4410",
+        "B": "4610",
         "C": "8820",
-        "D": "4610"
+        "D": "4410"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "4410",
       "en": "4410"
@@ -53325,26 +59107,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 90 and their HCF is 49. What is the product of the two numbers?",
     "opts_hi": {
       "A": "4110",
-      "B": "4410",
+      "B": "4610",
       "C": "8820",
-      "D": "4610"
+      "D": "4410"
     },
     "opts_en": {
       "A": "4110",
-      "B": "4410",
+      "B": "4610",
       "C": "8820",
-      "D": "4610"
+      "D": "4410"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 49 × 90 = 4410।",
     "exp_en": "Product = HCF × LCM = 49 × 90 = 4410.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0905",
-    "question_id": "q_math_c1_t10_0905",
-    "question_group_id": "math_ch01_group_0905",
+    "id": "q_math_c1_t10_1003",
+    "question_id": "q_math_c1_t10_1003",
+    "question_group_id": "math_ch01_group_1003",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53359,19 +59141,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "60",
-        "B": "90",
-        "C": "140",
-        "D": "112"
+        "A": "90",
+        "B": "140",
+        "C": "112",
+        "D": "60"
       },
       "en": {
-        "A": "60",
-        "B": "90",
-        "C": "140",
-        "D": "112"
+        "A": "90",
+        "B": "140",
+        "C": "112",
+        "D": "60"
       }
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "90",
       "en": "90"
@@ -53383,27 +59165,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 5040 है और उनका HCF (म.स.) 56 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 5040 and their HCF is 56, what is their LCM?",
     "opts_hi": {
-      "A": "60",
-      "B": "90",
-      "C": "140",
-      "D": "112"
+      "A": "90",
+      "B": "140",
+      "C": "112",
+      "D": "60"
     },
     "opts_en": {
-      "A": "60",
-      "B": "90",
-      "C": "140",
-      "D": "112"
+      "A": "90",
+      "B": "140",
+      "C": "112",
+      "D": "60"
     },
-    "ans": "B",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 5040 / 56 = 90।",
     "exp_en": "LCM = Product / HCF = 5040 / 56 = 90.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0906",
-    "question_id": "q_math_c1_t10_0906",
-    "question_group_id": "math_ch01_group_0906",
+    "id": "q_math_c1_t10_1004",
+    "question_id": "q_math_c1_t10_1004",
+    "question_group_id": "math_ch01_group_1004",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53420,14 +59202,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "4740",
         "B": "5040",
-        "C": "5240",
-        "D": "10080"
+        "C": "10080",
+        "D": "5240"
       },
       "en": {
         "A": "4740",
         "B": "5040",
-        "C": "5240",
-        "D": "10080"
+        "C": "10080",
+        "D": "5240"
       }
     },
     "correct_option": "B",
@@ -53444,14 +59226,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "4740",
       "B": "5040",
-      "C": "5240",
-      "D": "10080"
+      "C": "10080",
+      "D": "5240"
     },
     "opts_en": {
       "A": "4740",
       "B": "5040",
-      "C": "5240",
-      "D": "10080"
+      "C": "10080",
+      "D": "5240"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 56 × 90 = 5040।",
@@ -53460,9 +59242,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0907",
-    "question_id": "q_math_c1_t10_0907",
-    "question_group_id": "math_ch01_group_0907",
+    "id": "q_math_c1_t10_1005",
+    "question_id": "q_math_c1_t10_1005",
+    "question_group_id": "math_ch01_group_1005",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53479,14 +59261,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "140",
         "B": "90",
-        "C": "60",
-        "D": "30"
+        "C": "30",
+        "D": "60"
       },
       "en": {
         "A": "140",
         "B": "90",
-        "C": "60",
-        "D": "30"
+        "C": "30",
+        "D": "60"
       }
     },
     "correct_option": "B",
@@ -53503,14 +59285,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "140",
       "B": "90",
-      "C": "60",
-      "D": "30"
+      "C": "30",
+      "D": "60"
     },
     "opts_en": {
       "A": "140",
       "B": "90",
-      "C": "60",
-      "D": "30"
+      "C": "30",
+      "D": "60"
     },
     "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1350 / 15 = 90।",
@@ -53519,9 +59301,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0908",
-    "question_id": "q_math_c1_t10_0908",
-    "question_group_id": "math_ch01_group_0908",
+    "id": "q_math_c1_t10_1006",
+    "question_id": "q_math_c1_t10_1006",
+    "question_group_id": "math_ch01_group_1006",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53536,19 +59318,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "1350",
+        "A": "2700",
         "B": "1050",
-        "C": "2700",
-        "D": "1550"
+        "C": "1550",
+        "D": "1350"
       },
       "en": {
-        "A": "1350",
+        "A": "2700",
         "B": "1050",
-        "C": "2700",
-        "D": "1550"
+        "C": "1550",
+        "D": "1350"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "1350",
       "en": "1350"
@@ -53560,27 +59342,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 90 और HCF 15 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 90 and their HCF is 15. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "1350",
+      "A": "2700",
       "B": "1050",
-      "C": "2700",
-      "D": "1550"
+      "C": "1550",
+      "D": "1350"
     },
     "opts_en": {
-      "A": "1350",
+      "A": "2700",
       "B": "1050",
-      "C": "2700",
-      "D": "1550"
+      "C": "1550",
+      "D": "1350"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 15 × 90 = 1350।",
     "exp_en": "Product = HCF × LCM = 15 × 90 = 1350.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0909",
-    "question_id": "q_math_c1_t10_0909",
-    "question_group_id": "math_ch01_group_0909",
+    "id": "q_math_c1_t10_1007",
+    "question_id": "q_math_c1_t10_1007",
+    "question_group_id": "math_ch01_group_1007",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53595,19 +59377,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "90",
-        "B": "28",
-        "C": "120",
-        "D": "170"
+        "A": "170",
+        "B": "120",
+        "C": "28",
+        "D": "90"
       },
       "en": {
-        "A": "90",
-        "B": "28",
-        "C": "120",
-        "D": "170"
+        "A": "170",
+        "B": "120",
+        "C": "28",
+        "D": "90"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -53619,27 +59401,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 1680 है और उनका HCF (म.स.) 14 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 1680 and their HCF is 14, what is their LCM?",
     "opts_hi": {
-      "A": "90",
-      "B": "28",
-      "C": "120",
-      "D": "170"
+      "A": "170",
+      "B": "120",
+      "C": "28",
+      "D": "90"
     },
     "opts_en": {
-      "A": "90",
-      "B": "28",
-      "C": "120",
-      "D": "170"
+      "A": "170",
+      "B": "120",
+      "C": "28",
+      "D": "90"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1680 / 14 = 120।",
     "exp_en": "LCM = Product / HCF = 1680 / 14 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0910",
-    "question_id": "q_math_c1_t10_0910",
-    "question_group_id": "math_ch01_group_0910",
+    "id": "q_math_c1_t10_1008",
+    "question_id": "q_math_c1_t10_1008",
+    "question_group_id": "math_ch01_group_1008",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53656,14 +59438,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "1880",
         "B": "1680",
-        "C": "1380",
-        "D": "3360"
+        "C": "3360",
+        "D": "1380"
       },
       "en": {
         "A": "1880",
         "B": "1680",
-        "C": "1380",
-        "D": "3360"
+        "C": "3360",
+        "D": "1380"
       }
     },
     "correct_option": "B",
@@ -53680,14 +59462,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "1880",
       "B": "1680",
-      "C": "1380",
-      "D": "3360"
+      "C": "3360",
+      "D": "1380"
     },
     "opts_en": {
       "A": "1880",
       "B": "1680",
-      "C": "1380",
-      "D": "3360"
+      "C": "3360",
+      "D": "1380"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 14 × 120 = 1680।",
@@ -53696,9 +59478,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0911",
-    "question_id": "q_math_c1_t10_0911",
-    "question_group_id": "math_ch01_group_0911",
+    "id": "q_math_c1_t10_1009",
+    "question_id": "q_math_c1_t10_1009",
+    "question_group_id": "math_ch01_group_1009",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53713,19 +59495,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "40",
-        "B": "150",
-        "C": "100",
-        "D": "70"
+        "A": "100",
+        "B": "70",
+        "C": "150",
+        "D": "40"
       },
       "en": {
-        "A": "40",
-        "B": "150",
-        "C": "100",
-        "D": "70"
+        "A": "100",
+        "B": "70",
+        "C": "150",
+        "D": "40"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "100",
       "en": "100"
@@ -53737,27 +59519,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2000 है और उनका HCF (म.स.) 20 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2000 and their HCF is 20, what is their LCM?",
     "opts_hi": {
-      "A": "40",
-      "B": "150",
-      "C": "100",
-      "D": "70"
+      "A": "100",
+      "B": "70",
+      "C": "150",
+      "D": "40"
     },
     "opts_en": {
-      "A": "40",
-      "B": "150",
-      "C": "100",
-      "D": "70"
+      "A": "100",
+      "B": "70",
+      "C": "150",
+      "D": "40"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2000 / 20 = 100।",
     "exp_en": "LCM = Product / HCF = 2000 / 20 = 100.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0912",
-    "question_id": "q_math_c1_t10_0912",
-    "question_group_id": "math_ch01_group_0912",
+    "id": "q_math_c1_t10_1010",
+    "question_id": "q_math_c1_t10_1010",
+    "question_group_id": "math_ch01_group_1010",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53774,17 +59556,17 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "1700",
         "B": "4000",
-        "C": "2000",
-        "D": "2200"
+        "C": "2200",
+        "D": "2000"
       },
       "en": {
         "A": "1700",
         "B": "4000",
-        "C": "2000",
-        "D": "2200"
+        "C": "2200",
+        "D": "2000"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "2000",
       "en": "2000"
@@ -53798,25 +59580,25 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "1700",
       "B": "4000",
-      "C": "2000",
-      "D": "2200"
+      "C": "2200",
+      "D": "2000"
     },
     "opts_en": {
       "A": "1700",
       "B": "4000",
-      "C": "2000",
-      "D": "2200"
+      "C": "2200",
+      "D": "2000"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 20 × 100 = 2000।",
     "exp_en": "Product = HCF × LCM = 20 × 100 = 2000.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0913",
-    "question_id": "q_math_c1_t10_0913",
-    "question_group_id": "math_ch01_group_0913",
+    "id": "q_math_c1_t10_1011",
+    "question_id": "q_math_c1_t10_1011",
+    "question_group_id": "math_ch01_group_1011",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53831,19 +59613,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "210",
-        "B": "180",
-        "C": "260",
-        "D": "24"
+        "A": "24",
+        "B": "260",
+        "C": "210",
+        "D": "180"
       },
       "en": {
-        "A": "210",
-        "B": "180",
-        "C": "260",
-        "D": "24"
+        "A": "24",
+        "B": "260",
+        "C": "210",
+        "D": "180"
       }
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "210",
       "en": "210"
@@ -53855,27 +59637,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2520 है और उनका HCF (म.स.) 12 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2520 and their HCF is 12, what is their LCM?",
     "opts_hi": {
-      "A": "210",
-      "B": "180",
-      "C": "260",
-      "D": "24"
+      "A": "24",
+      "B": "260",
+      "C": "210",
+      "D": "180"
     },
     "opts_en": {
-      "A": "210",
-      "B": "180",
-      "C": "260",
-      "D": "24"
+      "A": "24",
+      "B": "260",
+      "C": "210",
+      "D": "180"
     },
-    "ans": "A",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2520 / 12 = 210।",
     "exp_en": "LCM = Product / HCF = 2520 / 12 = 210.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0914",
-    "question_id": "q_math_c1_t10_0914",
-    "question_group_id": "math_ch01_group_0914",
+    "id": "q_math_c1_t10_1012",
+    "question_id": "q_math_c1_t10_1012",
+    "question_group_id": "math_ch01_group_1012",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53890,19 +59672,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "2520",
-        "B": "2720",
+        "A": "2720",
+        "B": "5040",
         "C": "2220",
-        "D": "5040"
+        "D": "2520"
       },
       "en": {
-        "A": "2520",
-        "B": "2720",
+        "A": "2720",
+        "B": "5040",
         "C": "2220",
-        "D": "5040"
+        "D": "2520"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "2520",
       "en": "2520"
@@ -53914,27 +59696,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 210 और HCF 12 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 210 and their HCF is 12. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "2520",
-      "B": "2720",
+      "A": "2720",
+      "B": "5040",
       "C": "2220",
-      "D": "5040"
+      "D": "2520"
     },
     "opts_en": {
-      "A": "2520",
-      "B": "2720",
+      "A": "2720",
+      "B": "5040",
       "C": "2220",
-      "D": "5040"
+      "D": "2520"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 12 × 210 = 2520।",
     "exp_en": "Product = HCF × LCM = 12 × 210 = 2520.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0915",
-    "question_id": "q_math_c1_t10_0915",
-    "question_group_id": "math_ch01_group_0915",
+    "id": "q_math_c1_t10_1013",
+    "question_id": "q_math_c1_t10_1013",
+    "question_group_id": "math_ch01_group_1013",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -53949,19 +59731,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "190",
-        "B": "110",
-        "C": "140",
-        "D": "40"
+        "A": "40",
+        "B": "140",
+        "C": "110",
+        "D": "190"
       },
       "en": {
-        "A": "190",
-        "B": "110",
-        "C": "140",
-        "D": "40"
+        "A": "40",
+        "B": "140",
+        "C": "110",
+        "D": "190"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -53973,27 +59755,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2800 है और उनका HCF (म.स.) 20 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2800 and their HCF is 20, what is their LCM?",
     "opts_hi": {
-      "A": "190",
-      "B": "110",
-      "C": "140",
-      "D": "40"
+      "A": "40",
+      "B": "140",
+      "C": "110",
+      "D": "190"
     },
     "opts_en": {
-      "A": "190",
-      "B": "110",
-      "C": "140",
-      "D": "40"
+      "A": "40",
+      "B": "140",
+      "C": "110",
+      "D": "190"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2800 / 20 = 140।",
     "exp_en": "LCM = Product / HCF = 2800 / 20 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0916",
-    "question_id": "q_math_c1_t10_0916",
-    "question_group_id": "math_ch01_group_0916",
+    "id": "q_math_c1_t10_1014",
+    "question_id": "q_math_c1_t10_1014",
+    "question_group_id": "math_ch01_group_1014",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54008,14 +59790,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "2500",
-        "B": "3000",
+        "A": "3000",
+        "B": "2500",
         "C": "5600",
         "D": "2800"
       },
       "en": {
-        "A": "2500",
-        "B": "3000",
+        "A": "3000",
+        "B": "2500",
         "C": "5600",
         "D": "2800"
       }
@@ -54032,14 +59814,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 20 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 20. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "2500",
-      "B": "3000",
+      "A": "3000",
+      "B": "2500",
       "C": "5600",
       "D": "2800"
     },
     "opts_en": {
-      "A": "2500",
-      "B": "3000",
+      "A": "3000",
+      "B": "2500",
       "C": "5600",
       "D": "2800"
     },
@@ -54050,9 +59832,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0917",
-    "question_id": "q_math_c1_t10_0917",
-    "question_group_id": "math_ch01_group_0917",
+    "id": "q_math_c1_t10_1015",
+    "question_id": "q_math_c1_t10_1015",
+    "question_group_id": "math_ch01_group_1015",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54067,14 +59849,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "110",
-        "B": "48",
+        "A": "48",
+        "B": "110",
         "C": "190",
         "D": "140"
       },
       "en": {
-        "A": "110",
-        "B": "48",
+        "A": "48",
+        "B": "110",
         "C": "190",
         "D": "140"
       }
@@ -54091,14 +59873,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 3360 है और उनका HCF (म.स.) 24 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 3360 and their HCF is 24, what is their LCM?",
     "opts_hi": {
-      "A": "110",
-      "B": "48",
+      "A": "48",
+      "B": "110",
       "C": "190",
       "D": "140"
     },
     "opts_en": {
-      "A": "110",
-      "B": "48",
+      "A": "48",
+      "B": "110",
       "C": "190",
       "D": "140"
     },
@@ -54109,9 +59891,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0918",
-    "question_id": "q_math_c1_t10_0918",
-    "question_group_id": "math_ch01_group_0918",
+    "id": "q_math_c1_t10_1016",
+    "question_id": "q_math_c1_t10_1016",
+    "question_group_id": "math_ch01_group_1016",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54126,16 +59908,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "6720",
-        "B": "3560",
+        "A": "3560",
+        "B": "3060",
         "C": "3360",
-        "D": "3060"
+        "D": "6720"
       },
       "en": {
-        "A": "6720",
-        "B": "3560",
+        "A": "3560",
+        "B": "3060",
         "C": "3360",
-        "D": "3060"
+        "D": "6720"
       }
     },
     "correct_option": "C",
@@ -54150,16 +59932,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 24 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 24. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "6720",
-      "B": "3560",
+      "A": "3560",
+      "B": "3060",
       "C": "3360",
-      "D": "3060"
+      "D": "6720"
     },
     "opts_en": {
-      "A": "6720",
-      "B": "3560",
+      "A": "3560",
+      "B": "3060",
       "C": "3360",
-      "D": "3060"
+      "D": "6720"
     },
     "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 24 × 140 = 3360।",
@@ -54168,9 +59950,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0919",
-    "question_id": "q_math_c1_t10_0919",
-    "question_group_id": "math_ch01_group_0919",
+    "id": "q_math_c1_t10_1017",
+    "question_id": "q_math_c1_t10_1017",
+    "question_group_id": "math_ch01_group_1017",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54185,19 +59967,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "190",
-        "B": "140",
+        "A": "56",
+        "B": "190",
         "C": "110",
-        "D": "56"
+        "D": "140"
       },
       "en": {
-        "A": "190",
-        "B": "140",
+        "A": "56",
+        "B": "190",
         "C": "110",
-        "D": "56"
+        "D": "140"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -54209,27 +59991,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 3920 है और उनका HCF (म.स.) 28 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 3920 and their HCF is 28, what is their LCM?",
     "opts_hi": {
-      "A": "190",
-      "B": "140",
+      "A": "56",
+      "B": "190",
       "C": "110",
-      "D": "56"
+      "D": "140"
     },
     "opts_en": {
-      "A": "190",
-      "B": "140",
+      "A": "56",
+      "B": "190",
       "C": "110",
-      "D": "56"
+      "D": "140"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3920 / 28 = 140।",
     "exp_en": "LCM = Product / HCF = 3920 / 28 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0920",
-    "question_id": "q_math_c1_t10_0920",
-    "question_group_id": "math_ch01_group_0920",
+    "id": "q_math_c1_t10_1018",
+    "question_id": "q_math_c1_t10_1018",
+    "question_group_id": "math_ch01_group_1018",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54244,19 +60026,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "7840",
-        "B": "3620",
-        "C": "4120",
-        "D": "3920"
+        "A": "3620",
+        "B": "3920",
+        "C": "7840",
+        "D": "4120"
       },
       "en": {
-        "A": "7840",
-        "B": "3620",
-        "C": "4120",
-        "D": "3920"
+        "A": "3620",
+        "B": "3920",
+        "C": "7840",
+        "D": "4120"
       }
     },
-    "correct_option": "D",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "3920",
       "en": "3920"
@@ -54268,27 +60050,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 28 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 28. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "7840",
-      "B": "3620",
-      "C": "4120",
-      "D": "3920"
+      "A": "3620",
+      "B": "3920",
+      "C": "7840",
+      "D": "4120"
     },
     "opts_en": {
-      "A": "7840",
-      "B": "3620",
-      "C": "4120",
-      "D": "3920"
+      "A": "3620",
+      "B": "3920",
+      "C": "7840",
+      "D": "4120"
     },
-    "ans": "D",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 28 × 140 = 3920।",
     "exp_en": "Product = HCF × LCM = 28 × 140 = 3920.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0921",
-    "question_id": "q_math_c1_t10_0921",
-    "question_group_id": "math_ch01_group_0921",
+    "id": "q_math_c1_t10_1019",
+    "question_id": "q_math_c1_t10_1019",
+    "question_group_id": "math_ch01_group_1019",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54303,19 +60085,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "64",
+        "A": "140",
         "B": "190",
         "C": "110",
-        "D": "140"
+        "D": "64"
       },
       "en": {
-        "A": "64",
+        "A": "140",
         "B": "190",
         "C": "110",
-        "D": "140"
+        "D": "64"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -54327,27 +60109,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4480 है और उनका HCF (म.स.) 32 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4480 and their HCF is 32, what is their LCM?",
     "opts_hi": {
-      "A": "64",
+      "A": "140",
       "B": "190",
       "C": "110",
-      "D": "140"
+      "D": "64"
     },
     "opts_en": {
-      "A": "64",
+      "A": "140",
       "B": "190",
       "C": "110",
-      "D": "140"
+      "D": "64"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4480 / 32 = 140।",
     "exp_en": "LCM = Product / HCF = 4480 / 32 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0922",
-    "question_id": "q_math_c1_t10_0922",
-    "question_group_id": "math_ch01_group_0922",
+    "id": "q_math_c1_t10_1020",
+    "question_id": "q_math_c1_t10_1020",
+    "question_group_id": "math_ch01_group_1020",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54362,19 +60144,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "4180",
-        "B": "4480",
-        "C": "8960",
-        "D": "4680"
+        "A": "8960",
+        "B": "4680",
+        "C": "4480",
+        "D": "4180"
       },
       "en": {
-        "A": "4180",
-        "B": "4480",
-        "C": "8960",
-        "D": "4680"
+        "A": "8960",
+        "B": "4680",
+        "C": "4480",
+        "D": "4180"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "4480",
       "en": "4480"
@@ -54386,27 +60168,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 32 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 32. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "4180",
-      "B": "4480",
-      "C": "8960",
-      "D": "4680"
+      "A": "8960",
+      "B": "4680",
+      "C": "4480",
+      "D": "4180"
     },
     "opts_en": {
-      "A": "4180",
-      "B": "4480",
-      "C": "8960",
-      "D": "4680"
+      "A": "8960",
+      "B": "4680",
+      "C": "4480",
+      "D": "4180"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 32 × 140 = 4480।",
     "exp_en": "Product = HCF × LCM = 32 × 140 = 4480.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0923",
-    "question_id": "q_math_c1_t10_0923",
-    "question_group_id": "math_ch01_group_0923",
+    "id": "q_math_c1_t10_1021",
+    "question_id": "q_math_c1_t10_1021",
+    "question_group_id": "math_ch01_group_1021",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54421,19 +60203,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "110",
-        "B": "140",
-        "C": "80",
-        "D": "190"
+        "A": "190",
+        "B": "80",
+        "C": "110",
+        "D": "140"
       },
       "en": {
-        "A": "110",
-        "B": "140",
-        "C": "80",
-        "D": "190"
+        "A": "190",
+        "B": "80",
+        "C": "110",
+        "D": "140"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -54445,27 +60227,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 5600 है और उनका HCF (म.स.) 40 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 5600 and their HCF is 40, what is their LCM?",
     "opts_hi": {
-      "A": "110",
-      "B": "140",
-      "C": "80",
-      "D": "190"
+      "A": "190",
+      "B": "80",
+      "C": "110",
+      "D": "140"
     },
     "opts_en": {
-      "A": "110",
-      "B": "140",
-      "C": "80",
-      "D": "190"
+      "A": "190",
+      "B": "80",
+      "C": "110",
+      "D": "140"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 5600 / 40 = 140।",
     "exp_en": "LCM = Product / HCF = 5600 / 40 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0924",
-    "question_id": "q_math_c1_t10_0924",
-    "question_group_id": "math_ch01_group_0924",
+    "id": "q_math_c1_t10_1022",
+    "question_id": "q_math_c1_t10_1022",
+    "question_group_id": "math_ch01_group_1022",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54480,19 +60262,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "5600",
+        "A": "11200",
         "B": "5300",
-        "C": "5800",
-        "D": "11200"
+        "C": "5600",
+        "D": "5800"
       },
       "en": {
-        "A": "5600",
+        "A": "11200",
         "B": "5300",
-        "C": "5800",
-        "D": "11200"
+        "C": "5600",
+        "D": "5800"
       }
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "5600",
       "en": "5600"
@@ -54504,27 +60286,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 40 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 40. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "5600",
+      "A": "11200",
       "B": "5300",
-      "C": "5800",
-      "D": "11200"
+      "C": "5600",
+      "D": "5800"
     },
     "opts_en": {
-      "A": "5600",
+      "A": "11200",
       "B": "5300",
-      "C": "5800",
-      "D": "11200"
+      "C": "5600",
+      "D": "5800"
     },
-    "ans": "A",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 40 × 140 = 5600।",
     "exp_en": "Product = HCF × LCM = 40 × 140 = 5600.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0925",
-    "question_id": "q_math_c1_t10_0925",
-    "question_group_id": "math_ch01_group_0925",
+    "id": "q_math_c1_t10_1023",
+    "question_id": "q_math_c1_t10_1023",
+    "question_group_id": "math_ch01_group_1023",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54540,18 +60322,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "110",
-        "B": "90",
-        "C": "190",
-        "D": "140"
+        "B": "190",
+        "C": "140",
+        "D": "90"
       },
       "en": {
         "A": "110",
-        "B": "90",
-        "C": "190",
-        "D": "140"
+        "B": "190",
+        "C": "140",
+        "D": "90"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -54564,26 +60346,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 6300 and their HCF is 45, what is their LCM?",
     "opts_hi": {
       "A": "110",
-      "B": "90",
-      "C": "190",
-      "D": "140"
+      "B": "190",
+      "C": "140",
+      "D": "90"
     },
     "opts_en": {
       "A": "110",
-      "B": "90",
-      "C": "190",
-      "D": "140"
+      "B": "190",
+      "C": "140",
+      "D": "90"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 6300 / 45 = 140।",
     "exp_en": "LCM = Product / HCF = 6300 / 45 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0926",
-    "question_id": "q_math_c1_t10_0926",
-    "question_group_id": "math_ch01_group_0926",
+    "id": "q_math_c1_t10_1024",
+    "question_id": "q_math_c1_t10_1024",
+    "question_group_id": "math_ch01_group_1024",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54598,19 +60380,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "6000",
+        "A": "6300",
         "B": "12600",
-        "C": "6300",
-        "D": "6500"
+        "C": "6500",
+        "D": "6000"
       },
       "en": {
-        "A": "6000",
+        "A": "6300",
         "B": "12600",
-        "C": "6300",
-        "D": "6500"
+        "C": "6500",
+        "D": "6000"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "6300",
       "en": "6300"
@@ -54622,27 +60404,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 45 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 45. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "6000",
+      "A": "6300",
       "B": "12600",
-      "C": "6300",
-      "D": "6500"
+      "C": "6500",
+      "D": "6000"
     },
     "opts_en": {
-      "A": "6000",
+      "A": "6300",
       "B": "12600",
-      "C": "6300",
-      "D": "6500"
+      "C": "6500",
+      "D": "6000"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 45 × 140 = 6300।",
     "exp_en": "Product = HCF × LCM = 45 × 140 = 6300.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0927",
-    "question_id": "q_math_c1_t10_0927",
-    "question_group_id": "math_ch01_group_0927",
+    "id": "q_math_c1_t10_1025",
+    "question_id": "q_math_c1_t10_1025",
+    "question_group_id": "math_ch01_group_1025",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54657,19 +60439,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "190",
-        "B": "110",
-        "C": "140",
-        "D": "100"
+        "A": "100",
+        "B": "190",
+        "C": "110",
+        "D": "140"
       },
       "en": {
-        "A": "190",
-        "B": "110",
-        "C": "140",
-        "D": "100"
+        "A": "100",
+        "B": "190",
+        "C": "110",
+        "D": "140"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -54681,27 +60463,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 7000 है और उनका HCF (म.स.) 50 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 7000 and their HCF is 50, what is their LCM?",
     "opts_hi": {
-      "A": "190",
-      "B": "110",
-      "C": "140",
-      "D": "100"
+      "A": "100",
+      "B": "190",
+      "C": "110",
+      "D": "140"
     },
     "opts_en": {
-      "A": "190",
-      "B": "110",
-      "C": "140",
-      "D": "100"
+      "A": "100",
+      "B": "190",
+      "C": "110",
+      "D": "140"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 7000 / 50 = 140।",
     "exp_en": "LCM = Product / HCF = 7000 / 50 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0928",
-    "question_id": "q_math_c1_t10_0928",
-    "question_group_id": "math_ch01_group_0928",
+    "id": "q_math_c1_t10_1026",
+    "question_id": "q_math_c1_t10_1026",
+    "question_group_id": "math_ch01_group_1026",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54716,19 +60498,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "14000",
-        "B": "6700",
-        "C": "7000",
-        "D": "7200"
+        "A": "6700",
+        "B": "14000",
+        "C": "7200",
+        "D": "7000"
       },
       "en": {
-        "A": "14000",
-        "B": "6700",
-        "C": "7000",
-        "D": "7200"
+        "A": "6700",
+        "B": "14000",
+        "C": "7200",
+        "D": "7000"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "7000",
       "en": "7000"
@@ -54740,27 +60522,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 50 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 50. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "14000",
-      "B": "6700",
-      "C": "7000",
-      "D": "7200"
+      "A": "6700",
+      "B": "14000",
+      "C": "7200",
+      "D": "7000"
     },
     "opts_en": {
-      "A": "14000",
-      "B": "6700",
-      "C": "7000",
-      "D": "7200"
+      "A": "6700",
+      "B": "14000",
+      "C": "7200",
+      "D": "7000"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 50 × 140 = 7000।",
     "exp_en": "Product = HCF × LCM = 50 × 140 = 7000.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0929",
-    "question_id": "q_math_c1_t10_0929",
-    "question_group_id": "math_ch01_group_0929",
+    "id": "q_math_c1_t10_1027",
+    "question_id": "q_math_c1_t10_1027",
+    "question_group_id": "math_ch01_group_1027",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54817,9 +60599,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0930",
-    "question_id": "q_math_c1_t10_0930",
-    "question_group_id": "math_ch01_group_0930",
+    "id": "q_math_c1_t10_1028",
+    "question_id": "q_math_c1_t10_1028",
+    "question_group_id": "math_ch01_group_1028",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54876,9 +60658,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0931",
-    "question_id": "q_math_c1_t10_0931",
-    "question_group_id": "math_ch01_group_0931",
+    "id": "q_math_c1_t10_1029",
+    "question_id": "q_math_c1_t10_1029",
+    "question_group_id": "math_ch01_group_1029",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54893,19 +60675,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "1500",
-        "B": "1700",
-        "C": "3000",
-        "D": "1200"
+        "A": "1700",
+        "B": "1200",
+        "C": "1500",
+        "D": "3000"
       },
       "en": {
-        "A": "1500",
-        "B": "1700",
-        "C": "3000",
-        "D": "1200"
+        "A": "1700",
+        "B": "1200",
+        "C": "1500",
+        "D": "3000"
       }
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "1500",
       "en": "1500"
@@ -54917,27 +60699,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 150 और HCF 10 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 150 and their HCF is 10. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "1500",
-      "B": "1700",
-      "C": "3000",
-      "D": "1200"
+      "A": "1700",
+      "B": "1200",
+      "C": "1500",
+      "D": "3000"
     },
     "opts_en": {
-      "A": "1500",
-      "B": "1700",
-      "C": "3000",
-      "D": "1200"
+      "A": "1700",
+      "B": "1200",
+      "C": "1500",
+      "D": "3000"
     },
-    "ans": "A",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 10 × 150 = 1500।",
     "exp_en": "Product = HCF × LCM = 10 × 150 = 1500.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0932",
-    "question_id": "q_math_c1_t10_0932",
-    "question_group_id": "math_ch01_group_0932",
+    "id": "q_math_c1_t10_1030",
+    "question_id": "q_math_c1_t10_1030",
+    "question_group_id": "math_ch01_group_1030",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -54953,18 +60735,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "60",
-        "B": "140",
-        "C": "40",
-        "D": "90"
+        "B": "40",
+        "C": "90",
+        "D": "140"
       },
       "en": {
         "A": "60",
-        "B": "140",
-        "C": "40",
-        "D": "90"
+        "B": "40",
+        "C": "90",
+        "D": "140"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "90",
       "en": "90"
@@ -54977,26 +60759,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 1800 and their HCF is 20, what is their LCM?",
     "opts_hi": {
       "A": "60",
-      "B": "140",
-      "C": "40",
-      "D": "90"
+      "B": "40",
+      "C": "90",
+      "D": "140"
     },
     "opts_en": {
       "A": "60",
-      "B": "140",
-      "C": "40",
-      "D": "90"
+      "B": "40",
+      "C": "90",
+      "D": "140"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1800 / 20 = 90।",
     "exp_en": "LCM = Product / HCF = 1800 / 20 = 90.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0933",
-    "question_id": "q_math_c1_t10_0933",
-    "question_group_id": "math_ch01_group_0933",
+    "id": "q_math_c1_t10_1031",
+    "question_id": "q_math_c1_t10_1031",
+    "question_group_id": "math_ch01_group_1031",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55012,14 +60794,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "1500",
-        "B": "3600",
-        "C": "2000",
+        "B": "2000",
+        "C": "3600",
         "D": "1800"
       },
       "en": {
         "A": "1500",
-        "B": "3600",
-        "C": "2000",
+        "B": "2000",
+        "C": "3600",
         "D": "1800"
       }
     },
@@ -55036,14 +60818,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 90 and their HCF is 20. What is the product of the two numbers?",
     "opts_hi": {
       "A": "1500",
-      "B": "3600",
-      "C": "2000",
+      "B": "2000",
+      "C": "3600",
       "D": "1800"
     },
     "opts_en": {
       "A": "1500",
-      "B": "3600",
-      "C": "2000",
+      "B": "2000",
+      "C": "3600",
       "D": "1800"
     },
     "ans": "D",
@@ -55053,9 +60835,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0934",
-    "question_id": "q_math_c1_t10_0934",
-    "question_group_id": "math_ch01_group_0934",
+    "id": "q_math_c1_t10_1032",
+    "question_id": "q_math_c1_t10_1032",
+    "question_group_id": "math_ch01_group_1032",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55070,19 +60852,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "60",
-        "B": "40",
-        "C": "70",
-        "D": "120"
+        "A": "40",
+        "B": "60",
+        "C": "120",
+        "D": "70"
       },
       "en": {
-        "A": "60",
-        "B": "40",
-        "C": "70",
-        "D": "120"
+        "A": "40",
+        "B": "60",
+        "C": "120",
+        "D": "70"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "70",
       "en": "70"
@@ -55094,27 +60876,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2100 है और उनका HCF (म.स.) 30 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2100 and their HCF is 30, what is their LCM?",
     "opts_hi": {
-      "A": "60",
-      "B": "40",
-      "C": "70",
-      "D": "120"
+      "A": "40",
+      "B": "60",
+      "C": "120",
+      "D": "70"
     },
     "opts_en": {
-      "A": "60",
-      "B": "40",
-      "C": "70",
-      "D": "120"
+      "A": "40",
+      "B": "60",
+      "C": "120",
+      "D": "70"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2100 / 30 = 70।",
     "exp_en": "LCM = Product / HCF = 2100 / 30 = 70.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0935",
-    "question_id": "q_math_c1_t10_0935",
-    "question_group_id": "math_ch01_group_0935",
+    "id": "q_math_c1_t10_1033",
+    "question_id": "q_math_c1_t10_1033",
+    "question_group_id": "math_ch01_group_1033",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55129,19 +60911,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "4200",
+        "A": "2100",
         "B": "2300",
-        "C": "2100",
-        "D": "1800"
+        "C": "1800",
+        "D": "4200"
       },
       "en": {
-        "A": "4200",
+        "A": "2100",
         "B": "2300",
-        "C": "2100",
-        "D": "1800"
+        "C": "1800",
+        "D": "4200"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "2100",
       "en": "2100"
@@ -55153,27 +60935,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 70 और HCF 30 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 70 and their HCF is 30. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "4200",
+      "A": "2100",
       "B": "2300",
-      "C": "2100",
-      "D": "1800"
+      "C": "1800",
+      "D": "4200"
     },
     "opts_en": {
-      "A": "4200",
+      "A": "2100",
       "B": "2300",
-      "C": "2100",
-      "D": "1800"
+      "C": "1800",
+      "D": "4200"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 30 × 70 = 2100।",
     "exp_en": "Product = HCF × LCM = 30 × 70 = 2100.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0936",
-    "question_id": "q_math_c1_t10_0936",
-    "question_group_id": "math_ch01_group_0936",
+    "id": "q_math_c1_t10_1034",
+    "question_id": "q_math_c1_t10_1034",
+    "question_group_id": "math_ch01_group_1034",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55188,19 +60970,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "50",
-        "B": "130",
-        "C": "80",
-        "D": "60"
+        "A": "130",
+        "B": "50",
+        "C": "60",
+        "D": "80"
       },
       "en": {
-        "A": "50",
-        "B": "130",
-        "C": "80",
-        "D": "60"
+        "A": "130",
+        "B": "50",
+        "C": "60",
+        "D": "80"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "80",
       "en": "80"
@@ -55212,27 +60994,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2400 है और उनका HCF (म.स.) 30 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2400 and their HCF is 30, what is their LCM?",
     "opts_hi": {
-      "A": "50",
-      "B": "130",
-      "C": "80",
-      "D": "60"
+      "A": "130",
+      "B": "50",
+      "C": "60",
+      "D": "80"
     },
     "opts_en": {
-      "A": "50",
-      "B": "130",
-      "C": "80",
-      "D": "60"
+      "A": "130",
+      "B": "50",
+      "C": "60",
+      "D": "80"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2400 / 30 = 80।",
     "exp_en": "LCM = Product / HCF = 2400 / 30 = 80.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0937",
-    "question_id": "q_math_c1_t10_0937",
-    "question_group_id": "math_ch01_group_0937",
+    "id": "q_math_c1_t10_1035",
+    "question_id": "q_math_c1_t10_1035",
+    "question_group_id": "math_ch01_group_1035",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55247,19 +61029,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "2400",
-        "B": "2100",
+        "A": "2100",
+        "B": "2400",
         "C": "2600",
         "D": "4800"
       },
       "en": {
-        "A": "2400",
-        "B": "2100",
+        "A": "2100",
+        "B": "2400",
         "C": "2600",
         "D": "4800"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "2400",
       "en": "2400"
@@ -55271,27 +61053,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 80 और HCF 30 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 80 and their HCF is 30. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "2400",
-      "B": "2100",
+      "A": "2100",
+      "B": "2400",
       "C": "2600",
       "D": "4800"
     },
     "opts_en": {
-      "A": "2400",
-      "B": "2100",
+      "A": "2100",
+      "B": "2400",
       "C": "2600",
       "D": "4800"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 30 × 80 = 2400।",
     "exp_en": "Product = HCF × LCM = 30 × 80 = 2400.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0938",
-    "question_id": "q_math_c1_t10_0938",
-    "question_group_id": "math_ch01_group_0938",
+    "id": "q_math_c1_t10_1036",
+    "question_id": "q_math_c1_t10_1036",
+    "question_group_id": "math_ch01_group_1036",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55306,19 +61088,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "110",
+        "A": "60",
         "B": "90",
         "C": "30",
-        "D": "60"
+        "D": "110"
       },
       "en": {
-        "A": "110",
+        "A": "60",
         "B": "90",
         "C": "30",
-        "D": "60"
+        "D": "110"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "60",
       "en": "60"
@@ -55330,27 +61112,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2700 है और उनका HCF (म.स.) 45 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2700 and their HCF is 45, what is their LCM?",
     "opts_hi": {
-      "A": "110",
+      "A": "60",
       "B": "90",
       "C": "30",
-      "D": "60"
+      "D": "110"
     },
     "opts_en": {
-      "A": "110",
+      "A": "60",
       "B": "90",
       "C": "30",
-      "D": "60"
+      "D": "110"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2700 / 45 = 60।",
     "exp_en": "LCM = Product / HCF = 2700 / 45 = 60.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0939",
-    "question_id": "q_math_c1_t10_0939",
-    "question_group_id": "math_ch01_group_0939",
+    "id": "q_math_c1_t10_1037",
+    "question_id": "q_math_c1_t10_1037",
+    "question_group_id": "math_ch01_group_1037",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55365,19 +61147,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "2700",
-        "B": "2900",
-        "C": "2400",
-        "D": "5400"
+        "A": "2900",
+        "B": "2400",
+        "C": "5400",
+        "D": "2700"
       },
       "en": {
-        "A": "2700",
-        "B": "2900",
-        "C": "2400",
-        "D": "5400"
+        "A": "2900",
+        "B": "2400",
+        "C": "5400",
+        "D": "2700"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "2700",
       "en": "2700"
@@ -55389,27 +61171,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 60 और HCF 45 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 60 and their HCF is 45. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "2700",
-      "B": "2900",
-      "C": "2400",
-      "D": "5400"
+      "A": "2900",
+      "B": "2400",
+      "C": "5400",
+      "D": "2700"
     },
     "opts_en": {
-      "A": "2700",
-      "B": "2900",
-      "C": "2400",
-      "D": "5400"
+      "A": "2900",
+      "B": "2400",
+      "C": "5400",
+      "D": "2700"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 45 × 60 = 2700।",
     "exp_en": "Product = HCF × LCM = 45 × 60 = 2700.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0940",
-    "question_id": "q_math_c1_t10_0940",
-    "question_group_id": "math_ch01_group_0940",
+    "id": "q_math_c1_t10_1038",
+    "question_id": "q_math_c1_t10_1038",
+    "question_group_id": "math_ch01_group_1038",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55425,15 +61207,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "3200",
-        "B": "6400",
-        "C": "3400",
-        "D": "2900"
+        "B": "3400",
+        "C": "2900",
+        "D": "6400"
       },
       "en": {
         "A": "3200",
-        "B": "6400",
-        "C": "3400",
-        "D": "2900"
+        "B": "3400",
+        "C": "2900",
+        "D": "6400"
       }
     },
     "correct_option": "A",
@@ -55449,15 +61231,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 80 and their HCF is 40. What is the product of the two numbers?",
     "opts_hi": {
       "A": "3200",
-      "B": "6400",
-      "C": "3400",
-      "D": "2900"
+      "B": "3400",
+      "C": "2900",
+      "D": "6400"
     },
     "opts_en": {
       "A": "3200",
-      "B": "6400",
-      "C": "3400",
-      "D": "2900"
+      "B": "3400",
+      "C": "2900",
+      "D": "6400"
     },
     "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 40 × 80 = 3200।",
@@ -55466,9 +61248,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0941",
-    "question_id": "q_math_c1_t10_0941",
-    "question_group_id": "math_ch01_group_0941",
+    "id": "q_math_c1_t10_1039",
+    "question_id": "q_math_c1_t10_1039",
+    "question_group_id": "math_ch01_group_1039",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55485,14 +61267,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "130",
         "B": "80",
-        "C": "90",
-        "D": "50"
+        "C": "50",
+        "D": "90"
       },
       "en": {
         "A": "130",
         "B": "80",
-        "C": "90",
-        "D": "50"
+        "C": "50",
+        "D": "90"
       }
     },
     "correct_option": "B",
@@ -55509,14 +61291,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "130",
       "B": "80",
-      "C": "90",
-      "D": "50"
+      "C": "50",
+      "D": "90"
     },
     "opts_en": {
       "A": "130",
       "B": "80",
-      "C": "90",
-      "D": "50"
+      "C": "50",
+      "D": "90"
     },
     "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3600 / 45 = 80।",
@@ -55525,9 +61307,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0942",
-    "question_id": "q_math_c1_t10_0942",
-    "question_group_id": "math_ch01_group_0942",
+    "id": "q_math_c1_t10_1040",
+    "question_id": "q_math_c1_t10_1040",
+    "question_group_id": "math_ch01_group_1040",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55542,14 +61324,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "7200",
-        "B": "3800",
+        "A": "3800",
+        "B": "7200",
         "C": "3300",
         "D": "3600"
       },
       "en": {
-        "A": "7200",
-        "B": "3800",
+        "A": "3800",
+        "B": "7200",
         "C": "3300",
         "D": "3600"
       }
@@ -55566,14 +61348,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 80 और HCF 45 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 80 and their HCF is 45. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "7200",
-      "B": "3800",
+      "A": "3800",
+      "B": "7200",
       "C": "3300",
       "D": "3600"
     },
     "opts_en": {
-      "A": "7200",
-      "B": "3800",
+      "A": "3800",
+      "B": "7200",
       "C": "3300",
       "D": "3600"
     },
@@ -55584,9 +61366,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0943",
-    "question_id": "q_math_c1_t10_0943",
-    "question_group_id": "math_ch01_group_0943",
+    "id": "q_math_c1_t10_1041",
+    "question_id": "q_math_c1_t10_1041",
+    "question_group_id": "math_ch01_group_1041",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55601,16 +61383,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "100",
-        "B": "130",
+        "A": "130",
+        "B": "50",
         "C": "80",
-        "D": "50"
+        "D": "100"
       },
       "en": {
-        "A": "100",
-        "B": "130",
+        "A": "130",
+        "B": "50",
         "C": "80",
-        "D": "50"
+        "D": "100"
       }
     },
     "correct_option": "C",
@@ -55625,16 +61407,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4000 है और उनका HCF (म.स.) 50 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4000 and their HCF is 50, what is their LCM?",
     "opts_hi": {
-      "A": "100",
-      "B": "130",
+      "A": "130",
+      "B": "50",
       "C": "80",
-      "D": "50"
+      "D": "100"
     },
     "opts_en": {
-      "A": "100",
-      "B": "130",
+      "A": "130",
+      "B": "50",
       "C": "80",
-      "D": "50"
+      "D": "100"
     },
     "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4000 / 50 = 80।",
@@ -55643,9 +61425,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0944",
-    "question_id": "q_math_c1_t10_0944",
-    "question_group_id": "math_ch01_group_0944",
+    "id": "q_math_c1_t10_1042",
+    "question_id": "q_math_c1_t10_1042",
+    "question_group_id": "math_ch01_group_1042",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55660,16 +61442,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3700",
+        "A": "4200",
         "B": "4000",
-        "C": "8000",
-        "D": "4200"
+        "C": "3700",
+        "D": "8000"
       },
       "en": {
-        "A": "3700",
+        "A": "4200",
         "B": "4000",
-        "C": "8000",
-        "D": "4200"
+        "C": "3700",
+        "D": "8000"
       }
     },
     "correct_option": "B",
@@ -55684,16 +61466,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 80 और HCF 50 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 80 and their HCF is 50. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3700",
+      "A": "4200",
       "B": "4000",
-      "C": "8000",
-      "D": "4200"
+      "C": "3700",
+      "D": "8000"
     },
     "opts_en": {
-      "A": "3700",
+      "A": "4200",
       "B": "4000",
-      "C": "8000",
-      "D": "4200"
+      "C": "3700",
+      "D": "8000"
     },
     "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 50 × 80 = 4000।",
@@ -55702,9 +61484,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0945",
-    "question_id": "q_math_c1_t10_0945",
-    "question_group_id": "math_ch01_group_0945",
+    "id": "q_math_c1_t10_1043",
+    "question_id": "q_math_c1_t10_1043",
+    "question_group_id": "math_ch01_group_1043",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55721,14 +61503,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "110",
         "B": "80",
-        "C": "160",
-        "D": "36"
+        "C": "36",
+        "D": "160"
       },
       "en": {
         "A": "110",
         "B": "80",
-        "C": "160",
-        "D": "36"
+        "C": "36",
+        "D": "160"
       }
     },
     "correct_option": "A",
@@ -55745,14 +61527,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "110",
       "B": "80",
-      "C": "160",
-      "D": "36"
+      "C": "36",
+      "D": "160"
     },
     "opts_en": {
       "A": "110",
       "B": "80",
-      "C": "160",
-      "D": "36"
+      "C": "36",
+      "D": "160"
     },
     "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 1980 / 18 = 110।",
@@ -55761,9 +61543,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0946",
-    "question_id": "q_math_c1_t10_0946",
-    "question_group_id": "math_ch01_group_0946",
+    "id": "q_math_c1_t10_1044",
+    "question_id": "q_math_c1_t10_1044",
+    "question_group_id": "math_ch01_group_1044",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55778,19 +61560,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3960",
-        "B": "1980",
+        "A": "1980",
+        "B": "3960",
         "C": "2180",
         "D": "1680"
       },
       "en": {
-        "A": "3960",
-        "B": "1980",
+        "A": "1980",
+        "B": "3960",
         "C": "2180",
         "D": "1680"
       }
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "1980",
       "en": "1980"
@@ -55802,27 +61584,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 110 और HCF 18 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 110 and their HCF is 18. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3960",
-      "B": "1980",
+      "A": "1980",
+      "B": "3960",
       "C": "2180",
       "D": "1680"
     },
     "opts_en": {
-      "A": "3960",
-      "B": "1980",
+      "A": "1980",
+      "B": "3960",
       "C": "2180",
       "D": "1680"
     },
-    "ans": "B",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 18 × 110 = 1980।",
     "exp_en": "Product = HCF × LCM = 18 × 110 = 1980.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0947",
-    "question_id": "q_math_c1_t10_0947",
-    "question_group_id": "math_ch01_group_0947",
+    "id": "q_math_c1_t10_1045",
+    "question_id": "q_math_c1_t10_1045",
+    "question_group_id": "math_ch01_group_1045",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55837,19 +61619,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "90",
-        "B": "120",
+        "A": "120",
+        "B": "36",
         "C": "170",
-        "D": "36"
+        "D": "90"
       },
       "en": {
-        "A": "90",
-        "B": "120",
+        "A": "120",
+        "B": "36",
         "C": "170",
-        "D": "36"
+        "D": "90"
       }
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -55861,27 +61643,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2160 है और उनका HCF (म.स.) 18 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2160 and their HCF is 18, what is their LCM?",
     "opts_hi": {
-      "A": "90",
-      "B": "120",
+      "A": "120",
+      "B": "36",
       "C": "170",
-      "D": "36"
+      "D": "90"
     },
     "opts_en": {
-      "A": "90",
-      "B": "120",
+      "A": "120",
+      "B": "36",
       "C": "170",
-      "D": "36"
+      "D": "90"
     },
-    "ans": "B",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2160 / 18 = 120।",
     "exp_en": "LCM = Product / HCF = 2160 / 18 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0948",
-    "question_id": "q_math_c1_t10_0948",
-    "question_group_id": "math_ch01_group_0948",
+    "id": "q_math_c1_t10_1046",
+    "question_id": "q_math_c1_t10_1046",
+    "question_group_id": "math_ch01_group_1046",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55896,19 +61678,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "1860",
-        "B": "2360",
-        "C": "4320",
-        "D": "2160"
+        "A": "4320",
+        "B": "1860",
+        "C": "2160",
+        "D": "2360"
       },
       "en": {
-        "A": "1860",
-        "B": "2360",
-        "C": "4320",
-        "D": "2160"
+        "A": "4320",
+        "B": "1860",
+        "C": "2160",
+        "D": "2360"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "2160",
       "en": "2160"
@@ -55920,27 +61702,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 18 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 18. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "1860",
-      "B": "2360",
-      "C": "4320",
-      "D": "2160"
+      "A": "4320",
+      "B": "1860",
+      "C": "2160",
+      "D": "2360"
     },
     "opts_en": {
-      "A": "1860",
-      "B": "2360",
-      "C": "4320",
-      "D": "2160"
+      "A": "4320",
+      "B": "1860",
+      "C": "2160",
+      "D": "2360"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 18 × 120 = 2160।",
     "exp_en": "Product = HCF × LCM = 18 × 120 = 2160.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0949",
-    "question_id": "q_math_c1_t10_0949",
-    "question_group_id": "math_ch01_group_0949",
+    "id": "q_math_c1_t10_1047",
+    "question_id": "q_math_c1_t10_1047",
+    "question_group_id": "math_ch01_group_1047",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -55955,19 +61737,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "180",
-        "B": "100",
-        "C": "36",
-        "D": "130"
+        "A": "36",
+        "B": "130",
+        "C": "100",
+        "D": "180"
       },
       "en": {
-        "A": "180",
-        "B": "100",
-        "C": "36",
-        "D": "130"
+        "A": "36",
+        "B": "130",
+        "C": "100",
+        "D": "180"
       }
     },
-    "correct_option": "D",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "130",
       "en": "130"
@@ -55979,27 +61761,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2340 है और उनका HCF (म.स.) 18 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2340 and their HCF is 18, what is their LCM?",
     "opts_hi": {
-      "A": "180",
-      "B": "100",
-      "C": "36",
-      "D": "130"
+      "A": "36",
+      "B": "130",
+      "C": "100",
+      "D": "180"
     },
     "opts_en": {
-      "A": "180",
-      "B": "100",
-      "C": "36",
-      "D": "130"
+      "A": "36",
+      "B": "130",
+      "C": "100",
+      "D": "180"
     },
-    "ans": "D",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2340 / 18 = 130।",
     "exp_en": "LCM = Product / HCF = 2340 / 18 = 130.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0950",
-    "question_id": "q_math_c1_t10_0950",
-    "question_group_id": "math_ch01_group_0950",
+    "id": "q_math_c1_t10_1048",
+    "question_id": "q_math_c1_t10_1048",
+    "question_group_id": "math_ch01_group_1048",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56014,19 +61796,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "2040",
-        "B": "2340",
-        "C": "2540",
-        "D": "4680"
+        "A": "4680",
+        "B": "2040",
+        "C": "2340",
+        "D": "2540"
       },
       "en": {
-        "A": "2040",
-        "B": "2340",
-        "C": "2540",
-        "D": "4680"
+        "A": "4680",
+        "B": "2040",
+        "C": "2340",
+        "D": "2540"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "2340",
       "en": "2340"
@@ -56038,27 +61820,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 130 और HCF 18 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 130 and their HCF is 18. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "2040",
-      "B": "2340",
-      "C": "2540",
-      "D": "4680"
+      "A": "4680",
+      "B": "2040",
+      "C": "2340",
+      "D": "2540"
     },
     "opts_en": {
-      "A": "2040",
-      "B": "2340",
-      "C": "2540",
-      "D": "4680"
+      "A": "4680",
+      "B": "2040",
+      "C": "2340",
+      "D": "2540"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 18 × 130 = 2340।",
     "exp_en": "Product = HCF × LCM = 18 × 130 = 2340.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0951",
-    "question_id": "q_math_c1_t10_0951",
-    "question_group_id": "math_ch01_group_0951",
+    "id": "q_math_c1_t10_1049",
+    "question_id": "q_math_c1_t10_1049",
+    "question_group_id": "math_ch01_group_1049",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56073,19 +61855,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "190",
+        "A": "140",
         "B": "110",
-        "C": "140",
+        "C": "190",
         "D": "36"
       },
       "en": {
-        "A": "190",
+        "A": "140",
         "B": "110",
-        "C": "140",
+        "C": "190",
         "D": "36"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -56097,27 +61879,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2520 है और उनका HCF (म.स.) 18 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2520 and their HCF is 18, what is their LCM?",
     "opts_hi": {
-      "A": "190",
+      "A": "140",
       "B": "110",
-      "C": "140",
+      "C": "190",
       "D": "36"
     },
     "opts_en": {
-      "A": "190",
+      "A": "140",
       "B": "110",
-      "C": "140",
+      "C": "190",
       "D": "36"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2520 / 18 = 140।",
     "exp_en": "LCM = Product / HCF = 2520 / 18 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0952",
-    "question_id": "q_math_c1_t10_0952",
-    "question_group_id": "math_ch01_group_0952",
+    "id": "q_math_c1_t10_1050",
+    "question_id": "q_math_c1_t10_1050",
+    "question_group_id": "math_ch01_group_1050",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56132,16 +61914,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "5040",
+        "A": "2220",
         "B": "2720",
         "C": "2520",
-        "D": "2220"
+        "D": "5040"
       },
       "en": {
-        "A": "5040",
+        "A": "2220",
         "B": "2720",
         "C": "2520",
-        "D": "2220"
+        "D": "5040"
       }
     },
     "correct_option": "C",
@@ -56156,16 +61938,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 18 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 18. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "5040",
+      "A": "2220",
       "B": "2720",
       "C": "2520",
-      "D": "2220"
+      "D": "5040"
     },
     "opts_en": {
-      "A": "5040",
+      "A": "2220",
       "B": "2720",
       "C": "2520",
-      "D": "2220"
+      "D": "5040"
     },
     "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 18 × 140 = 2520।",
@@ -56174,9 +61956,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0953",
-    "question_id": "q_math_c1_t10_0953",
-    "question_group_id": "math_ch01_group_0953",
+    "id": "q_math_c1_t10_1051",
+    "question_id": "q_math_c1_t10_1051",
+    "question_group_id": "math_ch01_group_1051",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56191,19 +61973,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "48",
-        "B": "160",
-        "C": "80",
-        "D": "110"
+        "A": "110",
+        "B": "80",
+        "C": "48",
+        "D": "160"
       },
       "en": {
-        "A": "48",
-        "B": "160",
-        "C": "80",
-        "D": "110"
+        "A": "110",
+        "B": "80",
+        "C": "48",
+        "D": "160"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "110",
       "en": "110"
@@ -56215,27 +61997,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 2640 है और उनका HCF (म.स.) 24 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 2640 and their HCF is 24, what is their LCM?",
     "opts_hi": {
-      "A": "48",
-      "B": "160",
-      "C": "80",
-      "D": "110"
+      "A": "110",
+      "B": "80",
+      "C": "48",
+      "D": "160"
     },
     "opts_en": {
-      "A": "48",
-      "B": "160",
-      "C": "80",
-      "D": "110"
+      "A": "110",
+      "B": "80",
+      "C": "48",
+      "D": "160"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2640 / 24 = 110।",
     "exp_en": "LCM = Product / HCF = 2640 / 24 = 110.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0954",
-    "question_id": "q_math_c1_t10_0954",
-    "question_group_id": "math_ch01_group_0954",
+    "id": "q_math_c1_t10_1052",
+    "question_id": "q_math_c1_t10_1052",
+    "question_group_id": "math_ch01_group_1052",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56250,19 +62032,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "5280",
-        "B": "2840",
-        "C": "2640",
-        "D": "2340"
+        "A": "2340",
+        "B": "2640",
+        "C": "2840",
+        "D": "5280"
       },
       "en": {
-        "A": "5280",
-        "B": "2840",
-        "C": "2640",
-        "D": "2340"
+        "A": "2340",
+        "B": "2640",
+        "C": "2840",
+        "D": "5280"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "2640",
       "en": "2640"
@@ -56274,27 +62056,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 110 और HCF 24 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 110 and their HCF is 24. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "5280",
-      "B": "2840",
-      "C": "2640",
-      "D": "2340"
+      "A": "2340",
+      "B": "2640",
+      "C": "2840",
+      "D": "5280"
     },
     "opts_en": {
-      "A": "5280",
-      "B": "2840",
-      "C": "2640",
-      "D": "2340"
+      "A": "2340",
+      "B": "2640",
+      "C": "2840",
+      "D": "5280"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 24 × 110 = 2640।",
     "exp_en": "Product = HCF × LCM = 24 × 110 = 2640.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0955",
-    "question_id": "q_math_c1_t10_0955",
-    "question_group_id": "math_ch01_group_0955",
+    "id": "q_math_c1_t10_1053",
+    "question_id": "q_math_c1_t10_1053",
+    "question_group_id": "math_ch01_group_1053",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56310,18 +62092,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "90",
-        "B": "48",
-        "C": "120",
-        "D": "170"
+        "B": "170",
+        "C": "48",
+        "D": "120"
       },
       "en": {
         "A": "90",
-        "B": "48",
-        "C": "120",
-        "D": "170"
+        "B": "170",
+        "C": "48",
+        "D": "120"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -56334,26 +62116,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 2880 and their HCF is 24, what is their LCM?",
     "opts_hi": {
       "A": "90",
-      "B": "48",
-      "C": "120",
-      "D": "170"
+      "B": "170",
+      "C": "48",
+      "D": "120"
     },
     "opts_en": {
       "A": "90",
-      "B": "48",
-      "C": "120",
-      "D": "170"
+      "B": "170",
+      "C": "48",
+      "D": "120"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 2880 / 24 = 120।",
     "exp_en": "LCM = Product / HCF = 2880 / 24 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0956",
-    "question_id": "q_math_c1_t10_0956",
-    "question_group_id": "math_ch01_group_0956",
+    "id": "q_math_c1_t10_1054",
+    "question_id": "q_math_c1_t10_1054",
+    "question_group_id": "math_ch01_group_1054",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56368,19 +62150,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3080",
-        "B": "2880",
+        "A": "2580",
+        "B": "3080",
         "C": "5760",
-        "D": "2580"
+        "D": "2880"
       },
       "en": {
-        "A": "3080",
-        "B": "2880",
+        "A": "2580",
+        "B": "3080",
         "C": "5760",
-        "D": "2580"
+        "D": "2880"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "2880",
       "en": "2880"
@@ -56392,27 +62174,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 24 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 24. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3080",
-      "B": "2880",
+      "A": "2580",
+      "B": "3080",
       "C": "5760",
-      "D": "2580"
+      "D": "2880"
     },
     "opts_en": {
-      "A": "3080",
-      "B": "2880",
+      "A": "2580",
+      "B": "3080",
       "C": "5760",
-      "D": "2580"
+      "D": "2880"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 24 × 120 = 2880।",
     "exp_en": "Product = HCF × LCM = 24 × 120 = 2880.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0957",
-    "question_id": "q_math_c1_t10_0957",
-    "question_group_id": "math_ch01_group_0957",
+    "id": "q_math_c1_t10_1055",
+    "question_id": "q_math_c1_t10_1055",
+    "question_group_id": "math_ch01_group_1055",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56427,19 +62209,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "180",
-        "B": "130",
-        "C": "100",
-        "D": "48"
+        "A": "48",
+        "B": "100",
+        "C": "130",
+        "D": "180"
       },
       "en": {
-        "A": "180",
-        "B": "130",
-        "C": "100",
-        "D": "48"
+        "A": "48",
+        "B": "100",
+        "C": "130",
+        "D": "180"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "130",
       "en": "130"
@@ -56451,27 +62233,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 3120 है और उनका HCF (म.स.) 24 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 3120 and their HCF is 24, what is their LCM?",
     "opts_hi": {
-      "A": "180",
-      "B": "130",
-      "C": "100",
-      "D": "48"
+      "A": "48",
+      "B": "100",
+      "C": "130",
+      "D": "180"
     },
     "opts_en": {
-      "A": "180",
-      "B": "130",
-      "C": "100",
-      "D": "48"
+      "A": "48",
+      "B": "100",
+      "C": "130",
+      "D": "180"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3120 / 24 = 130।",
     "exp_en": "LCM = Product / HCF = 3120 / 24 = 130.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0958",
-    "question_id": "q_math_c1_t10_0958",
-    "question_group_id": "math_ch01_group_0958",
+    "id": "q_math_c1_t10_1056",
+    "question_id": "q_math_c1_t10_1056",
+    "question_group_id": "math_ch01_group_1056",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56486,19 +62268,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3320",
-        "B": "2820",
-        "C": "6240",
-        "D": "3120"
+        "A": "6240",
+        "B": "3120",
+        "C": "3320",
+        "D": "2820"
       },
       "en": {
-        "A": "3320",
-        "B": "2820",
-        "C": "6240",
-        "D": "3120"
+        "A": "6240",
+        "B": "3120",
+        "C": "3320",
+        "D": "2820"
       }
     },
-    "correct_option": "D",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "3120",
       "en": "3120"
@@ -56510,27 +62292,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 130 और HCF 24 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 130 and their HCF is 24. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3320",
-      "B": "2820",
-      "C": "6240",
-      "D": "3120"
+      "A": "6240",
+      "B": "3120",
+      "C": "3320",
+      "D": "2820"
     },
     "opts_en": {
-      "A": "3320",
-      "B": "2820",
-      "C": "6240",
-      "D": "3120"
+      "A": "6240",
+      "B": "3120",
+      "C": "3320",
+      "D": "2820"
     },
-    "ans": "D",
+    "ans": "B",
     "exp_hi": "गुणनफल = HCF × LCM = 24 × 130 = 3120।",
     "exp_en": "Product = HCF × LCM = 24 × 130 = 3120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0959",
-    "question_id": "q_math_c1_t10_0959",
-    "question_group_id": "math_ch01_group_0959",
+    "id": "q_math_c1_t10_1057",
+    "question_id": "q_math_c1_t10_1057",
+    "question_group_id": "math_ch01_group_1057",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56545,19 +62327,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "160",
-        "B": "80",
-        "C": "110",
-        "D": "60"
+        "A": "60",
+        "B": "110",
+        "C": "160",
+        "D": "80"
       },
       "en": {
-        "A": "160",
-        "B": "80",
-        "C": "110",
-        "D": "60"
+        "A": "60",
+        "B": "110",
+        "C": "160",
+        "D": "80"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "110",
       "en": "110"
@@ -56569,27 +62351,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 3300 है और उनका HCF (म.स.) 30 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 3300 and their HCF is 30, what is their LCM?",
     "opts_hi": {
-      "A": "160",
-      "B": "80",
-      "C": "110",
-      "D": "60"
+      "A": "60",
+      "B": "110",
+      "C": "160",
+      "D": "80"
     },
     "opts_en": {
-      "A": "160",
-      "B": "80",
-      "C": "110",
-      "D": "60"
+      "A": "60",
+      "B": "110",
+      "C": "160",
+      "D": "80"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3300 / 30 = 110।",
     "exp_en": "LCM = Product / HCF = 3300 / 30 = 110.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0960",
-    "question_id": "q_math_c1_t10_0960",
-    "question_group_id": "math_ch01_group_0960",
+    "id": "q_math_c1_t10_1058",
+    "question_id": "q_math_c1_t10_1058",
+    "question_group_id": "math_ch01_group_1058",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56604,19 +62386,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3300",
-        "B": "6600",
-        "C": "3000",
-        "D": "3500"
+        "A": "6600",
+        "B": "3000",
+        "C": "3500",
+        "D": "3300"
       },
       "en": {
-        "A": "3300",
-        "B": "6600",
-        "C": "3000",
-        "D": "3500"
+        "A": "6600",
+        "B": "3000",
+        "C": "3500",
+        "D": "3300"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "3300",
       "en": "3300"
@@ -56628,27 +62410,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 110 और HCF 30 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 110 and their HCF is 30. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3300",
-      "B": "6600",
-      "C": "3000",
-      "D": "3500"
+      "A": "6600",
+      "B": "3000",
+      "C": "3500",
+      "D": "3300"
     },
     "opts_en": {
-      "A": "3300",
-      "B": "6600",
-      "C": "3000",
-      "D": "3500"
+      "A": "6600",
+      "B": "3000",
+      "C": "3500",
+      "D": "3300"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 30 × 110 = 3300।",
     "exp_en": "Product = HCF × LCM = 30 × 110 = 3300.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0961",
-    "question_id": "q_math_c1_t10_0961",
-    "question_group_id": "math_ch01_group_0961",
+    "id": "q_math_c1_t10_1059",
+    "question_id": "q_math_c1_t10_1059",
+    "question_group_id": "math_ch01_group_1059",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56664,18 +62446,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "90",
-        "B": "170",
-        "C": "60",
-        "D": "120"
+        "B": "60",
+        "C": "120",
+        "D": "170"
       },
       "en": {
         "A": "90",
-        "B": "170",
-        "C": "60",
-        "D": "120"
+        "B": "60",
+        "C": "120",
+        "D": "170"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -56688,26 +62470,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 3600 and their HCF is 30, what is their LCM?",
     "opts_hi": {
       "A": "90",
-      "B": "170",
-      "C": "60",
-      "D": "120"
+      "B": "60",
+      "C": "120",
+      "D": "170"
     },
     "opts_en": {
       "A": "90",
-      "B": "170",
-      "C": "60",
-      "D": "120"
+      "B": "60",
+      "C": "120",
+      "D": "170"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3600 / 30 = 120।",
     "exp_en": "LCM = Product / HCF = 3600 / 30 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0962",
-    "question_id": "q_math_c1_t10_0962",
-    "question_group_id": "math_ch01_group_0962",
+    "id": "q_math_c1_t10_1060",
+    "question_id": "q_math_c1_t10_1060",
+    "question_group_id": "math_ch01_group_1060",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56722,15 +62504,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "3300",
-        "B": "7200",
-        "C": "3800",
+        "A": "3800",
+        "B": "3300",
+        "C": "7200",
         "D": "3600"
       },
       "en": {
-        "A": "3300",
-        "B": "7200",
-        "C": "3800",
+        "A": "3800",
+        "B": "3300",
+        "C": "7200",
         "D": "3600"
       }
     },
@@ -56746,15 +62528,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 30 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 30. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "3300",
-      "B": "7200",
-      "C": "3800",
+      "A": "3800",
+      "B": "3300",
+      "C": "7200",
       "D": "3600"
     },
     "opts_en": {
-      "A": "3300",
-      "B": "7200",
-      "C": "3800",
+      "A": "3800",
+      "B": "3300",
+      "C": "7200",
       "D": "3600"
     },
     "ans": "D",
@@ -56764,9 +62546,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0963",
-    "question_id": "q_math_c1_t10_0963",
-    "question_group_id": "math_ch01_group_0963",
+    "id": "q_math_c1_t10_1061",
+    "question_id": "q_math_c1_t10_1061",
+    "question_group_id": "math_ch01_group_1061",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56783,17 +62565,17 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "180",
         "B": "100",
-        "C": "130",
-        "D": "60"
+        "C": "60",
+        "D": "130"
       },
       "en": {
         "A": "180",
         "B": "100",
-        "C": "130",
-        "D": "60"
+        "C": "60",
+        "D": "130"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "130",
       "en": "130"
@@ -56807,25 +62589,25 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "180",
       "B": "100",
-      "C": "130",
-      "D": "60"
+      "C": "60",
+      "D": "130"
     },
     "opts_en": {
       "A": "180",
       "B": "100",
-      "C": "130",
-      "D": "60"
+      "C": "60",
+      "D": "130"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3900 / 30 = 130।",
     "exp_en": "LCM = Product / HCF = 3900 / 30 = 130.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0964",
-    "question_id": "q_math_c1_t10_0964",
-    "question_group_id": "math_ch01_group_0964",
+    "id": "q_math_c1_t10_1062",
+    "question_id": "q_math_c1_t10_1062",
+    "question_group_id": "math_ch01_group_1062",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56840,16 +62622,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "4100",
-        "B": "3600",
+        "A": "3600",
+        "B": "7800",
         "C": "3900",
-        "D": "7800"
+        "D": "4100"
       },
       "en": {
-        "A": "4100",
-        "B": "3600",
+        "A": "3600",
+        "B": "7800",
         "C": "3900",
-        "D": "7800"
+        "D": "4100"
       }
     },
     "correct_option": "C",
@@ -56864,16 +62646,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 130 और HCF 30 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 130 and their HCF is 30. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "4100",
-      "B": "3600",
+      "A": "3600",
+      "B": "7800",
       "C": "3900",
-      "D": "7800"
+      "D": "4100"
     },
     "opts_en": {
-      "A": "4100",
-      "B": "3600",
+      "A": "3600",
+      "B": "7800",
       "C": "3900",
-      "D": "7800"
+      "D": "4100"
     },
     "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 30 × 130 = 3900।",
@@ -56882,9 +62664,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0965",
-    "question_id": "q_math_c1_t10_0965",
-    "question_group_id": "math_ch01_group_0965",
+    "id": "q_math_c1_t10_1063",
+    "question_id": "q_math_c1_t10_1063",
+    "question_group_id": "math_ch01_group_1063",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56899,19 +62681,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "60",
-        "B": "110",
-        "C": "190",
-        "D": "140"
+        "A": "190",
+        "B": "140",
+        "C": "60",
+        "D": "110"
       },
       "en": {
-        "A": "60",
-        "B": "110",
-        "C": "190",
-        "D": "140"
+        "A": "190",
+        "B": "140",
+        "C": "60",
+        "D": "110"
       }
     },
-    "correct_option": "D",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -56923,27 +62705,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4200 है और उनका HCF (म.स.) 30 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4200 and their HCF is 30, what is their LCM?",
     "opts_hi": {
-      "A": "60",
-      "B": "110",
-      "C": "190",
-      "D": "140"
+      "A": "190",
+      "B": "140",
+      "C": "60",
+      "D": "110"
     },
     "opts_en": {
-      "A": "60",
-      "B": "110",
-      "C": "190",
-      "D": "140"
+      "A": "190",
+      "B": "140",
+      "C": "60",
+      "D": "110"
     },
-    "ans": "D",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4200 / 30 = 140।",
     "exp_en": "LCM = Product / HCF = 4200 / 30 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0966",
-    "question_id": "q_math_c1_t10_0966",
-    "question_group_id": "math_ch01_group_0966",
+    "id": "q_math_c1_t10_1064",
+    "question_id": "q_math_c1_t10_1064",
+    "question_group_id": "math_ch01_group_1064",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -56958,14 +62740,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "8400",
-        "B": "4400",
+        "A": "4400",
+        "B": "8400",
         "C": "4200",
         "D": "3900"
       },
       "en": {
-        "A": "8400",
-        "B": "4400",
+        "A": "4400",
+        "B": "8400",
         "C": "4200",
         "D": "3900"
       }
@@ -56982,14 +62764,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 140 और HCF 30 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 140 and their HCF is 30. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "8400",
-      "B": "4400",
+      "A": "4400",
+      "B": "8400",
       "C": "4200",
       "D": "3900"
     },
     "opts_en": {
-      "A": "8400",
-      "B": "4400",
+      "A": "4400",
+      "B": "8400",
       "C": "4200",
       "D": "3900"
     },
@@ -57000,9 +62782,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0967",
-    "question_id": "q_math_c1_t10_0967",
-    "question_group_id": "math_ch01_group_0967",
+    "id": "q_math_c1_t10_1065",
+    "question_id": "q_math_c1_t10_1065",
+    "question_group_id": "math_ch01_group_1065",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57017,19 +62799,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "72",
-        "B": "110",
-        "C": "80",
-        "D": "160"
+        "A": "80",
+        "B": "160",
+        "C": "72",
+        "D": "110"
       },
       "en": {
-        "A": "72",
-        "B": "110",
-        "C": "80",
-        "D": "160"
+        "A": "80",
+        "B": "160",
+        "C": "72",
+        "D": "110"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "110",
       "en": "110"
@@ -57041,27 +62823,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 3960 है और उनका HCF (म.स.) 36 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 3960 and their HCF is 36, what is their LCM?",
     "opts_hi": {
-      "A": "72",
-      "B": "110",
-      "C": "80",
-      "D": "160"
+      "A": "80",
+      "B": "160",
+      "C": "72",
+      "D": "110"
     },
     "opts_en": {
-      "A": "72",
-      "B": "110",
-      "C": "80",
-      "D": "160"
+      "A": "80",
+      "B": "160",
+      "C": "72",
+      "D": "110"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 3960 / 36 = 110।",
     "exp_en": "LCM = Product / HCF = 3960 / 36 = 110.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0968",
-    "question_id": "q_math_c1_t10_0968",
-    "question_group_id": "math_ch01_group_0968",
+    "id": "q_math_c1_t10_1066",
+    "question_id": "q_math_c1_t10_1066",
+    "question_group_id": "math_ch01_group_1066",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57076,19 +62858,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "4160",
+        "A": "3660",
         "B": "7920",
-        "C": "3660",
-        "D": "3960"
+        "C": "3960",
+        "D": "4160"
       },
       "en": {
-        "A": "4160",
+        "A": "3660",
         "B": "7920",
-        "C": "3660",
-        "D": "3960"
+        "C": "3960",
+        "D": "4160"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "3960",
       "en": "3960"
@@ -57100,27 +62882,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 110 और HCF 36 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 110 and their HCF is 36. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "4160",
+      "A": "3660",
       "B": "7920",
-      "C": "3660",
-      "D": "3960"
+      "C": "3960",
+      "D": "4160"
     },
     "opts_en": {
-      "A": "4160",
+      "A": "3660",
       "B": "7920",
-      "C": "3660",
-      "D": "3960"
+      "C": "3960",
+      "D": "4160"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 36 × 110 = 3960।",
     "exp_en": "Product = HCF × LCM = 36 × 110 = 3960.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0969",
-    "question_id": "q_math_c1_t10_0969",
-    "question_group_id": "math_ch01_group_0969",
+    "id": "q_math_c1_t10_1067",
+    "question_id": "q_math_c1_t10_1067",
+    "question_group_id": "math_ch01_group_1067",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57135,19 +62917,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "120",
-        "B": "90",
+        "A": "90",
+        "B": "170",
         "C": "72",
-        "D": "170"
+        "D": "120"
       },
       "en": {
-        "A": "120",
-        "B": "90",
+        "A": "90",
+        "B": "170",
         "C": "72",
-        "D": "170"
+        "D": "120"
       }
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -57159,27 +62941,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4320 है और उनका HCF (म.स.) 36 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4320 and their HCF is 36, what is their LCM?",
     "opts_hi": {
-      "A": "120",
-      "B": "90",
+      "A": "90",
+      "B": "170",
       "C": "72",
-      "D": "170"
+      "D": "120"
     },
     "opts_en": {
-      "A": "120",
-      "B": "90",
+      "A": "90",
+      "B": "170",
       "C": "72",
-      "D": "170"
+      "D": "120"
     },
-    "ans": "A",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4320 / 36 = 120।",
     "exp_en": "LCM = Product / HCF = 4320 / 36 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0970",
-    "question_id": "q_math_c1_t10_0970",
-    "question_group_id": "math_ch01_group_0970",
+    "id": "q_math_c1_t10_1068",
+    "question_id": "q_math_c1_t10_1068",
+    "question_group_id": "math_ch01_group_1068",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57194,19 +62976,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "8640",
-        "B": "4320",
-        "C": "4020",
-        "D": "4520"
+        "A": "4020",
+        "B": "4520",
+        "C": "8640",
+        "D": "4320"
       },
       "en": {
-        "A": "8640",
-        "B": "4320",
-        "C": "4020",
-        "D": "4520"
+        "A": "4020",
+        "B": "4520",
+        "C": "8640",
+        "D": "4320"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "4320",
       "en": "4320"
@@ -57218,27 +63000,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 36 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 36. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "8640",
-      "B": "4320",
-      "C": "4020",
-      "D": "4520"
+      "A": "4020",
+      "B": "4520",
+      "C": "8640",
+      "D": "4320"
     },
     "opts_en": {
-      "A": "8640",
-      "B": "4320",
-      "C": "4020",
-      "D": "4520"
+      "A": "4020",
+      "B": "4520",
+      "C": "8640",
+      "D": "4320"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "गुणनफल = HCF × LCM = 36 × 120 = 4320।",
     "exp_en": "Product = HCF × LCM = 36 × 120 = 4320.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0971",
-    "question_id": "q_math_c1_t10_0971",
-    "question_group_id": "math_ch01_group_0971",
+    "id": "q_math_c1_t10_1069",
+    "question_id": "q_math_c1_t10_1069",
+    "question_group_id": "math_ch01_group_1069",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57253,19 +63035,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "130",
-        "B": "180",
-        "C": "100",
+        "A": "100",
+        "B": "130",
+        "C": "180",
         "D": "72"
       },
       "en": {
-        "A": "130",
-        "B": "180",
-        "C": "100",
+        "A": "100",
+        "B": "130",
+        "C": "180",
         "D": "72"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "130",
       "en": "130"
@@ -57277,27 +63059,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 4680 है और उनका HCF (म.स.) 36 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 4680 and their HCF is 36, what is their LCM?",
     "opts_hi": {
-      "A": "130",
-      "B": "180",
-      "C": "100",
+      "A": "100",
+      "B": "130",
+      "C": "180",
       "D": "72"
     },
     "opts_en": {
-      "A": "130",
-      "B": "180",
-      "C": "100",
+      "A": "100",
+      "B": "130",
+      "C": "180",
       "D": "72"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 4680 / 36 = 130।",
     "exp_en": "LCM = Product / HCF = 4680 / 36 = 130.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0972",
-    "question_id": "q_math_c1_t10_0972",
-    "question_group_id": "math_ch01_group_0972",
+    "id": "q_math_c1_t10_1070",
+    "question_id": "q_math_c1_t10_1070",
+    "question_group_id": "math_ch01_group_1070",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57312,19 +63094,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "9360",
-        "B": "4380",
-        "C": "4680",
-        "D": "4880"
+        "A": "4680",
+        "B": "4880",
+        "C": "4380",
+        "D": "9360"
       },
       "en": {
-        "A": "9360",
-        "B": "4380",
-        "C": "4680",
-        "D": "4880"
+        "A": "4680",
+        "B": "4880",
+        "C": "4380",
+        "D": "9360"
       }
     },
-    "correct_option": "C",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "4680",
       "en": "4680"
@@ -57336,27 +63118,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 130 और HCF 36 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 130 and their HCF is 36. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "9360",
-      "B": "4380",
-      "C": "4680",
-      "D": "4880"
+      "A": "4680",
+      "B": "4880",
+      "C": "4380",
+      "D": "9360"
     },
     "opts_en": {
-      "A": "9360",
-      "B": "4380",
-      "C": "4680",
-      "D": "4880"
+      "A": "4680",
+      "B": "4880",
+      "C": "4380",
+      "D": "9360"
     },
-    "ans": "C",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 36 × 130 = 4680।",
     "exp_en": "Product = HCF × LCM = 36 × 130 = 4680.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0973",
-    "question_id": "q_math_c1_t10_0973",
-    "question_group_id": "math_ch01_group_0973",
+    "id": "q_math_c1_t10_1071",
+    "question_id": "q_math_c1_t10_1071",
+    "question_group_id": "math_ch01_group_1071",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57372,18 +63154,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "110",
-        "B": "72",
-        "C": "140",
+        "B": "140",
+        "C": "72",
         "D": "190"
       },
       "en": {
         "A": "110",
-        "B": "72",
-        "C": "140",
+        "B": "140",
+        "C": "72",
         "D": "190"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "140",
       "en": "140"
@@ -57396,26 +63178,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "If the product of two numbers is 5040 and their HCF is 36, what is their LCM?",
     "opts_hi": {
       "A": "110",
-      "B": "72",
-      "C": "140",
+      "B": "140",
+      "C": "72",
       "D": "190"
     },
     "opts_en": {
       "A": "110",
-      "B": "72",
-      "C": "140",
+      "B": "140",
+      "C": "72",
       "D": "190"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 5040 / 36 = 140।",
     "exp_en": "LCM = Product / HCF = 5040 / 36 = 140.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0974",
-    "question_id": "q_math_c1_t10_0974",
-    "question_group_id": "math_ch01_group_0974",
+    "id": "q_math_c1_t10_1072",
+    "question_id": "q_math_c1_t10_1072",
+    "question_group_id": "math_ch01_group_1072",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57431,15 +63213,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "5040",
-        "B": "10080",
-        "C": "5240",
-        "D": "4740"
+        "B": "4740",
+        "C": "10080",
+        "D": "5240"
       },
       "en": {
         "A": "5040",
-        "B": "10080",
-        "C": "5240",
-        "D": "4740"
+        "B": "4740",
+        "C": "10080",
+        "D": "5240"
       }
     },
     "correct_option": "A",
@@ -57455,15 +63237,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 140 and their HCF is 36. What is the product of the two numbers?",
     "opts_hi": {
       "A": "5040",
-      "B": "10080",
-      "C": "5240",
-      "D": "4740"
+      "B": "4740",
+      "C": "10080",
+      "D": "5240"
     },
     "opts_en": {
       "A": "5040",
-      "B": "10080",
-      "C": "5240",
-      "D": "4740"
+      "B": "4740",
+      "C": "10080",
+      "D": "5240"
     },
     "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 36 × 140 = 5040।",
@@ -57472,9 +63254,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0975",
-    "question_id": "q_math_c1_t10_0975",
-    "question_group_id": "math_ch01_group_0975",
+    "id": "q_math_c1_t10_1073",
+    "question_id": "q_math_c1_t10_1073",
+    "question_group_id": "math_ch01_group_1073",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57489,16 +63271,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "4100",
-        "B": "8800",
+        "A": "4600",
+        "B": "4100",
         "C": "4400",
-        "D": "4600"
+        "D": "8800"
       },
       "en": {
-        "A": "4100",
-        "B": "8800",
+        "A": "4600",
+        "B": "4100",
         "C": "4400",
-        "D": "4600"
+        "D": "8800"
       }
     },
     "correct_option": "C",
@@ -57513,16 +63295,16 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 110 और HCF 40 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 110 and their HCF is 40. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "4100",
-      "B": "8800",
+      "A": "4600",
+      "B": "4100",
       "C": "4400",
-      "D": "4600"
+      "D": "8800"
     },
     "opts_en": {
-      "A": "4100",
-      "B": "8800",
+      "A": "4600",
+      "B": "4100",
       "C": "4400",
-      "D": "4600"
+      "D": "8800"
     },
     "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 40 × 110 = 4400।",
@@ -57531,9 +63313,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0976",
-    "question_id": "q_math_c1_t10_0976",
-    "question_group_id": "math_ch01_group_0976",
+    "id": "q_math_c1_t10_1074",
+    "question_id": "q_math_c1_t10_1074",
+    "question_group_id": "math_ch01_group_1074",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57548,19 +63330,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "100",
-        "B": "180",
-        "C": "80",
-        "D": "130"
+        "A": "130",
+        "B": "80",
+        "C": "100",
+        "D": "180"
       },
       "en": {
-        "A": "100",
-        "B": "180",
-        "C": "80",
-        "D": "130"
+        "A": "130",
+        "B": "80",
+        "C": "100",
+        "D": "180"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "130",
       "en": "130"
@@ -57572,27 +63354,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 5200 है और उनका HCF (म.स.) 40 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 5200 and their HCF is 40, what is their LCM?",
     "opts_hi": {
-      "A": "100",
-      "B": "180",
-      "C": "80",
-      "D": "130"
+      "A": "130",
+      "B": "80",
+      "C": "100",
+      "D": "180"
     },
     "opts_en": {
-      "A": "100",
-      "B": "180",
-      "C": "80",
-      "D": "130"
+      "A": "130",
+      "B": "80",
+      "C": "100",
+      "D": "180"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 5200 / 40 = 130।",
     "exp_en": "LCM = Product / HCF = 5200 / 40 = 130.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0977",
-    "question_id": "q_math_c1_t10_0977",
-    "question_group_id": "math_ch01_group_0977",
+    "id": "q_math_c1_t10_1075",
+    "question_id": "q_math_c1_t10_1075",
+    "question_group_id": "math_ch01_group_1075",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57607,19 +63389,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "10400",
-        "B": "5400",
-        "C": "4900",
-        "D": "5200"
+        "A": "5200",
+        "B": "4900",
+        "C": "5400",
+        "D": "10400"
       },
       "en": {
-        "A": "10400",
-        "B": "5400",
-        "C": "4900",
-        "D": "5200"
+        "A": "5200",
+        "B": "4900",
+        "C": "5400",
+        "D": "10400"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "5200",
       "en": "5200"
@@ -57631,27 +63413,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 130 और HCF 40 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 130 and their HCF is 40. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "10400",
-      "B": "5400",
-      "C": "4900",
-      "D": "5200"
+      "A": "5200",
+      "B": "4900",
+      "C": "5400",
+      "D": "10400"
     },
     "opts_en": {
-      "A": "10400",
-      "B": "5400",
-      "C": "4900",
-      "D": "5200"
+      "A": "5200",
+      "B": "4900",
+      "C": "5400",
+      "D": "10400"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 40 × 130 = 5200।",
     "exp_en": "Product = HCF × LCM = 40 × 130 = 5200.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0978",
-    "question_id": "q_math_c1_t10_0978",
-    "question_group_id": "math_ch01_group_0978",
+    "id": "q_math_c1_t10_1076",
+    "question_id": "q_math_c1_t10_1076",
+    "question_group_id": "math_ch01_group_1076",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57666,19 +63448,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "100",
-        "B": "110",
-        "C": "80",
-        "D": "160"
+        "A": "80",
+        "B": "160",
+        "C": "100",
+        "D": "110"
       },
       "en": {
-        "A": "100",
-        "B": "110",
-        "C": "80",
-        "D": "160"
+        "A": "80",
+        "B": "160",
+        "C": "100",
+        "D": "110"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "110",
       "en": "110"
@@ -57690,27 +63472,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 5500 है और उनका HCF (म.स.) 50 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 5500 and their HCF is 50, what is their LCM?",
     "opts_hi": {
-      "A": "100",
-      "B": "110",
-      "C": "80",
-      "D": "160"
+      "A": "80",
+      "B": "160",
+      "C": "100",
+      "D": "110"
     },
     "opts_en": {
-      "A": "100",
-      "B": "110",
-      "C": "80",
-      "D": "160"
+      "A": "80",
+      "B": "160",
+      "C": "100",
+      "D": "110"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 5500 / 50 = 110।",
     "exp_en": "LCM = Product / HCF = 5500 / 50 = 110.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0979",
-    "question_id": "q_math_c1_t10_0979",
-    "question_group_id": "math_ch01_group_0979",
+    "id": "q_math_c1_t10_1077",
+    "question_id": "q_math_c1_t10_1077",
+    "question_group_id": "math_ch01_group_1077",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57726,18 +63508,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "5200",
-        "B": "5500",
-        "C": "5700",
+        "B": "5700",
+        "C": "5500",
         "D": "11000"
       },
       "en": {
         "A": "5200",
-        "B": "5500",
-        "C": "5700",
+        "B": "5700",
+        "C": "5500",
         "D": "11000"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "5500",
       "en": "5500"
@@ -57750,26 +63532,26 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The LCM of two numbers is 110 and their HCF is 50. What is the product of the two numbers?",
     "opts_hi": {
       "A": "5200",
-      "B": "5500",
-      "C": "5700",
+      "B": "5700",
+      "C": "5500",
       "D": "11000"
     },
     "opts_en": {
       "A": "5200",
-      "B": "5500",
-      "C": "5700",
+      "B": "5700",
+      "C": "5500",
       "D": "11000"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "गुणनफल = HCF × LCM = 50 × 110 = 5500।",
     "exp_en": "Product = HCF × LCM = 50 × 110 = 5500.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0980",
-    "question_id": "q_math_c1_t10_0980",
-    "question_group_id": "math_ch01_group_0980",
+    "id": "q_math_c1_t10_1078",
+    "question_id": "q_math_c1_t10_1078",
+    "question_group_id": "math_ch01_group_1078",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57784,19 +63566,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "120",
-        "B": "90",
-        "C": "100",
+        "A": "100",
+        "B": "120",
+        "C": "90",
         "D": "170"
       },
       "en": {
-        "A": "120",
-        "B": "90",
-        "C": "100",
+        "A": "100",
+        "B": "120",
+        "C": "90",
         "D": "170"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "120",
       "en": "120"
@@ -57808,27 +63590,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "यदि दो संख्याओं का गुणनफल 6000 है और उनका HCF (म.स.) 50 है, तो उनका LCM (ल.स.) क्या होगा?",
     "q_en": "If the product of two numbers is 6000 and their HCF is 50, what is their LCM?",
     "opts_hi": {
-      "A": "120",
-      "B": "90",
-      "C": "100",
+      "A": "100",
+      "B": "120",
+      "C": "90",
       "D": "170"
     },
     "opts_en": {
-      "A": "120",
-      "B": "90",
-      "C": "100",
+      "A": "100",
+      "B": "120",
+      "C": "90",
       "D": "170"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "LCM = (दो संख्याओं का गुणनफल) / HCF = 6000 / 50 = 120।",
     "exp_en": "LCM = Product / HCF = 6000 / 50 = 120.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0981",
-    "question_id": "q_math_c1_t10_0981",
-    "question_group_id": "math_ch01_group_0981",
+    "id": "q_math_c1_t10_1079",
+    "question_id": "q_math_c1_t10_1079",
+    "question_group_id": "math_ch01_group_1079",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57843,15 +63625,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "5700",
-        "B": "6200",
-        "C": "12000",
+        "A": "12000",
+        "B": "5700",
+        "C": "6200",
         "D": "6000"
       },
       "en": {
-        "A": "5700",
-        "B": "6200",
-        "C": "12000",
+        "A": "12000",
+        "B": "5700",
+        "C": "6200",
         "D": "6000"
       }
     },
@@ -57867,15 +63649,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 120 और HCF 50 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 120 and their HCF is 50. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "5700",
-      "B": "6200",
-      "C": "12000",
+      "A": "12000",
+      "B": "5700",
+      "C": "6200",
       "D": "6000"
     },
     "opts_en": {
-      "A": "5700",
-      "B": "6200",
-      "C": "12000",
+      "A": "12000",
+      "B": "5700",
+      "C": "6200",
       "D": "6000"
     },
     "ans": "D",
@@ -57885,9 +63667,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0982",
-    "question_id": "q_math_c1_t10_0982",
-    "question_group_id": "math_ch01_group_0982",
+    "id": "q_math_c1_t10_1080",
+    "question_id": "q_math_c1_t10_1080",
+    "question_group_id": "math_ch01_group_1080",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57902,19 +63684,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "6700",
-        "B": "13000",
+        "A": "6500",
+        "B": "6700",
         "C": "6200",
-        "D": "6500"
+        "D": "13000"
       },
       "en": {
-        "A": "6700",
-        "B": "13000",
+        "A": "6500",
+        "B": "6700",
         "C": "6200",
-        "D": "6500"
+        "D": "13000"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "6500",
       "en": "6500"
@@ -57926,27 +63708,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो संख्याओं का LCM 130 और HCF 50 है। दोनों संख्याओं का गुणनफल क्या होगा?",
     "q_en": "The LCM of two numbers is 130 and their HCF is 50. What is the product of the two numbers?",
     "opts_hi": {
-      "A": "6700",
-      "B": "13000",
+      "A": "6500",
+      "B": "6700",
       "C": "6200",
-      "D": "6500"
+      "D": "13000"
     },
     "opts_en": {
-      "A": "6700",
-      "B": "13000",
+      "A": "6500",
+      "B": "6700",
       "C": "6200",
-      "D": "6500"
+      "D": "13000"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "गुणनफल = HCF × LCM = 50 × 130 = 6500।",
     "exp_en": "Product = HCF × LCM = 50 × 130 = 6500.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0983",
-    "question_id": "q_math_c1_t10_0983",
-    "question_group_id": "math_ch01_group_0983",
+    "id": "q_math_c1_t10_1081",
+    "question_id": "q_math_c1_t10_1081",
+    "question_group_id": "math_ch01_group_1081",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -57961,19 +63743,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "240 सेकंड",
-        "B": "120 सेकंड (120 seconds)",
-        "C": "150 सेकंड",
+        "A": "120 सेकंड (120 seconds)",
+        "B": "150 सेकंड",
+        "C": "240 सेकंड",
         "D": "100 सेकंड"
       },
       "en": {
-        "A": "240 seconds",
-        "B": "120 seconds",
-        "C": "150 seconds",
+        "A": "120 seconds",
+        "B": "150 seconds",
+        "C": "240 seconds",
         "D": "100 seconds"
       }
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "120 सेकंड (120 seconds)",
       "en": "120 seconds"
@@ -57985,27 +63767,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "6 घंटियाँ क्रमशः 2, 4, 6, 8, 10, 12 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "6 घंटियाँ toll at intervals of 2, 4, 6, 8, 10, 12 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "240 सेकंड",
-      "B": "120 सेकंड (120 seconds)",
-      "C": "150 सेकंड",
+      "A": "120 सेकंड (120 seconds)",
+      "B": "150 सेकंड",
+      "C": "240 सेकंड",
       "D": "100 सेकंड"
     },
     "opts_en": {
-      "A": "240 seconds",
-      "B": "120 seconds",
-      "C": "150 seconds",
+      "A": "120 seconds",
+      "B": "150 seconds",
+      "C": "240 seconds",
       "D": "100 seconds"
     },
-    "ans": "B",
+    "ans": "A",
     "exp_hi": "एक साथ बजने का समय = LCM(2, 4, 6, 8, 10, 12) = 120 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(2, 4, 6, 8, 10, 12) = 120 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0984",
-    "question_id": "q_math_c1_t10_0984",
-    "question_group_id": "math_ch01_group_0984",
+    "id": "q_math_c1_t10_1082",
+    "question_id": "q_math_c1_t10_1082",
+    "question_group_id": "math_ch01_group_1082",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58020,19 +63802,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "504 सेकंड (504 seconds)",
-        "B": "534 सेकंड",
-        "C": "484 सेकंड",
+        "A": "484 सेकंड",
+        "B": "504 सेकंड (504 seconds)",
+        "C": "534 सेकंड",
         "D": "1008 सेकंड"
       },
       "en": {
-        "A": "504 seconds",
-        "B": "534 seconds",
-        "C": "484 seconds",
+        "A": "484 seconds",
+        "B": "504 seconds",
+        "C": "534 seconds",
         "D": "1008 seconds"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "504 सेकंड (504 seconds)",
       "en": "504 seconds"
@@ -58044,27 +63826,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "5 घंटियाँ क्रमशः 6, 7, 8, 9, 12 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "5 घंटियाँ toll at intervals of 6, 7, 8, 9, 12 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "504 सेकंड (504 seconds)",
-      "B": "534 सेकंड",
-      "C": "484 सेकंड",
+      "A": "484 सेकंड",
+      "B": "504 सेकंड (504 seconds)",
+      "C": "534 सेकंड",
       "D": "1008 सेकंड"
     },
     "opts_en": {
-      "A": "504 seconds",
-      "B": "534 seconds",
-      "C": "484 seconds",
+      "A": "484 seconds",
+      "B": "504 seconds",
+      "C": "534 seconds",
       "D": "1008 seconds"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "एक साथ बजने का समय = LCM(6, 7, 8, 9, 12) = 504 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(6, 7, 8, 9, 12) = 504 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0985",
-    "question_id": "q_math_c1_t10_0985",
-    "question_group_id": "math_ch01_group_0985",
+    "id": "q_math_c1_t10_1083",
+    "question_id": "q_math_c1_t10_1083",
+    "question_group_id": "math_ch01_group_1083",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58079,19 +63861,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "210 सेकंड",
-        "B": "180 सेकंड (180 seconds)",
-        "C": "360 सेकंड",
-        "D": "160 सेकंड"
+        "A": "160 सेकंड",
+        "B": "360 सेकंड",
+        "C": "210 सेकंड",
+        "D": "180 सेकंड (180 seconds)"
       },
       "en": {
-        "A": "210 seconds",
-        "B": "180 seconds",
-        "C": "360 seconds",
-        "D": "160 seconds"
+        "A": "160 seconds",
+        "B": "360 seconds",
+        "C": "210 seconds",
+        "D": "180 seconds"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "180 सेकंड (180 seconds)",
       "en": "180 seconds"
@@ -58103,27 +63885,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "3 घंटियाँ क्रमशः 9, 12, 15 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "3 घंटियाँ toll at intervals of 9, 12, 15 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "210 सेकंड",
-      "B": "180 सेकंड (180 seconds)",
-      "C": "360 सेकंड",
-      "D": "160 सेकंड"
+      "A": "160 सेकंड",
+      "B": "360 सेकंड",
+      "C": "210 सेकंड",
+      "D": "180 सेकंड (180 seconds)"
     },
     "opts_en": {
-      "A": "210 seconds",
-      "B": "180 seconds",
-      "C": "360 seconds",
-      "D": "160 seconds"
+      "A": "160 seconds",
+      "B": "360 seconds",
+      "C": "210 seconds",
+      "D": "180 seconds"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "एक साथ बजने का समय = LCM(9, 12, 15) = 180 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(9, 12, 15) = 180 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0986",
-    "question_id": "q_math_c1_t10_0986",
-    "question_group_id": "math_ch01_group_0986",
+    "id": "q_math_c1_t10_1084",
+    "question_id": "q_math_c1_t10_1084",
+    "question_group_id": "math_ch01_group_1084",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58138,19 +63920,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "210 सेकंड",
-        "B": "160 सेकंड",
-        "C": "180 सेकंड (180 seconds)",
-        "D": "360 सेकंड"
+        "A": "160 सेकंड",
+        "B": "360 सेकंड",
+        "C": "210 सेकंड",
+        "D": "180 सेकंड (180 seconds)"
       },
       "en": {
-        "A": "210 seconds",
-        "B": "160 seconds",
-        "C": "180 seconds",
-        "D": "360 seconds"
+        "A": "160 seconds",
+        "B": "360 seconds",
+        "C": "210 seconds",
+        "D": "180 seconds"
       }
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "180 सेकंड (180 seconds)",
       "en": "180 seconds"
@@ -58162,27 +63944,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "3 ट्रैफिक लाइटें क्रमशः 12, 15, 18 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "3 ट्रैफिक लाइटें toll at intervals of 12, 15, 18 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "210 सेकंड",
-      "B": "160 सेकंड",
-      "C": "180 सेकंड (180 seconds)",
-      "D": "360 सेकंड"
+      "A": "160 सेकंड",
+      "B": "360 सेकंड",
+      "C": "210 सेकंड",
+      "D": "180 सेकंड (180 seconds)"
     },
     "opts_en": {
-      "A": "210 seconds",
-      "B": "160 seconds",
-      "C": "180 seconds",
-      "D": "360 seconds"
+      "A": "160 seconds",
+      "B": "360 seconds",
+      "C": "210 seconds",
+      "D": "180 seconds"
     },
-    "ans": "C",
+    "ans": "D",
     "exp_hi": "एक साथ बजने का समय = LCM(12, 15, 18) = 180 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(12, 15, 18) = 180 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0987",
-    "question_id": "q_math_c1_t10_0987",
-    "question_group_id": "math_ch01_group_0987",
+    "id": "q_math_c1_t10_1085",
+    "question_id": "q_math_c1_t10_1085",
+    "question_group_id": "math_ch01_group_1085",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58197,19 +63979,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "40 सेकंड",
+        "A": "60 सेकंड (60 seconds)",
         "B": "90 सेकंड",
-        "C": "120 सेकंड",
-        "D": "60 सेकंड (60 seconds)"
+        "C": "40 सेकंड",
+        "D": "120 सेकंड"
       },
       "en": {
-        "A": "40 seconds",
+        "A": "60 seconds",
         "B": "90 seconds",
-        "C": "120 seconds",
-        "D": "60 seconds"
+        "C": "40 seconds",
+        "D": "120 seconds"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "60 सेकंड (60 seconds)",
       "en": "60 seconds"
@@ -58221,27 +64003,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "3 घड़ियां क्रमशः 15, 20, 30 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "3 घड़ियां toll at intervals of 15, 20, 30 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "40 सेकंड",
+      "A": "60 सेकंड (60 seconds)",
       "B": "90 सेकंड",
-      "C": "120 सेकंड",
-      "D": "60 सेकंड (60 seconds)"
+      "C": "40 सेकंड",
+      "D": "120 सेकंड"
     },
     "opts_en": {
-      "A": "40 seconds",
+      "A": "60 seconds",
       "B": "90 seconds",
-      "C": "120 seconds",
-      "D": "60 seconds"
+      "C": "40 seconds",
+      "D": "120 seconds"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "एक साथ बजने का समय = LCM(15, 20, 30) = 60 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(15, 20, 30) = 60 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0988",
-    "question_id": "q_math_c1_t10_0988",
-    "question_group_id": "math_ch01_group_0988",
+    "id": "q_math_c1_t10_1086",
+    "question_id": "q_math_c1_t10_1086",
+    "question_group_id": "math_ch01_group_1086",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58298,9 +64080,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0989",
-    "question_id": "q_math_c1_t10_0989",
-    "question_group_id": "math_ch01_group_0989",
+    "id": "q_math_c1_t10_1087",
+    "question_id": "q_math_c1_t10_1087",
+    "question_group_id": "math_ch01_group_1087",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58315,19 +64097,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "120 सेकंड (120 seconds)",
-        "B": "150 सेकंड",
+        "A": "240 सेकंड",
+        "B": "120 सेकंड (120 seconds)",
         "C": "100 सेकंड",
-        "D": "240 सेकंड"
+        "D": "150 सेकंड"
       },
       "en": {
-        "A": "120 seconds",
-        "B": "150 seconds",
+        "A": "240 seconds",
+        "B": "120 seconds",
         "C": "100 seconds",
-        "D": "240 seconds"
+        "D": "150 seconds"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "120 सेकंड (120 seconds)",
       "en": "120 seconds"
@@ -58339,27 +64121,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "3 अलार्म क्रमशः 8, 12, 20 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "3 अलार्म toll at intervals of 8, 12, 20 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "120 सेकंड (120 seconds)",
-      "B": "150 सेकंड",
+      "A": "240 सेकंड",
+      "B": "120 सेकंड (120 seconds)",
       "C": "100 सेकंड",
-      "D": "240 सेकंड"
+      "D": "150 सेकंड"
     },
     "opts_en": {
-      "A": "120 seconds",
-      "B": "150 seconds",
+      "A": "240 seconds",
+      "B": "120 seconds",
       "C": "100 seconds",
-      "D": "240 seconds"
+      "D": "150 seconds"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "एक साथ बजने का समय = LCM(8, 12, 20) = 120 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(8, 12, 20) = 120 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0990",
-    "question_id": "q_math_c1_t10_0990",
-    "question_group_id": "math_ch01_group_0990",
+    "id": "q_math_c1_t10_1088",
+    "question_id": "q_math_c1_t10_1088",
+    "question_group_id": "math_ch01_group_1088",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58374,19 +64156,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "84 सेकंड (84 seconds)",
-        "B": "64 सेकंड",
-        "C": "114 सेकंड",
-        "D": "168 सेकंड"
+        "A": "114 सेकंड",
+        "B": "84 सेकंड (84 seconds)",
+        "C": "168 सेकंड",
+        "D": "64 सेकंड"
       },
       "en": {
-        "A": "84 seconds",
-        "B": "64 seconds",
-        "C": "114 seconds",
-        "D": "168 seconds"
+        "A": "114 seconds",
+        "B": "84 seconds",
+        "C": "168 seconds",
+        "D": "64 seconds"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "84 सेकंड (84 seconds)",
       "en": "84 seconds"
@@ -58398,27 +64180,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "3 घंटियाँ क्रमशः 14, 21, 28 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "3 घंटियाँ toll at intervals of 14, 21, 28 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "84 सेकंड (84 seconds)",
-      "B": "64 सेकंड",
-      "C": "114 सेकंड",
-      "D": "168 सेकंड"
+      "A": "114 सेकंड",
+      "B": "84 सेकंड (84 seconds)",
+      "C": "168 सेकंड",
+      "D": "64 सेकंड"
     },
     "opts_en": {
-      "A": "84 seconds",
-      "B": "64 seconds",
-      "C": "114 seconds",
-      "D": "168 seconds"
+      "A": "114 seconds",
+      "B": "84 seconds",
+      "C": "168 seconds",
+      "D": "64 seconds"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "एक साथ बजने का समय = LCM(14, 21, 28) = 84 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(14, 21, 28) = 84 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0991",
-    "question_id": "q_math_c1_t10_0991",
-    "question_group_id": "math_ch01_group_0991",
+    "id": "q_math_c1_t10_1089",
+    "question_id": "q_math_c1_t10_1089",
+    "question_group_id": "math_ch01_group_1089",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58433,19 +64215,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "126 सेकंड",
+        "A": "96 सेकंड (96 seconds)",
         "B": "192 सेकंड",
         "C": "76 सेकंड",
-        "D": "96 सेकंड (96 seconds)"
+        "D": "126 सेकंड"
       },
       "en": {
-        "A": "126 seconds",
+        "A": "96 seconds",
         "B": "192 seconds",
         "C": "76 seconds",
-        "D": "96 seconds"
+        "D": "126 seconds"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "96 सेकंड (96 seconds)",
       "en": "96 seconds"
@@ -58457,27 +64239,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "3 सायरन क्रमशः 16, 24, 32 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "3 सायरन toll at intervals of 16, 24, 32 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "126 सेकंड",
+      "A": "96 सेकंड (96 seconds)",
       "B": "192 सेकंड",
       "C": "76 सेकंड",
-      "D": "96 सेकंड (96 seconds)"
+      "D": "126 सेकंड"
     },
     "opts_en": {
-      "A": "126 seconds",
+      "A": "96 seconds",
       "B": "192 seconds",
       "C": "76 seconds",
-      "D": "96 seconds"
+      "D": "126 seconds"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "एक साथ बजने का समय = LCM(16, 24, 32) = 96 सेकंड होगा।",
     "exp_en": "Time to toll together = LCM(16, 24, 32) = 96 seconds.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0992",
-    "question_id": "q_math_c1_t10_0992",
-    "question_group_id": "math_ch01_group_0992",
+    "id": "q_math_c1_t10_1090",
+    "question_id": "q_math_c1_t10_1090",
+    "question_group_id": "math_ch01_group_1090",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58492,14 +64274,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "216 सेकंड",
-        "B": "138 सेकंड",
+        "A": "138 सेकंड",
+        "B": "216 सेकंड",
         "C": "108 सेकंड (108 seconds)",
         "D": "88 सेकंड"
       },
       "en": {
-        "A": "216 seconds",
-        "B": "138 seconds",
+        "A": "138 seconds",
+        "B": "216 seconds",
         "C": "108 seconds",
         "D": "88 seconds"
       }
@@ -58516,14 +64298,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "3 अलार्म क्रमशः 18, 27, 36 सेकंड के अंतराल पर बजती हैं। यदि वे एक साथ बजना प्रारंभ करें, तो कितने सेकंड बाद वे पुनः एक साथ बजेंगी?",
     "q_en": "3 अलार्म toll at intervals of 18, 27, 36 seconds respectively. If they toll together, after how many seconds will they toll together again?",
     "opts_hi": {
-      "A": "216 सेकंड",
-      "B": "138 सेकंड",
+      "A": "138 सेकंड",
+      "B": "216 सेकंड",
       "C": "108 सेकंड (108 seconds)",
       "D": "88 सेकंड"
     },
     "opts_en": {
-      "A": "216 seconds",
-      "B": "138 seconds",
+      "A": "138 seconds",
+      "B": "216 seconds",
       "C": "108 seconds",
       "D": "88 seconds"
     },
@@ -58534,9 +64316,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0993",
-    "question_id": "q_math_c1_t10_0993",
-    "question_group_id": "math_ch01_group_0993",
+    "id": "q_math_c1_t10_1091",
+    "question_id": "q_math_c1_t10_1091",
+    "question_group_id": "math_ch01_group_1091",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58551,19 +64333,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "100 सेमी",
+        "A": "75 सेमी (75 cm)",
         "B": "150 सेमी",
         "C": "60 सेमी",
-        "D": "75 सेमी (75 cm)"
+        "D": "100 सेमी"
       },
       "en": {
-        "A": "100 cm",
+        "A": "75 cm",
         "B": "150 cm",
         "C": "60 cm",
-        "D": "75 cm"
+        "D": "100 cm"
       }
     },
-    "correct_option": "D",
+    "correct_option": "A",
     "correct_answer": {
       "hi": "75 सेमी (75 cm)",
       "en": "75 cm"
@@ -58575,27 +64357,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "एक कमरे की विमाएँ 825 सेमी, 675 सेमी और 450 सेमी हैं। उस सबसे लंबे फीते (फीता/मापक पैमाने) की लंबाई ज्ञात कीजिए जो कमरे की तीनों विमाओं को पूरा-पूरा माप सके:",
     "q_en": "The dimensions of a room are 825 सेमी, 675 सेमी और 450 सेमी. Determine the length of the longest tape which can measure the three dimensions of the room exactly:",
     "opts_hi": {
-      "A": "100 सेमी",
+      "A": "75 सेमी (75 cm)",
       "B": "150 सेमी",
       "C": "60 सेमी",
-      "D": "75 सेमी (75 cm)"
+      "D": "100 सेमी"
     },
     "opts_en": {
-      "A": "100 cm",
+      "A": "75 cm",
       "B": "150 cm",
       "C": "60 cm",
-      "D": "75 cm"
+      "D": "100 cm"
     },
-    "ans": "D",
+    "ans": "A",
     "exp_hi": "सबसे लंबे फीते की लंबाई = HCF(825, 675, 450) = 75 सेमी होगी।",
     "exp_en": "Longest tape length = HCF(825, 675, 450) = 75 cm.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0994",
-    "question_id": "q_math_c1_t10_0994",
-    "question_group_id": "math_ch01_group_0994",
+    "id": "q_math_c1_t10_1092",
+    "question_id": "q_math_c1_t10_1092",
+    "question_group_id": "math_ch01_group_1092",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58610,19 +64392,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "180 सेमी (180 cm)",
-        "B": "360 सेमी",
-        "C": "165 सेमी",
-        "D": "205 सेमी"
+        "A": "205 सेमी",
+        "B": "180 सेमी (180 cm)",
+        "C": "360 सेमी",
+        "D": "165 सेमी"
       },
       "en": {
-        "A": "180 cm",
-        "B": "360 cm",
-        "C": "165 cm",
-        "D": "205 cm"
+        "A": "205 cm",
+        "B": "180 cm",
+        "C": "360 cm",
+        "D": "165 cm"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "180 सेमी (180 cm)",
       "en": "180 cm"
@@ -58634,27 +64416,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "एक कमरे की विमाएँ 720 सेमी, 540 सेमी और 360 सेमी हैं। उस सबसे लंबे फीते (फीता/मापक पैमाने) की लंबाई ज्ञात कीजिए जो कमरे की तीनों विमाओं को पूरा-पूरा माप सके:",
     "q_en": "The dimensions of a room are 720 सेमी, 540 सेमी और 360 सेमी. Determine the length of the longest tape which can measure the three dimensions of the room exactly:",
     "opts_hi": {
-      "A": "180 सेमी (180 cm)",
-      "B": "360 सेमी",
-      "C": "165 सेमी",
-      "D": "205 सेमी"
+      "A": "205 सेमी",
+      "B": "180 सेमी (180 cm)",
+      "C": "360 सेमी",
+      "D": "165 सेमी"
     },
     "opts_en": {
-      "A": "180 cm",
-      "B": "360 cm",
-      "C": "165 cm",
-      "D": "205 cm"
+      "A": "205 cm",
+      "B": "180 cm",
+      "C": "360 cm",
+      "D": "165 cm"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "सबसे लंबे फीते की लंबाई = HCF(720, 540, 360) = 180 सेमी होगी।",
     "exp_en": "Longest tape length = HCF(720, 540, 360) = 180 cm.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0995",
-    "question_id": "q_math_c1_t10_0995",
-    "question_group_id": "math_ch01_group_0995",
+    "id": "q_math_c1_t10_1093",
+    "question_id": "q_math_c1_t10_1093",
+    "question_group_id": "math_ch01_group_1093",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58671,14 +64453,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
       "hi": {
         "A": "195 सेमी",
         "B": "170 सेमी (170 cm)",
-        "C": "155 सेमी",
-        "D": "340 सेमी"
+        "C": "340 सेमी",
+        "D": "155 सेमी"
       },
       "en": {
         "A": "195 cm",
         "B": "170 cm",
-        "C": "155 cm",
-        "D": "340 cm"
+        "C": "340 cm",
+        "D": "155 cm"
       }
     },
     "correct_option": "B",
@@ -58695,14 +64477,14 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "opts_hi": {
       "A": "195 सेमी",
       "B": "170 सेमी (170 cm)",
-      "C": "155 सेमी",
-      "D": "340 सेमी"
+      "C": "340 सेमी",
+      "D": "155 सेमी"
     },
     "opts_en": {
       "A": "195 cm",
       "B": "170 cm",
-      "C": "155 cm",
-      "D": "340 cm"
+      "C": "340 cm",
+      "D": "155 cm"
     },
     "ans": "B",
     "exp_hi": "सबसे लंबे फीते की लंबाई = HCF(680, 510, 340) = 170 सेमी होगी।",
@@ -58711,9 +64493,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0996",
-    "question_id": "q_math_c1_t10_0996",
-    "question_group_id": "math_ch01_group_0996",
+    "id": "q_math_c1_t10_1094",
+    "question_id": "q_math_c1_t10_1094",
+    "question_group_id": "math_ch01_group_1094",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58729,15 +64511,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "options": {
       "hi": {
         "A": "75 सेमी (75 cm)",
-        "B": "100 सेमी",
+        "B": "60 सेमी",
         "C": "150 सेमी",
-        "D": "60 सेमी"
+        "D": "100 सेमी"
       },
       "en": {
         "A": "75 cm",
-        "B": "100 cm",
+        "B": "60 cm",
         "C": "150 cm",
-        "D": "60 cm"
+        "D": "100 cm"
       }
     },
     "correct_option": "A",
@@ -58753,15 +64535,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_en": "The dimensions of a room are 525 सेमी, 375 सेमी और 225 सेमी. Determine the length of the longest tape which can measure the three dimensions of the room exactly:",
     "opts_hi": {
       "A": "75 सेमी (75 cm)",
-      "B": "100 सेमी",
+      "B": "60 सेमी",
       "C": "150 सेमी",
-      "D": "60 सेमी"
+      "D": "100 सेमी"
     },
     "opts_en": {
       "A": "75 cm",
-      "B": "100 cm",
+      "B": "60 cm",
       "C": "150 cm",
-      "D": "60 cm"
+      "D": "100 cm"
     },
     "ans": "A",
     "exp_hi": "सबसे लंबे फीते की लंबाई = HCF(525, 375, 225) = 75 सेमी होगी।",
@@ -58770,9 +64552,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0997",
-    "question_id": "q_math_c1_t10_0997",
-    "question_group_id": "math_ch01_group_0997",
+    "id": "q_math_c1_t10_1095",
+    "question_id": "q_math_c1_t10_1095",
+    "question_group_id": "math_ch01_group_1095",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58787,19 +64569,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "480 सेमी",
-        "B": "225 सेमी",
-        "C": "240 सेमी (240 cm)",
+        "A": "225 सेमी",
+        "B": "240 सेमी (240 cm)",
+        "C": "480 सेमी",
         "D": "265 सेमी"
       },
       "en": {
-        "A": "480 cm",
-        "B": "225 cm",
-        "C": "240 cm",
+        "A": "225 cm",
+        "B": "240 cm",
+        "C": "480 cm",
         "D": "265 cm"
       }
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "240 सेमी (240 cm)",
       "en": "240 cm"
@@ -58811,27 +64593,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "एक कमरे की विमाएँ 960 सेमी, 720 सेमी और 480 सेमी हैं। उस सबसे लंबे फीते (फीता/मापक पैमाने) की लंबाई ज्ञात कीजिए जो कमरे की तीनों विमाओं को पूरा-पूरा माप सके:",
     "q_en": "The dimensions of a room are 960 सेमी, 720 सेमी और 480 सेमी. Determine the length of the longest tape which can measure the three dimensions of the room exactly:",
     "opts_hi": {
-      "A": "480 सेमी",
-      "B": "225 सेमी",
-      "C": "240 सेमी (240 cm)",
+      "A": "225 सेमी",
+      "B": "240 सेमी (240 cm)",
+      "C": "480 सेमी",
       "D": "265 सेमी"
     },
     "opts_en": {
-      "A": "480 cm",
-      "B": "225 cm",
-      "C": "240 cm",
+      "A": "225 cm",
+      "B": "240 cm",
+      "C": "480 cm",
       "D": "265 cm"
     },
-    "ans": "C",
+    "ans": "B",
     "exp_hi": "सबसे लंबे फीते की लंबाई = HCF(960, 720, 480) = 240 सेमी होगी।",
     "exp_en": "Longest tape length = HCF(960, 720, 480) = 240 cm.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0998",
-    "question_id": "q_math_c1_t10_0998",
-    "question_group_id": "math_ch01_group_0998",
+    "id": "q_math_c1_t10_1096",
+    "question_id": "q_math_c1_t10_1096",
+    "question_group_id": "math_ch01_group_1096",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58846,15 +64628,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "135 सेमी",
-        "B": "300 सेमी",
-        "C": "175 सेमी",
+        "A": "175 सेमी",
+        "B": "135 सेमी",
+        "C": "300 सेमी",
         "D": "150 सेमी (150 cm)"
       },
       "en": {
-        "A": "135 cm",
-        "B": "300 cm",
-        "C": "175 cm",
+        "A": "175 cm",
+        "B": "135 cm",
+        "C": "300 cm",
         "D": "150 cm"
       }
     },
@@ -58870,15 +64652,15 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "एक कमरे की विमाएँ 600 सेमी, 450 सेमी और 300 सेमी हैं। उस सबसे लंबे फीते (फीता/मापक पैमाने) की लंबाई ज्ञात कीजिए जो कमरे की तीनों विमाओं को पूरा-पूरा माप सके:",
     "q_en": "The dimensions of a room are 600 सेमी, 450 सेमी और 300 सेमी. Determine the length of the longest tape which can measure the three dimensions of the room exactly:",
     "opts_hi": {
-      "A": "135 सेमी",
-      "B": "300 सेमी",
-      "C": "175 सेमी",
+      "A": "175 सेमी",
+      "B": "135 सेमी",
+      "C": "300 सेमी",
       "D": "150 सेमी (150 cm)"
     },
     "opts_en": {
-      "A": "135 cm",
-      "B": "300 cm",
-      "C": "175 cm",
+      "A": "175 cm",
+      "B": "135 cm",
+      "C": "300 cm",
       "D": "150 cm"
     },
     "ans": "D",
@@ -58888,9 +64670,9 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_0999",
-    "question_id": "q_math_c1_t10_0999",
-    "question_group_id": "math_ch01_group_0999",
+    "id": "q_math_c1_t10_1097",
+    "question_id": "q_math_c1_t10_1097",
+    "question_group_id": "math_ch01_group_1097",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58905,19 +64687,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "31 लीटर",
-        "B": "21 लीटर (21 litres)",
-        "C": "16 लीटर",
-        "D": "42 लीटर"
+        "A": "16 लीटर",
+        "B": "42 लीटर",
+        "C": "21 लीटर (21 litres)",
+        "D": "31 लीटर"
       },
       "en": {
-        "A": "31 litres",
-        "B": "21 litres",
-        "C": "16 litres",
-        "D": "42 litres"
+        "A": "16 litres",
+        "B": "42 litres",
+        "C": "21 litres",
+        "D": "31 litres"
       }
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "21 लीटर (21 litres)",
       "en": "21 litres"
@@ -58929,27 +64711,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो बर्तनों में क्रमशः 504 लीटर और 735 लीटर दूध है। उस बड़े से बड़े बर्तन का धारिता (क्षमता) क्या होगी जो दोनों बर्तनों के दूध को पूरा-पूरा माप सके?",
     "q_en": "Two containers contain 504 लीटर and 735 लीटर of milk respectively. What is the maximum capacity of a container which can measure the milk of both containers an exact number of times?",
     "opts_hi": {
-      "A": "31 लीटर",
-      "B": "21 लीटर (21 litres)",
-      "C": "16 लीटर",
-      "D": "42 लीटर"
+      "A": "16 लीटर",
+      "B": "42 लीटर",
+      "C": "21 लीटर (21 litres)",
+      "D": "31 लीटर"
     },
     "opts_en": {
-      "A": "31 litres",
-      "B": "21 litres",
-      "C": "16 litres",
-      "D": "42 litres"
+      "A": "16 litres",
+      "B": "42 litres",
+      "C": "21 litres",
+      "D": "31 litres"
     },
-    "ans": "B",
+    "ans": "C",
     "exp_hi": "अधिकतम धारिता = HCF(504, 735) = 21 लीटर होगी।",
     "exp_en": "Maximum capacity = HCF(504, 735) = 21 litres.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_1000",
-    "question_id": "q_math_c1_t10_1000",
-    "question_group_id": "math_ch01_group_1000",
+    "id": "q_math_c1_t10_1098",
+    "question_id": "q_math_c1_t10_1098",
+    "question_group_id": "math_ch01_group_1098",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -58964,19 +64746,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "41 लीटर",
-        "B": "31 लीटर (31 litres)",
-        "C": "62 लीटर",
-        "D": "26 लीटर"
+        "A": "26 लीटर",
+        "B": "62 लीटर",
+        "C": "41 लीटर",
+        "D": "31 लीटर (31 litres)"
       },
       "en": {
-        "A": "41 litres",
-        "B": "31 litres",
-        "C": "62 litres",
-        "D": "26 litres"
+        "A": "26 litres",
+        "B": "62 litres",
+        "C": "41 litres",
+        "D": "31 litres"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "31 लीटर (31 litres)",
       "en": "31 litres"
@@ -58988,27 +64770,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो बर्तनों में क्रमशः 403 लीटर और 434 लीटर दूध है। उस बड़े से बड़े बर्तन का धारिता (क्षमता) क्या होगी जो दोनों बर्तनों के दूध को पूरा-पूरा माप सके?",
     "q_en": "Two containers contain 403 लीटर and 434 लीटर of milk respectively. What is the maximum capacity of a container which can measure the milk of both containers an exact number of times?",
     "opts_hi": {
-      "A": "41 लीटर",
-      "B": "31 लीटर (31 litres)",
-      "C": "62 लीटर",
-      "D": "26 लीटर"
+      "A": "26 लीटर",
+      "B": "62 लीटर",
+      "C": "41 लीटर",
+      "D": "31 लीटर (31 litres)"
     },
     "opts_en": {
-      "A": "41 litres",
-      "B": "31 litres",
-      "C": "62 litres",
-      "D": "26 litres"
+      "A": "26 litres",
+      "B": "62 litres",
+      "C": "41 litres",
+      "D": "31 litres"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "अधिकतम धारिता = HCF(403, 434) = 31 लीटर होगी।",
     "exp_en": "Maximum capacity = HCF(403, 434) = 31 litres.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_1001",
-    "question_id": "q_math_c1_t10_1001",
-    "question_group_id": "math_ch01_group_1001",
+    "id": "q_math_c1_t10_1099",
+    "question_id": "q_math_c1_t10_1099",
+    "question_group_id": "math_ch01_group_1099",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -59023,19 +64805,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "41 लीटर",
-        "B": "26 लीटर",
+        "A": "26 लीटर",
+        "B": "31 लीटर (31 litres)",
         "C": "62 लीटर",
-        "D": "31 लीटर (31 litres)"
+        "D": "41 लीटर"
       },
       "en": {
-        "A": "41 litres",
-        "B": "26 litres",
+        "A": "26 litres",
+        "B": "31 litres",
         "C": "62 litres",
-        "D": "31 litres"
+        "D": "41 litres"
       }
     },
-    "correct_option": "D",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "31 लीटर (31 litres)",
       "en": "31 litres"
@@ -59047,27 +64829,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो बर्तनों में क्रमशः 465 लीटर और 496 लीटर दूध है। उस बड़े से बड़े बर्तन का धारिता (क्षमता) क्या होगी जो दोनों बर्तनों के दूध को पूरा-पूरा माप सके?",
     "q_en": "Two containers contain 465 लीटर and 496 लीटर of milk respectively. What is the maximum capacity of a container which can measure the milk of both containers an exact number of times?",
     "opts_hi": {
-      "A": "41 लीटर",
-      "B": "26 लीटर",
+      "A": "26 लीटर",
+      "B": "31 लीटर (31 litres)",
       "C": "62 लीटर",
-      "D": "31 लीटर (31 litres)"
+      "D": "41 लीटर"
     },
     "opts_en": {
-      "A": "41 litres",
-      "B": "26 litres",
+      "A": "26 litres",
+      "B": "31 litres",
       "C": "62 litres",
-      "D": "31 litres"
+      "D": "41 litres"
     },
-    "ans": "D",
+    "ans": "B",
     "exp_hi": "अधिकतम धारिता = HCF(465, 496) = 31 लीटर होगी।",
     "exp_en": "Maximum capacity = HCF(465, 496) = 31 litres.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_1002",
-    "question_id": "q_math_c1_t10_1002",
-    "question_group_id": "math_ch01_group_1002",
+    "id": "q_math_c1_t10_1100",
+    "question_id": "q_math_c1_t10_1100",
+    "question_group_id": "math_ch01_group_1100",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -59082,19 +64864,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "26 लीटर",
-        "B": "41 लीटर",
-        "C": "62 लीटर",
-        "D": "31 लीटर (31 litres)"
+        "A": "41 लीटर",
+        "B": "62 लीटर",
+        "C": "31 लीटर (31 litres)",
+        "D": "26 लीटर"
       },
       "en": {
-        "A": "26 litres",
-        "B": "41 litres",
-        "C": "62 litres",
-        "D": "31 litres"
+        "A": "41 litres",
+        "B": "62 litres",
+        "C": "31 litres",
+        "D": "26 litres"
       }
     },
-    "correct_option": "D",
+    "correct_option": "C",
     "correct_answer": {
       "hi": "31 लीटर (31 litres)",
       "en": "31 litres"
@@ -59106,27 +64888,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो बर्तनों में क्रमशः 527 लीटर और 589 लीटर दूध है। उस बड़े से बड़े बर्तन का धारिता (क्षमता) क्या होगी जो दोनों बर्तनों के दूध को पूरा-पूरा माप सके?",
     "q_en": "Two containers contain 527 लीटर and 589 लीटर of milk respectively. What is the maximum capacity of a container which can measure the milk of both containers an exact number of times?",
     "opts_hi": {
-      "A": "26 लीटर",
-      "B": "41 लीटर",
-      "C": "62 लीटर",
-      "D": "31 लीटर (31 litres)"
+      "A": "41 लीटर",
+      "B": "62 लीटर",
+      "C": "31 लीटर (31 litres)",
+      "D": "26 लीटर"
     },
     "opts_en": {
-      "A": "26 litres",
-      "B": "41 litres",
-      "C": "62 litres",
-      "D": "31 litres"
+      "A": "41 litres",
+      "B": "62 litres",
+      "C": "31 litres",
+      "D": "26 litres"
     },
-    "ans": "D",
+    "ans": "C",
     "exp_hi": "अधिकतम धारिता = HCF(527, 589) = 31 लीटर होगी।",
     "exp_en": "Maximum capacity = HCF(527, 589) = 31 litres.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_1003",
-    "question_id": "q_math_c1_t10_1003",
-    "question_group_id": "math_ch01_group_1003",
+    "id": "q_math_c1_t10_1101",
+    "question_id": "q_math_c1_t10_1101",
+    "question_group_id": "math_ch01_group_1101",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -59141,19 +64923,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "23 लीटर (23 litres)",
-        "B": "33 लीटर",
-        "C": "46 लीटर",
-        "D": "18 लीटर"
+        "A": "46 लीटर",
+        "B": "23 लीटर (23 litres)",
+        "C": "18 लीटर",
+        "D": "33 लीटर"
       },
       "en": {
-        "A": "23 litres",
-        "B": "33 litres",
-        "C": "46 litres",
-        "D": "18 litres"
+        "A": "46 litres",
+        "B": "23 litres",
+        "C": "18 litres",
+        "D": "33 litres"
       }
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "correct_answer": {
       "hi": "23 लीटर (23 litres)",
       "en": "23 litres"
@@ -59165,27 +64947,27 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो बर्तनों में क्रमशः 391 लीटर और 529 लीटर दूध है। उस बड़े से बड़े बर्तन का धारिता (क्षमता) क्या होगी जो दोनों बर्तनों के दूध को पूरा-पूरा माप सके?",
     "q_en": "Two containers contain 391 लीटर and 529 लीटर of milk respectively. What is the maximum capacity of a container which can measure the milk of both containers an exact number of times?",
     "opts_hi": {
-      "A": "23 लीटर (23 litres)",
-      "B": "33 लीटर",
-      "C": "46 लीटर",
-      "D": "18 लीटर"
+      "A": "46 लीटर",
+      "B": "23 लीटर (23 litres)",
+      "C": "18 लीटर",
+      "D": "33 लीटर"
     },
     "opts_en": {
-      "A": "23 litres",
-      "B": "33 litres",
-      "C": "46 litres",
-      "D": "18 litres"
+      "A": "46 litres",
+      "B": "23 litres",
+      "C": "18 litres",
+      "D": "33 litres"
     },
-    "ans": "A",
+    "ans": "B",
     "exp_hi": "अधिकतम धारिता = HCF(391, 529) = 23 लीटर होगी।",
     "exp_en": "Maximum capacity = HCF(391, 529) = 23 litres.",
     "verified": true,
     "duplicate_checked": true
   },
   {
-    "id": "q_math_c1_t10_1004",
-    "question_id": "q_math_c1_t10_1004",
-    "question_group_id": "math_ch01_group_1004",
+    "id": "q_math_c1_t10_1102",
+    "question_id": "q_math_c1_t10_1102",
+    "question_group_id": "math_ch01_group_1102",
     "board": "BSEB",
     "class": "10",
     "subject_id": "math",
@@ -59200,19 +64982,19 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     },
     "options": {
       "hi": {
-        "A": "64 लीटर",
-        "B": "69 लीटर (69 litres)",
-        "C": "138 लीटर",
-        "D": "79 लीटर"
+        "A": "138 लीटर",
+        "B": "79 लीटर",
+        "C": "64 लीटर",
+        "D": "69 लीटर (69 litres)"
       },
       "en": {
-        "A": "64 litres",
-        "B": "69 litres",
-        "C": "138 litres",
-        "D": "79 litres"
+        "A": "138 litres",
+        "B": "79 litres",
+        "C": "64 litres",
+        "D": "69 litres"
       }
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "correct_answer": {
       "hi": "69 लीटर (69 litres)",
       "en": "69 litres"
@@ -59224,18 +65006,18 @@ window.BSEB_MATH_CH01_QUESTIONS = [
     "q_hi": "दो बर्तनों में क्रमशः 345 लीटर और 552 लीटर दूध है। उस बड़े से बड़े बर्तन का धारिता (क्षमता) क्या होगी जो दोनों बर्तनों के दूध को पूरा-पूरा माप सके?",
     "q_en": "Two containers contain 345 लीटर and 552 लीटर of milk respectively. What is the maximum capacity of a container which can measure the milk of both containers an exact number of times?",
     "opts_hi": {
-      "A": "64 लीटर",
-      "B": "69 लीटर (69 litres)",
-      "C": "138 लीटर",
-      "D": "79 लीटर"
+      "A": "138 लीटर",
+      "B": "79 लीटर",
+      "C": "64 लीटर",
+      "D": "69 लीटर (69 litres)"
     },
     "opts_en": {
-      "A": "64 litres",
-      "B": "69 litres",
-      "C": "138 litres",
-      "D": "79 litres"
+      "A": "138 litres",
+      "B": "79 litres",
+      "C": "64 litres",
+      "D": "69 litres"
     },
-    "ans": "B",
+    "ans": "D",
     "exp_hi": "अधिकतम धारिता = HCF(345, 552) = 69 लीटर होगी।",
     "exp_en": "Maximum capacity = HCF(345, 552) = 69 litres.",
     "verified": true,

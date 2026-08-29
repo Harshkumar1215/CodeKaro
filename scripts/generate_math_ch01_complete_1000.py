@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
 """
 Class 10 Bihar Board (BSEB) Mathematics Question Bank Generator
-Chapter 1: Real Numbers (वास्तविक संख्याएं) - COMPLETE 1000+ VERIFIED MCQ BANK
+Chapter 1: Real Numbers (वास्तविक संख्याएं) - COMPLETE VERIFIED MCQ BANK
 
-Full 10 Topics Coverage (100+ verified MCQs per topic):
-- Topic 1: Euclid's Division Lemma (math_ch_01_topic_01)
-- Topic 2: Euclid's Division Algorithm (math_ch_01_topic_02)
-- Topic 3: Fundamental Theorem of Arithmetic (math_ch_01_topic_03)
-- Topic 4: Prime Factorisation (math_ch_01_topic_04)
-- Topic 5: HCF (math_ch_01_topic_05)
-- Topic 6: LCM (math_ch_01_topic_06)
-- Topic 7: Rational Numbers (math_ch_01_topic_07)
-- Topic 8: Irrational Numbers (math_ch_01_topic_08)
-- Topic 9: Decimal Expansion of Rational Numbers (math_ch_01_topic_09)
-- Topic 10: Applications of HCF and LCM (math_ch_01_topic_10)
+Full 10 Topics Coverage:
+- Topic 1: Euclid's Division Lemma (math_ch_01_topic_01 / math_c1_t1)
+- Topic 2: Euclid's Division Algorithm (math_ch_01_topic_02 / math_c1_t2)
+- Topic 3: Fundamental Theorem of Arithmetic (math_ch_01_topic_03 / math_c1_t3)
+- Topic 4: Prime Factorisation (math_ch_01_topic_04 / math_c1_t4)
+- Topic 5: HCF (math_ch_01_topic_05 / math_c1_t5)
+- Topic 6: LCM (math_ch_01_topic_06 / math_c1_t6)
+- Topic 7: Rational Numbers (math_ch_01_topic_07 / math_c1_t7)
+- Topic 8: Irrational Numbers (math_ch_01_topic_08 / math_c1_t8)
+- Topic 9: Decimal Expansion of Rational Numbers (math_ch_01_topic_09 / math_c1_t9) - 134 MCQs
+- Topic 10: Applications of HCF and LCM (math_ch_01_topic_10 / math_c1_t10)
 """
 
 import json
@@ -30,7 +30,7 @@ seen_signatures = set()
 def normalize_sig(text):
     return ''.join(c.lower() for c in str(text) if c.isalnum())
 
-def add_q(topic_id, q_hi, q_en, cor_hi, cor_en, dis_hi, dis_en, exp_hi, exp_en, diff="Medium", q_type="Numerical"):
+def add_q(topic_id, q_hi, q_en, cor_hi, cor_en, dis_hi, dis_en, exp_hi, exp_en, diff="Medium", q_type="Numerical", exact_options=None):
     sig_hi = normalize_sig(q_hi)
     sig_en = normalize_sig(q_en)
     if sig_hi in seen_signatures or sig_en in seen_signatures:
@@ -38,31 +38,36 @@ def add_q(topic_id, q_hi, q_en, cor_hi, cor_en, dis_hi, dis_en, exp_hi, exp_en, 
     seen_signatures.add(sig_hi)
     seen_signatures.add(sig_en)
 
-    raw_options = [
-        {'hi': str(cor_hi).strip(), 'en': str(cor_en).strip(), 'is_correct': True},
-        {'hi': str(dis_hi[0]).strip(), 'en': str(dis_en[0]).strip(), 'is_correct': False},
-        {'hi': str(dis_hi[1]).strip(), 'en': str(dis_en[1]).strip(), 'is_correct': False},
-        {'hi': str(dis_hi[2]).strip(), 'en': str(dis_en[2]).strip(), 'is_correct': False},
-    ]
+    if exact_options:
+        opts_hi = exact_options['opts_hi']
+        opts_en = exact_options['opts_en']
+        correct_key = exact_options['ans']
+    else:
+        raw_options = [
+            {'hi': str(cor_hi).strip(), 'en': str(cor_en).strip(), 'is_correct': True},
+            {'hi': str(dis_hi[0]).strip(), 'en': str(dis_en[0]).strip(), 'is_correct': False},
+            {'hi': str(dis_hi[1]).strip(), 'en': str(dis_en[1]).strip(), 'is_correct': False},
+            {'hi': str(dis_hi[2]).strip(), 'en': str(dis_en[2]).strip(), 'is_correct': False},
+        ]
 
-    hi_set = set(o['hi'] for o in raw_options)
-    en_set = set(o['en'] for o in raw_options)
-    if len(hi_set) < 4 or len(en_set) < 4:
-        return False
+        hi_set = set(o['hi'] for o in raw_options)
+        en_set = set(o['en'] for o in raw_options)
+        if len(hi_set) < 4 or len(en_set) < 4:
+            return False
 
-    random.shuffle(raw_options)
+        random.shuffle(raw_options)
 
-    keys = ['A', 'B', 'C', 'D']
-    opts_hi = {}
-    opts_en = {}
-    correct_key = None
+        keys = ['A', 'B', 'C', 'D']
+        opts_hi = {}
+        opts_en = {}
+        correct_key = None
 
-    for i, opt in enumerate(raw_options):
-        k = keys[i]
-        opts_hi[k] = opt['hi']
-        opts_en[k] = opt['en']
-        if opt['is_correct']:
-            correct_key = k
+        for i, opt in enumerate(raw_options):
+            k = keys[i]
+            opts_hi[k] = opt['hi']
+            opts_en[k] = opt['en']
+            if opt['is_correct']:
+                correct_key = k
 
     q_num = len(questions) + 1
     t_num = topic_id.split('_')[-1]
@@ -113,7 +118,7 @@ def add_q(topic_id, q_hi, q_en, cor_hi, cor_en, dis_hi, dis_en, exp_hi, exp_en, 
 
 
 # ==============================================================================
-# TOPIC 1: EUCLID'S DIVISION LEMMA (math_ch_01_topic_01) [Target: 110+ MCQs]
+# TOPIC 1: EUCLID'S DIVISION LEMMA (math_ch_01_topic_01)
 # ==============================================================================
 t1 = "math_ch_01_topic_01"
 
@@ -221,7 +226,7 @@ for d1, r1, d2 in sub_div_cases:
 
 
 # ==============================================================================
-# TOPIC 2: EUCLID'S DIVISION ALGORITHM (math_ch_01_topic_02) [Target: 110+ MCQs]
+# TOPIC 2: EUCLID'S DIVISION ALGORITHM (math_ch_01_topic_02)
 # ==============================================================================
 t2 = "math_ch_01_topic_02"
 
@@ -285,7 +290,7 @@ for a, b in euclid_pairs_all:
 
 
 # ==============================================================================
-# TOPIC 3: FUNDAMENTAL THEOREM OF ARITHMETIC (math_ch_01_topic_03) [Target: 110+ MCQs]
+# TOPIC 3: FUNDAMENTAL THEOREM OF ARITHMETIC (math_ch_01_topic_03)
 # ==============================================================================
 t3 = "math_ch_01_topic_03"
 
@@ -329,7 +334,7 @@ for k_val in [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61
 
 
 # ==============================================================================
-# TOPIC 4: PRIME FACTORISATION (math_ch_01_topic_04) [Target: 110+ MCQs]
+# TOPIC 4: PRIME FACTORISATION (math_ch_01_topic_04)
 # ==============================================================================
 t4 = "math_ch_01_topic_04"
 
@@ -415,7 +420,7 @@ for num, cor_f, dis_f in prime_facts_extended:
 
 
 # ==============================================================================
-# TOPIC 5: HCF (महत्तम समापवर्तक) (math_ch_01_topic_05) [Target: 110+ MCQs]
+# TOPIC 5: HCF (महत्तम समापवर्तक) (math_ch_01_topic_05)
 # ==============================================================================
 t5 = "math_ch_01_topic_05"
 
@@ -432,7 +437,7 @@ add_q(t5,
 )
 
 add_q(t5,
-    "दो क्रमागत प्राकृत संख्याओं (Consecutive Natural Numbers) n और (n+1) का HCF सदैव क्या होता है?",
+    "दो क्रमागत प्राकृत संख्याओं n और (n+1) का HCF सदैव क्या होता है?",
     "What is the HCF of two consecutive natural numbers n and (n+1) always?",
     "1", "1",
     ["0", "2", "n"], ["0", "2", "n"],
@@ -442,7 +447,7 @@ add_q(t5,
 )
 
 add_q(t5,
-    "दो क्रमागत सम संख्याओं (Consecutive Even Numbers) 2n और (2n+2) का HCF सदैव क्या होता है?",
+    "दो क्रमागत सम संख्याओं 2n और (2n+2) का HCF सदैव क्या होता है?",
     "What is the HCF of two consecutive even numbers 2n and (2n+2) always?",
     "2", "2",
     ["1", "4", "2n"], ["1", "4", "2n"],
@@ -520,7 +525,7 @@ for exp1, exp2, cor_a, dis_a in alg_hcf_cases:
 
 
 # ==============================================================================
-# TOPIC 6: LCM (लघुत्तम समापवर्त्य) (math_ch_01_topic_06) [Target: 110+ MCQs]
+# TOPIC 6: LCM (लघुत्तम समापवर्त्य) (math_ch_01_topic_06)
 # ==============================================================================
 t6 = "math_ch_01_topic_06"
 
@@ -603,7 +608,7 @@ for exp1, exp2, cor_a, dis_a in alg_lcm_cases:
 
 
 # ==============================================================================
-# TOPIC 7: RATIONAL NUMBERS (परिमेय संख्याएँ) (math_ch_01_topic_07) [Target: 110+ MCQs]
+# TOPIC 7: RATIONAL NUMBERS (परिमेय संख्याएँ) (math_ch_01_topic_07)
 # ==============================================================================
 t7 = "math_ch_01_topic_07"
 
@@ -672,7 +677,7 @@ for dec, frac, dis_f in repeating_decimals_extended:
 
 
 # ==============================================================================
-# TOPIC 8: IRRATIONAL NUMBERS (अपरिमेय संख्याएँ) (math_ch_01_topic_08) [Target: 110+ MCQs]
+# TOPIC 8: IRRATIONAL NUMBERS (अपरिमेय संख्याएँ) (math_ch_01_topic_08)
 # ==============================================================================
 t8 = "math_ch_01_topic_08"
 
@@ -724,72 +729,246 @@ for val in [2, 3, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 17, 19, 21, 23, 26, 27, 28
 
 
 # ==============================================================================
-# TOPIC 9: DECIMAL EXPANSION OF RATIONAL NUMBERS (math_ch_01_topic_09) [Target: 110+ MCQs]
+# TOPIC 9: DECIMAL EXPANSION OF RATIONAL NUMBERS (math_ch_01_topic_09) - 134 MCQs
 # ==============================================================================
 t9 = "math_ch_01_topic_09"
 
 add_q(t9,
-    "एक परिमेय संख्या p/q का दशमलव प्रसार सांत होने के लिए हर q के अभाज्य गुणनखंड किस रूप के होने चाहिए?",
-    "For a rational number p/q to have a terminating decimal expansion, the prime factorization of q must be of the form:",
-    "2ᵐ × 5ⁿ (जहाँ m, n ऋणेतर पूर्णांक हैं)", "2ᵐ × 5ⁿ (where m, n are non-negative integers)",
-    ["2ᵐ × 3ⁿ (जहाँ m, n पूर्णांक हैं)", "3ᵐ × 5ⁿ (जहाँ m, n पूर्णांक हैं)", "केवल 7ⁿ के रूप में"],
-    ["2ᵐ × 3ⁿ (where m, n are integers)", "3ᵐ × 5ⁿ (where m, n are integers)", "Only of form 7ⁿ"],
-    "यदि हर q का गुणनखंडन 2ᵐ × 5ⁿ रूप का होता है, तो दशमलव प्रसार सांत होता है।",
-    "If denominator q has prime factors only of form 2ᵐ × 5ⁿ, decimal expansion is terminating.",
-    "Easy", "Definition"
+    "भिन्न 17/8 का दशमलव प्रसार कैसा होगा?",
+    "What type of decimal expansion does 17/8 have?",
+    "सांत (Terminating)", "Terminating",
+    ["असांत आवर्ती (Non-terminating repeating)", "असांत अनावर्ती (Non-terminating non-repeating)", "इनमें से कोई नहीं (None of these)"],
+    ["Non-terminating repeating", "Non-terminating non-repeating", "None of these"],
+    "हर 8 = 2³ है (2ᵐ × 5ⁿ रूप), इसलिए 17/8 का दशमलव प्रसार सांत होगा (2.125)।",
+    "Denominator 8 = 2³ (form 2ᵐ × 5ⁿ), so decimal expansion is terminating (2.125).",
+    "Easy", "Concept"
 )
 
-term_fractions_extended = [
-    ("17/8", "सांत (Terminating)", "हर 8 = 2³ (2ᵐ × 5ⁿ रूप), अतः सांत है।"),
-    ("64/455", "असांत आवर्ती (Non-terminating repeating)", "455 = 5 × 7 × 13 में 7 और 13 उपस्थित हैं, अतः असांत आवर्ती है।"),
-    ("15/1600", "सांत (Terminating)", "1600 = 2⁶ × 5² (2ᵐ × 5ⁿ रूप), अतः सांत है।"),
-    ("29/343", "असांत आवर्ती (Non-terminating repeating)", "343 = 7³, अतः असांत आवर्ती है।"),
-    ("23/(2³ × 5²)", "सांत (Terminating)", "हर 2³ × 5² रूप में है, अतः सांत है।"),
-    ("129/(2² × 5⁷ × 7⁵)", "असांत आवर्ती (Non-terminating repeating)", "हर में 7⁵ भी है, अतः असांत आवर्ती है।"),
-    ("6/15", "सांत (Terminating)", "6/15 = 2/5, हर 5 = 5¹ है, अतः सांत है।"),
-    ("77/210", "असांत आवर्ती (Non-terminating repeating)", "77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है, अतः असांत आवर्ती है।"),
-    ("13/3125", "सांत (Terminating)", "3125 = 5⁵, अतः सांत है।"),
-    ("11/24", "असांत आवर्ती (Non-terminating repeating)", "24 = 2³ × 3, हर में 3 है, अतः असांत आवर्ती है।"),
-    ("7/80", "सांत (Terminating)", "80 = 2⁴ × 5, अतः सांत है।"),
-    ("13/125", "सांत (Terminating)", "125 = 5³, अतः सांत है।"),
-    ("31/625", "सांत (Terminating)", "625 = 5⁴, अतः सांत है।"),
-    ("19/200", "सांत (Terminating)", "200 = 2³ × 5², अतः सांत है।"),
-    ("41/1000", "सांत (Terminating)", "1000 = 2³ × 5³, अतः सांत है।"),
-    ("7/25", "सांत (Terminating)", "25 = 5², अतः सांत है।"),
-    ("9/40", "सांत (Terminating)", "40 = 2³ × 5, अतः सांत है।"),
-    ("11/50", "सांत (Terminating)", "50 = 2 × 5², अतः सांत है।"),
-    ("21/250", "सांत (Terminating)", "250 = 2 × 5³, अतः सांत है।"),
-    ("33/500", "सांत (Terminating)", "500 = 2² × 5³, अतः सांत है।"),
-    ("27/160", "सांत (Terminating)", "160 = 2⁵ × 5, अतः सांत है।"),
-    ("35/320", "सांत (Terminating)", "320 = 2⁶ × 5, अतः सांत है।"),
-    ("43/640", "सांत (Terminating)", "640 = 2⁷ × 5, अतः सांत है।"),
-    ("49/800", "सांत (Terminating)", "800 = 2⁵ × 5², अतः सांत है।"),
-    ("57/1250", "सांत (Terminating)", "1250 = 2 × 5⁴, अतः सांत है।"),
-    ("63/2500", "सांत (Terminating)", "2500 = 2² × 5⁴, अतः सांत है।"),
-    ("71/5000", "सांत (Terminating)", "5000 = 2³ × 5⁴, अतः सांत है।"),
-    ("17/30", "असांत आवर्ती (Non-terminating repeating)", "30 = 2 × 3 × 5, हर में 3 है।"),
-    ("19/45", "असांत आवर्ती (Non-terminating repeating)", "45 = 3² × 5, हर में 3 है।"),
-    ("23/70", "असांत आवर्ती (Non-terminating repeating)", "70 = 2 × 5 × 7, हर में 7 है।"),
-    ("29/90", "असांत आवर्ती (Non-terminating repeating)", "90 = 2 × 3² × 5, हर में 3 है।"),
-    ("31/110", "असांत आवर्ती (Non-terminating repeating)", "110 = 2 × 5 × 11, हर में 11 है।"),
-    ("37/120", "असांत आवर्ती (Non-terminating repeating)", "120 = 2³ × 3 × 5, हर में 3 है।"),
-    ("41/140", "असांत आवर्ती (Non-terminating repeating)", "140 = 2² × 5 × 7, हर में 7 है।"),
-    ("47/150", "असांत आवर्ती (Non-terminating repeating)", "150 = 2 × 3 × 5², हर में 3 है।")
+add_q(t9,
+    "भिन्न 1/3 का दशमलव प्रसार क्या होगा?",
+    "What will be the decimal expansion of 1/3?",
+    "0.333... (असांत आवर्ती)", "0.333... (Non-terminating repeating)",
+    ["0.3 (सांत)", "0.33 (सांत)", "0.3333 (सांत)"],
+    ["0.3 (Terminating)", "0.33 (Terminating)", "0.3333 (Terminating)"],
+    "1/3 = 0.333... यह एक असांत आवर्ती दशमलव है क्योंकि हर 3, 2ᵐ × 5ⁿ के रूप में नहीं है।",
+    "1/3 = 0.333... which is a non-terminating repeating decimal because denominator 3 is not of form 2ᵐ × 5ⁿ.",
+    "Easy", "Concept"
+)
+
+add_q(t9,
+    "निम्नलिखित में से किस भिन्न का दशमलव प्रसार सांत होगा?",
+    "Which of the following fractions will have a terminating decimal expansion?",
+    "7/25", "7/25",
+    ["5/6", "2/3", "4/7"],
+    ["5/6", "2/3", "4/7"],
+    "7/25 का हर 25 = 5² (2ᵐ × 5ⁿ रूप), इसलिए सांत दशमलव होगा। अन्य हर 6, 3, 7 में 2 और 5 के अलावा अन्य गुणनखंड हैं।",
+    "7/25 has denominator 25 = 5² (form 2ᵐ × 5ⁿ), so it will have terminating decimal. Others have factors other than 2 and 5.",
+    "Medium", "Concept"
+)
+
+add_q(t9,
+    "0.142857142857... किस भिन्न का दशमलव प्रसार है?",
+    "Which fraction's decimal expansion is 0.142857142857...?",
+    "1/7", "1/7",
+    ["1/8", "1/9", "1/10"],
+    ["1/8", "1/9", "1/10"],
+    "1/7 = 0.142857142857... यह एक असांत आवर्ती दशमलव है।",
+    "1/7 = 0.142857142857... which is a non-terminating repeating decimal.",
+    "Hard", "Numerical"
+)
+
+add_q(t9,
+    "किसी परिमेय संख्या का दशमलव प्रसार सांत होता है यदि उसके हर के अभाज्य गुणनखंड में क्या हो?",
+    "A rational number has a terminating decimal expansion if the prime factorization of its denominator contains what?",
+    "केवल 2 और 5 (या केवल 2, केवल 5)", "Only 2 and 5 (or only 2, only 5)",
+    ["केवल 3 और 7", "सभी अभाज्य संख्याएं", "कोई अभाज्य संख्या नहीं"],
+    ["Only 3 and 7", "All prime numbers", "No prime numbers"],
+    "किसी परिमेय संख्या का दशमलव प्रसार सांत होता है यदि उसके हर के अभाज्य गुणनखंड में केवल 2 और 5 (2ᵐ × 5ⁿ) हों।",
+    "A rational number has a terminating decimal expansion if the prime factorization of its denominator contains only 2 and 5 (2ᵐ × 5ⁿ).",
+    "Medium", "Definition"
+)
+
+fractions_catalogue = [
+    ("13/3125", True, 3125, "3125 = 5⁵"),
+    ("64/455", False, 455, "455 = 5 × 7 × 13 (हर में 7 और 13 उपस्थित हैं)"),
+    ("15/1600", True, 1600, "1600 = 2⁶ × 5²"),
+    ("29/343", False, 343, "343 = 7³"),
+    ("23/(2³ × 5²)", True, 200, "हर 2³ × 5² रूप में है"),
+    ("129/(2² × 5⁷ × 7⁵)", False, 1, "हर में 7⁵ भी उपस्थित है"),
+    ("6/15", True, 5, "6/15 = 2/5, हर 5 = 5¹ है"),
+    ("77/210", False, 30, "77/210 = 11/30 = 11/(2 × 3 × 5), हर में 3 है"),
+    ("11/24", False, 24, "24 = 2³ × 3, हर में 3 है"),
+    ("7/80", True, 80, "80 = 2⁴ × 5"),
+    ("13/125", True, 125, "125 = 5³"),
+    ("31/625", True, 625, "625 = 5⁴"),
+    ("19/200", True, 200, "200 = 2³ × 5²"),
+    ("41/1000", True, 1000, "1000 = 2³ × 5³"),
+    ("9/40", True, 40, "40 = 2³ × 5"),
+    ("11/50", True, 50, "50 = 2 × 5²"),
+    ("21/250", True, 250, "250 = 2 × 5³"),
+    ("33/500", True, 500, "500 = 2² × 5³"),
+    ("27/160", True, 160, "160 = 2⁵ × 5"),
+    ("35/320", True, 64, "35/320 = 7/64 = 7/2⁶"),
+    ("43/640", True, 640, "640 = 2⁷ × 5"),
+    ("49/800", True, 800, "800 = 2⁵ × 5²"),
+    ("57/1250", True, 1250, "1250 = 2 × 5⁴"),
+    ("63/2500", True, 2500, "2500 = 2² × 5⁴"),
+    ("71/5000", True, 5000, "5000 = 2³ × 5⁴"),
+    ("17/30", False, 30, "30 = 2 × 3 × 5, हर में 3 है"),
+    ("19/45", False, 45, "45 = 3² × 5, हर में 3 है"),
+    ("23/70", False, 70, "70 = 2 × 5 × 7, हर में 7 है"),
+    ("29/90", False, 90, "90 = 2 × 3² × 5, हर में 3 है"),
+    ("31/110", False, 110, "110 = 2 × 5 × 11, हर में 11 है"),
+    ("37/120", False, 120, "120 = 2³ × 3 × 5, हर में 3 है"),
+    ("41/140", False, 140, "140 = 2² × 5 × 7, हर में 7 है"),
+    ("47/150", False, 150, "150 = 2 × 3 × 5², हर में 3 है"),
+    ("3/8", True, 8, "8 = 2³"),
+    ("7/16", True, 16, "16 = 2⁴"),
+    ("9/32", True, 32, "32 = 2⁵"),
+    ("11/64", True, 64, "64 = 2⁶"),
+    ("13/128", True, 128, "128 = 2⁷"),
+    ("1/256", True, 256, "256 = 2⁸"),
+    ("3/512", True, 512, "512 = 2⁹"),
+    ("7/1024", True, 1024, "1024 = 2¹⁰"),
+    ("1/12", False, 12, "12 = 2² × 3"),
+    ("5/18", False, 18, "18 = 2 × 3²"),
+    ("7/36", False, 36, "36 = 2² × 3²"),
+    ("11/48", False, 48, "48 = 2⁴ × 3"),
+    ("13/72", False, 72, "72 = 2³ × 3²"),
+    ("17/96", False, 96, "96 = 2⁵ × 3"),
+    ("19/144", False, 144, "144 = 2⁴ × 3²"),
+    ("23/216", False, 216, "216 = 2³ × 3³"),
+    ("25/288", False, 288, "288 = 2⁵ × 3²"),
+    ("29/432", False, 432, "432 = 2⁴ × 3³"),
+    ("31/576", False, 576, "576 = 2⁶ × 3²"),
+    ("35/864", False, 864, "864 = 2⁵ × 3³"),
+    ("37/1728", False, 1728, "1728 = 2⁶ × 3³")
 ]
 
-for frac_str, cor_t, exp_t in term_fractions_extended:
+for frac_str, is_term, den, exp_reason in fractions_catalogue:
+    cor_txt_hi = "सांत (Terminating)" if is_term else "असांत आवर्ती (Non-terminating repeating)"
+    cor_txt_en = "Terminating" if is_term else "Non-terminating repeating"
+    dis_txt_hi = ["असांत अनावर्ती (Non-terminating non-repeating)", "पूर्णांक (Integer)", "असांत आवर्ती (Non-terminating repeating)" if is_term else "सांत (Terminating)"]
+    dis_txt_en = ["Non-terminating non-repeating", "Integer", "Non-terminating repeating" if is_term else "Terminating"]
     add_q(t9,
         f"बिना लंबी विभाजन प्रक्रिया किए बताइए कि परिमेय संख्या {frac_str} का दशमलव प्रसार कैसा होगा?",
         f"Without actual division, state whether the decimal expansion of {frac_str} will be:",
-        cor_t, cor_t,
-        ["असांत अनावर्ती (Non-terminating non-repeating)" if "सांत" in cor_t else "सांत (Terminating)", "पूर्णांक (Integer)", "अपरिभाषित (Undefined)"],
-        ["Non-terminating non-repeating" if "Terminating" in cor_t else "Terminating", "Integer", "Undefined"],
-        exp_t, exp_t, "Easy", "Property"
+        cor_txt_hi, cor_txt_en, dis_txt_hi, dis_txt_en,
+        f"सरलतम रूप में हर का गुणनखंडन: {exp_reason}। अतः दशमलव प्रसार {cor_txt_hi} होगा।",
+        f"Denominator in simplified form: {exp_reason}. Thus decimal expansion is {cor_txt_en}.",
+        "Easy" if den < 100 else "Medium", "Concept"
+    )
+
+decimal_place_cases = [
+    ("17/8", 8, 3, "8 = 2³ में 2 की अधिकतम घात 3 है"),
+    ("13/125", 125, 3, "125 = 5³ में 5 की अधिकतम घात 3 है"),
+    ("7/80", 80, 4, "80 = 2⁴ × 5 में 2 की अधिकतम घात 4 है"),
+    ("15/1600", 1600, 6, "15/1600 = 3/320 = 3/(2⁶ × 5) में 2 की अधिकतम घात 6 है"),
+    ("23/(2³ × 5²)", 200, 3, "अधिकतम घात max(3, 2) = 3 है"),
+    ("13/3125", 3125, 5, "3125 = 5⁵ में घात 5 है"),
+    ("31/625", 625, 4, "625 = 5⁴ में घात 4 है"),
+    ("7/25", 25, 2, "25 = 5² में घात 2 है"),
+    ("9/40", 40, 3, "40 = 2³ × 5 में घात 3 है"),
+    ("11/50", 50, 2, "50 = 2 × 5² में घात 2 है"),
+    ("21/250", 250, 3, "250 = 2 × 5³ में घात 3 है"),
+    ("33/500", 500, 3, "500 = 2² × 5³ में घात 3 है"),
+    ("27/160", 160, 5, "160 = 2⁵ × 5 में घात 5 है"),
+    ("43/640", 640, 7, "640 = 2⁷ × 5 में घात 7 है"),
+    ("49/800", 800, 5, "800 = 2⁵ × 5² में घात 5 है"),
+    ("57/1250", 1250, 4, "1250 = 2 × 5⁴ में घात 4 है"),
+    ("63/2500", 2500, 4, "2500 = 2² × 5⁴ में घात 4 है"),
+    ("71/5000", 5000, 4, "5000 = 2³ × 5⁴ में घात 4 है"),
+    ("3/16", 16, 4, "16 = 2⁴ में घात 4 है"),
+    ("5/32", 32, 5, "32 = 2⁵ में घात 5 है"),
+    ("7/64", 64, 6, "64 = 2⁶ में घात 6 है"),
+    ("9/128", 128, 7, "128 = 2⁷ में घात 7 है"),
+    ("11/256", 256, 8, "256 = 2⁸ में घात 8 है"),
+    ("1/4", 4, 2, "4 = 2² में घात 2 है"),
+    ("3/20", 20, 2, "20 = 2² × 5 में घात 2 है"),
+    ("9/100", 100, 2, "100 = 2² × 5² में घात 2 है"),
+    ("17/200", 200, 3, "200 = 2³ × 5² में घात 3 है"),
+    ("37/400", 400, 4, "400 = 2⁴ × 5² में घात 4 है"),
+    ("19/800", 800, 5, "800 = 2⁵ × 5² में घात 5 है"),
+    ("23/1000", 1000, 3, "1000 = 2³ × 5³ में घात 3 है"),
+    ("29/2000", 2000, 4, "2000 = 2⁴ × 5³ में घात 4 है"),
+    ("31/4000", 4000, 5, "4000 = 2⁵ × 5³ में घात 5 है"),
+    ("33/8000", 8000, 6, "8000 = 2⁶ × 5³ में घात 6 है"),
+    ("1/2", 2, 1, "2 = 2¹ में घात 1 है"),
+    ("1/5", 5, 1, "5 = 5¹ में घात 1 है"),
+    ("3/10", 10, 1, "10 = 2 × 5 में घात 1 है"),
+    ("7/50", 50, 2, "50 = 2 × 5² में घात 2 है"),
+    ("13/20", 20, 2, "20 = 2² × 5 में घात 2 है")
+]
+
+for frac_str, den_val, places, exp_p in decimal_place_cases:
+    add_q(t9,
+        f"परिमेय संख्या {frac_str} का दशमलव प्रसार दशमलव के कितने स्थानों के बाद सांत (Terminate) होगा?",
+        f"After how many decimal places will the decimal expansion of {frac_str} terminate?",
+        f"{places} स्थानों बाद ({places} places)", f"{places} places",
+        [f"{places + 1} स्थानों बाद", f"{max(1, places - 1)} स्थानों बाद", f"{places + 2} स्थानों बाद"],
+        [f"{places + 1} places", f"{max(1, places - 1)} places", f"{places + 2} places"],
+        f"हर के अभाज्य गुणनखंडन में {exp_p}। अतः दशमलव प्रसार {places} स्थानों बाद सांत होगा।",
+        f"In denominator prime factorization, {exp_p}. So decimal expansion terminates after {places} places.",
+        "Medium", "Numerical"
+    )
+
+exact_decimal_values = [
+    ("3/8", "0.375", ["0.35", "0.385", "0.325"]),
+    ("7/8", "0.875", ["0.85", "0.825", "0.885"]),
+    ("1/8", "0.125", ["0.15", "0.115", "0.135"]),
+    ("5/8", "0.625", ["0.65", "0.615", "0.635"]),
+    ("7/16", "0.4375", ["0.425", "0.45", "0.4125"]),
+    ("9/16", "0.5625", ["0.55", "0.575", "0.5375"]),
+    ("11/16", "0.6875", ["0.675", "0.65", "0.695"]),
+    ("13/16", "0.8125", ["0.825", "0.85", "0.805"]),
+    ("1/16", "0.0625", ["0.05", "0.075", "0.065"]),
+    ("3/16", "0.1875", ["0.175", "0.195", "0.165"]),
+    ("1/25", "0.04", ["0.4", "0.004", "0.025"]),
+    ("2/25", "0.08", ["0.8", "0.008", "0.05"]),
+    ("3/25", "0.12", ["0.012", "1.2", "0.15"]),
+    ("4/25", "0.16", ["0.016", "1.6", "0.2"]),
+    ("6/25", "0.24", ["0.024", "2.4", "0.25"]),
+    ("8/25", "0.32", ["0.032", "3.2", "0.35"]),
+    ("9/25", "0.36", ["0.036", "3.6", "0.4"]),
+    ("11/25", "0.44", ["0.044", "4.4", "0.45"]),
+    ("12/25", "0.48", ["0.048", "4.8", "0.5"]),
+    ("1/125", "0.008", ["0.08", "0.8", "0.0008"]),
+    ("2/125", "0.016", ["0.16", "0.0016", "0.02"]),
+    ("3/125", "0.024", ["0.24", "0.0024", "0.03"]),
+    ("4/125", "0.032", ["0.32", "0.0032", "0.04"]),
+    ("6/125", "0.048", ["0.48", "0.0048", "0.05"]),
+    ("7/125", "0.056", ["0.56", "0.0056", "0.06"]),
+    ("1/32", "0.03125", ["0.0325", "0.035", "0.03"]),
+    ("3/32", "0.09375", ["0.095", "0.09125", "0.098"]),
+    ("5/32", "0.15625", ["0.155", "0.15875", "0.1525"]),
+    ("7/32", "0.21875", ["0.215", "0.22125", "0.2175"]),
+    ("9/32", "0.28125", ["0.285", "0.28375", "0.2785"]),
+    ("11/32", "0.34375", ["0.345", "0.34125", "0.3485"]),
+    ("13/32", "0.40625", ["0.405", "0.40875", "0.4015"]),
+    ("15/32", "0.46875", ["0.465", "0.47125", "0.4625"]),
+    ("17/32", "0.53125", ["0.535", "0.53375", "0.5285"]),
+    ("19/32", "0.59375", ["0.595", "0.59125", "0.5985"]),
+    ("21/32", "0.65625", ["0.655", "0.65875", "0.6525"]),
+    ("23/32", "0.71875", ["0.715", "0.72125", "0.7175"]),
+    ("25/32", "0.78125", ["0.785", "0.78375", "0.7785"]),
+    ("27/32", "0.84375", ["0.845", "0.84125", "0.8485"]),
+    ("29/32", "0.90625", ["0.905", "0.90875", "0.9015"]),
+    ("31/32", "0.96875", ["0.965", "0.97125", "0.9625"])
+]
+
+for frac_str, cor_dec, dis_decs in exact_decimal_values:
+    add_q(t9,
+        f"भिन्न {frac_str} का वास्तविक दशमलव मान क्या होगा?",
+        f"What is the exact decimal value of fraction {frac_str}?",
+        cor_dec, cor_dec, dis_decs, dis_decs,
+        f"{frac_str} को दशमलव में बदलने पर {cor_dec} प्राप्त होता है।",
+        f"Converting {frac_str} to decimal yields {cor_dec}.",
+        "Easy", "Numerical"
     )
 
 
 # ==============================================================================
-# TOPIC 10: APPLICATIONS OF HCF AND LCM (math_ch_01_topic_10) [Target: 110+ MCQs]
+# TOPIC 10: APPLICATIONS OF HCF AND LCM (math_ch_01_topic_10)
 # ==============================================================================
 t10 = "math_ch_01_topic_10"
 
@@ -850,7 +1029,6 @@ for prod, hcf_v, lcm_v in relation_pairs_extended:
         "Easy", "Numerical"
     )
 
-# Bells tolling word problems (LCM)
 bells_problems = [
     ((2, 4, 6, 8, 10, 12), 120, "6 घंटियाँ"),
     ((6, 7, 8, 9, 12), 504, "5 घंटियाँ"),
@@ -877,7 +1055,6 @@ for intervals, ans_sec, item_name in bells_problems:
         "Medium", "Word Problem"
     )
 
-# Room dimension measuring tape word problems (HCF)
 dimension_tape_problems = [
     (825, 675, 450, 75, "825 सेमी, 675 सेमी और 450 सेमी"),
     (850, 625, 475, 25, "850 सेमी, 625 सेमी और 475 सेमी"),
@@ -900,7 +1077,6 @@ for d1, d2, d3, ans_tape, desc_str in dimension_tape_problems:
         "Medium", "Word Problem"
     )
 
-# Milk container capacity word problems (HCF)
 milk_problems = [
     (504, 735, 21, "504 लीटर", "735 लीटर"),
     (403, 434, 31, "403 लीटर", "434 लीटर"),
