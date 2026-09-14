@@ -266,7 +266,7 @@ function initQuizPage() {
       const topicTitleEl = document.querySelector('.subject-page-title');
       const topicName = topicTitleEl ? topicTitleEl.textContent.trim() : 'Quiz';
       const backLinkEl = document.querySelector('.back-btn-link');
-      const backUrl = backLinkEl ? backLinkEl.getAttribute('href') : '../data-communication.html';
+      const backUrl = backLinkEl ? backLinkEl.getAttribute('href') : 'index.html';
 
       // Save result data to sessionStorage for the dedicated result page
       const resultData = {

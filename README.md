@@ -31,22 +31,45 @@
 ```text
 CODEKARO/
 │
-├── index.html                           # Main Homepage & Subject Catalog
+├── index.html                           # Page 1: Student Name Entry (Strictly Name Entry Only)
+├── home.html                            # Page 2: Dashboard (Sidebar, Counter, Subjects, About at bottom)
+├── result.html                          # Dedicated Standalone Result Evaluation Page
+├── README.md                            # Documentation
 │
 ├── css/
-│   └── style.css                        # Universal responsive styling & themes
+│   └── style.css                        # Universal responsive styling, grid & themes
 │
 ├── js/
-│   └── script.js                        # Interactivity, scoring & theme toggle
+│   └── script.js                        # Validation, atomic global counter, scoring & dark mode
 │
-├── subjects/                            # Separate HTML file for each subject
-│   ├── data-communication.html          # Data Communication MCQs
-│   ├── theory-of-computation.html       # Theory of Computation MCQs
-│   ├── artificial-intelligence.html     # Artificial Intelligence MCQs
-│   ├── computer-network.html            # Computer Networks MCQs
-│   └── programming.html                 # Programming Fundamentals MCQs
+├── api/
+│   └── counter.js                       # Serverless global counter endpoint
 │
-└── README.md
+├── database/
+│   ├── stats.json                       # Central database statistics file
+│   ├── counter_server.py                # Optional atomic backend server
+│   └── README.md
+│
+├── highlighter/
+│   ├── highlighter.js                   # Non-destructive text highlighter
+│   └── highlighter.css
+│
+└── subjects/                            # Separate HTML files for each subject
+    ├── data-communication/
+    │   ├── index.html                   # Data Communication Topics Selector
+    │   ├── data-communication.html      # Topic 1: Fundamentals MCQs
+    │   ├── components.html              # Topic 2: Components MCQs
+    │   ├── modes-of-communication.html  # Topic 3: Subtopic Selector (Simplex, Half, Full)
+    │   ├── simplex.html                 # Simplex MCQs
+    │   ├── half-duplex.html             # Half Duplex MCQs
+    │   ├── full-duplex.html             # Full Duplex MCQs
+    │   ├── transmission-medium.html     # Topic 4: Subtopic Selector (Wired, Wireless)
+    │   ├── wired.html                   # Wired Media MCQs
+    │   └── wireless.html                # Wireless Media MCQs
+    ├── theory-of-computation.html       # Theory of Computation MCQs
+    ├── artificial-intelligence.html     # Artificial Intelligence MCQs
+    ├── computer-network.html            # Computer Networks MCQs
+    └── programming.html                 # Programming Fundamentals MCQs
 ```
 
 ---

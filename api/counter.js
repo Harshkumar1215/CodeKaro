@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     return res.status(200).end();
   }
 
-  const COUNTER_API_BASE = 'https://api.counterapi.dev/v1/codekaro_public_global/students_joined';
+  const COUNTER_API_BASE = 'https://api.counterapi.dev/v1/codekaro_practice_edu_global/students_count';
 
   try {
     if (req.query.action === 'up' || req.method === 'POST') {
