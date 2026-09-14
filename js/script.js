@@ -175,21 +175,21 @@ async function fetchAndDisplayCounter() {
 }
 
 function initHomePage() {
+  const sidebarStudentName = document.getElementById('sidebar-student-name');
   const homeStudentGreeting = document.getElementById('home-student-name');
   const headerUserName = document.getElementById('header-user-name');
   const headerUserBadge = document.getElementById('header-user-badge');
 
-  if (homeStudentGreeting || headerUserName) {
-    const studentName = localStorage.getItem('codekaro_student_name');
+  const studentName = localStorage.getItem('codekaro_student_name');
 
-    if (studentName) {
-      if (homeStudentGreeting) homeStudentGreeting.textContent = studentName;
-      if (headerUserName) headerUserName.textContent = studentName;
-      if (headerUserBadge) headerUserBadge.style.display = 'inline-flex';
-    } else {
-      // If student hasn't entered name yet, keep default or redirect
-      if (homeStudentGreeting) homeStudentGreeting.textContent = 'Student';
-    }
+  if (studentName) {
+    if (sidebarStudentName) sidebarStudentName.textContent = `${studentName} 👋`;
+    if (homeStudentGreeting) homeStudentGreeting.textContent = studentName;
+    if (headerUserName) headerUserName.textContent = studentName;
+    if (headerUserBadge) headerUserBadge.style.display = 'inline-flex';
+  } else {
+    if (sidebarStudentName) sidebarStudentName.textContent = 'Student 👋';
+    if (homeStudentGreeting) homeStudentGreeting.textContent = 'Student';
   }
 
   fetchAndDisplayCounter();
