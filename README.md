@@ -1,81 +1,127 @@
-# Class 10 Bihar Board (BSEB) MCQ Practice Platform
+# CODEKARO — MCQ Practice Platform
 
-A fully functional, production-quality MCQ Practice Web Application for Class 10 Bihar Board (BSEB) students.
+**CODEKARO** is a fast, clean, and responsive educational Multiple Choice Question (MCQ) practice website built for students.
 
-## 🚀 How to Run Locally
+*Tagline:* **Learn • Practice • Improve**
 
-Since Node.js is not installed, use Python's built-in HTTP server:
+---
 
-```bash
-cd "c:\Users\harsh\Desktop\test app"
-python -m http.server 8080
+## 🚀 Key Features
+
+- **100% Pure Static Architecture**: Built using pure **HTML5**, **CSS3 (Vanilla)**, and **JavaScript (Vanilla)**.
+- **Student Name Entry & Strict Validation**:
+  - Trims leading/trailing whitespace.
+  - Rejects empty and space-only inputs with an inline alert: `"Please enter a valid name."`.
+  - Remembers the student session locally without storing personal details in a database.
+- **Global Student Counter**:
+  - Displays real-time global student counts across devices without storing credentials or GitHub tokens in client code.
+  - Automatically increments on successful student login (+1 per student entry).
+  - Double-click debounce protection prevents accidental count inflation.
+  - Graceful fallback with clear status notices if offline.
+- **Zero Dependencies**: No React, No Node.js, No backend, No JSON databases, and No third-party frameworks.
+- **MCQs Direct in HTML**: Questions are written directly inside subject HTML files for instant editing, readability, and maintenance.
+- **Interactive Quiz Engine**: Dynamic progress tracking, instant score calculation, percentage evaluation, and color-coded answer review.
+- **Light & Dark Mode**: Seamless theme toggle with user preference stored in `localStorage`.
+- **GitHub Pages Ready**: Pure relative paths make it ready to deploy on GitHub Pages with one click.
+
+---
+
+## 📁 Project Structure
+
+```text
+CODEKARO/
+│
+├── index.html                           # Main Homepage & Subject Catalog
+│
+├── css/
+│   └── style.css                        # Universal responsive styling & themes
+│
+├── js/
+│   └── script.js                        # Interactivity, scoring & theme toggle
+│
+├── subjects/                            # Separate HTML file for each subject
+│   ├── data-communication.html          # Data Communication MCQs
+│   ├── theory-of-computation.html       # Theory of Computation MCQs
+│   ├── artificial-intelligence.html     # Artificial Intelligence MCQs
+│   ├── computer-network.html            # Computer Networks MCQs
+│   └── programming.html                 # Programming Fundamentals MCQs
+│
+└── README.md
 ```
 
-Then open: **http://localhost:8080**
+---
 
-## 📚 Subjects Covered (BSEB Class 10 Only)
-1. Mathematics (गणित) — 15 Chapters
-2. Science (विज्ञान) — Physics, Chemistry, Biology
-3. Social Science (सामाजिक विज्ञान) — History, Geography, Disaster Mgmt, Political Science, Economics
-4. Hindi (हिंदी) — Godhuli + Varnika
-5. English — Panorama + Supplementary Reader
-6. Sanskrit (संस्कृत) — Piyusham Part 2
+## ✏️ How to Add a New Question
 
-## 🏗 Architecture
+Adding a question is as simple as copy-pasting HTML. You **never** need to touch JavaScript or databases!
 
-```
-js/
-  data/
-    syllabus.js          ← Full BSEB Class 10 hierarchy
-    questionBank.js      ← Core verified MCQ bank
-    questionBankExtra.js ← Additional verified MCQs (auto-merged)
-  engine/
-    questionBankEngine.js ← Validation, shuffle, duplicate detection
-    testEngine.js         ← Session creation, 100Q cap, prioritization
-    analyticsEngine.js    ← LocalStorage analytics, weak-topic detection
-  ui/
-    components.js         ← All view renderers
-  app.js                  ← SPA router + state manager
-css/
-  styles.css              ← Dark theme + glassmorphism design
-index.html                ← SPA shell
-```
+1. Open any subject HTML file (e.g. `subjects/data-communication.html`).
+2. Inside any `<section class="topic-section">`, add:
 
-## ✅ Features
-- **Centralized Question Bank** — One bank, multiple views (Topic/Chapter/Book/Subject)
-- **Max 100 questions per test** — Random selection from full pool
-- **Option Shuffling** — Correct answer index auto-updated after every shuffle
-- **Practice Mode** — Instant feedback + explanation after each answer
-- **Test Mode** — No peeking until submit
-- **Dashboard** — Stats, streak, accuracy, best score
-- **Analytics** — Strong/Moderate/Weak topic classification
-- **Recommendations** — Based on actual performance data
-- **Session History** — Review every past test
-- **Search & Filter** — By subject, difficulty, question text
-- **Hindi + English** — Full bilingual support
-- **Responsive** — Mobile, tablet, desktop
-
-## 📝 Adding More Questions
-Add new question objects to `js/data/questionBankExtra.js` following the schema:
-
-```json
-{
-  "id": "q_unique_id",
-  "board": "BSEB",
-  "class": "10",
-  "subject_id": "maths",
-  "book_id": "maths_b1",
-  "chapter_id": "math_c1",
-  "topic_id": "math_c1_t1",
-  "difficulty": "Easy|Medium|Hard",
-  "question": { "hi": "...", "en": "..." },
-  "options": {
-    "hi": { "A": "...", "B": "...", "C": "...", "D": "..." },
-    "en": { "A": "...", "B": "...", "C": "...", "D": "..." }
-  },
-  "correct_option": "A",
-  "explanation": { "hi": "...", "en": "..." }
-}
+```html
+<div class="question-card" data-answer="B">
+  <div class="question-header">
+    <span class="q-number">Q11</span>
+    <span class="q-topic-tag">Topic Name</span>
+  </div>
+  <h3 class="question-text">Your question text goes here?</h3>
+  <div class="options-grid">
+    <label class="option-label">
+      <input type="radio" name="q11" value="A">
+      <span class="option-letter">A</span>
+      <span class="option-text">Option A text</span>
+    </label>
+    <label class="option-label">
+      <input type="radio" name="q11" value="B">
+      <span class="option-letter">B</span>
+      <span class="option-text">Option B text (Correct)</span>
+    </label>
+    <label class="option-label">
+      <input type="radio" name="q11" value="C">
+      <span class="option-letter">C</span>
+      <span class="option-text">Option C text</span>
+    </label>
+    <label class="option-label">
+      <input type="radio" name="q11" value="D">
+      <span class="option-letter">D</span>
+      <span class="option-text">Option D text</span>
+    </label>
+  </div>
+  <div class="question-feedback"></div>
+</div>
 ```
 
-Questions are automatically available in all related views (Topic/Chapter/Book/Subject practice).
+3. Set `data-answer` to the correct option letter (`A`, `B`, `C`, or `D`).
+4. Save the file! The quiz engine automatically updates question counts, evaluation, and progress bars.
+
+---
+
+## ➕ How to Add a New Subject
+
+1. Create a new HTML file inside `subjects/` (e.g., `subjects/operating-systems.html`).
+2. Copy the boilerplate from an existing subject file.
+3. On `index.html`, add a new card linking to your subject:
+
+```html
+<article class="subject-card">
+  <div class="subject-card-top">
+    <div class="subject-icon-box">💻</div>
+    <h3 class="subject-card-title">Operating Systems</h3>
+    <p class="subject-card-desc">Processes, threads, CPU scheduling, deadlocks, and memory management.</p>
+    <div class="subject-meta">
+      <span class="subject-meta-tag">4 Topics</span>
+      <span class="subject-meta-tag">MCQs Included</span>
+    </div>
+  </div>
+  <a href="subjects/operating-systems.html" class="btn btn-primary btn-block">Open Subject</a>
+</article>
+```
+
+---
+
+## 🌐 Deploy to GitHub Pages
+
+1. Push this repository to GitHub.
+2. Go to **Settings** → **Pages**.
+3. Under **Branch**, select `main` and root `/`.
+4. Click **Save**. Your site will be live within seconds!

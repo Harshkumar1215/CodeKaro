@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CODEKARO Dashboard - Choose a computer science subject to practice topic-organized MCQs.">
+  <title>Dashboard | CODEKARO</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="home.html" class="brand-logo">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <span class="brand-name">CODEKARO</span>
+          <span class="brand-subtitle">MCQ Practice Area</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="home.html" class="nav-link active">Home</a></li>
+          <li><a href="#subjects" class="nav-link">Subjects</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <span id="header-user-badge" class="user-badge" style="display: none;">
+            👤 <span id="header-user-name">Student</span>
+          </span>
+          <button type="button" class="theme-toggle-btn" aria-label="Toggle theme">🌙</button>
+          <button type="button" class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Welcome Greeting Banner -->
+    <section class="hero-section" style="padding: 2.5rem 0 1.5rem;">
+      <div class="container">
+        <span class="hero-tag">Practice Your Knowledge</span>
+        <h1 class="hero-title">Welcome, <span id="home-student-name" class="brand-highlight">Student</span> 👋</h1>
+        <p class="hero-subtitle">Choose a subject below to start practicing topic-wise Multiple Choice Questions.</p>
+        <div>
+          <a href="index.html" class="btn btn-secondary btn-small">Change Name</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Student Count Section -->
+    <section class="container" style="margin-bottom: 2rem;">
+      <div class="counter-highlight-box">
+        <div class="counter-icon">👥</div>
+        <h2 class="counter-title">Students Practiced</h2>
+        <div class="counter-value-display global-student-count-val">...</div>
+        <p class="counter-desc">Students have joined CODEKARO Practice.</p>
+        <div class="counter-status-note">Live Global Count</div>
+      </div>
+    </section>
+
+    <!-- Choose Your Subject Section -->
+    <section id="subjects" class="subjects-section" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Choose Your Subject</h2>
+          <p class="section-subtitle">Select a subject below to open its topic syllabus.</p>
+        </div>
+
+        <div class="subjects-grid">
+
+          <!-- Subject 1: Data Communication (Primary Subject) -->
+          <article class="subject-card">
+            <div class="subject-card-top">
+              <div class="subject-icon-box">📡</div>
+              <h3 class="subject-card-title">Data Communication</h3>
+              <p class="subject-card-desc">MCQ Practice</p>
+              <div class="subject-meta">
+                <span class="subject-meta-tag">4 Core Topics</span>
+                <span class="subject-meta-tag">MCQs Included</span>
+              </div>
+            </div>
+            <a href="subjects/data-communication.html" class="btn btn-primary btn-block">OPEN SUBJECT</a>
+          </article>
+
+          <!-- Subject 2: Theory of Computation -->
+          <article class="subject-card">
+            <div class="subject-card-top">
+              <div class="subject-icon-box">⚙️</div>
+              <h3 class="subject-card-title">Theory of Computation</h3>
+              <p class="subject-card-desc">MCQ Practice</p>
+              <div class="subject-meta">
+                <span class="subject-meta-tag">3 Topics</span>
+                <span class="subject-meta-tag">MCQs Included</span>
+              </div>
+            </div>
+            <a href="subjects/theory-of-computation.html" class="btn btn-primary btn-block">OPEN SUBJECT</a>
+          </article>
+
+          <!-- Subject 3: Artificial Intelligence -->
+          <article class="subject-card">
+            <div class="subject-card-top">
+              <div class="subject-icon-box">🤖</div>
+              <h3 class="subject-card-title">Artificial Intelligence</h3>
+              <p class="subject-card-desc">MCQ Practice</p>
+              <div class="subject-meta">
+                <span class="subject-meta-tag">3 Topics</span>
+                <span class="subject-meta-tag">MCQs Included</span>
+              </div>
+            </div>
+            <a href="subjects/artificial-intelligence.html" class="btn btn-primary btn-block">OPEN SUBJECT</a>
+          </article>
+
+          <!-- Subject 4: Computer Networks -->
+          <article class="subject-card">
+            <div class="subject-card-top">
+              <div class="subject-icon-box">🌐</div>
+              <h3 class="subject-card-title">Computer Networks</h3>
+              <p class="subject-card-desc">MCQ Practice</p>
+              <div class="subject-meta">
+                <span class="subject-meta-tag">3 Topics</span>
+                <span class="subject-meta-tag">MCQs Included</span>
+              </div>
+            </div>
+            <a href="subjects/computer-network.html" class="btn btn-primary btn-block">OPEN SUBJECT</a>
+          </article>
+
+          <!-- Subject 5: Programming -->
+          <article class="subject-card">
+            <div class="subject-card-top">
+              <div class="subject-icon-box">💻</div>
+              <h3 class="subject-card-title">Programming</h3>
+              <p class="subject-card-desc">MCQ Practice</p>
+              <div class="subject-meta">
+                <span class="subject-meta-tag">3 Topics</span>
+                <span class="subject-meta-tag">MCQs Included</span>
+              </div>
+            </div>
+            <a href="subjects/programming.html" class="btn btn-primary btn-block">OPEN SUBJECT</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About CODEKARO Section -->
+    <section id="about" class="features-section">
+      <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="section-title">About CODEKARO</h2>
+          <p class="section-subtitle" style="max-width: 650px; margin: 0 auto;">
+            CODEKARO is an MCQ practice platform created for students to practice questions based on their educational lectures.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Pure Static & Fast</h3>
+            <p class="feature-desc">Built with pure HTML, CSS, and Vanilla JavaScript with zero server overhead or complex dependencies.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon">📑</div>
+            <h3 class="feature-title">Topic-Wise Organized</h3>
+            <p class="feature-desc">Each subject is structured into clear chapters and topics so you can target specific exam units.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">Instant Evaluation</h3>
+            <p class="feature-desc">Submit quizzes to get instant scoring, accuracy breakdown, and color-coded answer review.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon">🌓</div>
+            <h3 class="feature-title">Dark & Light Mode</h3>
+            <p class="feature-desc">Comfortable study experience day and night with persistent theme preferences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="home.html" class="brand-logo">
+            <div class="brand-icon">⚡</div>
+            <div class="brand-text">
+              <span class="brand-name">CODEKARO</span>
+              <span class="brand-subtitle">MCQ Practice Area</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">An educational question-practice platform designed for students to master computer science topics with simplicity and speed.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Subjects</h4>
+          <ul class="footer-links">
+            <li><a href="subjects/data-communication.html">Data Communication</a></li>
+            <li><a href="subjects/theory-of-computation.html">Theory of Computation</a></li>
+            <li><a href="subjects/artificial-intelligence.html">Artificial Intelligence</a></li>
+            <li><a href="subjects/computer-network.html">Computer Networks</a></li>
+            <li><a href="subjects/programming.html">Programming</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#subjects">Subject Catalog</a></li>
+            <li><a href="#about">About Platform</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CODEKARO. Built for clean, accessible student learning.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

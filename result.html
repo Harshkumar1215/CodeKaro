@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CODEKARO Quiz Results - View your score and performance breakdown.">
+  <title>Quiz Result | CODEKARO</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="home.html" class="brand-logo">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <span class="brand-name">CODEKARO</span>
+          <span class="brand-subtitle">MCQ Practice Area</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="home.html" class="nav-link">Home</a></li>
+          <li><a href="home.html#subjects" class="nav-link">Subjects</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button type="button" class="theme-toggle-btn" aria-label="Toggle theme">🌙</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="result-page-container">
+    <!-- Standalone Result Card -->
+    <div id="standalone-result-card" class="result-standalone-card">
+      <div class="result-celebration" id="result-celebration">🎉</div>
+      <h1 class="result-title" id="result-title">Quiz Completed!</h1>
+      <p class="result-subtitle">Performance summary for <strong id="result-topic-name">MCQ Practice</strong>:</p>
+
+      <div class="score-display-box">
+        <div class="score-number" id="result-score-num">0 / 0</div>
+        <div class="score-percentage" id="result-score-pct">0% Accuracy</div>
+      </div>
+
+      <div class="result-stats-grid">
+        <div class="result-stat-box stat-correct">
+          <div class="result-stat-value" id="result-correct-count">0</div>
+          <div class="result-stat-label">Correct Answers</div>
+        </div>
+        <div class="result-stat-box stat-wrong">
+          <div class="result-stat-value" id="result-wrong-count">0</div>
+          <div class="result-stat-label">Wrong Answers</div>
+        </div>
+        <div class="result-stat-box stat-unanswered">
+          <div class="result-stat-value" id="result-unanswered-count">0</div>
+          <div class="result-stat-label">Unanswered</div>
+        </div>
+      </div>
+
+      <div class="result-btn-group">
+        <a href="#" id="retry-btn" class="btn btn-primary">Try Again</a>
+        <a href="subjects/data-communication.html" id="back-topic-btn" class="btn btn-secondary">Back to Topic</a>
+        <a href="home.html" class="btn btn-outline">Back to Home</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 CODEKARO. Built for clean, accessible student learning.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

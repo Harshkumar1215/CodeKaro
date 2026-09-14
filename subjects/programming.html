@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practice Programming Fundamentals MCQs organized by topic on CODEKARO.">
+  <title>Programming MCQ Practice | CODEKARO</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="../home.html" class="brand-logo">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <span class="brand-name">CODEKARO</span>
+          <span class="brand-subtitle">MCQ Practice Area</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="../home.html" class="nav-link">Home</a></li>
+          <li><a href="../home.html#subjects" class="nav-link active">Subjects</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <span id="header-user-badge" class="user-badge" style="display: none;">
+            👤 <span id="header-user-name">Student</span>
+          </span>
+          <button type="button" class="theme-toggle-btn" aria-label="Toggle theme">🌙</button>
+          <button type="button" class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Subject Header Banner -->
+  <section class="subject-header-banner">
+    <div class="container">
+      <div class="subject-header-content">
+        <div class="subject-title-area">
+          <div class="subject-title-icon">💻</div>
+          <div>
+            <h1 class="subject-page-title">Programming</h1>
+            <p class="subject-page-subtitle">Topic-wise Multiple Choice Questions Practice</p>
+          </div>
+        </div>
+        <div class="subject-stats-bar">
+          <div class="stat-item">
+            <div class="stat-value" id="stat-total-questions">6</div>
+            <div class="stat-label">Total Questions</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">3</div>
+            <div class="stat-label">Topics</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Question Practice Content -->
+  <main class="container container-narrow">
+
+    <!-- Sticky Practice Control Toolbar -->
+    <div class="quiz-toolbar">
+      <div class="toolbar-progress">
+        <div class="progress-info">
+          <span>Progress: <strong id="answered-count">0</strong> / <span id="total-count">6</span> Answered</span>
+        </div>
+        <div class="progress-track">
+          <div id="progress-bar-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+      <div class="toolbar-buttons">
+        <button type="button" id="reset-quiz-btn" class="btn btn-secondary btn-small">Reset All</button>
+        <button type="button" id="submit-quiz-btn" class="btn btn-primary btn-small">Submit Quiz</button>
+      </div>
+    </div>
+
+    <!-- ==========================================
+         TOPIC 1: Fundamentals & Control Flow
+         ========================================== -->
+    <section class="topic-section">
+      <div class="topic-header">
+        <span class="topic-pill">Topic 1</span>
+        <h2 class="topic-title">Core Fundamentals & Control Flow</h2>
+      </div>
+
+      <!-- Question 1 -->
+      <div class="question-card" data-answer="B">
+        <div class="question-header">
+          <span class="q-number">Q1</span>
+          <span class="q-topic-tag">Loops</span>
+        </div>
+        <h3 class="question-text">Which loop structure guarantees that the loop body will execute at least once regardless of the condition?</h3>
+        <div class="options-grid">
+          <label class="option-label">
+            <input type="radio" name="q1" value="A">
+            <span class="option-letter">A</span>
+            <span class="option-text">while loop</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q1" value="B">
+            <span class="option-letter">B</span>
+            <span class="option-text">do-while loop</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q1" value="C">
+            <span class="option-letter">C</span>
+            <span class="option-text">for loop</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q1" value="D">
+            <span class="option-letter">D</span>
+            <span class="option-text">for-each loop</span>
+          </label>
+        </div>
+        <div class="question-feedback"></div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question-card" data-answer="C">
+        <div class="question-header">
+          <span class="q-number">Q2</span>
+          <span class="q-topic-tag">Operators</span>
+        </div>
+        <h3 class="question-text">What is the result of the expression (5 == 5) && (3 > 7) in standard programming boolean logic?</h3>
+        <div class="options-grid">
+          <label class="option-label">
+            <input type="radio" name="q2" value="A">
+            <span class="option-letter">A</span>
+            <span class="option-text">True (1)</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q2" value="B">
+            <span class="option-letter">B</span>
+            <span class="option-text">Syntax Error</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q2" value="C">
+            <span class="option-letter">C</span>
+            <span class="option-text">False (0)</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q2" value="D">
+            <span class="option-letter">D</span>
+            <span class="option-text">Null</span>
+          </label>
+        </div>
+        <div class="question-feedback"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TOPIC 2: Functions, Scope & Recursion
+         ========================================== -->
+    <section class="topic-section">
+      <div class="topic-header">
+        <span class="topic-pill">Topic 2</span>
+        <h2 class="topic-title">Functions & Memory Concepts</h2>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question-card" data-answer="D">
+        <div class="question-header">
+          <span class="q-number">Q3</span>
+          <span class="q-topic-tag">Recursion</span>
+        </div>
+        <h3 class="question-text">What essential condition is required in any recursive function to prevent an infinite recursive loop (stack overflow)?</h3>
+        <div class="options-grid">
+          <label class="option-label">
+            <input type="radio" name="q3" value="A">
+            <span class="option-letter">A</span>
+            <span class="option-text">A goto statement</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q3" value="B">
+            <span class="option-letter">B</span>
+            <span class="option-text">A static variable</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q3" value="C">
+            <span class="option-letter">C</span>
+            <span class="option-text">A switch-case statement</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q3" value="D">
+            <span class="option-letter">D</span>
+            <span class="option-text">A base termination condition (base case)</span>
+          </label>
+        </div>
+        <div class="question-feedback"></div>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question-card" data-answer="A">
+        <div class="question-header">
+          <span class="q-number">Q4</span>
+          <span class="q-topic-tag">Pointers & References</span>
+        </div>
+        <h3 class="question-text">What does a pointer variable hold in languages like C/C++?</h3>
+        <div class="options-grid">
+          <label class="option-label">
+            <input type="radio" name="q4" value="A">
+            <span class="option-letter">A</span>
+            <span class="option-text">The memory address of another variable</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q4" value="B">
+            <span class="option-letter">B</span>
+            <span class="option-text">The binary value of an instruction</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q4" value="C">
+            <span class="option-letter">C</span>
+            <span class="option-text">The size of the hard drive</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q4" value="D">
+            <span class="option-letter">D</span>
+            <span class="option-text">The return type of main function</span>
+          </label>
+        </div>
+        <div class="question-feedback"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TOPIC 3: Object-Oriented Programming (OOP)
+         ========================================== -->
+    <section class="topic-section">
+      <div class="topic-header">
+        <span class="topic-pill">Topic 3</span>
+        <h2 class="topic-title">Object-Oriented Programming</h2>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question-card" data-answer="B">
+        <div class="question-header">
+          <span class="q-number">Q5</span>
+          <span class="q-topic-tag">OOP Concepts</span>
+        </div>
+        <h3 class="question-text">Which OOP principle binds together the data and the functions that manipulate them, keeping both safe from outside interference?</h3>
+        <div class="options-grid">
+          <label class="option-label">
+            <input type="radio" name="q5" value="A">
+            <span class="option-letter">A</span>
+            <span class="option-text">Polymorphism</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q5" value="B">
+            <span class="option-letter">B</span>
+            <span class="option-text">Encapsulation</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q5" value="C">
+            <span class="option-letter">C</span>
+            <span class="option-text">Inheritance</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q5" value="D">
+            <span class="option-letter">D</span>
+            <span class="option-text">Dynamic Dispatch</span>
+          </label>
+        </div>
+        <div class="question-feedback"></div>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question-card" data-answer="C">
+        <div class="question-header">
+          <span class="q-number">Q6</span>
+          <span class="q-topic-tag">Polymorphism</span>
+        </div>
+        <h3 class="question-text">Method overriding in OOP is an example of which type of polymorphism?</h3>
+        <div class="options-grid">
+          <label class="option-label">
+            <input type="radio" name="q6" value="A">
+            <span class="option-letter">A</span>
+            <span class="option-text">Compile-time (Static) Polymorphism</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q6" value="B">
+            <span class="option-letter">B</span>
+            <span class="option-text">Parametric Polymorphism</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q6" value="C">
+            <span class="option-letter">C</span>
+            <span class="option-text">Run-time (Dynamic) Polymorphism</span>
+          </label>
+          <label class="option-label">
+            <input type="radio" name="q6" value="D">
+            <span class="option-letter">D</span>
+            <span class="option-text">Coercion Polymorphism</span>
+          </label>
+        </div>
+        <div class="question-feedback"></div>
+      </div>
+    </section>
+
+    <!-- Quiz Submit Actions -->
+    <div class="quiz-actions-footer">
+      <button type="button" id="submit-quiz-bottom-btn" class="btn btn-primary" onclick="document.getElementById('submit-quiz-btn').click();">Submit Practice Quiz</button>
+      <a href="../index.html#subjects" class="btn btn-secondary">← Back to All Subjects</a>
+    </div>
+
+    <!-- Result Card -->
+    <div id="result-card" class="result-card">
+      <div class="result-celebration" id="result-celebration">🎉</div>
+      <h2 class="result-title" id="result-title">Quiz Completed!</h2>
+      <p class="result-subtitle">Here is your performance summary for Programming:</p>
+
+      <div class="score-display-box">
+        <div class="score-number" id="result-score-num">0 / 6</div>
+        <div class="score-percentage" id="result-score-pct">0% Accuracy</div>
+      </div>
+
+      <div class="result-stats-grid">
+        <div class="result-stat-box stat-correct">
+          <div class="result-stat-value" id="result-correct-count">0</div>
+          <div class="result-stat-label">Correct Answers</div>
+        </div>
+        <div class="result-stat-box stat-wrong">
+          <div class="result-stat-value" id="result-wrong-count">0</div>
+          <div class="result-stat-label">Wrong Answers</div>
+        </div>
+        <div class="result-stat-box stat-unanswered">
+          <div class="result-stat-value" id="result-unanswered-count">0</div>
+          <div class="result-stat-label">Unanswered</div>
+        </div>
+      </div>
+
+      <div class="result-btn-group">
+        <button type="button" id="try-again-btn" class="btn btn-primary">Try Again</button>
+        <a href="../index.html#subjects" class="btn btn-secondary">Back to Subjects</a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 CODEKARO. Built for clean, accessible student learning.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
