@@ -56,16 +56,20 @@ CODEKARO/
 │
 └── subjects/                            # Separate HTML files for each subject
     ├── data-communication/
-    │   ├── index.html                   # Data Communication Topics Selector
-    │   ├── data-communication.html      # Topic 1: Fundamentals MCQs
-    │   ├── components.html              # Topic 2: Components MCQs
-    │   ├── modes-of-communication.html  # Topic 3: Subtopic Selector (Simplex, Half, Full)
-    │   ├── simplex.html                 # Simplex MCQs
-    │   ├── half-duplex.html             # Half Duplex MCQs
-    │   ├── full-duplex.html             # Full Duplex MCQs
-    │   ├── transmission-medium.html     # Topic 4: Subtopic Selector (Wired, Wireless)
-    │   ├── wired.html                   # Wired Media MCQs
-    │   └── wireless.html                # Wireless Media MCQs
+    │   ├── index.html                   # Data Communication Topics Hub
+    │   ├── data-communication/
+    │   │   └── index.html               # Topic 1: Fundamentals MCQs
+    │   ├── components/
+    │   │   └── index.html               # Topic 2: Components MCQs
+    │   ├── modes-of-communication/
+    │   │   ├── index.html               # Topic 3: Subtopic Selector
+    │   │   ├── simplex.html             # Simplex MCQs
+    │   │   ├── half-duplex.html         # Half Duplex MCQs
+    │   │   └── full-duplex.html         # Full Duplex MCQs
+    │   └── transmission-medium/
+    │       ├── index.html               # Topic 4: Subtopic Selector
+    │       ├── wired.html               # Wired Media MCQs
+    │       └── wireless.html            # Wireless Media MCQs
     ├── theory-of-computation.html       # Theory of Computation MCQs
     ├── artificial-intelligence.html     # Artificial Intelligence MCQs
     ├── computer-network.html            # Computer Networks MCQs

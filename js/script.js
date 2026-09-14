@@ -305,9 +305,9 @@ function initQuizPage() {
 }
 
 function determineResultPagePath() {
-  const path = window.location.pathname;
-  if (path.includes('/subjects/data-communication/')) {
-    return '../../result.html';
+  const path = window.location.pathname.replace(/\\/g, '/');
+  if (path.includes('/data-communication/')) {
+    return '../../../result.html';
   } else if (path.includes('/subjects/')) {
     return '../result.html';
   }
